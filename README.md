@@ -1,5 +1,7 @@
 <a name='glossary'></a>
 
+TODO: Battle card, Character card, Combiner/Combine, Battlemaster, Weaponizer, Trait, Melee, Ranged, Specialist
+
 ## Transformers TCG Glossary
 
 ### Battlefield

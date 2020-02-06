@@ -1,16 +1,12 @@
 <a name='glossary'></a>
 
-TODO: Focus, Battle card, Character card, Combiner/Combine, Battlemaster, Weaponizer, Trait, Melee, Ranged, Specialist, Stealth, Brave.
+TODO: Battle card, Character card, Combiner/Combine, Battlemaster, Weaponizer, Trait, Melee, Ranged, Specialist.
 
 ## Transformers TCG Glossary
 
 ### Battlefield
 
 The game area in which the characters in play are placed. 
-
-### Bold [x]
-
-Flip [x] more battle cards when attacking. 
 
 ### Black Pip
 
@@ -30,9 +26,25 @@ When defending, the number of blue pips on the battle cards the defender flips a
 
 Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
 
+### Bold [x]
+
+"Flip [x] more battle cards when attacking. "
+
+### Brave
+
+"Enemies attack this character if able. "
+
 ### Flip (battle card)
 
 The act of taking a battle card from the deck and placing it face up onto the Battlefield. 
+
+### Focus [x]
+
+"Before flipping battle cards when battling -> Look at the top [x] cards of your deck. You may scrap any number of them. Put the rest back in any order. "
+
+### Focus 1
+
+"Before flipping battle cards when battling -> Look at the top card of your deck. You may scrap it. "
 
 ### Green Pip
 
@@ -67,6 +79,10 @@ An oblong of colour in the right hand corner of a battle card.
 ### Scrap
 
 Used battle cards are placed face-up in the scrap pile. Either player may examine either scrap pile at any time. As soon as the deck runs out of cards, the scrap pile is shuffled to form the new deck. 
+
+### Stealth
+
+"Stealth (Enemies attack other characters if able.) "
 
 ### Tough [x]
 

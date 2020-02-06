@@ -1,6 +1,6 @@
 <a name='glossary'></a>
 
-TODO: Focus, Battle card, Character card, Combiner/Combine, Battlemaster, Weaponizer, Trait, Melee, Ranged, Specialist
+TODO: Focus, Battle card, Character card, Combiner/Combine, Battlemaster, Weaponizer, Trait, Melee, Ranged, Specialist, Stealth, Brave.
 
 ## Transformers TCG Glossary
 

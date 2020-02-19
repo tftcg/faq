@@ -3,22 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Autocomplete - Default functionality</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <title>FAQ</title>
+  <!--  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+<!--  <link rel="stylesheet" href="/resources/demos/style.css"> -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
+
+  var model = 'model2';
 
   // Grab the index json and pass the keys to jquery
   const url = `https://tftcg.github.io/glossary/faqindex.json`;
   fetch(url)
   .then((resp) => resp.json())
   .then(function(data) {
-      console.log(data);
-      console.log(Object.keys(data));
+      //console.log(data[model]);
+      //console.log(Object.keys(data[model]));
     $( "#tags" ).autocomplete({
-      source: Object.keys(data)
+      source: Object.keys(data[model]),
+      select: function( event, ui ) {
+        if(ui.item) {
+            var selection = data[model][ui.item.value];
+            //console.log(`Chose ${selection}`);
+
+            // TODO: Handle error condition gracefully
+            $.ajax({
+                url: `https://tftcg.github.io/glossary/${selection}.xml`,
+              dataType: "xml",
+              success: function( xmlResponse ) {
+                  var answer = $( "answer", xmlResponse )[0].innerHTML;
+                  $( "#log" ).text( answer );
+              }
+            });
+        } else {
+            console.log("Nothing selected, input was " + ui.value );
+        }
+      }
     });
   })
   .catch(function(error) {
@@ -30,8 +50,13 @@
 <body>
 
 <div class="ui-widget">
-  <label for="tags">Tags: </label>
+  <label for="tags">Ask: </label>
   <input id="tags">
+</div>
+
+<div class="ui-widget2" style="margin-top:2em; font-family:Arial">
+  Answer:
+  <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
 </div>
 
 </body>

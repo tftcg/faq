@@ -1,0 +1,43 @@
+<faq>
+  <faq-entry>
+    <id>arcee-1</id>
+    <target>Arcee, Skilled Fighter (alt mode)</target>
+    <question>
+        What happens if some of my characters are undamaged when I flip Arcee to alt mode?
+    </question>
+    <answer>
+        There are no damage counters to remove, so nothing happens to those characters.
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>arcee-2</id>
+    <target>Arcee, Skilled Fighter (bot mode)</target>
+    <question>
+        If Arcee’s attack is boosted by actions or Upgrades, does that raise her Piercenumber?
+    </question>
+    <answer>
+        Yes. For example, if you play an action card that gives Arcee +2 attackuntil end of turn, she’ll have Pierce 3.
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>arcee-3</id>
+    <target>Arcee, Skilled Fighter (bot mode)</target>
+    <question>
+        Let’s say I attack with Arceeand reveal two orange attack icons, giving her +2 attack. Does her Piercenumber go up?
+    </question>
+    <answer>
+        Yes.
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>arcee-4</id>
+    <target>Arcee, Skilled Fighter (bot mode)</target>
+    <question>
+        What happens if Arcee has a Piercing Blaster or another Upgradethat gives her more Pierce?
+    </question>
+    <answer>
+        In that case, Arcee will have Pierceequal to her attack plusthe Piercefrom the Upgrade. In that example, Arcee’s attack is 1, so she’ll have Pierce 4. However, remember that characters with Pierce 
+can’t deal more damage than their attack total, so she’ll do only 1 damage (not including other attack bonuses or orange battle icons).
+    </answer>
+  </faq-entry>
+</faq>

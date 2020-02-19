@@ -1,0 +1,9 @@
+  <faq-entry>
+    <id>what-is-blue-pip</id>
+    <tags>blue,pip,defense</tags>
+    <question>What is 'Blue Pip'?</question>
+    <answer>
+A blue oblong in the right hand corner of a battle card.
+When defending, the number of blue pips on the battle cards the defender flips are added to the overall defence.
+    </answer>
+  </faq-entry>

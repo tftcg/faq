@@ -1,0 +1,8 @@
+  <faq-entry>
+    <id>what-is-bold</id>
+    <tags>bold</tags>
+    <question>What is 'Bold [x]'?</question>
+    <answer>
+"Flip [x] more battle cards when attacking. "
+    </answer>
+  </faq-entry>

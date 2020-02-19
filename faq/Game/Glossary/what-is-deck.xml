@@ -1,0 +1,8 @@
+  <faq-entry>
+    <id>what-is-deck</id>
+    <tags>deck</tags>
+    <question>What is 'Deck'?</question>
+    <answer>
+Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
+    </answer>
+  </faq-entry>

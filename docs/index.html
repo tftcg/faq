@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+
+  var global_json_data;
+
+  // Grab the index json and pass the keys to jquery
+  const url = `https://tftcg.github.io/glossary/nav.json`;
+  fetch(url)
+  .then((resp) => resp.json())
+  .then(function(data) {
+      // Save json
+      global_json_data = data;
+      context = '';
+
+      // Show the keys of the json as clickables
+      var menu = "<ul>";
+      $.each(Object.keys(data), function(index, value) {
+          console.log(index);
+          console.log(value);
+          menu += `<li><a onClick="updateMenu('${value}')">${value}</a></li>`;
+      });
+      menu += "</ul>";
+      $( "#content" ).html(menu);
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
+  function updateMenu(chosen_value) {
+
+  }
+
+  </script>
+</head>
+<body>
+
+<div id="content" class="ui-widget">
+</div>
+
+</body>
+</html>

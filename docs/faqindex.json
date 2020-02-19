@@ -1,0 +1,7 @@
+{
+    "battlefield" : ["what-is-battlefield", "What is the 'Battlefield'?"],
+    "black" : ["what-is-black-pip", "What is 'Black Pip'?"],
+    "blue" : ["what-is-blue-pip", "What is 'Blue Pip'?"],
+    "defense" : ["what-is-blue-pip", "What is 'Blue Pip'?"],
+    "pip" : ["what-is-black-pip", "What is 'Black Pip'?", "what-is-blue-pip", "What is 'Blue Pip'?"]
+}

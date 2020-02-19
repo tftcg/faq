@@ -24,6 +24,7 @@
       select: function( event, ui ) {
         if(ui.item) {
             var selection = data[model][ui.item.value];
+            $( "#log" ).text( selection );
             //console.log(`Chose ${selection}`);
 
             // TODO: Handle error condition gracefully

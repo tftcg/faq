@@ -1,0 +1,31 @@
+{
+    "Game" : {
+        "Glossary" : {
+            "Battlefield": "xml-url",
+            "Battlemaster": "xml-url",
+            "Bold": "xml-url",
+            "Brave": "xml-url",
+            "Card Types": "xml-url",
+            "Combiners": "xml-url",
+            "Game Concepts": "xml-url",
+            "Faction": "xml-url",
+            "Focus": "xml-url",
+            "Pierce": "xml-url",
+            "Pips": "xml-url",
+            "Stealth": "xml-url",
+            "Tough": "xml-url",
+            "Weaponizer": "xml-url"
+        }
+    },
+    "Wave 1" : {
+        "Battle Cards" : {
+            "Collateral Damage": "xml-url",
+            "Collateral Damage": "xml-url"
+        },
+        "Characters" : {
+            "Arcee, Skilled Fighter (alt mode)": "xml-url",
+            "Arcee, Skilled Fighter (bot mode)": "xml-url",
+            "Autobot Cosmos, Recon &amp; Communication (bot mode)": "xml-url"
+        }
+    }
+}

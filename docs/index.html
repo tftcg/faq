@@ -28,7 +28,7 @@
 
             // TODO: Handle error condition gracefully
             $.ajax({
-                url: `https://tftcg.github.io/glossary/${selection}.xml`,
+                url: `https://tftcg.github.io/glossary/xml/${selection}.xml`,
               dataType: "xml",
               success: function( xmlResponse ) {
                   var answer = $( "answer", xmlResponse )[0].innerHTML;

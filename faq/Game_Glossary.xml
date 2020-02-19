@@ -1,16 +1,27 @@
 <faq>
   <faq-entry>
+    <id>what-is-a-battle-card</id>
+    <target>Card Types</target>
+    <question>What is a 'Battle Card'?</question>
+    <answer>TODO
+    </answer>
+  </faq-entry>
+  <faq-entry>
     <id>what-is-battlefield</id>
-    <tags>battlefield</tags>
+    <target>Battlefield</target>
     <question>What is the 'Battlefield'?</question>
     <answer>The game area in which the characters in play are placed. </answer>
   </faq-entry>
-
-<!-- TODO: Battle card, Character card, Combiner/Combine, Battlemaster, Weaponizer, Trait, Melee, Ranged, Specialist. -->
-
+  <faq-entry>
+    <id>what-is-a-battlemaster</id>
+    <target>Battlemaster</target>
+    <question>What is a 'Battlemaster'?</question>
+    <answer>TODO
+    </answer>
+  </faq-entry>
   <faq-entry>
     <id>what-is-black-pip</id>
-    <tags>black,pip</tags>
+    <target>Pips</target>
     <question>What is 'Black Pip'?</question>
     <answer>
 A black oblong in the right hand corner of a battle card.
@@ -20,7 +31,7 @@ Note that adding this to the end of turn means it is still added should the char
   </faq-entry>
   <faq-entry>
     <id>what-is-blue-pip</id>
-    <tags>blue,pip,defense</tags>
+    <target>Pips</target>
     <question>What is 'Blue Pip'?</question>
     <answer>
 A blue oblong in the right hand corner of a battle card.
@@ -28,16 +39,8 @@ When defending, the number of blue pips on the battle cards the defender flips a
     </answer>
   </faq-entry>
   <faq-entry>
-    <id>what-is-deck</id>
-    <tags>deck</tags>
-    <question>What is 'Deck'?</question>
-    <answer>
-Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
-    </answer>
-  </faq-entry>
-  <faq-entry>
     <id>what-is-bold</id>
-    <tags>bold</tags>
+    <target>Bold</target>
     <question>What is 'Bold [x]'?</question>
     <answer>
 "Flip [x] more battle cards when attacking. "
@@ -45,15 +48,44 @@ Your battle cards are shuffled and placed face down. You draw cards from your de
   </faq-entry>
   <faq-entry>
     <id>what-is-brave</id>
-    <tags></tags>
+    <target>Brave</target>
     <question>What is 'Brave'?</question>
     <answer>
 "Enemies attack this character if able. "
     </answer>
   </faq-entry>
   <faq-entry>
+    <id>what-is-a-character-card</id>
+    <target>Card Types</target>
+    <question>What is a 'Character Card'?</question>
+    <answer>TODO
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-a-combiner</id>
+    <target>Combiners</target>
+    <question>What is a 'Combiner'?</question>
+    <answer>TODO
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-deck</id>
+    <target>Game Concepts</target>
+    <question>What is 'Deck'?</question>
+    <answer>
+Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-a-faction</id>
+    <target>Faction</target>
+    <question>What is a 'Faction'?</question>
+    <answer>TODO
+    </answer>
+  </faq-entry>
+  <faq-entry>
     <id>what-is-flip-battle-card</id>
-    <tags>flip</tags>
+    <target>Game Concepts</target>
     <question>What is 'Flip (battle card)'?</question>
     <answer>
 The act of taking a battle card from the deck and placing it face up onto the Battlefield. 
@@ -61,31 +93,31 @@ The act of taking a battle card from the deck and placing it face up onto the Ba
   </faq-entry>
   <faq-entry>
     <id>what-is-flip-bot-card</id>
-    <tags>flip</tags>
+    <target>Game Concepts</target>
     <question>What is 'Flip (character card)'?</question>
     <answer>
         Changing a character (i.e. Transformer) card from one mode to another by switching its card to the other side. 
     </answer>
   </faq-entry>
   <faq-entry>
-    <id>what-is-focus-x</id>
-    <tags>focus</tags>
-    <question>What is 'Focus [x]'?</question>
-    <answer>
-"Before flipping battle cards when battling -> Look at the top [x] cards of your deck. You may scrap any number of them. Put the rest back in any order. "
-    </answer>
-  </faq-entry>
-  <faq-entry>
     <id>what-is-focus-1</id>
-    <tags>focus</tags>
+    <target>Focus</target>
     <question>What is 'Focus 1'?</question>
     <answer>
 "Before flipping battle cards when battling -> Look at the top card of your deck. You may scrap it. "
     </answer>
   </faq-entry>
   <faq-entry>
+    <id>what-is-focus-x</id>
+    <target>Focus</target>
+    <question>What is 'Focus [x]'?</question>
+    <answer>
+"Before flipping battle cards when battling -> Look at the top [x] cards of your deck. You may scrap any number of them. Put the rest back in any order. "
+    </answer>
+  </faq-entry>
+  <faq-entry>
     <id>what-is-green-pip</id>
-    <tags>green,pip</tags>
+    <target>Pips</target>
     <question>What is 'Green Pip'?</question>
     <answer>
 A green oblong in the right hand corner of a battle card.
@@ -93,16 +125,8 @@ When battle cards are flipped in either defence or attack, one battle card with 
     </answer>
   </faq-entry>
   <faq-entry>
-    <id>what-is-ko</id>
-    <tags>ko</tags>
-    <question>What is 'KO (Knock Out)'?</question>
-    <answer>
-When a character's damage equals or exceeds its health (including any additional health bonuses), the character is said to be KO'd.
-    </answer>
-  </faq-entry>
-  <faq-entry>
     <id>what-is-ko-area</id>
-    <tags>ko,area</tags>
+    <target>Game Concepts</target>
     <question>What is 'KO Area'?</question>
     <answer>
 Most KO'd characters are moved to the KO area (see <a href="#battlemaster">Battlemaster</a> and <a href="#weaponizer">Weaponizer</a> for notable exceptons). 
@@ -110,8 +134,16 @@ The KO area is usually off to the side of the main battlefield, out of the way o
     </answer>
   </faq-entry>
   <faq-entry>
+    <id>what-is-ko</id>
+    <target>Game Concepts</target>
+    <question>What is 'KO (Knock Out)'?</question>
+    <answer>
+When a character's damage equals or exceeds its health (including any additional health bonuses), the character is said to be KO'd.
+    </answer>
+  </faq-entry>
+  <faq-entry>
     <id>what-is-orange-pip</id>
-    <tags>orange,pip</tags>
+    <target>Pips</target>
     <question>What is 'Orange Pip'?</question>
     <answer>
 An orange oblong in the right hand corner of a battle card.
@@ -120,7 +152,7 @@ When attacking, the number of orange pips on the battle cards the attacker flips
   </faq-entry>
   <faq-entry>
     <id>what-is-pierce</id>
-    <tags>pierce,black</tags>
+    <target>Pierce</target>
     <question>What is 'Pierce'?</question>
     <answer>
 TODO: This entry will need careful thought :)
@@ -128,7 +160,7 @@ TODO: This entry will need careful thought :)
   </faq-entry>
   <faq-entry>
     <id>what-is-pip</id>
-    <tags>pip</tags>
+    <target>Game Concepts</target>
     <question>What is 'Pip'?</question>
     <answer>
 An oblong of colour in the right hand corner of a battle card.
@@ -136,7 +168,7 @@ An oblong of colour in the right hand corner of a battle card.
   </faq-entry>
   <faq-entry>
     <id>what-is-scrap</id>
-    <tags>scrap</tags>
+    <target>Game Concepts</target>
     <question>What is 'Scrap'?</question>
     <answer>
 Used battle cards are placed face-up in the scrap pile. Either player may examine either scrap pile at any time. As soon as the deck runs out of cards, the scrap pile is shuffled to form the new deck. 
@@ -144,7 +176,7 @@ Used battle cards are placed face-up in the scrap pile. Either player may examin
   </faq-entry>
   <faq-entry>
     <id>what-is-stealth</id>
-    <tags>stealth</tags>
+    <target>Stealth</target>
     <question>What is 'Stealth'?</question>
     <answer>
 "Stealth (Enemies attack other characters if able.) "
@@ -152,10 +184,24 @@ Used battle cards are placed face-up in the scrap pile. Either player may examin
   </faq-entry>
   <faq-entry>
     <id>what-is-tough</id>
-    <tags>tough</tags>
+    <target>Tough</target>
     <question>What is 'Tough [x]'?</question>
     <answer>
 Flip [x] more battle cards when defending. 
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-a-trait</id>
+    <target>Game Concepts</target>
+    <question>What is a 'Trait'?</question>
+    <answer>TODO
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-a-weaponizer</id>
+    <target>Weaponizer</target>
+    <question>What is a 'Weaponizer'?</question>
+    <answer>TODO
     </answer>
   </faq-entry>
 </faq>

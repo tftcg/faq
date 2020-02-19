@@ -1,8 +1,0 @@
-  <faq-entry>
-    <id>what-is-ko</id>
-    <tags>ko</tags>
-    <question>What is 'KO (Knock Out)'?</question>
-    <answer>
-When a character's damage equals or exceeds its health (including any additional health bonuses), the character is said to be KO'd.
-    </answer>
-  </faq-entry>

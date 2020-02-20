@@ -30,6 +30,7 @@
     #title_widget {
       color: white;
       font-size: larger;
+      text-align: center;
     }
     #search_widget {
     }
@@ -129,7 +130,8 @@
       var context_name = global_nav_context.get(0).nodeName;
 
       if( context_name == 'menu' ) {
-          $( "#back_widget" ).html('');
+          var back = '<img src="images/arrow-left-circle.svg" style="visibility: hidden;"/>';
+          $( "#back_widget" ).html(back);
       } else {
           var back = '<a onClick="moveUp()"><img src="images/arrow-left-circle.svg"/></a>';
           $( "#back_widget" ).html(back);
@@ -211,13 +213,13 @@
 <body>
 
     <div id="banner">
+        <span id="back_widget" class="ui-widget">
+        </span>
         <span id="title_widget" class="ui-widget">
             TFTCG FAQ
         </span>
         <span id="search_widget" class="ui-widget">
             <img src="images/search.svg" onClick="toggleSearch()"/>
-        </span>
-        <span id="back_widget" class="ui-widget">
         </span>
     </div>
     <div id="topbar">

@@ -41,7 +41,6 @@
       });
   }
 
-  // BUG: The back button doesn't know that one is on a search and to move back to the previous viewed entry instead of up
   function setup_autocomplete() {
       // Grab the index json and pass the keys to jquery
       const url = `https://tftcg.github.io/glossary/faqindex.json`;
@@ -55,18 +54,24 @@
             event.preventDefault();
             if(ui.item) {
                 var selection = data[ui.item.value];
+
+                // Need to split out the #anchor
+                anchor = selection.split('#')[1];
+                href = selection.split('#')[0];
+
                 question = ui.item.value;
                 $( "#content" ).text( "" );
-                console.log(selection);
     
                 // TODO: Handle error condition gracefully
                 $.ajax({
-                    url: `https://tftcg.github.io/glossary/xml/${selection}.xml`,
+                    url: `https://tftcg.github.io/glossary/faqxml/${href}.xml`,
                     dataType: "xml",
                     success: function( xmlResponse ) {
                         var answer = $( "answer", xmlResponse )[0].innerHTML;
                         faq = "Q: " + question + "<br/>A: " + answer + "<br/>";
                         $( "#content" ).html( faq );
+                        var back = '<a onClick="displayContent()">Back</a>';
+                        $( "#back_widget" ).html(back);
                     }
                 });
             } else {
@@ -169,10 +174,10 @@
             TFTCG FAQ
         </span>
         <span id="search_widget" class="ui-widget">
-<div class="ui-widget">
-  <label for="tags">Ask: </label>
-  <input id="tags">
-</div>
+            <span class="ui-widget">
+              <label for="tags">Ask: </label>
+              <input id="tags">
+            </span>
         </span>
     </div>
     <div id="content" class="ui-widget">

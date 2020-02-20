@@ -1,4 +1,4 @@
-<menu>
+<menu name="TFTCG FAQ">
     <category name="Game">
         <category name="Glossary">
             <faq href="xml-url">Battlefield</faq>
@@ -20,7 +20,7 @@
     <category name="Wave 1">
         <category name="Battle Cards">
            <faq href="xml-url">Collateral Damage</faq>
-       <faq href="xml-url">Collateral Damage</faq>
+           <faq href="xml-url">Collateral Damage</faq>
         </category>
         <category name="Characters">
            <faq href="xml-url">Arcee, Skilled Fighter (alt mode)</faq>

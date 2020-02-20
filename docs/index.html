@@ -4,38 +4,84 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FAQ</title>
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!--  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!--  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
   <script>
 
-  var global_json_data;
+  var global_nav_model;
+  var global_nav_context;
 
-  // Grab the index json and pass the keys to jquery
-  const url = `https://tftcg.github.io/glossary/nav.json`;
-  fetch(url)
-  .then((resp) => resp.json())
-  .then(function(data) {
-      // Save json
-      global_json_data = data;
-      context = '';
-
-      // Show the keys of the json as clickables
-      var menu = "<ul>";
-      $.each(Object.keys(data), function(index, value) {
-          console.log(index);
-          console.log(value);
-          menu += `<li><a onClick="updateMenu('${value}')">${value}</a></li>`;
-      });
-      menu += "</ul>";
-      $( "#content" ).html(menu);
-  })
-  .catch(function(error) {
-    console.log(error);
+  // TODO: Handle error condition gracefully
+  $.ajax({
+    url: `https://tftcg.github.io/glossary/nav.xml`,
+    dataType: "xml",
+    success: function( xmlResponse ) {
+      global_nav_model = xmlResponse;
+      global_nav_context = $(xmlResponse).children('menu');
+      displayContent();
+    }
   });
 
-  function updateMenu(chosen_value) {
+  // relies on global_nav_context
+  function displayContent() {
+      var context_name = global_nav_context.get(0).nodeName;
+      console.log("Context Name: " + context_name);
+      var menu = "<ul>";
 
+      if( context_name != 'menu' ) {
+          menu += '<li><a onClick="moveUp()">Back</a></li>';
+      }
+      
+      if( context_name == 'menu' || context_name == 'category') {
+
+          // Show the current level of the xml as clickables
+          $.each($(global_nav_context).children('category'), function(index, value) {
+              name = $(value).attr('name');
+              menu += `<li><a onClick="moveTo('${name}')">${name}</a></li>`;
+          });
+          $.each($(global_nav_context).children('faq'), function(index, value) {
+              name = $(value).text();
+              menu += `<li><a onClick="moveTo('${name}')">${name}</a></li>`;
+          });
+          menu += "</ul>";
+
+      } else
+      if( context_name == 'faq' ) {
+          menu += `Chosen faq of ${(global_nav_context).text()} was chosen; load from ${$(global_nav_context).attr('href')}`;
+      }
+      $( "#content" ).html(menu);
+  }
+
+  // changes global_nav_context
+  function moveUp() {
+    global_nav_context = $(global_nav_context.get(0).parentElement);
+    displayContent();
+  }
+  // changes global_nav_context
+  function moveTo(chosen_value) {
+      console.log(`Chosen value of ${chosen_value} was chosen`);
+      children = $(global_nav_context).children('category');
+      if(children.length > 0) {
+          $.each($(children), function(index, value) {
+              if( $(value).attr('name') == chosen_value ) {
+                  global_nav_context = $(value);
+                  return false;   // break
+              }
+          });
+
+      } else {
+          children = $(global_nav_context).children('faq');
+          if(children.length > 0) {
+              $.each($(children), function(index, value) {
+                  if( $(value).text() == chosen_value ) {
+                      global_nav_context = $(value);
+                      return false;   // break
+                  }
+              });
+          }
+      }
+      displayContent();
   }
 
   </script>

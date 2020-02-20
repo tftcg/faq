@@ -23,8 +23,8 @@
            <faq href="xml-url">Collateral Damage</faq>
         </category>
         <category name="Characters">
-           <faq href="xml-url">Arcee, Skilled Fighter</faq>
-           <faq href="xml-url">Autobot Cosmos, Recon &amp; Communication</faq>
+           <faq href="Wave_1/Characters/arcee">Arcee, Skilled Fighter</faq>
+           <faq href="Wave_1/Characters/autobot-cosmos">Autobot Cosmos, Recon &amp; Communication</faq>
         </category>
     </category>
 </menu>

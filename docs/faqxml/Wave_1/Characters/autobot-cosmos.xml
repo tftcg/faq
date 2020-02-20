@@ -1,0 +1,22 @@
+<faq>
+  <faq-entry>
+    <id>autobot-cosmos-1</id>
+    <target>Autobot Cosmos, Recon &amp; Communication (bot mode)</target>
+    <question>
+        If there are two cards left in my deck, and I attack with Autobot Cosmos, will his ability trigger?
+    </question>
+    <answer>
+        Yes. You reshuffle your scrap pile into your deck as soon as the deck is empty. Inthis case, Autobot Cosmos will attack, you’ll flip up the two remaining cards in your deck, and the defender will be KO’d (assuming it has 12 starsor fewer). Your opponent won’t flip any battle cards for the attack if their character is KO’d this way.
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>autobot-cosmos-2</id>
+    <target>Autobot Cosmos, Recon &amp; Communication (bot mode)</target>
+    <question>
+        Say Autobot Cosmos has a Data Pad. Will Autobot Cosmos’s ability triggerif you draw the last card of your deck while he’s attacking?
+    </question>
+    <answer>
+        Yes. Drawing the last card of your deck will cause you to shuffle your deck, and this will cause Autobot Cosmos to KO the defender.
+    </answer>
+  </faq-entry>
+</faq>

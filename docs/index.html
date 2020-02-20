@@ -41,6 +41,11 @@
         width: 60%;
         padding: 5px;
     }
+    .menu li {
+        list-style-type: none;
+        color: blue;
+        text-decoration: underline;
+    }
     .entry {
         padding: 5px;
     }
@@ -139,7 +144,7 @@
       
 
       if( context_name == 'menu' || context_name == 'category') {
-          var menu = "<ul>";
+          var menu = "<ul class='menu'>";
 
           // Show the current level of the xml as clickables
           $.each($(global_nav_context).children('category'), function(index, value) {

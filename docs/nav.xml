@@ -1,30 +1,20 @@
 <menu name="TFTCG FAQ">
     <category name="Game">
         <category name="Glossary">
-            <faq href="xml-url">Battlefield</faq>
-           <faq href="xml-url">Battlemaster</faq>
-           <faq href="xml-url">Bold</faq>
-           <faq href="xml-url">Brave</faq>
-           <faq href="xml-url">Card Types</faq>
-           <faq href="xml-url">Combiners</faq>
-           <faq href="xml-url">Game Concepts</faq>
-           <faq href="xml-url">Faction</faq>
-           <faq href="xml-url">Focus</faq>
-           <faq href="xml-url">Pierce</faq>
-           <faq href="xml-url">Pips</faq>
-           <faq href="xml-url">Stealth</faq>
-           <faq href="xml-url">Tough</faq>
-           <faq href="xml-url">Weaponizer</faq>
+            <faq href="Game/Community/Card_Types">Card Types</faq>
+            <faq href="Game/Community/Game_Concepts">Game Concepts</faq>
+            <faq href="Game/Community/Pips">Pips</faq>
+            <faq href="Game/Community/Keywords">Keywords</faq>
         </category>
     </category>
     <category name="Wave 1">
         <category name="Battle Cards">
-           <faq href="xml-url">Aerial Recon</faq>
-           <faq href="xml-url">Collateral Damage</faq>
+            <faq href="Wave_1/Battle_Cards/aerial-recon">Aerial Recon</faq>
+            <faq href="Wave_1/Battle_Cards/collateral-damage">Collateral Damage</faq>
         </category>
         <category name="Characters">
-           <faq href="Wave_1/Characters/arcee">Arcee, Skilled Fighter</faq>
-           <faq href="Wave_1/Characters/autobot-cosmos">Autobot Cosmos, Recon &amp; Communication</faq>
+            <faq href="Wave_1/Characters/arcee">Arcee, Skilled Fighter</faq>
+            <faq href="Wave_1/Characters/autobot-cosmos">Autobot Cosmos, Recon &amp; Communication</faq>
         </category>
     </category>
 </menu>

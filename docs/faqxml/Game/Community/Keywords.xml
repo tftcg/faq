@@ -1,0 +1,58 @@
+<faq>
+  <faq-entry>
+    <id>what-is-bold</id>
+    <target>Keywords</target>
+    <question>What is 'Bold [x]'?</question>
+    <answer>
+"Flip [x] more battle cards when attacking. "
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-brave</id>
+    <target>Keywords</target>
+    <question>What is 'Brave'?</question>
+    <answer>
+"Enemies attack this character if able. "
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-focus-1</id>
+    <target>Keywords</target>
+    <question>What is 'Focus 1'?</question>
+    <answer>
+"Before flipping battle cards when battling -> Look at the top card of your deck. You may scrap it. "
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-focus-x</id>
+    <target>Keywords</target>
+    <question>What is 'Focus [x]'?</question>
+    <answer>
+"Before flipping battle cards when battling -> Look at the top [x] cards of your deck. You may scrap any number of them. Put the rest back in any order. "
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-pierce</id>
+    <target>Keywords</target>
+    <question>What is 'Pierce'?</question>
+    <answer>
+TODO: This entry will need careful thought :)
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-stealth</id>
+    <target>Keywords</target>
+    <question>What is 'Stealth'?</question>
+    <answer>
+"Stealth (Enemies attack other characters if able.) "
+    </answer>
+  </faq-entry>
+  <faq-entry>
+    <id>what-is-tough</id>
+    <target>Keywords</target>
+    <question>What is 'Tough [x]'?</question>
+    <answer>
+Flip [x] more battle cards when defending. 
+    </answer>
+  </faq-entry>
+</faq>

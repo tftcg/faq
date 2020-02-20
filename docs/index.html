@@ -16,9 +16,48 @@
   }
   .ui-helper-hidden-accessible { display:none; }
 
-.ui-draggable, .ui-droppable {
+  .ui-draggable, .ui-droppable {
 	background-position: top;
-}
+  }
+  </style>
+  <style>
+    body {
+      background-color: black;
+      margin: 1em;
+    }
+    #banner {
+    }
+    #title_widget {
+      color: white;
+      font-size: larger;
+    }
+    #search_widget {
+    }
+    #back_widget {
+    }
+    #content {
+        background-color: white;
+        width: 60%;
+        padding: 5px;
+    }
+    .entry {
+        padding: 5px;
+    }
+    .question {
+        list-style-type: none;
+        background:url(images/help-circle.svg) top left no-repeat;
+        padding-left: 16px;
+        display: block;
+    }
+    .answer {
+        list-style-type: none;
+        background:url(images/message-square.svg) top left no-repeat;
+        padding-left: 16px;
+        display: block;
+    }
+    #search {
+        display: none;
+    }
   </style>
   <script>
 
@@ -47,7 +86,7 @@
       fetch(url)
       .then((resp) => resp.json())
       .then(function(data) {
-        $( "#tags" ).autocomplete({
+        $( "#search" ).autocomplete({
           source: Object.keys(data),
           select: function( event, ui ) {
             $(".ui-helper-hidden-accessible").hide();
@@ -68,9 +107,9 @@
                     dataType: "xml",
                     success: function( xmlResponse ) {
                         var answer = $( "answer", xmlResponse )[0].innerHTML;
-                        faq = "Q: " + question + "<br/>A: " + answer + "<br/>";
+                        faq = `<ul class="entry"><li class="question">${question}</li><li class="answer">${answer}</li></ul>`;
                         $( "#content" ).html( faq );
-                        var back = '<a onClick="displayContent()">Back</a>';
+                        var back = '<a onClick="displayContent()"><img src="images/arrow-left-circle.svg"/></a>';
                         $( "#back_widget" ).html(back);
                     }
                 });
@@ -92,7 +131,7 @@
       if( context_name == 'menu' ) {
           $( "#back_widget" ).html('');
       } else {
-          var back = '<a onClick="moveUp()">Back</a>';
+          var back = '<a onClick="moveUp()"><img src="images/arrow-left-circle.svg"/></a>';
           $( "#back_widget" ).html(back);
       }
       
@@ -122,10 +161,9 @@
               success: function( xmlResponse ) {
                   var faq = '';
                   $.each($(xmlResponse).find('faq-entry'), function(index, value) {
-                      console.log(value);
                       var question = $( "question", value )[0].innerHTML;
                       var answer = $( "answer", value )[0].innerHTML;
-                      faq += "Q: " + question + "<br/>A: " + answer + "<br/>";
+                      faq += `<ul class="entry"><li class="question">${question}</li><li class="answer">${answer}</li></ul>`;
                   });
                   $( "#content" ).html(faq);
               }
@@ -163,22 +201,27 @@
       displayContent();
   }
 
+  function toggleSearch() {
+      $( "#search" ).val('');
+      $( "#search" ).toggle();
+  }
+
   </script>
 </head>
 <body>
 
     <div id="banner">
-        <span id="back_widget" class="ui-widget">
-        </span>
         <span id="title_widget" class="ui-widget">
             TFTCG FAQ
         </span>
         <span id="search_widget" class="ui-widget">
-            <span class="ui-widget">
-              <label for="tags">Ask: </label>
-              <input id="tags">
-            </span>
+            <img src="images/search.svg" onClick="toggleSearch()"/>
         </span>
+        <span id="back_widget" class="ui-widget">
+        </span>
+    </div>
+    <div id="topbar">
+        <input id="search">
     </div>
     <div id="content" class="ui-widget">
     </div>

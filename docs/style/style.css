@@ -17,45 +17,33 @@ p, ul, ol {
   line-height: 1.58;
 }
 
-    .question {
-        list-style-type: none;
-        background:url(images/help-circle.svg) top left no-repeat;
-        padding-left: 16px;
-        display: block;
-        font-weight: bold;
-        font-style: italic;
-    }
-    .answer {
-        list-style-type: none;
-        background:url(images/message-square.svg) top left no-repeat;
-        padding-left: 16px;
-        display: block;
-        padding-bottom: 24px;
-    }
-    #search {
-        display: none;
-    }
-    .thumb {
-        padding: 10px;
-    }
+.faq_entry {
+    list-style-type: lower-roman;
+    padding-left: 1%;
+    padding-bottom: 24px;
+}
+.question {
+    font-weight: bold;
+    font-style: italic;
+}
+#search {
+    display: none;
+}
+.thumb {
+    padding: 10px;
+}
 
 @media (min-width: 800px) {
   .content {
-    width: 750px;
+    width: 90%;
     margin: auto;
   }
   body { 
     background-color: black;
     margin: 1em;
   }
-  .article {
-    padding: 1em 4em;
-  }
   p, ul, ol {
     font-size: 21px;
-  }
-  figure img {
-    max-width: 90%;
   }
   #sitetitle {
     font-size: 5em;

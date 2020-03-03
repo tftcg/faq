@@ -2,8 +2,10 @@
 #sitetitle {
   background-color: black;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
+}
+#title_widget {
 }
 .content {
   background-color: white;
@@ -45,8 +47,8 @@ p, ul, ol {
   p, ul, ol {
     font-size: 21px;
   }
-  #sitetitle {
-    font-size: 5em;
+  #title_widget {
+    font-size: 1.5em;
   }
 }
 

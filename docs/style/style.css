@@ -1,0 +1,78 @@
+
+#sitetitle {
+  background-color: black;
+  color: #ffffff;
+  font-size: 3em;
+  text-align: center;
+}
+.content {
+  background-color: white;
+  padding: 5px;
+}
+
+p, ul, ol {
+  font-size: 15px;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  letter-spacing: -0.004em;
+  line-height: 1.58;
+}
+
+    .question {
+        list-style-type: none;
+        background:url(images/help-circle.svg) top left no-repeat;
+        padding-left: 16px;
+        display: block;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .answer {
+        list-style-type: none;
+        background:url(images/message-square.svg) top left no-repeat;
+        padding-left: 16px;
+        display: block;
+        padding-bottom: 24px;
+    }
+    #search {
+        display: none;
+    }
+    .thumb {
+        padding: 10px;
+    }
+
+@media (min-width: 800px) {
+  .content {
+    width: 750px;
+    margin: auto;
+  }
+  body { 
+    background-color: black;
+    margin: 1em;
+  }
+  .article {
+    padding: 1em 4em;
+  }
+  p, ul, ol {
+    font-size: 21px;
+  }
+  figure img {
+    max-width: 90%;
+  }
+  #sitetitle {
+    font-size: 5em;
+  }
+}
+
+
+/*
+  .ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .ui-helper-hidden-accessible { display:none; }
+
+  .ui-draggable, .ui-droppable {
+	background-position: top;
+  }
+  */
+

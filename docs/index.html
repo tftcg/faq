@@ -77,7 +77,7 @@
   function setup_navigation() {
       // TODO: Handle error condition gracefully
       $.ajax({
-        url: `https://tftcg.github.io/glossary/nav.xml`,
+        url: `https://tftcg.github.io/faq/nav.xml`,
         dataType: "xml",
         success: function( xmlResponse ) {
           global_nav_model = xmlResponse;
@@ -89,7 +89,7 @@
 
   function setup_autocomplete() {
       // Grab the index json and pass the keys to jquery
-      const url = `https://tftcg.github.io/glossary/faqindex.json`;
+      const url = `https://tftcg.github.io/faq/faqindex.json`;
       fetch(url)
       .then((resp) => resp.json())
       .then(function(data) {
@@ -110,7 +110,7 @@
     
                 // TODO: Handle error condition gracefully
                 $.ajax({
-                    url: `https://tftcg.github.io/glossary/faqxml/${href}.xml`,
+                    url: `https://tftcg.github.io/faq/faqxml/${href}.xml`,
                     dataType: "xml",
                     success: function( xmlResponse ) {
                         var answer = $( "answer", xmlResponse )[0].innerHTML;
@@ -164,7 +164,7 @@
           var href = $(global_nav_context).attr('href');
           // TODO: Handle error condition gracefully
           $.ajax({
-              url: `https://tftcg.github.io/glossary/faqxml/${href}.xml`,
+              url: `https://tftcg.github.io/faq/faqxml/${href}.xml`,
               dataType: "xml",
               success: function( xmlResponse ) {
                   var faq = '';

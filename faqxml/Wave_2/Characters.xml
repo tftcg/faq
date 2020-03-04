@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<faq name="Wave 2 Characters">
+  <target name="Air Raid - Fearless flyer">
+    <entry mode="bot">
+      <question>If Air Raid has an Upgrade that does damage to an enemy, will Air Raid&#x2019;s ability trigger and let me scrap an Upgrade from that enemy?</question>
+      <answer>No, unless the Upgrade specifically says that the upgraded character does the damage. Air Raid must do the damage for the ability to trigger.</answer>
+    </entry>
+  </target>
+  <target name="Alpha Bravo - Airborne Special Ops">
+    <entry mode="alt">
+      <question>What happens if the 1 damage is enough to KO the attacking Plane?</question>
+      <answer>Well, it doesn&#x2019;t sound like it was a great attack for your opponent. No battle cards will be flipped, and the attack will end.</answer>
+    </entry>
+  </target>
+  <target name="Blackwing - Aerial Attacker">
+    <entry id="blackwing-1" mode="bot">
+      <question>If both of these characters are in my KO area, will their abilities let me combine them into Dreadwing, Sky Destroyer?</question>
+      <answer>No. Even though each one has an ability that will find the other in the KO area, the abilities work only from the battlefield.</answer>
+    </entry>
+  </target>
+  <target name="Dreadwind - Air Defense">
+    <entry xref="blackwing-1" mode="bot"/>
+  </target>
+  <target name="Blurr - Fastest Bot in the Galaxy">
+    <entry mode="bot">
+      <question>If my opponent has multiple untapped characters when I use Blurr&#x2019;s ability, which one does it attack?</question>
+      <answer>You choose, just as you would for any battle.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can I play any cards in before it attacks the untapped character?</question>
+      <answer>No. The second attack starts right after the first one finishes.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Do I have to attack a second time, or can I just leave Blurr untapped?</question>
+      <answer>You do. Note that if there isn&#x2019;t an untapped enemy, the ability doesn&#x2019;t trigger and Blurr won&#x2019;t untap.</answer>
+    </entry>
+  </target>
+  <target name="Decepticon Venin - Insecticon Tyrant">
+    <entry mode="alt">
+      <question>What happens if this is KO&#x2019;d and my opponent has fewer than 2 cards in hand?</question>
+      <answer>If they have 1 card in hand, that card is scrapped. If they have an empty hand, nothing happens.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>What happens if Venin and another of my Insecticons are KO&#x2019;d at the same time?</question>
+      <answer>In that case, Venin&#x2019;s ability will trigger twice. Your opponent will scrap 4 cards from their hand.</answer>
+    </entry>
+  </target>
+  <target name="Dinobot Slug - Battering Ram">
+    <entry mode="alt">
+      <question>If Slug attacks or defends more than once in a turn, will his ability work in each battle?</question>
+      <answer>Yes. The first white battle icon you flip for each battle will result in 3 extra cards rather than 2.</answer>
+    </entry>
+  </target>
+  <target name="Dinobot Swoop - Bombardier">
+    <entry mode="bot">
+      <question>If the card I return to my hand also has orange battle icons, will those count toward Swoop&#x2019;s attack?</question>
+      <answer>Yes. You don&#x2019;t use Swoop&#x2019;s ability until after the battle is finished.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If I flip more than one card with a green battle icon, can I return one to my hand using Swoop&#x2019;s ability and another using the normal rules for green battle icons?</question>
+      <answer>Yes. You&#x2019;ll need to swap a card from your hand for the other card, as normal.</answer>
+    </entry>
+  </target>
+  <target name="Dirge - Doombringer">
+    <entry mode="alt">
+      <question>After Dirge&#x2019;s ability resolves, does the bonus change if the number of characters in my opponent&#x2019;s KO area changes later in the turn?</question>
+      <answer>No. you count the number of characters in your opponent&#x2019;s KO area when the ability resolves. After that, even if you KO another character, the attack bonus won&#x2019;t change.</answer>
+    </entry>
+  </target>
+  <target name="Dirge - Doombringer">
+    <entry mode="bot">
+      <question>What happens if I play Steamroll and choose Dirge?</question>
+      <answer>If you attack with Dirge and it does more than enough attack damage to KO the defender, Steamroll&#x2019;s ability will work, but Dirge&#x2019;s ability won&#x2019;t trigger. If Dirge does exactly enough damage to KO the defender, Steamroll won&#x2019;t do anything.</answer>
+    </entry>
+  </target>
+  <target name="Divebomb - Aerial Assault">
+    <entry mode="bot">
+      <question>If the card isn&#x2019;t an Action, does it stay revealed?</question>
+      <answer>No, although you are allowed to look at it and read it. Once you&#x2019;ve done so, the card goes back to your opponent&#x2019;s hand hidden.</answer>
+    </entry>
+  </target>
+  <target name="Grapple - Autobot Architect">
+    <entry mode="alt">
+      <question>Does it matter how many cards I discard this way?</question>
+      <answer>No. There just needs to be exactly four different colors among the battle icons on those cards.</answer>
+    </entry>
+  </target>
+  <target name="Grimlock - Powerful Commander">
+    <entry mode="bot">
+      <question>Does this mean I get a card from my collection? Do I have to own the card?</question>
+      <answer>Yes, you get a character that&#x2019;s not in the current game and add it to your KO area.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can I choose a Dinobot that has the same name as one of my characters?</question>
+      <answer>Yes. Twinsies!</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Have y'all clarified as of yet if the new Grimlock can fetch the Wave 1 Dinobots?</question>
+      <answer>Yes. As written, Grimlock &#x2013; Powerful Commander can find Wave 1 Dinobots.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can Grimlock - Powerful Commander put another Grimlock - Powerful Commander into the KO area?</question>
+      <answer>Yes.</answer>
+    </entry>
+  </target>
+  <target name="Menasor - Menacing Colossus">
+    <entry mode="combiner">
+      <question>If I play an Action that lets me play another Action, such as Confidence, does that Action count as the extra one that Menasor lets me play?</question>
+      <answer>No. If another card lets you play an Action, that won&#x2019;t count for Menasor. You can play that Action and then another one for Menasor.</answer>
+    </entry>
+  </target>
+  <target name="Motormaster - Stunticon Leader">
+    <entry mode="alt">
+      <question>What happens if my opponent&#x2019;s card tries to move damage counters onto one of my other characters?</question>
+      <answer>Motormaster&#x2019;s ability won&#x2019;t affect any card that tries to move damage counters from one character to another. That doesn&#x2019;t count as dealing damage. (The damage was already dealt.  It&#x2019;s just moving.)</answer>
+    </entry>
+    <entry mode="alt">
+      <question>Does Motormaster&#x2019;s ability have any effect on my own cards?</question>
+      <answer>No. Your cards can still do damage to your other characters. (Although they hope you have a good reason for doing that.)</answer>
+    </entry>
+  </target>
+  <target name="Motormaster - Stunticon Leader">
+    <entry mode="bot">
+      <question>Can I choose an untapped Stunticon to defend, even if I have other tapped Stunticons?</question>
+      <answer>Yes. You can choose any Stunticon to defend, ignoring abilities like brave and stealth, and ignoring which characters are tapped and untapped.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Does Motormaster take the damage with his Alt Mode effect?</question>
+      <answer>Motormaster takes damage that would normally be dealt to him, but does not take damage meant for other characters.</answer>
+    </entry>
+  </target>
+  <target name="Offroad - All-Terrain Soldier">
+    <entry mode="alt">
+      <question>What happens if the 1 damage is enough to KO the attacking Car?</question>
+      <answer>Well, it doesn&#x2019;t sound like it was a great attack for your opponent. No battle cards will be flipped, and the attack will end.</answer>
+    </entry>
+  </target>
+  <target name="Optimus Maximus - Ultimate Defender">
+    <entry mode="combiner">
+      <question>Does the triggered ability happen before battle cards are flipped?</question>
+      <answer>Yes. You&#x2019;ll get to plan and set up your flip. The ability happens just after Optimus Maximus is chosen as the attacker or as the defender.</answer>
+    </entry>
+  </target>
+  <target name="Optimus Prime - Gleaming Commander">
+    <entry mode="alt">
+      <question>Does this mean I get characters from my collection? Do I have to own the card?</question>
+      <answer>Yes, you get up to 3 Sentinels that aren&#x2019;t in the current game and add them to your KO area.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>Can I choose Sentinels that have the same name as one of my characters?</question>
+      <answer>The 3 Sentinels you bring into the game must all be different, but they can be the same as characters that were on your starting team.</answer>
+    </entry>
+  </target>
+  <target name="Predacon Rampage - Savage Hunter">
+    <entry mode="bot">
+      <question>What happens if Rampage and an enemy are KO&#x2019;d at the same time?</question>
+      <answer>In that case, Rampage&#x2019;s ability will trigger and 1 damage will be repaired from each of your Predacons. Note that Rampage will be in the KO area at this time and won&#x2019;t have any damage repaired.</answer>
+    </entry>
+  </target>
+  <target name="Razorclaw - Predacon Leader">
+    <entry mode="bot">
+      <question>When I flip Razorclaw to bot mode, can he still attack tapped characters?</question>
+      <answer>Yes.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can Razorclaw attack an untapped character that has stealth if there are other characters he could attack?</question>
+      <answer>Yes. Abilities like stealth and brave still function. You just treat untapped characters as though they were tapped when determining what Razorclaw can attack.</answer>
+    </entry>
+  </target>
+  <target name="Silverbolt - Aerialbot Leader">
+    <entry mode="alt">
+      <question>If Silverbolt attacks while in alt mode, how is attack damage calculated?</question>
+      <answer>Silverbolt&#x2019;s ability will trigger after you&#x2019;ve flipped battle cards (assuming you flip the required battle icons). He&#x2019;ll be in bot mode when it&#x2019;s time to calculate attack damage, so you&#x2019;ll use his base 3 attack. Note that if he flips to bot mode, and his bot mode ability KO&#x2019;s the defender, Silverbolt won&#x2019;t do attack damage.</answer>
+    </entry>
+  </target>
+  <target name="Skywarp - Teleporting Seeker">
+    <entry mode="bot">
+      <question>If I play a battle card with no battle icons, and then later in the turn I flip a battle card that has no battle icons, will Skywarp&#x2019;s ability trigger again?</question>
+      <answer>No. The &#x201C;once per turn&#x201D; applies to playing and flipping, not each individually.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If I attack with another character and flip a battle card with no battle icons, will Skywarp&#x2019;s ability trigger?</question>
+      <answer>Yes. This could matter if Skywarp gets to attack later in the turn.</answer>
+    </entry>
+  </target>
+  <target name="Starscream - Decepticon King">
+    <entry mode="bot">
+      <question>What happens if I flip more than one Decepticon Crown in the same battle?</question>
+      <answer>Starscream&#x2014;sorry&#x2014;King Starscream&#x2014;&#x2019;s ability will trigger once for each Decepticon Crown you flip. Hit 2 of them and get +6 to your attack and defense for the turn.</answer>
+    </entry>
+  </target>
+  <target name="Thrust - Supersonic Interceptor">
+    <entry mode="alt">
+      <question>Can I use Thrust&#x2019;s ability if he&#x2019;s tapped when I attack with one of my other characters?</question>
+      <answer>No. You can&#x2019;t tap Thrust if he&#x2019;s already tapped.</answer>
+    </entry>
+  </target>
+  <target name="Torox - Fueler">
+    <entry mode="alt">
+      <question>Can damage counters still be moved from enemy characters?</question>
+      <answer>Yes. If an effect moves a damage counter without saying the damage is repaired, that effect will still work.</answer>
+    </entry>
+  </target>
+  <target name="Volcanicus - Fiery Champion">
+    <entry mode="combiner">
+      <question>What happens if the damage done by Volcanicus&#x2019;s ability KO&#x2019;s the defender?</question>
+      <answer>In that case, the attack ends, although any other abilities that trigger when Volcanicus attacks will happen. Volcanicus won&#x2019;t do attack damage and won&#x2019;t untap.</answer>
+    </entry>
+  </target>
+  <target name="Warpath - Confident Sharpshooter">
+    <entry mode="alt">
+      <question>If my opponent has more than 1 card in their scrap pile with two blue battle icons, can they choose to do 1 damage to each of two of their characters, or is all the damage done to the same character?</question>
+      <answer>They can choose individually for each card.</answer>
+    </entry>
+  </target>
+</faq>

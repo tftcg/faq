@@ -6,7 +6,7 @@
       <answer>Yes. For example, if it has orange battle icons, those will add to the character&#x2019;s attack total. If it has a green battle icon, it can be swapped with a card in your hand after the battle.</answer>
     </entry>
   </target>
-  <target name="Captain Elita-1 - Special Ops &#x2022; Ranger">
+  <target name="Captain Elita-1 - Special Ops - Ranger">
     <entry mode="alt">
       <question>Do damage counters already on Captain Elita-1 affect how many I can move onto her?</question>
       <answer>Yes. For example, if Captain Elita-1 (with 17 health) already has 9 damage counters on her, you can&#x2019;t move more than 7 more damage counters onto her using her ability.</answer>
@@ -24,7 +24,7 @@
       <answer>No. You&#x2019;ll lose the game just after she is KO&#x2019;d, before you can use her ability.</answer>
     </entry>
   </target>
-  <target name="Captain Ironhide - Infantry &#x2022; Bodyguard">
+  <target name="Captain Ironhide - Infantry - Bodyguard">
     <entry mode="alt">
       <question>Can Captain Ironhide take non-attack damage from my cards?</question>
       <answer>Yes. For example, if you play Photon Bomb, your Captain Ironhide will be damaged.</answer>
@@ -42,7 +42,7 @@
       <answer>No, because Captain Ironhide isn&#x2019;t a Melee character. Any &#x201C;Put on &#x2026; only&#x201D; restrictions will apply. However, because you&#x2019;re not playing the Weapon from your hand, any restrictions that apply to playing that card won&#x2019;t matter.</answer>
     </entry>
   </target>
-  <target name="Captain Wheeljack - Engineering &#x2022; Scientist">
+  <target name="Captain Wheeljack - Engineering - Scientist">
     <entry mode="alt">
       <question>When do I use this ability?</question>
       <answer>You use it before the game begins. After you put the Brainstorm into your hand, you&#x2019;ll shuffle the rest of your deck. Then you&#x2019;ll draw the normal 3 cards at the start of the game. This means you&#x2019;ll start the game with 4 cards in hand (Brainstorm plus the 3 you draw). You&#x2019;ll still draw a card at the start of your first turn.</answer>
@@ -52,7 +52,7 @@
       <answer>No. You play your third action in a turn only once.</answer>
     </entry>
   </target>
-  <target name="Major Shockwave - Applied Sciences &#x2022; Scientist">
+  <target name="Major Shockwave - Applied Sciences - Scientist">
     <entry mode="alt">
       <question>Can I do anything else with the top card of my deck?</question>
       <answer>Nope. You can just a glimpse at what&#x2019;s coming up. You can&#x2019;t move the card anywhere unless something else tells you to.</answer>
@@ -70,13 +70,13 @@
       <answer>Yes. You can keep playing the top card of your deck as long as it meets Major Shockwave&#x2019;s conditions and you&#x2019;re allowed to play the card (keeping in mind the normal one action/upgrade per turn rule).</answer>
     </entry>
   </target>
-  <target name="Major Ultra Magnus - Infantry &#x2022; City Commander">
+  <target name="Major Ultra Magnus - Infantry - City Commander">
     <entry mode="alt">
       <question>When do I use this ability?</question>
       <answer>You use it before the game begins. You&#x2019;ll put Ultra Magnus Armor onto Major Ultra Magnus, then shuffle the rest of your deck and draw 3 cards for your opening hand.</answer>
     </entry>
   </target>
-  <target name="Private Red Heat - Infantry &#x2022; Emergency Response">
+  <target name="Private Red Heat - Infantry - Emergency Response">
     <entry mode="bot">
       <question>What happens if one of the characters has an upgrade of a certain type, such as a Weapon, and the other character doesn&#x2019;t have an upgrade of that type?</question>
       <answer>In that case, the upgrade will move to the other character. It doesn&#x2019;t have to be an &#x201C;even swap.&#x201D;</answer>
@@ -86,31 +86,31 @@
       <answer>In that case, that upgrade stays where it is. If the other character has a upgrade of the same type, it also stays where it is. Other types of upgrades may still be swapped.</answer>
     </entry>
   </target>
-  <target name="Private Sideswipe - Infantry &#x2022; Soldier">
+  <target name="Private Sideswipe - Infantry - Soldier">
     <entry mode="alt">
       <question>Do I count Battle Masters in my KO area?</question>
       <answer>Battle Masters in your KO area will be in their upgrade mode, either because they were played and subsequently left the battlefield or because you didn&#x2019;t play the upgrade after the character was KO&#x2019;d. This means they won&#x2019;t be characters in the KO area and won&#x2019;t add to Private Sideswipe&#x2019;s bonus.</answer>
     </entry>
   </target>
-  <target name="Private Trailbreaker - Infantry &#x2022; Fortification &amp; Defense">
+  <target name="Private Trailbreaker - Infantry - Fortification &amp; Defense">
     <entry mode="alt">
       <question>When do I use this ability?</question>
       <answer>You use it before the game begins. You&#x2019;ll put Force Field onto Private Trailbreaker, then shuffle the rest of your deck and draw 3 cards for your opening hand.</answer>
     </entry>
   </target>
-  <target name="Raider Ion Storm - Infantry &#x2022; Rainmaker">
+  <target name="Raider Ion Storm - Infantry - Rainmaker">
     <entry mode="bot">
       <question>Is the upgrade returned before my opponent flips battle cards?</question>
       <answer>Yes. Notably, if the upgrade gave your opponent&#x2019;s character tough, the character won&#x2019;t have tough when it&#x2019;s time to flip battle cards.</answer>
     </entry>
   </target>
-  <target name="Raider Road Hugger - Infantry &#x2022; Tactics">
+  <target name="Raider Road Hugger - Infantry - Tactics">
     <entry mode="bot">
       <question>Can I use Raider Road Hugger&#x2019;s tap ability to give itself an attack bonus?</question>
       <answer>You can, but remember that using a tap ability causes the character to become tapped. But we&#x2019;ll assume you have a plan.</answer>
     </entry>
   </target>
-  <target name="Raider Runabout - Infantry &#x2022; Soldier">
+  <target name="Raider Runabout - Infantry - Soldier">
     <entry mode="alt">
       <question>If I have Runamuck on the battlefield when I flip Raider Runabout to alt mode but he&#x2019;s not damaged, can I still flip him from bot mode to alt mode?</question>
       <answer>Yes. The effects work separately.</answer>
@@ -120,13 +120,13 @@
       <answer>Correct.</answer>
     </entry>
   </target>
-  <target name="Raider Storm Cloud - Infantry &#x2022; Electronic Warfare">
+  <target name="Raider Storm Cloud - Infantry - Electronic Warfare">
     <entry mode="bot">
       <question>Can I use Raider Storm Cloud&#x2019;s ability to give itself bold 3 (or bold 6)?</question>
       <answer>You can, but remember that using a tap ability causes the character to become tapped.  Hopefully it&#x2019;s a good plan.</answer>
     </entry>
   </target>
-  <target name="Sergeant Cog - Artillery &#x2022; Mechanic">
+  <target name="Sergeant Cog - Artillery - Mechanic">
     <entry>
       <question>Sergeant Cog is a Weaponizer. That sounds awesome! What&#x2019;s a Weaponizer?</question>
       <answer>All the rules that apply to Battle Masters also apply to Weaponizers. Sergeant Cog represents more advanced weaponry. Sergeant Cog&#x2019;s card is the same size as most characters.</answer>
@@ -136,13 +136,13 @@
       <answer>Yes. Heavy Force Defensebreaker Cannon is large. It can be played onto any character, large or small.</answer>
     </entry>
   </target>
-  <target name="Sergeant Hound - Infantry &#x2022; Recon">
+  <target name="Sergeant Hound - Infantry - Recon">
     <entry mode="bot">
       <question>Say Sergeant Hound has an Armor, and I play another Armor to replace that one. Will his ability trigger?</question>
       <answer>Yes. &#x201C;When you upgrade this&#x201D; means when any new upgrade is put onto Sergeant Hound.</answer>
     </entry>
   </target>
-  <target name="Sergeant Skrapnel - Infantry &#x2022; Electronic Warfare">
+  <target name="Sergeant Skrapnel - Infantry - Electronic Warfare">
     <entry mode="bot">
       <question>If one of my other characters has upgrades and is KO&#x2019;d, will Sergeant Skrapnel&#x2019;s ability trigger?</question>
       <answer>Yes. Those upgrades were on a character and were then scrapped, so the ability will trigger.</answer>
@@ -152,13 +152,13 @@
       <answer>No. Sergeant Skrapnel is KO&#x2019;d at the same time his upgrades are scrapped. His ability won&#x2019;t trigger in time to save him.</answer>
     </entry>
   </target>
-  <target name="Sergeant Skywarp - Black Ops &#x2022; Seeker">
+  <target name="Sergeant Skywarp - Black Ops - Seeker">
     <entry mode="alt">
       <question>Can I return just one Secret Action from my scrap pile?</question>
       <answer>Yes.</answer>
     </entry>
   </target>
-  <target name="Specialist Ratchet - Engineering &#x2022; Rescue &amp; Repair">
+  <target name="Specialist Ratchet - Engineering - Rescue &amp; Repair">
     <entry mode="alt">
       <question>When do I use this ability?</question>
       <answer>You use it before the game begins. After you put the Medic! into your hand, you&#x2019;ll shuffle the rest of your deck. Then you&#x2019;ll draw the normal 3 cards at the start of the game. This means you&#x2019;ll start the game with 4 cards in hand (Medic! plus the 3 you draw). You&#x2019;ll still draw a card at the start of your first turn.</answer>

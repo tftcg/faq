@@ -68,3 +68,8 @@ p, ul, ol {
   display: none;
   float: right;
 }
+#menu { 
+    width: 150px;
+    float: right; 
+    display: none;
+}

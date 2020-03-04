@@ -29,3 +29,8 @@
       $( "#search" ).toggle();
   }
 
+  function toggleMenu() {
+      $( "#menu" ).val('');
+      $( "#menu" ).toggle();
+  }
+

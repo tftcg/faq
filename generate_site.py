@@ -1,6 +1,6 @@
 import os
 import glob
-from jinja2 import Template
+from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 
 def convert_name(name):
@@ -18,7 +18,7 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
     # Load Leaf Template
     template_file = open('templates/leaf.jinja2','r')
     template_text = template_file.read()
-    template = Template(template_text)
+    template = Environment(loader=FileSystemLoader("templates/")).from_string(template_text)
 
     output_dir='docs'
 
@@ -50,7 +50,7 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
     # Load Branch Template
     branch_template_file = open('templates/branch.jinja2','r')
     branch_template_text = branch_template_file.read()
-    branch_template = Template(branch_template_text)
+    branch_template = Environment(loader=FileSystemLoader("templates/")).from_string(branch_template_text)
 
     page=branch_template.render(faq_name=faq_name, convert_name=convert_name, targets=targets)
 

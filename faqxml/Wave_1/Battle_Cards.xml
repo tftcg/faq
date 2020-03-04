@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<faq name="Wave 1 Battle Cards">
+<faq name="Wave 1 Battle Cards" source="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
   <target name="Aerial Recon">
     <entry>
       <question>
@@ -283,6 +283,9 @@
     In that case, the game is a draw. Time to start the next game!
 </answer>
     </entry>
+  </target>
+  <target name="Piercing Blaster">
+      <entry xref="Wave_1/Battle_Cards.xml#arcee-4"/>
   </target>
   <target name="Rapid Ascent">
     <entry>

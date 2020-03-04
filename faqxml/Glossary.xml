@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<faq name="Glossary">
+<faq name="Glossary" source="Original Material">
   <target name="Game Concepts">
     <entry id="what-is-battlefield">
       <question>What is the 'Battlefield'?</question>

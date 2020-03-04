@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<faq name="Wave 4 Battle Cards" source="https://transformerstcg-support.wizards.com/hc/en-us/articles/360035662892-War-for-Cybertron-Siege-II-FAQ-and-Rules-Roundup" sourced_at="2020-03-03">
+  <target name="4-Wheel Drive">
+    <entry>
+      <question>If I play this on a Truck, and later in the turn it flips so it&#x2019;s no longer a Truck, what happens to its attack?</question>
+      <answer>If the character stops being a Truck, 4-Wheel Drive stops applying, and its base attack will revert to whatever is printed on the card.</answer>
+    </entry>
+    <entry>
+      <question>How do other attack bonuses work with 4-Wheel Drive?</question>
+      <answer>Changing a character&#x2019;s base attack is just like changing the number that&#x2019;s printed on the card. From there, all other bonuses apply as normal. For example, if you have a Truck with 3 attack upgraded with Indestructible Sword (that gives it +2 attack), its attack will be 9 (7 from 4-Wheel Drive +2 from the upgrade). If it stops being a Truck that turn, its attack will be 5 (base 3 attack +2 from the upgrade).</answer>
+    </entry>
+  </target>
+  <target name="Backfire">
+    <entry>
+      <question>If the damage done by Backfire is enough to KO the attacker, does the attacker still do attack damage?</question>
+      <answer>No. You reveal Backfire before battle cards are flipped. In fact, if Backfire KO&#x2019;s the attacker, the attack will end and no one flips battle cards.</answer>
+    </entry>
+  </target>
+  <target name="Multi-Missile Pod">
+    <entry>
+      <question>Let&#x2019;s say I have three Multi-Missile Pods and I decide to FIRE ALL THE MISSILES! What happens?</question>
+      <answer>Although you can totally FIRE ALL THE MISSILES, you still do it one at a time. So first you scrap one that will do 1 damage. Then you scrap the second to do 2 damage. Finally you scrap the last one to do 3 damage. 6 damage total.</answer>
+    </entry>
+  </target>
+  <target name="Battlefield Incursion">
+    <entry>
+      <question>Can I play Battlefield Incursion if there are no characters under my Trypticon?</question>
+      <answer>You can. It won&#x2019;t have any effect itself, but other cards may have effects that depend on you playing Actions.</answer>
+    </entry>
+  </target>
+  <target name="Blast Suit"><entry><question>Let&#x2019;s say I have a character with 10 health, 8 damage counters, and a Blast Suit. I also have Heroic Resolve face down. My opponent attacks, and my character would take 3 attack damage. What happens?</question><answer>If there are multiple abilities trying to modify how much attack damage the upgraded character would take, the controller of that character decides what order to apply them in. In this example, you could choose either of the following:</answer></entry>
+    Reveal Heroic Resolve first. Instead of taking 3 attack damage, your character is now taking 1 attack damage (enough to drop it to 1 health). Now Blast Suit applies, and the 1 attack damage becomes 0 attack damage, which is half of 1 rounded down. Your character ends up taking no attack damage and Blast Suit is scrapped.
+    Apply Blast Suit first. Instead of taking 3 attack damage, your character now is taking 1 attack damage, which is half of 3 rounded down. This isn&#x2019;t enough attack damage to KO your character, so Heroic Resolve stays face down.
+</target>
+  <target name="Composite Armor">
+    <entry>
+      <question>If I flip at least one black battle icon during the battle, when does Composite Armor do 1 damage to the attacker?</question>
+      <answer>The damage is done after the battle, just after you scrap Composite Armor.</answer>
+    </entry>
+    <entry>
+      <question>If I didn&#x2019;t flip a black battle icon during the battle, do I still have to scrap Composite Armor?</question>
+      <answer>Yes.</answer>
+    </entry>
+  </target>
+  <target name="Contract Contingency">
+    <entry>
+      <question>Can I choose a character that doesn&#x2019;t have a Bounty ability just to get the attack bonus?</question>
+      <answer>Yes. The last ability won&#x2019;t do anything, but you&#x2019;ll still get the +2 attack.</answer>
+    </entry>
+  </target>
+  <target name="Coup">
+    <entry>
+      <question>If the character that was KO&#x2019;d has was one of my characters with a Bounty ability, can I use that ability?</question>
+      <answer>No. That character is no longer on the battlefield when Coup&#x2019;s ability is uses.</answer>
+    </entry>
+  </target>
+  <target name="Crowbar">
+    <entry>
+      <question>If Crowbar is put onto a character during a battle after it attacks, is it scrapped after the battle?</question>
+      <answer>No. The ability triggers only if the character is holding the Crowbar as it attacks. If Crowbar appears after that point (say because of Metal Detector), it can stay for at least another attack.</answer>
+    </entry>
+  </target>
+  <target name="Crude Club">
+    <entry>
+      <question>Does Crude Club count?</question>
+      <answer>Yes. Even with no other Upgrades, the upgraded character will get +1 attack from just the Crude Club.</answer>
+    </entry>
+  </target>
+  <target name="Daring Escape">
+    <entry>
+      <question>Are the cards revealed when they&#x2019;re put into the KO area?</question>
+      <answer>Yes. They will be face up in the KO area. Either player can look at them. (Don&#x2019;t grab your opponent&#x2019;s cards without permission though.)</answer>
+    </entry>
+  </target>
+  <target name="Decipher">
+    <entry>
+      <question>If my opponent has Secret Actions in their hand, scrap pile, or even in their KO area (say because of Daring Escape), do those count?</question>
+      <answer>No. Daring Escape counts only the Secret Actions in your opponent&#x2019;s played area.</answer>
+    </entry>
+  </target>
+  <target name="Defensive Configuration">
+    <entry>
+      <question>Say the upgraded character has 2 Armors and Defensive Configuration is scrapped. What happens?</question>
+      <answer>In most cases, this means the character won&#x2019;t have enough Armor slots to keep both Armors. If it&#x2019;s your character, you choose which one the character keeps. The other one is scrapped.</answer>
+    </entry>
+  </target>
+  <target name="Dual Wield">
+    <entry>
+      <question>At the end of the turn the character will lose the extra Weapon slot. Which Weapon does the character keep?</question>
+      <answer>If it&#x2019;s your character, you choose which one the character keeps. The other one is scrapped.</answer>
+    </entry>
+  </target>
+  <target name="Energy Transfer">
+    <entry>
+      <question>How does Energy Transfer interact with cards like Toolbox?</question>
+      <answer>Moving damage counters doesn&#x2019;t count as repairing or damaging either character.</answer>
+    </entry>
+    <entry>
+      <question>Can I choose to move no damage counters?</question>
+      <answer>Yes. You can even play Energy Transfer if you have only one character or if none of your characters have damage counters on them. It won&#x2019;t have any effect itself, but other cards may have effects that depend on you playing Actions, and you&#x2019;ll get the orange battle icon back in your deck.</answer>
+    </entry>
+  </target>
+  <target name="Even the Score">
+    <entry>
+      <question>How does Even the Score interact with effects that modify how much attack damage a character takes, such as Blast Suit.</question>
+      <answer>Even the Score doesn&#x2019;t directly modify how much attack damage is being done to the character (note it doesn&#x2019;t use &#x201C;instead&#x201D;), so it waits for effects like Blast Suit to apply, then sees if the character is taking more than enough attack damage to be KO&#x2019;d.</answer>
+    </entry>
+    <entry>
+      <question>Is the damage done to the attacker attack damage?</question>
+      <answer>No. Only damage done by the attacker counts as attack damage. Damage done by other cards, such as the damage done by Even the Score, isn&#x2019;t attack damage.</answer>
+    </entry>
+  </target>
+  <target name="Guarded Posture">
+    <entry>
+      <question>Say a character with base attack 0 has Guarded Posture, and then I put a Primary Laser (a Weapon that gives it +2 attack) on it. What is the character&#x2019;s attack?</question>
+      <answer>It will have 1 attack. Although a character&#x2019;s attack can&#x2019;t go below 0, the -1 applies again once your character&#x2019;s attack is raised.</answer>
+    </entry>
+  </target>
+  <target name="Head-On Collision">
+    <entry>
+      <question>If the chosen character attacks in alt mode but then somehow flips to a different mode in the middle of the attack, does it keep the +3 attack bonus?</question>
+      <answer>No. The +3 attack bonus applies as long as the character is attacking and in alt mode. As soon as one of those isn&#x2019;t true, the bonus stops applying. However, if the character returns to alt mode while it&#x2019;s still attacking, the bonus would apply again.</answer>
+    </entry>
+  </target>
+  <target name="Heroic Resolve">
+    <entry>
+      <question>How does Heroic Resolve with other effects that try to modify how much attack damage is done to a character?</question>
+      <answer>If there are multiple abilities trying to modify how much attack damage the upgraded character would take, the controller of that character decides what order to apply them in. See the entry for Blast Suit for an example.</answer>
+    </entry>
+  </target>
+  <target name="Hijack">
+    <entry>
+      <question>Jack: Hi!</question>
+      <answer>Hello.</answer>
+    </entry>
+    <entry>
+      <question>After I reveal Hijack, do I draw the card from my opponent&#x2019;s deck they were going to draw?</question>
+      <answer>No. You always draw from your deck. Nothing happens to the card your opponent was going to draw. It just stays on top of their deck.</answer>
+    </entry>
+    <entry>
+      <question>Let&#x2019;s say my opponent plays Pep Talk, an Action that says &#x201C;Draw 2 cards.&#x201D; What happens?</question>
+      <answer>Assuming they drew a card at the start of their turn, you would reveal Hijack. Then instead them drawing two cards, you&#x2019;d draw two cards. Hijack&#x2019;s effect lasts for the rest of the turn, so if they tried to draw more cards, you&#x2019;d draw them again.</answer>
+    </entry>
+  </target>
+  <target name="Increased Durability">
+    <entry>
+      <question>Let&#x2019;s say the upgraded character normally has 10 health. It gets upgraded with Increased Durability, then gets 12 damage counters. If Increased Durability is scrapped, what happens?</question>
+      <answer>Any time the game notices a character with a number of damage counters equal to or greater than its current health, the character is KO&#x2019;d. So your character is KO&#x2019;d. Sorry.</answer>
+    </entry>
+  </target>
+  <target name="Indestructible Sword">
+    <entry>
+      <question>If Indestructible Sword is on a character that gets KO&#x2019;d, do I return the Sword to my hand?</question>
+      <answer>Yes. If a character is KO&#x2019;d, all upgrades it had are scrapped at the same time. The game sees that the upgrade was scrapped from a character.</answer>
+    </entry>
+  </target>
+  <target name="Involuntary Promotion">
+    <entry>
+      <question>What happens if the character I bring back from the KO area ends up with enough damage counters to KO it?</question>
+      <answer>Both characters will end up KO&#x2019;d, but the character that started in the KO area will be on the battlefield for a short time. For example, any ability that triggers when Upgrades are moved onto that character will still happen. If that character has any revenge abilities, those abilities will also happen.</answer>
+    </entry>
+  </target>
+  <target name="Jam Signals">
+    <entry>
+      <question>Say my opponent has an ability that triggers when they play an Action. They play a blue action, but I reveal Jam Signals to scrap it with no effect. Does their other ability trigger?</question>
+      <answer>Yes. Although the blue action itself will have no effect, your opponent still played an action, so the other ability will still work.</answer>
+    </entry>
+  </target>
+  <target name="Kinetic Intensifier Whip">
+    <entry>
+      <question>Can this ability trigger more than once in the same turn?</question>
+      <answer>Yes. If you&#x2019;re showing off and have some way to flip the upgraded character multiple times in the same turn, the ability will add Bold 2 each time.</answer>
+    </entry>
+  </target>
+  <target name="Lucky Vest">
+    <entry>
+      <question>How does Lucky Vest interact with other effects that modify the amount of attack damage a character can take?</question>
+      <answer>Lucky Vest doesn&#x2019;t directly modify how much attack damage is being done to the character (note it doesn&#x2019;t use &#x201C;instead&#x201D;), so it waits for effects like Blast Suit to apply, then sees if the character is taking more than 4 attack damage. If it is, the character takes 4 attack damage.</answer>
+    </entry>
+  </target>
+  <target name="Minor Medic Kit">
+    <entry>
+      <question>Let&#x2019;s say the upgraded character normally has 10 health. It gets upgraded with Minor Medic Kit, then gets 10 damage counters. If Minor Medic Kit is scrapped, what happens?</question>
+      <answer>Any time the game notices a character with a number of damage counters equal to or greater than its current health, the character is KO&#x2019;d. So your character is KO&#x2019;d. Really sorry.</answer>
+    </entry>
+  </target>
+  <target name="Opportune Offensive / Opportune Repairs">
+    <entry>
+      <question>Does it matter if the Mercenary on my team got KO&#x2019;d before I played Opportune Offensive or Opportune Repairs?</question>
+      <answer>Nope. As long as it was on your starting team, you can play it.</answer>
+    </entry>
+  </target>
+  <target name="Overheat">
+    <entry>
+      <question>If Overheat is revealed, do effects like Energized Field&#x2019;s still work?</question>
+      <answer>Yes. With Overheat, orange battle icons don&#x2019;t add to the attack value, but they were still flipped, so any other effects that care about flipping orange battle icons will still work. The same is true for black battle icons.</answer>
+    </entry>
+  </target>
+  <target name="Overwhelming Advantage">
+    <entry>
+      <question>Say I have 3 Decepticons on the battlefield when I play Overwhelming Advantage. Can I put just 2 cards from my hand on top of my deck?</question>
+      <answer>Yes. Each Plan is optional, so you could anywhere from 0 to 3 cards from your hand on top of your deck.</answer>
+    </entry>
+    <entry>
+      <question>Do I have to choose one of my characters when I play Overwhelming Advantage?</question>
+      <answer>Yes. Even if you have two characters with the right upgrades and you plan to attack with both of them during your turn, you choose which character will be affected when you play Overwhelming Advantage.</answer>
+    </entry>
+    <entry>
+      <question>If I meet all the conditions listed in the second ability (WOOHOO!), and the 15 damage is enough to KO the defender, will my opponent flip battle cards?</question>
+      <answer>No. As soon as the defender is KO&#x2019;d, the attack ends.</answer>
+    </entry>
+  </target>
+  <target name="Pincer Movement">
+    <entry>
+      <question>Say I play Pincer Movement, but the first attack ends up KOing the defender. Do I still get to attack again?</question>
+      <answer>No. If you can&#x2019;t attack the same enemy with a different Decepticon, you don&#x2019;t get the extra attack.</answer>
+    </entry>
+  </target>
+  <target name="Relentless Invasion">
+    <entry>
+      <question>Can I still attack with another character that turn?</question>
+      <answer>Yes. The characters put onto the battlefield will all attack that turn (one at a time), but you can attack with a character as normal. That could be Trypticon or a different character that was already on the battlefield.</answer>
+    </entry>
+    <entry>
+      <question>What happens if one of the characters I put onto the battlefield is somehow KO&#x2019;d before the turn ends? Is it still put under Trypticon?</question>
+      <answer>No. If the character gets KO&#x2019;d, it will just stay in the KO area at end of turn.</answer>
+    </entry>
+    <entry>
+      <question>Can I play this card if only one or two of the characters are in the KO area?</question>
+      <answer>Yes. You&#x2019;ll put as many of the three characters onto the battlefield as you can. For example, let&#x2019;s say you have Full-Tilt on the battlefield, Wipe-Out in the KO area, and Brunt under Trypticon. Playing Relentless Invasion will put Wipe-Out onto the battlefield. It will attack this turn and then be put back under Trypticon. Full-Tilt doesn&#x2019;t have to attack, and at the end of the turn it will stay on the battlefield.</answer>
+    </entry>
+  </target>
+  <target name="Reprocess">
+    <entry>
+      <question>Any character?</question>
+      <answer>Yep. Yours or your opponent&#x2019;s. Even if there&#x2019;s no damage to repair.</answer>
+    </entry>
+  </target>
+  <target name="Shoulder Holster">
+    <entry>
+      <question>Say the upgraded character has 2 Weapons and Shoulder Holster is scrapped. What happens?</question>
+      <answer>In most cases, this means the character won&#x2019;t have enough Weapon slots to keep both Weapons. If it&#x2019;s your character, you choose which one the character keeps. The other one is scrapped.</answer>
+    </entry>
+  </target>
+  <target name="Step Forward">
+    <entry>
+      <question>Once I reveal Step Forward and choose one of my Autobots to get Brave, can my opponent change which of their characters is attacking?</question>
+      <answer>No. The choice of attacker is locked in before Step Forward is revealed.</answer>
+    </entry>
+  </target>
+  <target name="Sturdy Javelin">
+    <entry>
+      <question>If Sturdy Javelin is on a ranged character, can I do 2 damage to any enemy, or must it be the defender?</question>
+      <answer>Nope, you can throw the Javelin in any direction to hit any enemy.</answer>
+    </entry>
+  </target>
+  <target name="Valuable Contract">
+    <entry>
+      <question>Do I have to show my opponent which card I&#x2019;m putting into my hand?</question>
+      <answer>Yes. Your opponent is allowed to see the card and verify it has exactly 1 star.</answer>
+    </entry>
+    <entry>
+      <question>Say I upgrade a character that already has a Bounty ability with Valuable Contract. If it does enough attack damage to an enemy to KO it, what happens?</question>
+      <answer>In that case, you&#x2019;ll get to use both Bounty abilities in either order. You can&#x2019;t use the character&#x2019;s Bounty ability twice or Valuable Contract&#x2019;s Bounty ability twice though.</answer>
+    </entry>
+  </target>
+</faq>

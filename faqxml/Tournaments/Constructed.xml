@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<faq name="Constructed" source="https://wpn.wizards.com/en/document/transformers-tcg-tournament-rules" published_date="2019-11-21" sourced_at="2020-03-04">
+  <!-- NOTE: Adapted from original materials -->
+  <target name="Permitted and Banned Cards">
+      <entry>
+          <question>Which card sets are permitted in Constructed tournaments?</question>
+          <answer>
+              Wave 1: Transformers TCG Booster Packs
+                • Convention Pack 2018
+                • Autobot Starter Set
+                • Metroplex Deck
+                • Convention Edition 2018
+              Wave 2: Rise of the Combiners
+                • Devastator Deck
+                • Bumblebee vs Megatron Starter Set
+              Wave 3: War for Cybertron: Siege I
+                • Convention Pack 2019
+              Blaster vs Soundwave (35th Anniversary Edition)
+              Blaster vs Soundwave (Retail Edition)
+              Wave 4: War for Cybertron: Siege II
+              Wave One Energon Edition (Character and Battle Cards)
+          </answer>
+      </entry>
+      <entry>
+          <question>Which promo cards are permitted in Constructed tournaments?</question>
+          <answer>
+              P1: Bumblebee – Electrum Warrior
+              P2: Omega Supreme – Autobot Defense Base
+              P3: Private Smashdown
+              P4: Flamewar – Veteran Decepticon (Gold Foil Variant)
+              P5: Bumblebee – Trusted Lieutenant (Gold Foil Variant)
+              P6: Private Red Alert – Medic (Gold Foil Variant)
+              P7: Nightbird – Enigmatic Agent
+              P8: Raider Runamuck – Infantry Soldier (Gold Foil Variant)
+              P9: Raider Runabout – Infantry Soldier (Gold Foil Variant)
+              P10: Raider Road Hugger – Infantry Tactics (Gold Foil Variant)
+              P11: All-Out Attack (Energon Edition Foil Variant)
+              P12: Tandem Targeting System (Energon Edition Foil Variant)
+          </answer>
+      </entry>
+      <entry>
+          <question>What Cards are banned in Constructed Tournaments?</question>
+          <answer>
+              The Battle Cards Swap Parts and Press the Advantage are banned from use in Constructed play. 
+              The Battle Card Multi-Mission Gear has also been announced as banned, though the Tournament Rules have 
+              not been updated. 
+          </answer>
+      </entry>
+  </target>
+</faq>

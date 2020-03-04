@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-<!--
- TODO: Walk this making a page for each card entered, copying any xrefs over.
--->
 <faq name="Wave 1 Characters">
   <target name="Arcee, Skilled Fighter">
     <entry id="arcee-1" mode="alt">

@@ -53,17 +53,18 @@ p, ul, ol {
   }
 }
 
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+.ui-helper-hidden-accessible { display:none; }
 
-/*
-  .ui-autocomplete {
-    max-height: 100px;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  .ui-helper-hidden-accessible { display:none; }
-
-  .ui-draggable, .ui-droppable {
-	background-position: top;
-  }
-  */
-
+.ui-draggable, .ui-droppable {
+  background-position: top;
+}
+#search {
+  display: none;
+  float: right;
+}

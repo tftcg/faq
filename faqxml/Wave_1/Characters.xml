@@ -9,8 +9,6 @@
                 There are no damage counters to remove, so nothing happens to those characters.
             </answer>
     </entry>
-    <!-- TEST -->
-    <entry xref="autobot-cosmos-1"/>
     <entry id="arcee-2" mode="bot">
       <question>
         If Arcee&#x2019;s attack is boosted by actions or Upgrades, does that raise her Pierce number?

@@ -11,6 +11,9 @@
   <script src="https://tftcg.github.io/faq/js/search.js"></script>
   <script>
     setup_autocomplete();
+    $( function() {
+      $( "#menu" ).menu();
+    } );
   </script>
 
 </head>
@@ -24,10 +27,17 @@
             <img src="images/search.svg" onClick="toggleSearch()"/>
         </span>
         <span id="menu_widget">
-            <img src="images/menu.svg" onClick="dropMenu()"/>
+            <img src="images/menu.svg" onClick="toggleMenu()"/>
         </span>
         </span>
     </div>
+
+    <ul id="menu">
+        <li><a href="/">FAQ</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contribute.html">Contribute</a></li>
+    </ul>
+
     <div id="searchbar">
         <input id="search">
     </div>

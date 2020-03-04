@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <faq name="Wave 3 Battle Cards" source="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
+  <target name="Anticipation Engine">
+      <entry xref="Rules_Roundup#1-5"/>
+  </target>
   <target name="Backup Bag">
     <entry>
       <question>Can I use Backup Bag to save a Weapon or Armor that causes itself to be scrapped, such as Grenade Launcher?</question>
@@ -11,6 +14,7 @@
       <question>If I play Battering Ram, and the defender has more than one other mode, who chooses which mode it flips to?</question>
       <answer>Your opponent does.</answer>
     </entry>
+      <entry xref="Rules_Roundup#1-8"/>
   </target>
   <target name="Battlefield Scan">
     <entry>
@@ -99,6 +103,9 @@
       <question>If the upgraded character defends against an enemy that has pierce 1, what happens?</question>
       <answer>If a character&#x2019;s pierce total is 0 or lower, treat that character as if it didn&#x2019;t have pierce when determining how much damage is done. Pierce -1 doesn&#x2019;t do anything weird.</answer>
     </entry>
+  </target>
+  <target name="Pop a Wheelie">
+      <entry xref="Rules_Roundup#1-7"/>
   </target>
   <target name="Repurpose">
     <entry>

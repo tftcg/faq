@@ -18,6 +18,9 @@
       <answer>No. Even though each one has an ability that will find the other in the KO area, the abilities work only from the battlefield.</answer>
     </entry>
   </target>
+  <target name="Bombshell - Decepticon Psy Ops">
+    <entry xref="Rules_Roundup#1-3" mode="bot"/>
+  </target>
   <target name="Dreadwind - Air Defense">
     <entry xref="#blackwing-1" mode="bot"/>
   </target>
@@ -82,6 +85,7 @@
       <question>Does it matter how many cards I discard this way?</question>
       <answer>No. There just needs to be exactly four different colors among the battle icons on those cards.</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-9" mode="bot"/>
   </target>
   <target name="Grimlock - Powerful Commander">
     <entry mode="bot">
@@ -178,6 +182,7 @@
       <question>If I attack with another character and flip a battle card with no battle icons, will Skywarp&#x2019;s ability trigger?</question>
       <answer>Yes. This could matter if Skywarp gets to attack later in the turn.</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-4" mode="alt"/>
   </target>
   <target name="Starscream - Decepticon King">
     <entry mode="bot">
@@ -190,6 +195,7 @@
       <question>Can I use Thrust&#x2019;s ability if he&#x2019;s tapped when I attack with one of my other characters?</question>
       <answer>No. You can&#x2019;t tap Thrust if he&#x2019;s already tapped.</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-2" mode="alt"/>
   </target>
   <target name="Torox - Fueler">
     <entry mode="alt">

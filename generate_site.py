@@ -112,3 +112,5 @@ def generate_html(infilename, tofilename, title):
 
 
 generate_html('templates/index.jinja2', 'index.html', "FAQ")
+generate_html('templates/about.jinja2', 'about.html', "About")
+generate_html('templates/contribute.jinja2', 'contribute.html', "Contribute")

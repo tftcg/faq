@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[TFTCG] FAQ</title>
+  <link rel="stylesheet" type="text/css" href="https://tftcg.github.io/faq/style/style.css"/>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://tftcg.github.io/faq/js/search.js"></script>
+  <script>
+    setup_autocomplete();
+    $( function() {
+      $( "#menu" ).menu();
+    } );
+  </script>
+
+</head>
+<body>
+    <div id="sitetitle">
+        <span id="title_widget">
+            TFTCG FAQ
+        </span>
+        <span style="float: right;">
+        <span id="search_widget">
+            <img src="https://tftcg.github.io/faq/images/search.svg" onClick="toggleSearch()"/>
+        </span>
+        <span id="menu_widget">
+            <img src="https://tftcg.github.io/faq/images/menu.svg" onClick="toggleMenu()"/>
+        </span>
+        </span>
+    </div>
+
+    <ul id="menu">
+        <li><a href="/">FAQ</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contribute.html">Contribute</a></li>
+    </ul>
+
+    <div id="searchbar">
+        <input id="search">
+    </div>
+    <div class="content" style="clear: both;">
+        
+<p>This FAQ is stored in XML files. Python and Jinja2 are used to convert those XML files into web pages built using HTML, JavaScript and CSS. </p>
+
+<p>Contributions are VERY welcome, be they ideas, bug reports, or patches. Please join us at <a href="https://github.com/tftcg/faq">github.com/tftcg/faq</a>. </p>
+
+    </div>
+</body>
+</html>

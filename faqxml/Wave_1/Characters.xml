@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+ TODO: Walk this making a page for each card entered, copying any xrefs over.
+-->
+<faq name="Wave 1 Characters">
+  <target name="Arcee, Skilled Fighter">
+    <entry id="arcee-1" mode="alt">
+      <question>
+                What happens if some of my characters are undamaged when I flip Arcee to alt mode?
+            </question>
+      <answer>
+                There are no damage counters to remove, so nothing happens to those characters.
+            </answer>
+    </entry>
+    <!-- TEST -->
+    <entry xref="autobot-cosmos-1"/>
+    <entry id="arcee-2" mode="bot">
+      <question>
+        If Arcee&#x2019;s attack is boosted by actions or Upgrades, does that raise her Piercenumber?
+    </question>
+      <answer>
+        Yes. For example, if you play an action card that gives Arcee +2 attackuntil end of turn, she&#x2019;ll have Pierce 3.
+    </answer>
+    </entry>
+    <entry id="arcee-3" mode="bot">
+      <question>
+        Let&#x2019;s say I attack with Arceeand reveal two orange attack icons, giving her +2 attack. Does her Piercenumber go up?
+    </question>
+      <answer>
+        Yes.
+    </answer>
+    </entry>
+    <entry id="arcee-4" mode="bot">
+      <question>
+        What happens if Arcee has a Piercing Blaster or another Upgradethat gives her more Pierce?
+    </question>
+      <answer>
+        In that case, Arcee will have Pierceequal to her attack plusthe Piercefrom the Upgrade. In that example, Arcee&#x2019;s attack is 1, so she&#x2019;ll have Pierce 4. However, remember that characters with Pierce 
+can&#x2019;t deal more damage than their attack total, so she&#x2019;ll do only 1 damage (not including other attack bonuses or orange battle icons).
+    </answer>
+    </entry>
+  </target>
+  <target name="Autobot Cosmos, Recon &amp; Communication">
+    <entry id="autobot-cosmos-1" mode="bot">
+      <question>
+        If there are two cards left in my deck, and I attack with Autobot Cosmos, will his ability trigger?
+    </question>
+      <answer>
+        Yes. You reshuffle your scrap pile into your deck as soon as the deck is empty. Inthis case, Autobot Cosmos will attack, you&#x2019;ll flip up the two remaining cards in your deck, and the defender will be KO&#x2019;d (assuming it has 12 starsor fewer). Your opponent won&#x2019;t flip any battle cards for the attack if their character is KO&#x2019;d this way.
+    </answer>
+    </entry>
+    <entry id="autobot-cosmos-2" mode="bot">
+      <question>
+        Say Autobot Cosmos has a Data Pad. Will Autobot Cosmos&#x2019;s ability triggerif you draw the last card of your deck while he&#x2019;s attacking?
+    </question>
+      <answer>
+        Yes. Drawing the last card of your deck will cause you to shuffle your deck, and this will cause Autobot Cosmos to KO the defender.
+    </answer>
+    </entry>
+  </target>
+</faq>

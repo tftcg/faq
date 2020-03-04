@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<faq name="Wave 1 Battle Cards">
+  <target name="Collateral Damage">
+    <entry id="collateral-damage-1">
+      <question>
+        Who picks their Weapon to scrap first? Who picks a card in their hand to scrap first?
+    </question>
+      <answer>
+        Any time both players are given the same instruction, the player whose turn it is goes first. If you play Collateral Damage, first you&#x2019;ll scrap a Weapon from one of your characters, then your opponent will, then you&#x2019;ll scrap a card from your hand, and finally your opponent will.
+    </answer>
+    </entry>
+    <entry id="collateral-damage-2">
+      <question>
+        Can I play Collateral Damage if none of my characters have a Weapon or if I won&#x2019;t have any other cards in my hand?
+    </question>
+      <answer>
+        Yes. You can always play an Action card, even if you can&#x2019;t carry out some of its instructions. Just do as much as you can.
+    </answer>
+    </entry>
+  </target>
+</faq>

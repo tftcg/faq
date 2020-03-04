@@ -16,7 +16,7 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
     faq_name=faq_node.attrib['name']
 
     # Load Leaf Template
-    template_file = open('leaf.jinja2','r')
+    template_file = open('templates/leaf.jinja2','r')
     template_text = template_file.read()
     template = Template(template_text)
 
@@ -48,7 +48,7 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
         f.close()
 
     # Load Branch Template
-    branch_template_file = open('branch.jinja2','r')
+    branch_template_file = open('templates/branch.jinja2','r')
     branch_template_text = branch_template_file.read()
     branch_template = Template(branch_template_text)
 

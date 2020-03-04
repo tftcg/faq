@@ -2,6 +2,7 @@ import os
 import glob
 from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
+import json
 
 def convert_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
@@ -37,6 +38,10 @@ def get_xref(xref, parent_path):
 #   In the latter case, another file will need to be loaded for a quick scan for the content. 
 #   Format is:   xref="#foo"  (same file)   and xref="dir/file#foo"   foo in the dir/file file
 
+output_dir='docs'
+
+target_index = {}
+
 # Find each xml file in faqxml
 for file in glob.glob('faqxml/**/*.xml', recursive=True):
     print("Parsing " + file)
@@ -48,8 +53,6 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
     template_file = open('templates/leaf.jinja2','r')
     template_text = template_file.read()
     template = Environment(loader=FileSystemLoader("templates/")).from_string(template_text)
-
-    output_dir='docs'
 
     #for target_node in faq_node.findall('./target'):
         # if an xref entry
@@ -65,16 +68,20 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
     targets=[]
 
     for target_node in faq_node.findall('./target'):
-        # Add the target details to generate an index page, and a search index
-        targets.append(target_node.attrib['name'])
+        name = target_node.attrib['name']
+        # Add the target details to generate an index page
+        targets.append(name)
 
         # Generating page for the target
-        safe_name=convert_name(target_node.attrib['name'])
-        page=template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path)
+        safe_name = convert_name(name)
+        page = template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path)
 
         f = open(os.path.join(target_dir, safe_name + ".html"), "w")
         f.write(page)
         f.close()
+
+        # This is a URL snippet, so hardcode the /
+        target_index[name] = parent_path + "/" + safe_name + ".html"
 
     # Load Branch Template
     branch_template_file = open('templates/branch.jinja2','r')
@@ -86,3 +93,9 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
     f = open(os.path.join(output_dir, parent_path, "index.html"), "w")
     f.write(page)
     f.close()
+
+# Generate json index
+f = open(os.path.join(output_dir, "faqindex.json"), "w")
+f.write(json.dumps(target_index))
+f.close()
+

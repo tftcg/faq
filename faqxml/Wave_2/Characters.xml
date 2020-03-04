@@ -19,7 +19,7 @@
     </entry>
   </target>
   <target name="Dreadwind - Air Defense">
-    <entry xref="blackwing-1" mode="bot"/>
+    <entry xref="#blackwing-1" mode="bot"/>
   </target>
   <target name="Blurr - Fastest Bot in the Galaxy">
     <entry mode="bot">

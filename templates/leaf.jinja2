@@ -12,18 +12,19 @@
 
 {% for entry in target.findall('entry') %}
     {% if entry.attrib['xref'] %}
-      <!-- TODO: Support xref {{ entry.attrib['xref'] }} -->
+      {% set faq_node = get_xref(entry.attrib['xref'], parent_path) %}
     {% else %}
+      {% set faq_node = entry %}
+    {% endif %}
     <li class="faq_entry">
-      <!-- {{ entry.attrib['id'] }} - {{ entry.attrib['mode'] }} -->
+      <!-- {{ faq_node.attrib['id'] }} - {{ faq_node.attrib['mode'] }} -->
       <div class="question">
-        {{ entry.find('question').text }}
+        {{ faq_node.find('question').text }}
       </div>
       <div class="answer">
-        {{ entry.find('answer').text }}
+        {{ faq_node.find('answer').text }}
       </div>
     </li>
-    {% endif %}
 {% endfor %}
 
         </ol>

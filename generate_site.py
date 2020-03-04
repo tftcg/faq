@@ -6,11 +6,40 @@ import xml.etree.ElementTree as ET
 def convert_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
+# Heavyweight way to get the data for a xref tag
+# TODO: Consider caching each file as it loads. Especially for the current file. 
+def get_xref(xref, parent_path):
+    # split on #
+    xref_data = xref.split('#')
+    if(xref.startswith('#')):
+        file = parent_path + ".xml"
+        id = xref_data[1]
+    else:
+        file = xref_data[0] + ".xml"
+        id = xref_data[1]
+    # Open file xml file
+    tree = ET.parse(os.path.join('faqxml', file))
+    root = tree.getroot()
+    # Search for <entry id="<id>">
+    xpath = "[@id='" + id + "']"
+    node = root.find(".//entry[@id='" + id + "']")
+    # Return node to that entry
+    return node
 
 # TODO: Support cross referencing somehow. 
+# xreffing is done via an entry with xref="". This points to another entry with an id.
+# ids are optional, but must exist on a target. ids must also be unique. 
+# Generally ids are only expected to exist when an entry needs to be xrefable. 
+
+# Solution:
+#   xrefs should be hierarchical; i.e. they should indicate the file they are found in.
+#   thus if an xref is prefixed with a #, then it is in the same file. If it is an alphanum, then a diff file.
+#   In the latter case, another file will need to be loaded for a quick scan for the content. 
+#   Format is:   xref="#foo"  (same file)   and xref="dir/file#foo"   foo in the dir/file file
 
 # Find each xml file in faqxml
 for file in glob.glob('faqxml/**/*.xml', recursive=True):
+    print("Parsing " + file)
     tree = ET.parse(file)
     faq_node=tree.getroot()
     faq_name=faq_node.attrib['name']
@@ -41,7 +70,7 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
 
         # Generating page for the target
         safe_name=convert_name(target_node.attrib['name'])
-        page=template.render(faq_name=faq_name, safe_name=safe_name, target=target_node)
+        page=template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path)
 
         f = open(os.path.join(target_dir, safe_name + ".html"), "w")
         f.write(page)

@@ -15,8 +15,8 @@
     </entry>
   </target>
   <target name="Skytread (Plane) - Special Ops - Soldier">
-    <entry xref="skytread-1" mode="alt"/>
-    <entry xref="skytread-2" mode="alt"/>
+    <entry xref="#skytread-1" mode="alt"/>
+    <entry xref="#skytread-2" mode="alt"/>
   </target>
   <target name="Skytread (Tank) - Special Ops - Soldier">
     <entry id="skytread-1" mode="alt">

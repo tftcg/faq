@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<faq name="Wave 3 Battle Cards" source="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
+  <target name="Backup Bag">
+    <entry>
+      <question>Can I use Backup Bag to save a Weapon or Armor that causes itself to be scrapped, such as Grenade Launcher?</question>
+      <answer>Yes.</answer>
+    </entry>
+  </target>
+  <target name="Battering Ram">
+    <entry>
+      <question>If I play Battering Ram, and the defender has more than one other mode, who chooses which mode it flips to?</question>
+      <answer>Your opponent does.</answer>
+    </entry>
+  </target>
+  <target name="Battlefield Scan">
+    <entry>
+      <question>What does it mean that a character can&#x2019;t use brave or stealth?</question>
+      <answer>Basically, just ignore that the character has that ability when determining which character you&#x2019;re attacking.</answer>
+    </entry>
+  </target>
+  <target name="Dampening Field">
+    <entry>
+      <question>What happens if my opponent is supposed to flip more than 4 cards during the battle?</question>
+      <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
+    </entry>
+  </target>
+  <target name="Dismantling Claw">
+      <entry xref="#reactive-1"/>
+      <entry xref="#reactive-2"/>
+</target>
+  <target name="Personal Targeting Drone">
+      <entry xref="#reactive-1"/>
+      <entry xref="#reactive-2"/>
+</target>
+  <target name="Reactive Armor">
+    <entry id="reactive-1">
+      <question>If any of these upgrades are scrapped because the character who had it was KO&#x2019;d, does the ability trigger?</question>
+      <answer>Yes.</answer>
+    </entry>
+    <entry id="reactive-2">
+      <question>If one of these upgrades is on a character, and I play another upgrade of that type to replace it, does the ability trigger?</question>
+      <answer>Yes. Replacing an upgrade this way causes the old upgrade to be scrapped.</answer>
+    </entry>
+  </target>
+  <target name="Emergency Defense Field">
+    <entry>
+      <question>Can using the first ability cause the second ability to trigger?</question>
+      <answer>Yes. If the upgraded character defends and would take an even amount of attack damage, instead it takes no attack damage. That causes the second ability to trigger. You usually get only one use out of the Emergency Defense Field.</answer>
+    </entry>
+  </target>
+  <target name="Energy Pack">
+    <entry>
+      <question>When determining if the character has 11 stars or more, does it matter which mode it&#x2019;s in?</question>
+      <answer>No. A character always has the number of stars printed on it, no matter which mode it&#x2019;s in.</answer>
+    </entry>
+  </target>
+  <target name="Fuel Cache">
+    <entry>
+      <question>If one of the cards has all three battle icons, do I still put the others into my hand?</question>
+      <answer>Yes. The cards will all be put into your hand if their combined battle icons include at least one white, one blue, and one orange.</answer>
+    </entry>
+    <entry>
+      <question>What happens if I play this with 1 or 2 cards left in my deck?</question>
+      <answer>You&#x2019;ll reveal the remaining cards of your deck, then reshuffle your scrap pile. Then reveal cards from the top of your deck until you&#x2019;ve revealed 3 total cards. Then put them into your hand or scrap pile, depending on their battle icons.</answer>
+    </entry>
+  </target>
+  <target name="Full Loadout">
+    <entry>
+      <question>Can I play the upgrades in any order?</question>
+      <answer>You can.</answer>
+    </entry>
+  </target>
+  <target name="Heroic Team-Up">
+    <entry>
+      <question>If the Autobot I tap has any upgrades that increase its attack, do those bonuses count?</question>
+      <answer>Yes. A character&#x2019;s attack total equals its printed attack value plus any bonuses it&#x2019;s getting from any other card.</answer>
+    </entry>
+  </target>
+  <target name="Hiding Spot">
+    <entry>
+      <question>After seeing which of my characters gets stealth, can my opponent change which of their characters is attacking?</question>
+      <answer>No. Hiding Spot isn&#x2019;t revealed until after your opponent locks in their choice for attacker.</answer>
+    </entry>
+  </target>
+  <target name="Infiltrate">
+    <entry>
+      <question>What happens if my opponent plays a Secret Action? I can&#x2019;t see its battle icons!</question>
+      <answer>Infiltrate won&#x2019;t be revealed because of a Secret Action, even if that Secret Action has orange battle icons. This is also true when the Secret Action is later revealed. It was already played face down, so Infiltrate won&#x2019;t notice it. Sneaky!</answer>
+    </entry>
+  </target>
+  <target name="Laser Cutlass">
+    <entry>
+      <question>When determining if the character has 7 stars or fewer, does it matter which mode it&#x2019;s in?</question>
+      <answer>No. A character always has the number of stars printed on it, no matter which mode it&#x2019;s in.</answer>
+    </entry>
+  </target>
+  <target name="Point-Defense System">
+    <entry>
+      <question>If the upgraded character defends against an enemy that has pierce 1, what happens?</question>
+      <answer>If a character&#x2019;s pierce total is 0 or lower, treat that character as if it didn&#x2019;t have pierce when determining how much damage is done. Pierce -1 doesn&#x2019;t do anything weird.</answer>
+    </entry>
+  </target>
+  <target name="Repurpose">
+    <entry>
+      <question>If Repurpose is the last card in my hand when I play it, what happens?</question>
+      <answer>Well, you can&#x2019;t scrap a card from your hand if you don&#x2019;t have any, so you skip that part and just draw 2 cards.</answer>
+    </entry>
+  </target>
+  <target name="Unconventional Flying Object">
+    <entry>
+      <question>If the Spaceship is already in bot mode, what happens?</question>
+      <answer>You would flip it to alt mode, even though it&#x2019;s not flipping &#x201C;back.&#x201D;</answer>
+    </entry>
+  </target>
+  <target name="W-5 Gyro Blaster">
+    <entry>
+      <question>What happens if one of us is supposed to flip more than 2 cards during the battle?</question>
+      <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
+    </entry>
+  </target>
+</faq>

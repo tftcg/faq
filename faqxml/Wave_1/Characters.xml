@@ -55,4 +55,458 @@ can&#x2019;t deal more damage than their attack total, so she&#x2019;ll do only 
     </answer>
     </entry>
   </target>
+  <target name="Autobot Hound, Long-Range Scout">
+    <entry id="autobot-hound-1" mode="bot">
+      <question>
+    Let&#x2019;s say you attack with another character and flip a white battle icon. Then, because your
+opponent&#x2019;s characters are all tapped, you get to attack again. For your second attack, you attack with
+Autobot Hound and flip a white battle icon. Will his ability trigger?
+</question>
+      <answer>
+    No. The white battle icon you flipped while attacking with Autobot Hound wasn&#x2019;t your first white
+battle icon that turn, so he won&#x2019;t get the bonus.
+</answer>
+    </entry>
+  </target>
+  <target name="Autobot Jazz, Special Ops">
+    <entry id="autobot-jazz-1" mode="alt">
+      <question>
+    If the attacking character would deal more than 2 damage, what happens to the extra damage?
+</question>
+      <answer>
+    The extra damage doesn&#x2019;t happen. The attacking character will deal only 2 damage.
+</answer>
+    </entry>
+    <entry id="autobot-jazz-1" mode="alt">
+      <question>
+    Let&#x2019;s say Autobot Jazz defends and the attacker has an ability that deals damage to him. Does that
+damage count for Autobot Jazz&#x2019;s ability?
+</question>
+      <answer>
+    Yes. Any damage dealt to Autobot Jazz while he&#x2019;s defending and his ability is active will count. If the
+attacker has an ability that deals 1 damage to Autobot Jazz, then he can&#x2019;t take more than 1 more
+damage from the attack.
+</answer>
+    </entry>
+  </target>
+  <target name="Autobot Mirage, Lone Wolf">
+    <entry id="autobot-mirage-1" mode="alt">
+      <question>
+    If I played an action because of his ability, can I play another action that turn?
+</question>
+      <answer>
+    Yes.
+</answer>
+    </entry>
+  </target>
+  <target name="Bumblebee, Courageous Scout">
+    <entry id="bumblebee-cs-1" mode="alt">
+      <question>
+    What happens if I have no cards in my hand when I use this ability?
+</question>
+      <answer>
+    You&#x2019;ll draw a card, look at it, and immediately put it on top of your deck. You can&#x2019;t do anything else
+with the card (like play it) before putting it on top of your deck.
+</answer>
+    </entry>
+    <entry id="bumblebee-cs-2" mode="bot">
+      <question>
+    Let&#x2019;s say I reveal one white battle icon during Bumblebee&#x2019;s combat. Then I flip another white battle
+icon in the two bonus cards. Will his ability trigger?
+</question>
+      <answer>
+    Yes. For any ability that looks at what battle icons you flipped, flip your two bonus cards before
+checking if that ability triggers or not.
+</answer>
+    </entry>
+  </target>
+  <target name="Bumblebee, Legendary Warrior">
+    <entry id="bumblebee-lw-1" mode="alt">
+      <question>
+    Does flipping Bumblebee to alt mode mean I have to attack with him that turn?
+</question>
+      <answer>
+    No. It just lets Bumblebee attack untapped enemies if you decide to attack with Bumblebee.
+</answer>
+    </entry>
+    <entry id="bumblebee-lw-2" mode="alt">
+      <question>
+    Can Bumblebee still attack tapped enemies that turn?
+</question>
+      <answer>
+    Yes. Because Bumblebee will be able to attack any enemy, tapped or untapped, you choose which
+enemy he attacks.
+</answer>
+    </entry>
+    <entry id="bumblebee-lw-3" mode="alt">
+      <question>
+    Does attacking an untapped enemy cause that enemy to become tapped?
+</question>
+      <answer>
+    No. The enemy will stay untapped. None of the other rules of combat change.
+</answer>
+    </entry>
+  </target>
+  <target name="Chop Shop, Sneaky Insecticon">
+    <entry id="chop-shop-1" mode="alt"><question>
+    If I scrap three Upgrades from Chop Shop, can I repair 1 damage from each of three of my
+</question>
+Insecticons, or do I have to repair 3 damage from one Insecticon?
+<answer>
+    You can choose a different Insecticon for each repair.
+</answer>
+</entry>
+    <entry id="chopshop-2" mode="bot">
+      <question>
+    If Chop Shop has a Weapon attached to him, can you move another Weapon onto him?
+</question>
+      <answer>
+    Yes, but you&#x2019;ll have to scrap the Weapon he originally had.
+</answer>
+    </entry>
+    <entry id="chopshop-3" mode="bot">
+      <question>
+    If the Upgrade I move onto Chop Shop has an ability that triggers &#x201C;when the Upgraded character
+attacks,&#x201D; does that ability trigger?
+</question>
+      <answer>
+    No. That Upgrade wasn&#x2019;t on Chop Shop when he attacked, so that ability won&#x2019;t trigger.
+</answer>
+    </entry>
+    <entry id="chopshop-4" mode="bot">
+      <question>
+    If the Upgrade I move onto Chop Shop gives him Bold or an ability to flip extra battle cards when
+attacking, do I flip extra battle cards?
+</question>
+      <answer>
+    Yes. Chop Shop&#x2019;s ability happens before you flip battle cards, so Upgrades that give Chop Shop Bold
+will work.
+</answer>
+    </entry>
+    <entry id="chopshop-5" mode="bot">
+      <question>
+    Can Chop Shop&#x2019;s ability be used to move an Upgrade that says &#x201C;Put only on Planes&#x201D; onto him?
+</question>
+      <answer>
+    No. Any ability that says what an Upgrade can be put on still apply, so you can&#x2019;t sneak Upgrades onto
+Chop Shop that he can&#x2019;t have.
+</answer>
+    </entry>
+  </target>
+  <target name="Chromia, Special Ops">
+    <entry id="chromia-1" mode="bot">
+      <question>
+    Let&#x2019;s say I reveal one white battle icon during Chromia&#x2019;s attack. Then I flip another white battle icon
+in the two bonus cards. Will her ability trigger?
+</question>
+      <answer>
+    Yes. For any ability that looks at what battle icons you flipped, flip your two bonus cards before
+checking if that ability triggers or not.
+</answer>
+    </entry>
+  </target>
+  <target name="Cliffjumper, Renegade Warrior">
+    <entry id="cliffjumper-1" mode="bot">
+      <question>
+    What happens if one of my characters that&#x2019;s a Car while in alt mode but not in bot mode is KO&#x2019;d
+while it&#x2019;s in bot mode?
+</question>
+      <answer>
+    Characters are put in the KO area in the same mode they were in on the battlefield. In that case, the
+KO&#x2019;d character isn&#x2019;t a Car and won&#x2019;t add to Cliffjumper&#x2019;s bonus.
+</answer>
+    </entry>
+  </target>
+  <target name="Demolisher, Devoted Decepticon">
+    <entry id="demolisher-1" mode="bot">
+      <question>
+    If I play an Action or Upgrade to increase Demolisher&#x2019;s defense, do I flip that many more battle cards?
+</question>
+      <answer>
+    Yes. Consider Demolisher&#x2019;s current defense, including all bonuses from other cards, when
+determining how many more battle cards you flip.
+</answer>
+    </entry>
+  </target>
+  <target name="Dinobot Sludge, Mighty Stomper">
+    <entry id="dinobot-sludge-1" mode="alt">
+      <question>
+    Dinobot Sludge&#x2019;s health is 12. Let&#x2019;s say there are 15 damage counters total on my other Dinobots.
+When I flip Dinobot Sludge to alt mode, can I move all those damage counters onto him?
+</question>
+      <answer>
+    Yes. This will, of course, cause Dinobot Sludge to be KO&#x2019;d. He&#x2019;ll be sad.
+</answer>
+    </entry>
+  </target>
+  <target name="Dinobot Snarl, Desert Warrior">
+    <entry id="dinobot-snarl-1" mode="bot">
+      <question>
+    Do I put the card on top of my deck before flipping battle cards?
+</question>
+      <answer>
+    Yes. The card you put on top of your deck (if any) will be the first battle card you flip.
+</answer>
+    </entry>
+  </target>
+  <target name="Grimlock, Dinobot Leader">
+    <entry id="grimlock-1" mode="alt">
+      <question>
+    Can Grimlock give himself Bold 3 with his ability.
+</question>
+      <answer>
+    Yes. Grimlock Dinobot. Grimlock count.
+</answer>
+    </entry>
+    <entry id="grimlock-2" mode="bot">
+      <question>
+    How does Grimlock&#x2019;s ability work?
+</question>
+      <answer>
+    Let&#x2019;s say Grimlock attacks a character with 10 health and 8 damage counters. If he does 4 attack
+damage to that character, 2 of that damage is enough to KO the defender. For the extra 2 damage, your
+opponent chooses one of their other characters. That character would get 2 damage counters.
+</answer>
+    </entry>
+    <entry id="grimlock-3" mode="bot">
+      <question>
+    Let&#x2019;s say the extra damage is enough to KO a second character. Does the extra damage keep going to
+a third character?
+</question>
+      <answer>
+    No. The extra damage isn&#x2019;t attack damage. Continuing the previous example, your opponent could
+choose a character with 12 health and 11 damage counters and do 2 more damage to it. That character
+would be KO&#x2019;d.
+</answer>
+    </entry>
+  </target>
+  <target name="Inferno, Fearless Firefighter">
+    <entry id="inferno-1" mode="alt">
+      <question>
+    Can I choose one of my characters and return all its Upgrades to my hand?
+</question>
+      <answer>
+    Yes. You can choose any character, one of yours or an enemy. You could even choose a character with
+no Upgrades if you didn&#x2019;t want to return any to their owner&#x2019;s hand.
+</answer>
+    </entry>
+  </target>
+  <target name="Insecticon Skrapnel, Insecticon leader">
+    <entry id="insecticon-skrapnel-1" mode="bot">
+      <question>
+    If the attacking character would deal more than 3 damage, what happens to the extra damage?
+</question>
+      <answer>
+    The extra damage doesn&#x2019;t happen. The attacking character will deal only 3 damage.
+</answer>
+    </entry>
+    <entry id="insecticon-skrapnel-2" mode="bot">
+      <question>
+    Let&#x2019;s say Insecticon Skrapnel defends and the attacker has an ability that deals damage to him. Does
+that damage count for Insecticon Skrapnel&#x2019;s ability?
+</question>
+      <answer>
+    Yes. Any damage dealt to Insecticon Skrapnel while he&#x2019;s defending will count. If the attacker has an
+ability that deals 1 damage to Insecticon Skrpanel, then he can&#x2019;t take more than 2 more damage from
+the attack.
+</answer>
+    </entry>
+  </target>
+  <target name="Jetfire, Air Guardian">
+    <entry id="jetfire-1" mode="bot">
+      <question>
+    Can I use Jetfire&#x2019;s ability to put an Upgrade on him if he already has an Upgrade of that type?
+</question>
+      <answer>
+    Yes, but you&#x2019;ll have to scrap the Upgrade of that type he originally had.
+</answer>
+    </entry>
+  </target>
+  <target name="Megatron, Living Weapon">
+    <entry id="megatron-lw-1" mode="bot">
+      <question>
+    Does Megatron&#x2019;s ability mean he can hold three Weapons?
+</question>
+      <answer>
+    Yes. He can have a Weapon in his Weapon slot as well as Weapons in his Armor and/or Utility slots.
+</answer>
+    </entry>
+    <entry id="megatron-lw-2" mode="bot">
+      <question>
+    If I play a Weapon on Megatron, do I have to choose which slot it&#x2019;s going in?
+</question>
+      <answer>
+    No. As long as Megatron can hold all the Upgrades attached to him, you don&#x2019;t have to specify which
+slot anything is in. For example, if Megatron has two Weapons and a Utility, and you play an Armor onto
+him, you can choose at that time which Weapon it will replace.
+</answer>
+    </entry>
+    <entry id="megatron-lw-3" mode="bot">
+      <question>
+    When Megatron flips to alt mode, can he keep all his Weapons?
+</question>
+      <answer>
+    Yes. The bot mode ability applies only to how the Weapons are put on Megatron.
+</answer>
+    </entry>
+  </target>
+  <target name="Nemesis Prime, Dark Clone">
+    <entry id="nemesis-prime-1" mode="bot">
+      <question>
+    Can I look at the bottom card of my deck before putting it under Nemesis Prime?
+</question>
+      <answer>
+    No. Neither you nor your opponent will know what card it is.
+</answer>
+    </entry>
+    <entry id="nemesis-prime-2" mode="bot">
+      <question>
+    What happens to the cards under Nemesis Prime when he&#x2019;s KO&#x2019;d?
+</question>
+      <answer>
+    They&#x2019;re put into the scrap pile, along with any Upgrades he had.
+</answer>
+    </entry>
+  </target>
+  <target name="Optimus Prime, Battlefield Legend">
+    <entry id="opbl-1" mode="bot">
+      <question>
+    If I flip a white battle icon, do I flip the extra cards before using Optimus Prime&#x2019;s ability?
+</question>
+      <answer>
+    Yes. The ability works after you&#x2019;ve flipped all cards, including extra cards from abilities like Bold or
+from white battle icons.
+</answer>
+    </entry>
+    <entry id="opbl-2" mode="bot">
+      <question>
+    If I play one of the Actions I flip, do I still count its orange battle icons?
+</question>
+      <answer>
+    Yes. The Action card was still flipped for the attack, so its orange battle icons will still count.
+</answer>
+    </entry>
+    <entry id="opbl-3" mode="bot">
+      <question>
+    If the Action I play gives Optimus Prime Bold, can I flip more battle cards?
+</question>
+      <answer>
+    No. You&#x2019;ve already flipped cards for that attack.
+</answer>
+    </entry>
+  </target>
+  <target name="Prowl, Military Strategist">
+    <entry id="prowl-1" mode="alt">
+      <question>
+    If I flip Prowl to alt mode and give my Cars Bold 2, but later in the turn I flip one of my Cars so it&#x2019;s no
+longer a Car, does it keep Bold 2 until end of turn?
+</question>
+      <answer>
+    Yes. Once the bonus has applied, the character will keep Bold 2 until the end of the turn.
+</answer>
+    </entry>
+    <entry id="prowl-2" mode="bot">
+      <question>
+    Prowl&#x2019;s ability says &#x201C;When one of your Cars is KO&#x2019;d -&gt; Repair 3 damage from one of your other
+characters.&#x201D; Does &#x201C;one of your other characters&#x201D; mean other than Prowl or other than the Car that was
+KO&#x2019;d?
+</question>
+      <answer>
+    It means other than Prowl. Prowl can&#x2019;t repair himself.
+</answer>
+    </entry>
+  </target>
+  <target name="Ransack, Insecticon Commando">
+    <entry id="ransack-1" mode="alt">
+      <question>
+    What happens if I flip Ransack to alt mode and there are no damaged characters?
+</question>
+      <answer>
+    In that case, nothing happens. No damage counters are put on Ransack.
+</answer>
+    </entry>
+    <entry id="ransack-2" mode="alt">
+      <question>
+    What happens if the only damaged characters are enemies? Can I choose one of my characters and
+do nothing?
+</question>
+      <answer>
+    Yes. You choose any other character, damaged or not. Then move 2 damage counters from that
+character onto Ransack fi you can.
+</answer>
+    </entry>
+    <entry id="ransack-3" mode="bot">
+      <question>
+    How does Ransack&#x2019;s ability work with Actions or Upgrades that raise his attack?
+</question>
+      <answer>
+    Ransack&#x2019;s ability sets his base attack value, what you&#x2019;d see printed on the card if it didn&#x2019;t change.
+From there, Actions and Upgrades can raise that value. For example, if Ransack has 5 damage counters,
+his base attack would be 5. If he then got a Weapon that gave him +2 attack, his attack would be 7. This
+wouldn&#x2019;t change the number of damage counters on him.
+</answer>
+    </entry>
+  </target>
+  <target name="Slipstream, Strategic Seeker">
+    <entry id="slipstream-1" mode="alt">
+      <question>
+    What happens if the 1 damage counter I move onto the defender is enough to KO it?
+</question>
+      <answer>
+    If either character is KO&#x2019;d in the middle of an attack, the attack immediately ends. In that case, you
+won&#x2019;t flip battle cards (and neither will your opponent).
+</answer>
+    </entry>
+    <entry id="slipstream-2" mode="bot">
+      <question>
+    What does &#x201C;3 different battle icons&#x201D; mean? If I flip two orange battle icons and one blue battle icon,
+does that count?
+</question>
+      <answer>
+    No. It means you must flip at least one of three different battle icons. For example, one orange, one
+blue, and one white battle icon.
+</answer>
+    </entry>
+  </target>
+  <target name="Sunstorm, Fusion Flyer">
+    <entry id="sunstorm-1" mode="alt">
+      <question>
+    What happens if I have 3 or more cards in my hand when I flip Sunstorm to alt mode?
+</question>
+      <answer>
+    Nothing. You won&#x2019;t draw any cards, and nothing happens to the cards in your hand.
+</answer>
+    </entry>
+    <entry id="sunstorm-2" mode="bot">
+      <question>
+    How does Sunstorm&#x2019;s ability work with Actions or Upgrades that raise his attack?
+</question>
+      <answer>
+    Sunstorm&#x2019;s ability sets his base attack value, what you&#x2019;d see printed on the card if it didn&#x2019;t change.
+From there, Actions and Upgrades can raise that value. For example, if you have 3 cards in hand, his
+base attack would be 3. If he then got a Weapon that gave him +2 attack, his attack would be 5. This
+wouldn&#x2019;t change the number of cards in your hand.
+</answer>
+    </entry>
+  </target>
+  <target name="Thundercracker, Mach Warrior">
+    <entry id="thundercracker-1" mode="alt">
+      <question>
+    What happens if my opponent doesn&#x2019;t have any melee enemies?
+</question>
+      <answer>
+    In that case, nothing happens.
+</answer>
+    </entry>
+  </target>
+  <target name="Wheeljack, Weapons Inventor">
+    <entry id="wheeljack-1" mode="alt">
+      <question>
+    If I play an Action that puts an Upgrade on one of my Cars, does Wheeljack&#x2019;s ability trigger?
+</question>
+      <answer>
+    Yes. That ability triggers no matter how the Upgrade was put onto one of your Cars.
+</answer>
+    </entry>
+  </target>
 </faq>

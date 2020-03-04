@@ -99,3 +99,16 @@ f = open(os.path.join(output_dir, "faqindex.json"), "w")
 f.write(json.dumps(target_index))
 f.close()
 
+def generate_html(infilename, tofilename, title):
+    template_file = open(infilename,'r')
+    template_text = template_file.read()
+    template = Environment(loader=FileSystemLoader("templates/")).from_string(template_text)
+
+    page=template.render()
+
+    f = open(os.path.join(output_dir, tofilename), "w")
+    f.write(page)
+    f.close()
+
+
+generate_html('templates/index.jinja2', 'index.html', "FAQ")

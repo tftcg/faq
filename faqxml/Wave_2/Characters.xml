@@ -66,8 +66,6 @@
       <question>After Dirge&#x2019;s ability resolves, does the bonus change if the number of characters in my opponent&#x2019;s KO area changes later in the turn?</question>
       <answer>No. you count the number of characters in your opponent&#x2019;s KO area when the ability resolves. After that, even if you KO another character, the attack bonus won&#x2019;t change.</answer>
     </entry>
-  </target>
-  <target name="Dirge - Doombringer">
     <entry mode="bot">
       <question>What happens if I play Steamroll and choose Dirge?</question>
       <answer>If you attack with Dirge and it does more than enough attack damage to KO the defender, Steamroll&#x2019;s ability will work, but Dirge&#x2019;s ability won&#x2019;t trigger. If Dirge does exactly enough damage to KO the defender, Steamroll won&#x2019;t do anything.</answer>
@@ -118,8 +116,6 @@
       <question>Does Motormaster&#x2019;s ability have any effect on my own cards?</question>
       <answer>No. Your cards can still do damage to your other characters. (Although they hope you have a good reason for doing that.)</answer>
     </entry>
-  </target>
-  <target name="Motormaster - Stunticon Leader">
     <entry mode="bot">
       <question>Can I choose an untapped Stunticon to defend, even if I have other tapped Stunticons?</question>
       <answer>Yes. You can choose any Stunticon to defend, ignoring abilities like brave and stealth, and ignoring which characters are tapped and untapped.</answer>

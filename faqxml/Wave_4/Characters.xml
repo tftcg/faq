@@ -10,11 +10,7 @@
       <answer>Captain Omega Supreme can only be combined once. The redundant ability is ignored.</answer>
     </entry>
   </target>
-  <target name="Skytread (Plane) - Special Ops - Soldier">
-    <entry xref="#skytread-1" mode="alt"/>
-    <entry xref="#skytread-2" mode="alt"/>
-  </target>
-  <target name="Skytread (Tank) - Special Ops - Soldier">
+  <target name="Skytread - Special Ops - Soldier">
     <entry id="skytread-1" mode="alt">
       <question>What happens if my last two characters are those two and they&#x2019;re both KO&#x2019;d at the same time. Dpo their Revenge abilities work and keep me in the game?</question>
       <answer>Unfortunately, no. Once your last character is KO&#x2019;d, you lose the game. Fortunately, having them both KO&#x2019;d at the same time is pretty unusual.</answer>

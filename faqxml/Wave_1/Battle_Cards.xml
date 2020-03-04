@@ -1,21 +1,471 @@
 <?xml version="1.0"?>
 <faq name="Wave 1 Battle Cards">
-  <target name="Collateral Damage">
-    <entry id="collateral-damage-1">
+  <target name="Aerial Recon">
+    <entry>
       <question>
-        Who picks their Weapon to scrap first? Who picks a card in their hand to scrap first?
-    </question>
+    If I don&#x2019;t scrap the card I look at, what do I do with it?
+</question>
       <answer>
-        Any time both players are given the same instruction, the player whose turn it is goes first. If you play Collateral Damage, first you&#x2019;ll scrap a Weapon from one of your characters, then your opponent will, then you&#x2019;ll scrap a card from your hand, and finally your opponent will.
-    </answer>
+    Just put it back on top of your deck.
+</answer>
     </entry>
-    <entry id="collateral-damage-2">
+  </target>
+  <target name="Agility of Bumblebee">
+    <entry>
       <question>
-        Can I play Collateral Damage if none of my characters have a Weapon or if I won&#x2019;t have any other cards in my hand?
-    </question>
+    Can I put this on characters other than Bumblebee?
+</question>
       <answer>
-        Yes. You can always play an Action card, even if you can&#x2019;t carry out some of its instructions. Just do as much as you can.
-    </answer>
+    Yes. The Upgraded character will get the +1 attack bonus, although the ability to draw cards won&#x2019;t work.
+</answer>
+    </entry>
+  </target>
+  <target name="Backup Plan">
+    <entry>
+      <question>
+    Can I play Backup Plan if it&#x2019;s the last card in my hand?
+</question>
+      <answer>
+    Yes. Your hand will then be empty. You won&#x2019;t scrap any cards, but you will draw 3 cards.
+</answer>
+    </entry>
+  </target>
+  <target name="Battle Ready">
+    <entry>
+      <question>
+    What happens if I play Battle Ready, and then later in the turn the number of Upgrades on one of my characters changes?
+</question>
+      <answer>
+    The bonus for Battle Ready happens when you play it and won&#x2019;t change later in the turn, even if you play an Upgrade or one of your Upgrades is scrapped.
+</answer>
+    </entry>
+  </target>
+  <target name="Brainstorm">
+    <entry>
+      <question>
+    Assuming I want to use Brainstorm to play two more Actions, how do I order them?
+</question>
+      <answer>
+    First, choose your first Action. Carry out all its instructions and set it aside. Then choose your second Action and carry out its instructions. Note that you don&#x2019;t have to choose the Actions ahead of time. For example, if your first Action lets you draw a card, and that card is an Action, you could play that Action as your second one.
+</answer>
+    </entry>
+  </target>
+  <target name="Bug Bomb">
+    <entry>
+      <question>
+    Do I draw a card before doing the other parts of the effect?
+</question>
+      <answer>
+    Yes. If a card tells you to do multiple things, always do them in order. First, you&#x2019;ll draw a card. Then you scrap an enemy Upgrade. Finally, your opponent scraps a card from their hand. (This means they&#x2019;ll know what Upgrade you scrap before deciding what card to scrap from their hand.)
+</answer>
+    </entry>
+  </target>
+  <target name="Cargo Trailer">
+    <entry>
+      <question>
+    If my character has 2 Cargo Trailers, and I play a different Utility, do I scrap both Cargo Trailers?
+</question>
+      <answer>
+    Yes. The character can hold up to 3 Cargo Trailers or a different Utility, bot not both.
+</answer>
+    </entry>
+  </target>
+  <target name="Collateral Damage">
+    <entry>
+      <question>
+    Who picks their Weapon to scrap first? Who picks a card in their hand to scrap first?
+</question>
+      <answer>
+    Any time both players are given the same instruction, the player whose turn it is goes first. If you play Collateral Damage, first you&#x2019;ll scrap a Weapon from one of your characters, then your opponent will, then you&#x2019;ll scrap a card from your hand, and finally your opponent will.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Can I play Collateral Damage if none of my characters have a Weapon or if I won&#x2019;t have any other cards in my hand?
+</question>
+      <answer>
+    Yes. You can always play an Action card, even if you can&#x2019;t carry out some of its instructions. Just do as much as you can.
+</answer>
+    </entry>
+  </target>
+  <target name="Crushing Size">
+    <entry>
+      <question>
+    If one of my opponent&#x2019;s characters has a Utility, can I choose not to scrap it and draw a card?
+</question>
+      <answer>
+    No. If there is an enemy Utility, you must scrap it. You draw a card only if you can&#x2019;t scrap an enemy Utility.
+</answer>
+    </entry>
+  </target>
+  <target name="Crushing Treads">
+    <entry>
+      <question>
+    If the Upgraded character&#x2019;s defense is boosted by actions or Upgrades, does that raise its Pierce number?
+</question>
+      <answer>
+    Yes. For example, if you play an Armor card that gives that gives the Upgraded character +3 defense, Crushing Treads will give that character Pierce 3.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Do blue battle icons add to a character&#x2019;s defense even if it&#x2019;s attacking?
+</question>
+      <answer>
+    No. Similarly, orange battle icons don&#x2019;t raise a character&#x2019;s attack when that character is defending.
+</answer>
+    </entry>
+  </target>
+  <target name="Drill Arms">
+    <entry>
+      <question>
+    If one of my opponent&#x2019;s characters has an Armor, can I choose not to scrap it and draw a card?
+</question>
+      <answer>
+    No. If there is an enemy Armor, you must scrap it. You draw a card only if you can&#x2019;t scrap an enemy Armor.
+</answer>
+    </entry>
+  </target>
+  <target name="Equipment Enthusiast">
+    <entry>
+      <question>
+    Which Upgrades should I count?
+</question>
+      <answer>
+    Only your Upgrades on the battlefield count. Don&#x2019;t include ones in the scrap pile or your hand.
+</answer>
+    </entry>
+  </target>
+  <target name="Force Field">
+    <entry>
+      <question>
+    Does Force Field work against damage done by a character with Pierce?
+</question>
+      <answer>
+    Yes. Even if the attacker has Pierce 5 or more, Force Field will make sure the Upgraded character takes only 4 damage.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Let&#x2019;s say the Upgraded character also has Heroism. If another character would take 5 or more attack damage, what happens?
+</question>
+      <answer>
+    The damage that would be done to the defender is instead done to the character with Heroism and Force Field. That damage is still attack damage, so 4 damage is done to the Upgraded character instead.
+</answer>
+    </entry>
+  </target>
+  <target name="Fusion Cannon of Megatron">
+    <entry>
+      <question>
+    Can I put this on characters other than Megatron?
+</question>
+      <answer>
+    Yes. The Upgraded character will get the +1 attack bonus, although it won&#x2019;t get Pierce 3.
+</answer>
+    </entry>
+  </target>
+  <target name="Grenade Launcher">
+    <entry>
+      <question>
+    When does the ability check to see if Grenade Launcher should be scrapped?
+</question>
+      <answer>
+    Any ability that starts with &#x201C;After the Upgraded character attacks&#x201D; happens after attack damage is done and the battle ends.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    If Optimus Prime, Battlefield Legend attacks, and the Action I play puts a Grenade Launcher onto him, will that Grenade Launcher be scrapped?
+</question>
+      <answer>
+    Yes. After the battle, Grenade Launcher will see that the character it&#x2019;s upgrading has attacked and its ability will make you scrap it. Similarly, if a character that has a Grenade Launcher attacks, but somehow no longer has that Grenade Launcher after the battle (say, because a Swap Parts put it on a different character), Grenade Launcher won&#x2019;t be scrapped.
+</answer>
+    </entry>
+  </target>
+  <target name="Heroism">
+    <entry>
+      <question>
+    What happens if I have more than one character with Heroism and attack damage would be done to a different character?
+</question>
+      <answer>
+    You can choose which of the characters will take the damage.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Does the damage still count as attack damage?
+</question>
+      <answer>
+    Yes. Any other card that cares about attack damage will still apply.
+</answer>
+    </entry>
+  </target>
+  <target name="Hunker Down">
+    <entry>
+      <question>
+    What happens to characters who are in alt mode?
+</question>
+      <answer>
+    Any character in alt mode, as well as characters who are in bot mode but whose alt mode isn&#x2019;t a Tank, doesn&#x2019;t flip. Then each Tank, whether it flipped or not, can get an Armor from your scrap pile.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    If I have more Armors in my scrap pile than I have Tanks, what happens?
+</question>
+      <answer>
+    You choose which Armor goes on which Tank. The same is true if you have more Tanks than you do scrapped Armors.
+</answer>
+    </entry>
+  </target>
+  <target name="I Still Function!">
+    <entry>
+      <question>
+    How many damage counters does a character in the KO area have?
+</question>
+      <answer>
+    A KO&#x2019;d character has damage counters on it equal to its health. Note that this is true even if it took more damage while on the battlefield. For example, if a character with 7 health takes 10 damage, it ends up in the KO area with 7 damage counters. If you return it with I Still Function!, it will end up with 6 damage counters.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    What mode is the returned character in?
+</question>
+      <answer>
+    It stays in whatever mode it was KO&#x2019;d in. If you haven&#x2019;t already flipped one of your characters, you can flip the returned character to its other mode.
+</answer>
+    </entry>
+  </target>
+  <target name="Null-Ray of Starscream">
+    <entry>
+      <question>
+    Can I put this on characters other than Starscream?
+</question>
+      <answer>
+    Yes. The Upgraded character will get the +1 attack bonus, although it won&#x2019;t get Bold 2.
+</answer>
+    </entry>
+  </target>
+  <target name="One Shall Stand, One Shall Fall">
+    <entry>
+      <question>
+    What happens if this KO&#x2019;s your opponent&#x2019;s last character and your last character at the same time?
+</question>
+      <answer>
+    In that case, the game is a draw. Time to start the next game!
+</answer>
+    </entry>
+  </target>
+  <target name="Peace through Tyranny">
+    <entry>
+      <question>
+    Let&#x2019;s say I play Peace through Tyranny and end my turn with no untapped characters, while at least one of my opponent&#x2019;s characters is untapped. What happens during my extra turn? Can I attack?
+</question>
+      <answer>
+    Not unless you find a way to untap one of your characters.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    What happens if I somehow play two of these in the same turn?
+</question>
+      <answer>
+    In that case, you&#x2019;ll take two extra turns after the current turn.
+</answer>
+    </entry>
+  </target>
+  <target name="Photon Bomb">
+    <entry>
+      <question>
+    What happens if this KO&#x2019;s all characters on the battlefield?
+</question>
+      <answer>
+    In that case, the game is a draw. Time to start the next game!
+</answer>
+    </entry>
+  </target>
+  <target name="Rapid Ascent">
+    <entry>
+      <question>
+    Can I put Rapid Ascent on a non-Ranged character?
+</question>
+      <answer>
+    Yes. It will still get the +1 defense bonus, although the ability of Rapid Ascent won&#x2019;t trigger.
+</answer>
+    </entry>
+  </target>
+  <target name="Roll Out!">
+    <entry>
+      <question>
+    What happens to characters that are already in alt mode?
+</question>
+      <answer>
+    Nothing. They won&#x2019;t flip.
+</answer>
+    </entry>
+  </target>
+  <target name="Salvage for Parts">
+    <entry>
+      <question>
+    Will this repair damage from my opponent&#x2019;s characters if they had Upgrades scrapped from them?
+</question>
+      <answer>
+    Yes.
+</answer>
+    </entry>
+  </target>
+  <target name="Scrapper Gauntlets">
+    <entry>
+      <question>
+    If one of my opponent&#x2019;s characters has a Weapon, can I choose not to scrap it and draw a card?
+</question>
+      <answer>
+    No. If there is an enemy Weapon, you must scrap it. You draw a card only if you can&#x2019;t scrap an enemy Weapon.
+</answer>
+    </entry>
+  </target>
+  <target name="Start Your Engines">
+    <entry>
+      <question>
+    What happens to characters who are in alt mode?
+</question>
+      <answer>
+    Any character in alt mode, as well as characters who are in bot mode but whose alt mode isn&#x2019;t a Car, doesn&#x2019;t flip.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Does the Car I untap have to be one that just flipped?
+</question>
+      <answer>
+    No. You can flip any of your Cars, even one that was already in alt mode and didn&#x2019;t flip.
+</answer>
+    </entry>
+  </target>
+  <target name="Static Laser of Ironhide">
+    <entry>
+      <question>
+    Can I put this on characters other than Ironhide?
+</question>
+      <answer>
+    Yes. Those characters will get the +3 attack bonus, but they will be damaged by Static Laser of Ironhide&#x2019;s ability when they attack. If the Upgraded character is Ironhide, that ability won&#x2019;t do anything and Ironhide can attack without being damaged.
+</answer>
+    </entry>
+  </target>
+  <target name="Swap Missions">
+    <entry>
+      <question>
+    What happens if all my characters are tapped when I play Swap Missions?
+</question>
+      <answer>
+    First you&#x2019;ll untap one of your characters. Then, because that will be your only untapped character, you&#x2019;ll immediately tap it.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    What happens if all my characters are untapped when I play Swap Missions?
+</question>
+      <answer>
+    Playing Swap Missions in this case is probably a bad idea. Because all your characters are already untapped, you can&#x2019;t untap any of them. Then you&#x2019;ll tap one of them.
+</answer>
+    </entry>
+  </target>
+  <target name="Swap Parts">
+    <entry>
+      <question>
+    What happens if one of the two characters doesn&#x2019;t have any Upgrades?
+</question>
+      <answer>
+    In that case, just move all the Upgrades from the one character to the other. There doesn&#x2019;t actually have to be a full swap.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    What happens if an Upgrade can&#x2019;t be put on the other character? For example, say I have an Upgrade that says &#x201C;Put on Cars only&#x201D; and the other character isn&#x2019;t a Car?
+</question>
+      <answer>
+    If an Upgrade can&#x2019;t be put on the other character, it stays where it is. If the other character has an Upgrade of the same type, that Upgrade also stays where it is.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    If an Upgrade has an ability that says &#x201C;When you put this on a character&#x201D; or similar, will that ability trigger if I put it on a new character with Swap Parts?
+</question>
+      <answer>
+    Yes.
+</answer>
+    </entry>
+  </target>
+  <target name="Swarm!">
+    <entry>
+      <question>
+    Can my opponent choose a different one of their characters for each 1 damage? Can I choose a different creature for each 1 repair?
+</question>
+      <answer>
+    Yes to both.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Are the flipped battle cards put into the scrap pile?
+</question>
+      <answer>
+    Not right away. Set them aside for now, in the same place you put played Actions cards and battle cards flipped during the attack. Those cards will all be scrapped at the end of the turn.
+</answer>
+    </entry>
+  </target>
+  <target name="System Reboot">
+    <entry>
+      <question>
+    What happens if a player has no cards in their hand?
+</question>
+      <answer>
+    In that case, the player doesn&#x2019;t scrap any cards and just draws 4 cards.
+</answer>
+    </entry>
+  </target>
+  <target name="Team-Up Tactics">
+    <entry>
+      <question>
+    What happens if a character is both a Truck and a Car?
+</question>
+      <answer>
+    There aren&#x2019;t any characters that are both a Truck and a Car.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Yeah, but like, what if?
+</question>
+      <answer>
+    That&#x2019;s not a real question.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    Come on&#x2026; I want to know!
+</question>
+      <answer>
+    You would repair 2 damage from it and then you would draw 2 cards.
+</answer>
+    </entry>
+    <entry>
+      <question>
+    When are you going to make a character that&#x2019;s a Truck and a Car?
+</question>
+      <answer>
+    &#x2026;
+</answer>
+    </entry>
+  </target>
+  <target name="Turbo Boosters">
+    <entry>
+      <question>
+    What happens if I put Turbo Booster on a character that&#x2019;s already untapped?
+</question>
+      <answer>
+    Nothing much. It will get the +1 attack bonus, but the untap ability won&#x2019;t do anything.
+</answer>
     </entry>
   </target>
 </faq>

@@ -285,7 +285,7 @@
     </entry>
   </target>
   <target name="Piercing Blaster">
-      <entry xref="Wave_1/Battle_Cards.xml#arcee-4"/>
+      <entry xref="Wave_1/Battle_Cards#arcee-4"/>
   </target>
   <target name="Rapid Ascent">
     <entry>

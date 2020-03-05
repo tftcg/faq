@@ -10,7 +10,7 @@ Top level files:
 * faqxml/ - This is the database of content. 
 * templates/ - This is where the templates for the website are. Having these saves on putting lots of bits of HTML into the Python script. 
 
-== FAQ XML Format ==
+## FAQ XML Format
 
 The XML format for the FAQ format is as follows:
 
@@ -27,4 +27,5 @@ Each target has a different web page generated for it. Targets can contain two t
 A canonical entry is one that contains the text for a question and an answer. A cross-referenced entry is one that points to another FAQ entry and copies it into the generated HTML. This way a FAQ about three different cards can appear in all three of those cards' FAQS. Its format is "file-id#entry-id", where the file-id points to a file inside the faqxml directory, without the '.xml' and the entry-id points to an entry in that file with that id. If it's in the same file then a file-id is not needed, the xref string can just be "#entry-id". 
 
 Date formats are ISO; ie: 2020-12-30.
+
 Source formats are URLs. If a target has a source, it will override the faq element's source attribute for any practical uses within the site generation. 

@@ -1,4 +1,4 @@
-Icons MIT licensed from https://feathericons.com/
+# Transformers Trading Card Game FAQ
 
 This project takes XML files in the faqxml/ directory and, using the generate_site.py script, merges them with Jinja2 templates in the templates/ directory to create a HTML/JavaScript/CSS website in the docs/ directory. 
 
@@ -29,3 +29,9 @@ A canonical entry is one that contains the text for a question and an answer. A 
 Date formats are ISO; ie: 2020-12-30.
 
 Source formats are URLs. If a target has a source, it will override the faq element's source attribute for any practical uses within the site generation. 
+
+## Content source
+
+Icons MIT licensed from https://feathericons.com/
+
+All Official FAQ Content, Transformers Images, and Transformers Trading Card Images are Copyright Hasbro, Inc. Transformers and Transformers Trading Card names, characters, images, trademarks and logos are protected by trademark and other Intellectual Property rights owned by Hasbro, Inc. or its subsidiaries, licensors, licensees, suppliers and accounts. Other provided content is the property of the project contributors. 

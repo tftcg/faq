@@ -14,11 +14,13 @@ Top level files:
 
 The XML format for the FAQ format is as follows:
 
+<pre>
  faq (name, source, published_date, sourced_at)
    target (name, source)
      entry (id, mode, xref)
        question
        answer
+</pre>
 
 Each target has a different web page generated for it. Targets can contain two types of entry, a canonical entry or a cross-referenced entry. Questions and Answers currently are purely text with no formatting markup supported.
 

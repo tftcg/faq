@@ -49,6 +49,7 @@
     First, choose your first Action. Carry out all its instructions and set it aside. Then choose your second Action and carry out its instructions. Note that you don&#x2019;t have to choose the Actions ahead of time. For example, if your first Action lets you draw a card, and that card is an Action, you could play that Action as your second one.
 </answer>
     </entry>
+    <entry xref="Rules_Roundup#1-15"/>
   </target>
   <target name="Bug Bomb">
     <entry>
@@ -199,6 +200,7 @@
     Yes. Any other card that cares about attack damage will still apply.
 </answer>
     </entry>
+    <entry xref="Rules_Roundup#1-15"/>
   </target>
   <target name="Hunker Down">
     <entry>
@@ -217,6 +219,7 @@
     You choose which Armor goes on which Tank. The same is true if you have more Tanks than you do scrapped Armors.
 </answer>
     </entry>
+    <entry xref="Rules_Roundup#1-17"/>
   </target>
   <target name="I Still Function!">
     <entry>
@@ -273,6 +276,7 @@
     In that case, you&#x2019;ll take two extra turns after the current turn.
 </answer>
     </entry>
+    <entry xref="Rules_Roundup#1-15"/>
   </target>
   <target name="Photon Bomb">
     <entry>

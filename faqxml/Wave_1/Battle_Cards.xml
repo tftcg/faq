@@ -221,6 +221,9 @@
     </entry>
     <entry xref="Rules_Roundup#1-17"/>
   </target>
+  <target name="Ion Blaster of Optimus Prime">
+      <entry xref="Rules_Roundup#1-20"/>
+  </target>
   <target name="I Still Function!">
     <entry>
       <question>
@@ -238,6 +241,10 @@
     It stays in whatever mode it was KO&#x2019;d in. If you haven&#x2019;t already flipped one of your characters, you can flip the returned character to its other mode.
 </answer>
     </entry>
+      <entry xref="Rules_Roundup#1-21"/>
+  </target>
+  <target name="Multi-Mission Gear">
+      <entry xref="Rules_Roundup#1-23"/>
   </target>
   <target name="Null-Ray of Starscream">
     <entry>
@@ -258,6 +265,7 @@
     In that case, the game is a draw. Time to start the next game!
 </answer>
     </entry>
+    <entry xref="Rules_Roundup#1-30"/>
   </target>
   <target name="Peace through Tyranny">
     <entry>
@@ -277,6 +285,7 @@
 </answer>
     </entry>
     <entry xref="Rules_Roundup#1-15"/>
+    <entry xref="Rules_Roundup#1-31"/>
   </target>
   <target name="Photon Bomb">
     <entry>

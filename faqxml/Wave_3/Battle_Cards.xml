@@ -8,6 +8,7 @@
       <question>Can I use Backup Bag to save a Weapon or Armor that causes itself to be scrapped, such as Grenade Launcher?</question>
       <answer>Yes.</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-27"/>
   </target>
   <target name="Battering Ram">
     <entry>
@@ -22,15 +23,21 @@
       <answer>Basically, just ignore that the character has that ability when determining which character you&#x2019;re attacking.</answer>
     </entry>
   </target>
+  <target name="Bolster">
+    <entry xref="Rules_Roundup#1-23"/>
+    <entry xref="Rules_Roundup#1-30"/>
+  </target>
   <target name="Dampening Field">
     <entry>
       <question>What happens if my opponent is supposed to flip more than 4 cards during the battle?</question>
       <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-23"/>
   </target>
   <target name="Dismantling Claw">
       <entry xref="#reactive-1"/>
       <entry xref="#reactive-2"/>
+      <entry xref="Rules_Roundup#1-28"/>
 </target>
   <target name="Personal Targeting Drone">
       <entry xref="#reactive-1"/>
@@ -45,6 +52,7 @@
       <question>If one of these upgrades is on a character, and I play another upgrade of that type to replace it, does the ability trigger?</question>
       <answer>Yes. Replacing an upgrade this way causes the old upgrade to be scrapped.</answer>
     </entry>
+      <entry xref="Rules_Roundup#1-28"/>
   </target>
   <target name="Emergency Defense Field">
     <entry>
@@ -91,6 +99,7 @@
       <question>What happens if my opponent plays a Secret Action? I can&#x2019;t see its battle icons!</question>
       <answer>Infiltrate won&#x2019;t be revealed because of a Secret Action, even if that Secret Action has orange battle icons. This is also true when the Secret Action is later revealed. It was already played face down, so Infiltrate won&#x2019;t notice it. Sneaky!</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-31"/>
   </target>
   <target name="Laser Cutlass">
     <entry>

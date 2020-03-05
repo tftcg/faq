@@ -18,6 +18,9 @@
       <answer>No. Even though each one has an ability that will find the other in the KO area, the abilities work only from the battlefield.</answer>
     </entry>
   </target>
+  <target name="Blitzwing - Relentless Foe">
+    <entry xref="Rules_Roundup#1-26" mode="bot"/>
+  </target>
   <target name="Bombshell - Decepticon Psy Ops">
     <entry xref="Rules_Roundup#1-3" mode="bot"/>
   </target>
@@ -183,6 +186,7 @@
       <answer>Yes. This could matter if Skywarp gets to attack later in the turn.</answer>
     </entry>
     <entry xref="Rules_Roundup#1-4" mode="alt"/>
+    <entry xref="Rules_Roundup#1-21" mode="bot"/>
   </target>
   <target name="Starscream - Decepticon King">
     <entry mode="bot">

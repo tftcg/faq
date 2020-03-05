@@ -41,7 +41,7 @@ Focus says &#x201C;Before flipping battle cards when battling&gt;, and Anticipat
 Yes.
 </answer>
     </entry>
-    <entry id="1-6">
+        <entry id="1-6">  <!-- GENERAL -->
       <question>
 Can you scrap cards from your hand? This came up from playing a lot of the Turbo format with my kids. Inevitably someone had one or two cards that you couldn&#x2019;t play with the characters. If you&#x2019;re allowed to scrap them from your hand when drawn it would still allow those cards to be useful for the pips when battling.
 </question>
@@ -75,7 +75,7 @@ If a number of *colors* other than four colors is flipped, Grapple&#x2019;s bot 
 Editor&#x2019;s note: It&#x2019;s important when considering Grapple&#x2019;s abilities to make a distinction between the number of battle icon *colors* and the number of battle icons. So long as the number of battle icon colors is exactly 4, the number of cards they appear on do not matter. So, in the scenario described in this question, his ability would trigger as four colors appear, even though there are multiple instances of a green battle icon.
 </answer>
     </entry>
-    <entry id="1-10">
+            <entry id="1-10">  <!-- GENERAL -->
       <question>
 Do you have to attach the Battle Master's Upgrade side? My Wife pulled 2 Lionizers in Turbo Sealed but pull no Orange. When I KO'd Lionizer, would she be forced to scrap EM24 IR Laser Launcher, or could she choose not to attach Lionizer?
 </question>
@@ -83,7 +83,7 @@ Do you have to attach the Battle Master's Upgrade side? My Wife pulled 2 Lionize
 Yes, you must attach the Battle Master&#x2019;s Upgrade side. When you attach the Battle Master, you must scrap the older upgrade; in this case, EM24 IR Laser Launcher.
 </answer>
     </entry>
-    <entry id="1-11">
+        <entry id="1-11">  <!-- GENERAL -->
       <question>
 Are the current face-down side of a character card considered Hidden Information?
 </question>
@@ -91,7 +91,7 @@ Are the current face-down side of a character card considered Hidden Information
 No. You may see the face-down sides of your opponent&#x2019;s character cards at any time, but please ask respectfully.
 </answer>
     </entry>
-    <entry id="1-12">
+        <entry id="1-12"> <!-- GENERAL -->
       <question>
 If I open a card in a Limited Format that says "grab a card from outside the game" am I allowed to dip into my personal collection for this (assuming I brought it ahead of time) or just the sideboard of my Limited Pool? If I have a lesser collection (or am just lazy), am I allowed to use cards from my Sideboard for my Outside-of-the-Game-Board? Or is this a Head Judge for an event decision?
 </question>
@@ -119,7 +119,7 @@ If I played Heroism on Insecticon Leader Skrapnel, would the redirected attack d
 Yes, redirected damage from Heroism is still attack damage.
 </answer>
     </entry>
-    <entry id="1-15">
+            <entry id="1-15">   <!-- GENERAL (as well as Brainstorm/PTT -->
       <question>
 Secret Actions say they scrap at the end of my opponent's turn. If I Brainstorm, Secret Action, Peace Through Tyranny, how long does the Secret Action stay out? Will it stay out for my second turn, until it is my opponent's turn, and then scrap at the end of their turn? Or do Secret Actions just scrap at the end of the following turn, so it would scrap at the end of my second turn?
 </question>
@@ -152,7 +152,7 @@ How does Alpha Trion&#x2019;s ability interact with Inverted?
 While equipped with inverted, an attacking Alpha Trion may play an action with an orange icon they&#x2019;ve flipped (because it counts as a blue icon). He will not be able to play any actions with blue icons you may flip, because they count as orange. &#x201C;Good job!&#x201D; &#x2013; The Design Team.
 </answer>
     </entry>
-    <entry id="1-19">
+        <entry id="1-19">
       <question>
 Ancient Wisdom states, &#x201C;You may play Unleash Potential.&#x201D; Do that mean it&#x2019;s allowing you it as a second action for that turn? If yes, can you play two Unleash Potentials? The text doesn&#x2019;t specify a quantity.
 </question>

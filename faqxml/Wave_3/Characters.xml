@@ -7,6 +7,9 @@
     </entry>
     <entry xref="Rules_Roundup#1-18" mode="bot"/>
   </target>
+  <target name="Blaster - Communications">
+    <entry xref="Rules_Roundup#1-29" mode="bot"/>
+  </target>
   <target name="Captain Elita-1 - Special Ops - Ranger">
     <entry mode="alt">
       <question>Do damage counters already on Captain Elita-1 affect how many I can move onto her?</question>
@@ -77,6 +80,9 @@
       <answer>You use it before the game begins. You&#x2019;ll put Ultra Magnus Armor onto Major Ultra Magnus, then shuffle the rest of your deck and draw 3 cards for your opening hand.</answer>
     </entry>
   </target>
+  <target name="Private Pteraxadon - Air Command Artillery">
+    <entry xref="Rules_Roundup#1-25" mode="upgrade"/>
+  </target>
   <target name="Private Red Heat - Infantry - Emergency Response">
     <entry mode="bot">
       <question>What happens if one of the characters has an upgrade of a certain type, such as a Weapon, and the other character doesn&#x2019;t have an upgrade of that type?</question>
@@ -104,6 +110,7 @@
       <question>Is the upgrade returned before my opponent flips battle cards?</question>
       <answer>Yes. Notably, if the upgrade gave your opponent&#x2019;s character tough, the character won&#x2019;t have tough when it&#x2019;s time to flip battle cards.</answer>
     </entry>
+    <entry xref="Rules_Roundup#1-22" mode="bot"/>
   </target>
   <target name="Raider Road Hugger - Infantry - Tactics">
     <entry mode="bot">
@@ -158,6 +165,9 @@
       <question>Can I return just one Secret Action from my scrap pile?</question>
       <answer>Yes.</answer>
     </entry>
+  </target>
+  <target name="Soundwave - Communications">
+    <entry xref="Rules_Roundup#1-29" mode="bot"/>
   </target>
   <target name="Specialist Ratchet - Engineering - Rescue &amp; Repair">
     <entry mode="alt">

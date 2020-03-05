@@ -221,6 +221,7 @@ KO&#x2019;d character isn&#x2019;t a Car and won&#x2019;t add to Cliffjumper&#x2
   <target name="Decepticon Shockwave - Cybertron Commander">
       <entry xref="Rules_Roundup#1-1" mode="bot"/>
       <entry xref="Rules_Roundup#1-3" mode="bot"/>
+      <entry xref="Rules_Roundup#1-24" mode="bot"/>
   </target>
   <target name="Demolisher, Devoted Decepticon">
     <entry id="demolisher-1" mode="bot">

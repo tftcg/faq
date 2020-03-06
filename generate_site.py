@@ -99,7 +99,7 @@ f = open(os.path.join(output_dir, "faqindex.json"), "w")
 f.write(json.dumps(target_index))
 f.close()
 
-def generate_html(infilename, tofilename, title):
+def generate_html(infilename, tofilename):
     template_file = open(infilename,'r')
     template_text = template_file.read()
     template = Environment(loader=FileSystemLoader("templates/")).from_string(template_text)
@@ -111,6 +111,7 @@ def generate_html(infilename, tofilename, title):
     f.close()
 
 
-generate_html('templates/index.jinja2', 'index.html', "FAQ")
-generate_html('templates/about.jinja2', 'about.html', "About")
-generate_html('templates/contribute.jinja2', 'contribute.html', "Contribute")
+generate_html('templates/index.jinja2', 'index.html')
+generate_html('templates/about.jinja2', 'about.html')
+generate_html('templates/contribute.jinja2', 'contribute.html')
+generate_html('templates/sources.jinja2', 'sources.html')

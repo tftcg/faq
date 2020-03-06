@@ -23,7 +23,7 @@
       <!-- {{ faq_node.attrib['id'] }} - {{ faq_node.attrib['mode'] }} -->
       <div class="question">
         {{ faq_node.find('question').text }}
-        <span><a href="{{ source_info['link'] }}"><img src="https://tftcg.info/images/source-{{ source_info['color'] }}.svg" title="{{ source_info['name'] }}"/></a></span>
+        <span><a href="{{ source_info['link'] }}"><img src="/images/source-{{ source_info['color'] }}.svg" title="{{ source_info['name'] }}"/></a></span>
       </div>
       <div class="answer">
         {{ faq_node.find('answer').text }}

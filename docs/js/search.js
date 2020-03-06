@@ -1,8 +1,8 @@
 
   function setup_autocomplete() {
-      const site = 'https://tftcg.github.io/faq/';
+      const site = 'https://tftcg.info/';
       // Grab the index json and pass the keys to jquery
-      const url = `https://tftcg.github.io/faq/faqindex.json`;
+      const url = `https://tftcg.info/faqindex.json`;
       fetch(url)
       .then((resp) => resp.json())
       .then(function(data) {

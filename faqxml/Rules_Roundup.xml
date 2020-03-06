@@ -273,6 +273,7 @@ One finger per trigger.
 </answer>
     </entry>
     <entry id="2-2">
+      <!-- GENERAL -->
       <question>
 Concerning &#x201C;start of turn&#x201D; effects timing around the drawing 1 card from the general card rules: which of the following is true:
     You Draw 1 card from general game rules, then activate Start of Turn Effects (like Omnibots&#x2019; start of turn effects playing upgrades).
@@ -674,146 +675,146 @@ Blurr will untap and Blurr will attack one of the characters that has stealth.
     </entry>
   </target>
   <target name="Rules Roundup 2019-08-09" source_url="https://transformerstcg-support.wizards.com/hc/en-us/articles/360033067552-Rules-Roundup-8-9-19" published_date="2019-08-09" sourced_at="2020-03-04">
-<entry id="3-1">
-<question>
+    <entry id="3-1">
+      <question>
 What is my build total for stars if I play both Soundwave - Communications, Blaster - Communications, and one Mini-Cassette. Do both "Your Starting Star Limit" abilities trigger?
 </question>
       <answer>
 27 Stars. Both abilities would apply.
 </answer>
-</entry>
-<entry id="3-2">
-<question>
+    </entry>
+    <entry id="3-2">
+      <question>
 How do Soundwave and Blaster decide who gets to start with the Mini-Cassette under them, for both start of game and Recover Cassette?
 </question>
       <answer>
 You choose where the Mini-Cassette goes.
 </answer>
-</entry>
-<entry id="3-3">
-<question>
+    </entry>
+    <entry id="3-3">
+      <question>
 But what kind of music competition do they compete in?
 </question>
       <answer>
 Dueling Banjos, clearly.
 </answer>
-</entry>
-<entry id="3-4">
-<question>
+    </entry>
+    <entry id="3-4">
+      <question>
 Since I'm not privy to what happens between two fictional characters in a hypothetical situation, do I just choose who the Mini-Cassette goes under which deployer?
 </question>
       <answer>
 Yes, you choose.
 </answer>
-</entry>
-<entry id="3-5">
-<question>
+    </entry>
+    <entry id="3-5">
+      <question>
 Does "outside the game" refer to the sideboard? The other question is if I play Brainstorm with Wave 3 Skywarp on the field, how do I proceed if I have 2 Defensive Formations at hand? Do I play the 1st Defensive Formation, draw a card and then play the 2nd Defensive Formation to draw a 2nd card? Or do I play the 1st defensive formation, then the 2nd, and then draw the 2 cards?
 </question>
       <answer>
-It can refer to your sideboard, however your “outside the game” cards do not have to be in your sideboard to be considered detectable by the game.
-In resolving the Brainstorm, you will play both Defensive Formations. Skywarp’s ability will trigger for each of them, but you won’t draw cards for the ability until you’ve finished resolving the Brainstorm.
+It can refer to your sideboard, however your &#x201C;outside the game&#x201D; cards do not have to be in your sideboard to be considered detectable by the game.
+In resolving the Brainstorm, you will play both Defensive Formations. Skywarp&#x2019;s ability will trigger for each of them, but you won&#x2019;t draw cards for the ability until you&#x2019;ve finished resolving the Brainstorm.
 </answer>
-</entry>
-<entry id="3-6">
-<question>
-I play a Bolster, and attack with my specialist. Turn ends. Opponent attacks my defender who is a specialist. I play bolster then I play Multi-Mission Gear, then for the action you play Peace Through Tyranny, KO’ing the specialist defender, effectively ending the attack with no flips.
+    </entry>
+    <entry id="3-6">
+      <question>
+I play a Bolster, and attack with my specialist. Turn ends. Opponent attacks my defender who is a specialist. I play bolster then I play Multi-Mission Gear, then for the action you play Peace Through Tyranny, KO&#x2019;ing the specialist defender, effectively ending the attack with no flips.
 Do you get an extra turn, then a normal turn?
 </question>
       <answer>
-You take your extra turn, then your normal turn. You can’t take any additional turns.
+You take your extra turn, then your normal turn. You can&#x2019;t take any additional turns.
 </answer>
-</entry>
-<entry id="3-7">
-<question>
+    </entry>
+    <entry id="3-7">
+      <question>
 Does Micro Capacitor work on Thrust's ability? Probable not but I want to make sure.
 </question>
       <answer>
 You are correct. It does not!
 </answer>
-</entry>
-<entry id="3-8">
-<question>
+    </entry>
+    <entry id="3-8">
+      <question>
 When defending I reveal the secret action Bolster. I then proceed to play Multi-Mission Gear to play Brainstorm, in turn playing Battlefield Report and Defensive Formation. As these 2 have the same trigger condition as Bolster, am I able to reveal them now that Bolster has finished resolving?
 </question>
       <answer>
 In this scenario, it is too late to reveal them.
 </answer>
-</entry>
-<entry id="3-9">
-<question>
+    </entry>
+    <entry id="3-9">
+      <question>
 If Reclaim is the last card in your deck and Major Shockwave is in Bot mode, when he uses his continuous effect to play the top Secret Action/Decepticon card of your deck as if it were in your hand, will Reclaim resolve its effect first and put the selected upgrade on top of the deck, or will the deck need to be shuffled immediately since there zero cards left in the main deck?
 </question>
       <answer>
 Your deck will need to be shuffled immediately in this scenario. Reclaim will not be able to find an upgrade and will have no further effect. Major Shockwave will stand around looking confused.
 </answer>
-</entry>
-<entry id="3-10">
-<question>
+    </entry>
+    <entry id="3-10">
+      <question>
 If a Battle Master or Weaponizer is in the KO Pile, and the match runs to time and damage on all characters is assessed, should they count their damage for that total, or are they simply an upgrade with no damage on them?
 </question>
       <answer>
 They are an upgrade with no damage on them.
 </answer>
-</entry>
-<entry id="3-11">
-<question>
-If I KO my opponent’s Battlemaster and it has a Dismantling Claw on it, and it scraps my Dismantling Claw, I think my Dismantling Claw would therefore scrap the newly applied Battlemaster due to he is now a weapon on my opponents bot. Is that correct?
+    </entry>
+    <entry id="3-11">
+      <question>
+If I KO my opponent&#x2019;s Battlemaster and it has a Dismantling Claw on it, and it scraps my Dismantling Claw, I think my Dismantling Claw would therefore scrap the newly applied Battlemaster due to he is now a weapon on my opponents bot. Is that correct?
 </question>
       <answer>
 That is correct.
 </answer>
-</entry>
-<entry id="3-12">
-<question>
+    </entry>
+    <entry id="3-12">
+      <question>
 Can you transform an already tapped character in the field? (For example .. I want to play Rapid Conversion on Barrage who is tapped). If yes, will this still trigger his ability? (He can give another character +2 Pierce when he is flipped to Bot mode.)
 </question>
       <answer>
 Yes and yes!
 </answer>
-</entry>
-<entry id="3-13">
-<question>
-If I play a Battering Ram on to a truck and I’m battling Elita-1 in bot mode, and I do enough damage to KO her, would her ability still work or would she be flipped into her alt mode and not get her abilities?
+    </entry>
+    <entry id="3-13">
+      <question>
+If I play a Battering Ram on to a truck and I&#x2019;m battling Elita-1 in bot mode, and I do enough damage to KO her, would her ability still work or would she be flipped into her alt mode and not get her abilities?
 </question>
       <answer>
-Elita-1 will be KO’d first. When Battering Ram’s ability resolves, Elita-1 will already be in the KO area and therefore cannot be effected by Battering Ram.
+Elita-1 will be KO&#x2019;d first. When Battering Ram&#x2019;s ability resolves, Elita-1 will already be in the KO area and therefore cannot be effected by Battering Ram.
 </answer>
-</entry>
-<entry id="3-14">
-<question>
+    </entry>
+    <entry id="3-14">
+      <question>
 Player plays Fully Loadout on Megatron - Living Weapon. Does Megatron have the ability to place three weapons in Bot Mode due to his ability?
 </question>
       <answer>
-No. Full Loadout specifically says “A weapon, an armor, and a utility”. Megatron – Living Weapon only changes what can be put into his slots.
+No. Full Loadout specifically says &#x201C;A weapon, an armor, and a utility&#x201D;. Megatron &#x2013; Living Weapon only changes what can be put into his slots.
 </answer>
-</entry>
-<entry id="3-15">
-<question>
+    </entry>
+    <entry id="3-15">
+      <question>
 Can "Interpret The Airwaves be placed in a deck without Blaster and be used (not played) only for the Pips?
 </question>
       <answer>
 Yes, it can.
 </answer>
-</entry>
-<entry id="3-16">
-<question>
+    </entry>
+    <entry id="3-16">
+      <question>
 Private Sideswipe - Does his effect apply twice if you can somehow manage to get him to flip to car mode, back to bot mode to car mode again?
 </question>
       <answer>
 Yes. If you can pull it off, that would work.
 </answer>
-</entry>
-<entry id="3-17">
-<question>
+    </entry>
+    <entry id="3-17">
+      <question>
 Would Cornered work on a Battle Master causing it to flip to its upgrade side? If yes, what would happen to the upgrade?
 </question>
       <answer>
-No, you can’t flip a Battle Master while it’s on the battlefield.
+No, you can&#x2019;t flip a Battle Master while it&#x2019;s on the battlefield.
 </answer>
-</entry>
-<entry id="3-18">
-<question>
+    </entry>
+    <entry id="3-18">
+      <question>
 I have run into a situation where my deck had no cards and no discard pile to shuffle in. We ruled it as when I attacked or defended, I had no cards to flip so I added 0 to my attack and defense. We were wondering if this would be a proper ruling.
 
 Second, for the card Inverted. It says that each orange pip you flip becomes a blue pip and vice versa. For cards that rely on you flipping a certain color pip, do the pips flipped count as what they are, or the inverted color?
@@ -823,6 +824,238 @@ If your deck and scrap pile are empty, you don't flip any cards and the game pro
 
 For Inverted, there's no sequence when the icon changes from one color to another. They are changed from the moment Inverted is played and stay so as long as Inverted is on the character.
 </answer>
-</entry>
-</target>
+    </entry>
+  </target>
+  <target name="Rules Roundup 2019-08-23" source_url="https://transformerstcg-support.wizards.com/hc/en-us/articles/360033073232-Rules-Roundup-8-23-19" published_date="2019-08-23" sourced_at="2020-03-04">
+    <entry id="4-1">
+      <question>
+What happens if someone has Brave and Stealth at the same time, like if I played Hiding Spot on Blitzwing while he was in tank mode, do they cancel out, does the newer stays take effect?
+        </question>
+      <answer>
+They cancel each other out. An attacker is not able to fulfill both conditions, therefore the attacking player can choose a defender as normal.
+</answer>
+    </entry>
+    <entry id="4-2">
+      <question>
+I have a ruling question about Optimus Prime - Battlefield Legend. If I my attack checks an action like Pep Talk, when do I activate the effect? Immediately (I draw 2 cards, then continue the check) or after resolution? (continue the checks, then draw two cards). On a similar note. If I decide to use an action with an orange or white pip, am I still able to keep the pip effect, or does that vanish with the card?
+        </question>
+      <answer>
+First, you attack with OPBL, then you flip the Battle Cards (including any Bold). If you flip a white battle icon, you flip two more Battle Cards. Then, you check if you have flipped an Action. You can play one of the actions. You will still get plus attack from the orange icons flipped on that Action.
+</answer>
+    </entry>
+    <entry id="4-3">
+      <question>
+I was wondering about Sergeant Chromia from Wave 3 and how the Alt mode flip ability works. Does the flip ability work in saying that you can play any blue armor upgrade, like possibly Superior Plating as an example, along with your original upgrade and action, or is it saying that the player is able to play an additional blue armor upgrade from hand along with their own upgrade and action on that turn?
+        </question>
+      <answer>
+Sergeant Chromia&#x2019;s flip ability asks you to play a blue armor right then. If you don&#x2019;t, you&#x2019;ve forfeited the opportunity to do so. Your normal upgrade play and action play aren&#x2019;t affected by this. The flip ability does not allow playing Superior Plating without previously having played Tech Research.
+</answer>
+    </entry>
+    <entry id="4-4">
+      <question>
+I have Sturdy Armor on Soundwave and my opponent's Optimus Prime, Battlefield Legend attacks him while in Bot Mode, where he is Ranged. Optimus flips Roll Out as one of his Battle Card flips and plays it via his ability, changing to Alt Mode, in which he is now Melee. Does Soundwave still get the extra +1 Defense from Sturdy Armor since Optimus was Ranged when he attacked? Or does he not get the bonus since Optimus is now Melee?
+        </question>
+      <answer>
+In this scenario, Sturdy Armor would not give the extra +1 Defense as Optimus is not Ranged. Sturdy Armor is constantly checking for the enemy&#x2019;s Ranged trait, all the way up until damage is dealt.
+</answer>
+    </entry>
+    <entry id="4-5">
+      <question>
+If I have a tapped character get KO&#x2019;d that has already attacked, if I play I Still Function!, does he come from the KO pile untapped?
+        </question>
+      <answer>
+Tapped characters get KO&#x2019;d into the KO Area and are no longer tapped or untapped once in the KO Area. I Still Function! Returns the KO&#x2019;d character to the Battlefield untapped.
+</answer>
+    </entry>
+    <entry id="4-6">
+      <question>
+If I have a Laser Cutlass and a Crushing Treads on say, Slammer, and I attack an opponent, does Slammer get the pierce 3 from the Laser Cutlass plus the pierce 3 from the Crushing Treads since pierce adds together and both pierce abilities are triggered differently? So, attacking for 4 with Pierce 6.
+        </question>
+      <answer>
+That&#x2019;s correct. In this scenario you would be attacking for 4 with Pierce 6. Pierce stacks on Pierce, but not on regular attack damage.
+</answer>
+    </entry>
+    <entry id="4-7">
+      <question>
+Optimus Prime, Gleaming Commander attacks Private Lionizer, knocking him out. Lionizer changes to RS Firesteel Saber, onto another of my characters, but Optimus Prime triggers his bot mode ability, and uses it to transform Prowl, Strategic Mastermind in my opponent&#x2019;s KO area, which then transforms to Prowl&#x2019;s bot mode and triggers his bot mode ability to remove a weapon. My opponent scraps RS Firesteel Saber. This all happened as a result of my opponent&#x2019;s attack- is this the correct order of play?
+        </question>
+      <answer>
+Not quite. There are two errors in the scenario you&#x2019;re describing. The first is that Optimus&#x2019; trigger will resolve before damage is dealt to Lionizer. The second, is that your Optimus can only choose characters in your KO Area, so you would not be able to flip any characters in your opponent&#x2019;s KO Area.
+</answer>
+    </entry>
+    <entry id="4-8">
+      <question>
+Question about Unconventional Flying Object. Can this be played on a Spaceship that is already in bot mode in order to flip it to alt mode, essentially ignoring the first sentence as "already done" (somewhat similar to Hunker Down)?
+        </question>
+      <answer>
+No, it cannot.
+</answer>
+    </entry>
+    <entry id="4-9">
+      <question>
+Can Quartermaster be used on Sergeant Cog? If not, is there a way to revive Cog from the KO/discard area for use again?
+        </question>
+      <answer>
+No, and not currently&#x2026;
+</answer>
+    </entry>
+    <entry id="4-10">
+      <question>
+The question I have today is in regard to attacking with Anticipation Engine. I am playing with a combiner team, and I have just converted my last character. I don't have the Enigma in my hand to play it, so I play a different action instead. I attack using a character with Anticipation Engine and flip the Enigma. Am I able to play it, transform, and continue the attack with the Combiner, or does my attack get cancelled and it becomes my opponent's turn? (This is because the Enigma has the Combiner enter play untapped)
+
+Update to the question, as I see it was already answered in a previous Rules Round-up.
+
+&#x201C;Anticipation Engine + Enigma = Transformed and attacking, but untappedYou said the character was untapped, but still attacking. Does this mean that my opponent can only attack with one character if they have multiple available?
+        </question>
+      <answer>
+Yes, your opponent can attack with only one character&#x201D;
+</answer>
+    </entry>
+    <entry id="4-11">
+      <question>
+My questions are:
+1. If all my opponent&#x2019;s characters have already been tapped, can I still attack with the newly formed Combiner?
+If all of your opponent&#x2019;s characters have already been tapped and you finish an attack with your untapped Combiner, you will then attack a second time with the Combiner.
+
+    When Bolster activates during my opponent&#x2019;s turn, and Multi-Mission Gear is played with a Combiner Enigma, where does the attack land? As the defending character is no longer there, does it hit the Combiner?
+        </question>
+      <answer>
+    The character they were attacking is part of your newly formed Combiner, so they are now attacking your Combiner.
+</answer>
+    </entry>
+    <entry id="4-12">
+      <question>
+Does Start Your Engines affect cars in the KO area?
+        </question>
+      <answer>
+No, it does not. Cards only affect cards in the KO Area if it is specifically stated in the card text.
+</answer>
+    </entry>
+    <entry id="4-13">
+      <question>
+Hi, I just wondered if you can choose somebody that can't take non-attack damage as the recipient of non-attack damage, like if an opponent played Frag Toss and I had Motormaster in alt mode, would the damage have to go on Motormaster or could I choose somebody else and nullify it?
+        </question>
+      <answer>
+You can choose someone else to nullify it.
+</answer>
+    </entry>
+    <entry id="4-14">
+      <question>
+I have a character with a weapon and Spare Parts. My opponent hits me with Disarm or Debilitating Crystal. Is the weapon returned to my hand or does Spare Parts get scrapped, or returned to my hand instead?
+        </question>
+      <answer>
+Same scenario, but my weapon is a Battle Master/Weaponizer.
+In both scenarios, Spare Parts does not protect your weapon. A Battle Master or Weaponizer in weapon mode would go to KO rather than to your hand.
+        </answer>
+    </entry>
+  </target>
+  <target name="Rules Roundup 2019-09-06" source_url="https://transformerstcg-support.wizards.com/hc/en-us/articles/360033650671-Rules-Roundup-9-6-19" published_date="2019-08-23" sourced_at="2020-03-04">
+    <entry id="5-1">
+      <question>
+Can Quartermaster be used to move a Superior Cannon, Jetpack, or Plating from one character to another or do you still have to play a Tech Research first?
+        </question>
+      <answer>
+Yes, it can.
+</answer>
+    </entry>
+    <entry id="5-2">
+      <question>
+If I attack with a character that is upgraded with an anticipation engine and the first card flipped is an action that untaps my attacking character, such as Start Your Engines in a cars deck, does my character still count as attacking? Does it still flip battlecards for attack? Does my opponent need to wait for me to attack with the same, or another, character?
+
+Another similar confluence of mechanics would be OPBL flipping a swap missions during attack and untapping. I know the effects and triggers are at slightly different points in the attack but the result is broadly the same; an attacker that hasn&#x2019;t tapped out that round.
+Is this intended?
+        </question>
+      <answer>
+Changing the tapped/untapped status of a character does not affect whether it is attacking or not. At the end of that attack, if your opponent has any untapped characters, your turn ends. Otherwise, continue attacking with any of your untapped characters.
+</answer>
+    </entry>
+    <entry id="5-3">
+      <question>
+My question is in regard to Wave 1 Kickback and Demolisher. If the ability states to flip two extra battlecards for each other Insecticon you started the game with, or flip extra battle cards equal to your defense, and you don&#x2019;t flip a white on your initial two flips, does a white battle icon flipped during those extra flips cause you to flip two extra cards?
+        </question>
+      <answer>
+It doesn&#x2019;t matter when the white icon is flipped. The first time it&#x2019;s flipped, it will use its ability.
+</answer>
+    </entry>
+    <entry id="5-4">
+      <question>
+I have Cliffjumper in car mode with a metal detector.
+Cliffjumper attacks and taps.
+Metal detector flips over Turbo Boosters.
+Does Cliffjumper attack untapped?
+        </question>
+      <answer>
+Yes, he does.
+</answer>
+    </entry>
+    <entry id="5-5">
+      <question>
+Since it sounds like (understandably) that a comprehensive rules document might take a while, perhaps you could answer a more specific timing question then.
+
+Taken to a corner case, how would a player properly process an attack in the following scenario.
+
+Your team:
+
+Specialist Flamewar in bot mode equipped with an Anticipation Engine in her weapon slot, a Metal Detector in her Utility slot. She has Focus 2 from her bot mode ability.
+
+Her teammate, Raider Aimless has a Decepticon Crown equipped in his Utility slot giving out Plan 1 when a Decepticon attacks.
+
+Her other teammate General Optimus Prime is in Alt Mode giving Bold 1 and Tough 1 to his teammates.
+
+What would be the proper sequence of triggers when Specialist Flamewar initiates an attack? Which goes first Plan, Focus, the Equipment Triggers? Which Equipment Triggers first? Can both trigger on the same combat if you have an equipment and an action (or vice versa) as your top 2 cards?
+        </question>
+      <answer>
+When Specialist Flamewar attacks, the abilities of Anticipation Engine, Metal Detector, and Decepticon Crown will all trigger. As the attacking player, you will resolve all of those abilities in the order of your choosing, one at a time. Then you will use your Focus ability. Then, you will flip battle cards, including an extra from General Optimus&#x2019; Bold 1.
+</answer>
+    </entry>
+    <entry id="5-6">
+      <question>
+Apologies if this has been asked before but have a question about type-specific upgrades like Power Sword and Body Armor - These cards specifically requiring Melee characters.
+If a character changes type - what happens to the upgrade?
+        </question>
+      <answer>
+Traits, like Melee, are only requirements for upgrades to be attached to a character. Once attached, they stay on when a character flips between alt and bot modes.
+</answer>
+    </entry>
+    <entry id="5-7">
+      <question>
+Does Motormaster's ability prevent damage from character abilities? Such as Decepticon Shockwave's discard damage or Superion's first time combining ability if the opponent decided to target someone other than Motormaster?
+        </question>
+      <answer>
+Yes.
+</answer>
+    </entry>
+    <entry id="5-8">
+      <question>
+If I have a Grenade Launcher on Blurr, and I attack a tapped character, which will occur first: the second attack on an untapped character, or scrapping the Grenade Launcher?
+        </question>
+      <answer>
+Grenade Launcher only lasts for one battle, so it would be scrapped before Blurr launches his second attack.
+</answer>
+    </entry>
+    <entry id="5-9">
+      <question>
+In a previous round up you mentioned that if Ion Blaster of Optimus Prime was played on Optimus, then he was combined into Optimus Maximus, the Combiner could keep that weapon, however not if he was already formed. I&#x2019;m assuming that also works with Laser Cutlass? Play onto an Aerialbot for example. Once combined, does it carry over?
+        </question>
+      <answer>
+Yes.
+</answer>
+    </entry>
+    <entry id="5-10">
+      <question>
+Regarding All-Out Attack.
+Scenario:
+
+Bumblebee-TL tapped in bot mode, Prowl-MS and Cliffjumper-RW untapped in car mode.
+I play All-Out Attack. Cliffjumper attacks and uses Anticipation Engine to trigger a Start Your Engines. Bee flips to car mode, Prowl is irrelevant, Cliffjumper untaps. Using Bee's extra action via flip to alt mode, I play Ready for Action to untap Bee. Cliffjumper finishes his attack. All 3 cars are now untapped.
+
+Am I free to attack again with Cliffjumper?
+Am I free to attack with Bee?
+Am I free to end my attacks when I choose because of AoA?
+        </question>
+      <answer>
+All-Out Attack says &#x201C;Each of your untapped Transformers (Editor&#x2019;s Note: Characters) can attack this turn.&#x201D; At the time you play All-Out Attack, check which of your characters are untapped. Those characters are allowed to attack this turn, in sequence. They are not, however, required to attack. They can&#x2019;t attack a second time unless your opponent is tapped out. As usual, you still must attack with at least one character during your turn if you are able.
+</answer>
+    </entry>
+  </target>
 </faq>

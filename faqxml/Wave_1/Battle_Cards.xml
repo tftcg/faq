@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<faq name="Wave 1 Battle Cards" source="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
+<faq name="Wave 1 Battle Cards" source="Wave 1 FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
   <target name="Aerial Recon">
     <entry>
       <question>

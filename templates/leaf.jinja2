@@ -12,14 +12,18 @@
 
 {% for entry in target.findall('entry') %}
     {% if entry.attrib['xref'] %}
-      {% set faq_node = get_xref(entry.attrib['xref'], parent_path) %}
+      {% set xref_block = get_xref(entry.attrib['xref'], parent_path) %}
+      {% set faq_node = xref_block[0] %}
+      {% set source_info = xref_block[1] %}
     {% else %}
       {% set faq_node = entry %}
+      {% set source_info = default_source_info %}
     {% endif %}
     <li class="faq_entry">
       <!-- {{ faq_node.attrib['id'] }} - {{ faq_node.attrib['mode'] }} -->
       <div class="question">
         {{ faq_node.find('question').text }}
+        <span><a href="{{ source_info['link'] }}"><img src="https://tftcg.info/images/source-{{ source_info['color'] }}.svg" title="{{ source_info['name'] }}"/></a></span>
       </div>
       <div class="answer">
         {{ faq_node.find('answer').text }}

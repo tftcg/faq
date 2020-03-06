@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<faq name="Wave 2 Battle Cards" source="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
+<faq name="Wave 2 Battle Cards" source="Wave 2 and 3 FAQ" source_url="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
   <target name="Aerialbot Formation">
     <entry>
       <question>If the upgraded character is tapped, does it give itself a +1 attack bonus?</question>

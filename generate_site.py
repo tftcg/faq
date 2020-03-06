@@ -24,8 +24,32 @@ def get_xref(xref, parent_path):
     # Search for <entry id="<id>">
     xpath = "[@id='" + id + "']"
     node = root.find(".//entry[@id='" + id + "']")
-    # Return node to that entry
-    return node
+    target_node = root.find(".//entry[@id='" + id + "']...")
+    # Return node to that entry along with the source data
+    source_info = get_source_info(root, target_node)
+    return [node, source_info]
+
+def get_source_info(faq_node, target_node):
+    link = faq_node.attrib['source_url']
+    if('source' in faq_node.attrib):
+        name = faq_node.attrib['source']
+    else:
+        name = faq_node.attrib['name']
+    if('source_url' in target_node.attrib):
+        link = target_node.attrib['source_url']
+        if('source' in target_node.attrib):
+            name = target_node.attrib['source']
+        else:
+            name = target_node.attrib['name']
+
+    if("FAQ" in name):
+        color = 'gold'
+    elif("Roundup" in name):
+        color = 'red'
+    else:
+        color = 'blue'
+
+    return { 'color' : color, 'link' : link, 'name' : name }
 
 # TODO: Support cross referencing somehow. 
 # xreffing is done via an entry with xref="". This points to another entry with an id.
@@ -74,7 +98,8 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
 
         # Generating page for the target
         safe_name = convert_name(name)
-        page = template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path)
+        default_source_info = get_source_info(faq_node, target_node)
+        page = template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path, default_source_info=default_source_info)
 
         f = open(os.path.join(target_dir, safe_name + ".html"), "w")
         f.write(page)

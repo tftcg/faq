@@ -1248,7 +1248,7 @@ Razorclaw&#x2019;s robot mode ability says that when he flips to that mode he ca
 The character will still have Stealth. Razorclaw&#x2019;s ability changes the way that Razorclaw can attack but doesn&#x2019;t actually change the Tapped/Untapped state of other cards.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-2">
       <question>
 As is my understanding, the majority of infractions which occur in the Transformers TCG can easily be addressed through other resources such as the WPN Tournament rules document, but I feel there are some situations which are exclusive to the Transformers TCG. In particular, what should occur when a player forgets to draw their card at the beginning of the turn, and neither player realizes until after combat flips have occurred? Obviously not drawing a card in this instance has the possibility to be advantageous for the active player.
 My second question is similar but slightly different. How does the above ruling pertain to situations when the card draw is from a triggered ability, such as Private Firedrive's attack trigger?
@@ -1257,7 +1257,7 @@ My second question is similar but slightly different. How does the above ruling 
 As long as it&#x2019;s still the same turn, the player should just draw the card when the error is noticed. It usually doesn&#x2019;t matter if the card they draw isn&#x2019;t the card they would have drawn had they drawn at the right time. However, if the player has gained knowledge of the top card of their deck or manipulated it in some way, such as with Plan, you can back up if possible, or come to another mutually agreed upon solution, such as drawing the second card of their deck. If you&#x2019;re in a tournament, a Judge should be notified as soon as the error is discovered. It doesn&#x2019;t matter whether the draw is from the normal start of turn or from a triggered ability or something else.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-3">
       <question>
 Finally, how does Dreadwing Sky Destroyer&#x2019;s combine ability work with this scenario? Does the &#x201C;untap step&#x201D; happen before the end of turn step? Do they happen in a sequence of the active player&#x2019;s choice? Or does the untapping of all characters happen even before this?
         </question>
@@ -1265,7 +1265,7 @@ Finally, how does Dreadwing Sky Destroyer&#x2019;s combine ability work with thi
 Characters untap before the end of turn step, so you both players would untap all of their characters, then you could combine Dreadwing, then your opponent could start their turn.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-4">
       <question>
 This was written in Rules Roundup 10/11/19:
 &#x201C;I play Brainstorm. Using my 2 actions, I play Ancient Wisdom first, then System Reboot. I draw Unleash Potential off of System Reboot, do I get to play it for free now?
@@ -1276,7 +1276,7 @@ Would this rule also apply to Tech Research? You must play a Superior upgrade af
 Superior upgrades only check to see if you have played Tech Research at some point previously in your turn. Therefore, there is no issue with playing other cards between Tech Research and a Superior upgrade.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-5">
       <question>
 Along those lines, am I limited to playing 1 Unleashed Potential per Ancient Wisdom? Am I limited to playing 1 Superior upgrade per Tech Research?
         </question>
@@ -1284,7 +1284,7 @@ Along those lines, am I limited to playing 1 Unleashed Potential per Ancient Wis
 Your Ancient Wisdom allows you to play a single Unleash Potential. After you&#x2019;ve played Tech Research, the number of Superior upgrades you can play is only limited by the number of upgrades you can play.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-6">
       <question>
 Say I have Torox in alt mode and my opponent plays I Still Function. Since ISF repairs 1 damage when it pulls the character from the KO area, and Torox&#x2019; alt mode skill shuts down healing, would the character being revived with ISF:
     a) Get brought back, then immediately KO&#x2019;d due to having damage equal to its health
@@ -1295,7 +1295,7 @@ Say I have Torox in alt mode and my opponent plays I Still Function. Since ISF r
     The character is brought back and then immediately KO&#x2019;d as it has an amount of damage equal to its health.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-7">
       <question>
 Can Escape Route be used on a triple changer in Alt 2 to flip into Alt 1 and vice-versa? Are triple changers affected by Roll-Out if they are not in bot mode?
         </question>
@@ -1303,7 +1303,7 @@ Can Escape Route be used on a triple changer in Alt 2 to flip into Alt 1 and vic
 Escape Route and Roll Out convert characters from Bot mode to Alt mode. They cannot convert Triple Changers from one Alt mode to another Alt mode.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-8">
       <question>
 I have a question concerning Heroism, the Wave 1 Utility. I have Heroism on a character and place the Take Cover! secret action during my turn. During my opponent's turn I reveal Take Cover!. When my opponent goes to attack and the attack damage is transferred to the character with Heroism what type of damage is this? Heroism is a tad vague on the damage that the character is taking. If its not attack damage I assume that Take Cover! could blank the attack effectively?
         </question>
@@ -1311,12 +1311,531 @@ I have a question concerning Heroism, the Wave 1 Utility. I have Heroism on a ch
 Damage redirected by Heroism is still attack damage, so it is not affected by Take Cover.
       </answer>
     </entry>
-    <entry id="8-x">
+    <entry id="8-9">
       <question>
 If I have Infiltrate face down on the table during my opponent's turn when they play a secret action, can I reveal Infiltrate on the off chance that my opponent's secret action has an orange icon?
         </question>
       <answer>
 No. Although the game knows that Secret Actions are Actions, it doesn&#x2019;t know specifically which one it is, so it doesn&#x2019;t know which Battle Icons it has, meaning Infiltrate will not work in this scenario.
+</answer>
+    </entry>
+  </target>
+  <target name="Rules Roundup 2019-11-08" source_url="https://transformerstcg-support.wizards.com/hc/en-us/articles/360035662892-War-for-Cybertron-Siege-II-FAQ-and-Rules-Roundup" published_date="2019-11-08" sourced_at="2020-03-04">
+    <entry id="9-1">
+      <question>
+Optimus Prime - Battlefield Legend flips completely for his attack &amp; chooses Leap of Faith as his Action. The first card Leap of Faith reveals is Grenade Launcher. If I attach it to Optimus Prime Battlefield Legend, does he immediately get the +4 Attack boost?
+        </question>
+      <answer>
+Yes.
+      </answer>
+    </entry>
+    <entry id="9-2">
+      <question>
+Optimus Prime - Battlefield Legend is equipped with Power Punch, flips completely for his attack, and chooses Leap of Faith as his Action. The first card Leap of Faith reveals is W-5 Gyro Blaster. If OPBL attaches this, do I keep all the flips revealed from Power Punch? If so, does that mean my opponent now cannot flip more than 2 cards for their defense now that W-5 Gyro Blaster has been attached?
+        </question>
+      <answer>
+No, W-5 Gyro Blaster&#x2019;s ability only triggers if it&#x2019;s attached when the character attacks or defends.
+      </answer>
+    </entry>
+    <entry id="9-3">
+      <question>
+If I have a character with Bumpers attached, and I play Involuntary Promotion on a car in my KO area, does the returned character receive the Bumpers in time to prevent the damage counters from being moved?
+        </question>
+      <answer>
+The damage and upgrades are moved at the same time. Bumpers&#x2019; effect won&#x2019;t stop the damage counters from being moved.
+      </answer>
+    </entry>
+    <entry id="9-4">
+      <question>
+Regarding Pincer, will it allow the follow-up attack to bypass normal rule processes? For example, I attack with Razorclaw in Bot Mode against an untapped unit. Can my other Decepticon attack this untapped unit? What about bypassing Brave?
+        </question>
+      <answer>
+If you can&#x2019;t legally choose another Decepticon as the attacker, and the same character as the defender, you don&#x2019;t get the extra attack. In other words, you can&#x2019;t just ignore Brave or other rules.
+      </answer>
+    </entry>
+    <entry id="9-5">
+      <question>
+Can I KO a Battle Master with Involuntary Promotion if I have no bots in my KO area?
+        </question>
+      <answer>
+Yes. If you have no characters in KO or the characters in your KO area have too many stars, you can use Involuntary Promotion to KO one of your characters.
+      </answer>
+    </entry>
+    <entry id="9-6">
+      <question>
+Regarding Involuntary Promotion trigger timings, when I shift the upgrade and damage counters to the returned character. Do I get to choose to shift the damage counters first followed by the upgrades since they are both my triggers?
+        </question>
+      <answer>
+No part of Involuntary Promotion is a triggered ability. The instructions are all followed in order and the damage counters and upgrades are moved at the same time.
+      </answer>
+    </entry>
+    <entry id="9-7">
+      <question>
+If I equip Crash Landing on an Air Strike Patrol bot that is buffed by Tailwind's +2 Attack, does it trigger Crash Landing with the extra Attack?
+        </question>
+      <answer>
+Crash Landing will do damage based on whatever the plane&#x2019;s attack was when it was last on the battlefield. Bonuses like Tailwind&#x2019;s will still apply because the plane is KO&#x2019;d during the battle.
+      </answer>
+    </entry>
+    <entry id="9-8">
+      <question>
+Nightbird stealing cards from an opponent's scrap pile: Can I keep them after playing them?
+        </question>
+      <answer>
+No. Any action you play from your opponent&#x2019;s scrap pile goes into your played area, and eventually back to their scrap pile. (Cards always go to their owner&#x2019;s hand, deck, KO area, and scrap pile).
+      </answer>
+    </entry>
+    <entry id="9-9">
+      <question>
+Revenge on Ratbat and Bounty on Deadlock both trigger upon Ratbat's KO, but which triggers first?
+        </question>
+      <answer>
+Bounty abilities and Revenge abilities will usually trigger at the same time. Bounty abilities are usually handled first because they belong to the active player.
+      </answer>
+    </entry>
+    <entry id="9-10">
+      <question>
+Can Omega Supreme be used in a manner like the Sentinels where you can have a section of his base mode in your KO area at the start of the game?
+        </question>
+      <answer>
+No. Characters on your team always start on the battlefield unless specifically stated otherwise.
+      </answer>
+    </entry>
+    <entry id="9-11">
+      <question>
+How does Pincer Movement work?  If I have three untapped Decepticons and play Pincer Movement, do I get to attack the same enemy with each of my Decepticons in sequence, or do I only get one extra attack total.  If I can get multiple attacks this way, and I untap one of the previously attacking Decepticons (such as via Anticipation Engine revealing Ready for Action), can that Decepticon attack again?
+        </question>
+      <answer>
+Pincer Movement gives you only one additional attack. After you play it, the next time one of your Decepticons attacks an enemy this turn, you&#x2019;ll get the extra attack after the current attack.
+      </answer>
+    </entry>
+    <entry id="9-12">
+      <question>
+So, let's say we have Omega Supreme (Base), (Spaceship), and (Tank) verses Kickback, Shrapnel, Barrage and Ransack. No side has any KO bots.  All bots on Omega's team is tapped. Shrapnel and Barrage are tapped.  It's the Insecticons turn with Kickback and Ransack untapped and ready to attack. They have 4 battlecards in their deck. They send Kickback to attack Omega Supreme (Tank). Kickback needs to flip at least 8 Battlecards, so 4 Battlecards are first flipped, causing their deck to be reshuffled.  Captain Omega Supreme then formed. Kickback continues his same attack now onto Captain Omega Supreme, flipping at least 4 more battlecards. The player with Omega NOW gets to flip for defending. Since Captain Omega Supreme is now untapped, Ransack is no longer able to attack, thus ending the turn of the Insecticons.
+My question is, is the sequence of events that I have listed correct, or did I miss something?
+        </question>
+      <answer>
+Well don&#x2019;t just leave us hanging! What cards were flipped? Who won?
+(Yes, everything you listed is correct).
+      </answer>
+    </entry>
+    <entry id="9-13">
+      <question>
+A question on Calliburst? After the initial first draw, if my opponent draws three cards, do they take three damage all at once or do they take one, then one, then one again, for a total of three. 
+        </question>
+      <answer>
+One then one then one again. Now say that five times fast.
+      </answer>
+    </entry>
+    <entry id="9-14">
+      <question>
+When you use Sabotaged Armaments, and your opponent has a Power Punch on the attacker, do they get the Bold before Sabotaged Armaments activates?
+        </question>
+      <answer>
+No. This all happens before Battle Cards are flipped.
+Speaking of which, what happens when a character upgraded with Anticipation Engine swings into a Sabotaged Armaments?
+Anticipation Engine and Sabotaged Armaments will both trigger at the same time. The attacker will resolve Anticipation Engine first, then the defender will resolve Sabotaged Armaments.
+      </answer>
+    </entry>
+    <entry id="9-15">
+      <question>
+Does Involuntary Promotion count as "repairing" the resurrected character? In other words, could Torox or Ratchet benefit from its play?
+        </question>
+      <answer>
+No. The character appears on the Battlefield fully repaired. It&#x2019;s not repaired while on the Battlefield.
+      </answer>
+    </entry>
+    <entry id="9-16">
+      <question>
+If I&#x2019;m playing Metroplex and I get KO&#x2019;d in round one, can I sideboard in Trypticon?
+        </question>
+      <answer>
+Your character sideboard is allowed 1 character with 19 stars or fewer. Trypticon is too big for this and is wondering why you&#x2019;re not just running him on your team to begin with.
+      </answer>
+    </entry>
+    <entry id="9-17">
+      <question>
+What happens when I want to Focus 2 but I have last card in my deck?
+        </question>
+      <answer>
+Utter calamity! Look at the top card, set it aside, reshuffle your scrap pile into your deck, look at the new top card, then decide what to do with the two cards you&#x2019;ve looked at. Now, look at me. I am the captain now.
+      </answer>
+    </entry>
+    <entry id="9-18">
+      <question>
+For Omega Supreme, it says once your opponent shuffles their deck you combine. If I swing with one of Omega's pieces, but mid-attack my opponent shuffles their deck, do I combine and stop my attack because the character who triggered the attack isn't and my opponent has another character untapped? Along the same lines, when someone attacks into an Omega Supreme piece and they shuffle their deck. When you go to combine, does the attack still go through to the now combined Omega Supreme? Or does the attack get canceled as the original target isn't on the field anymore?
+        </question>
+      <answer>
+If a character attacks or defends, and in the middle of the attack, combines into another character, the new combined character continues to attack or defend. Note that the combined character is untapped and will remain untapped for the duration of the attack.
+      </answer>
+    </entry>
+    <entry id="9-19">
+      <question>
+If I play Dual Wield on a mercenary who has no weapons on him originally, do I have to discard that weapon at the end of turn, or because I still have an open weapon slot can I keep that weapon?
+        </question>
+      <answer>
+You do not! You can keep it in the original Weapon slot.
+      </answer>
+    </entry>
+    <entry id="9-20">
+      <question>
+Does Daring Escape continually check the whole turn or does it only check when the card is played?
+        </question>
+      <answer>
+It only checks one time when the card is played, not the whole turn.
+      </answer>
+    </entry>
+    <entry id="9-21">
+      <question>
+If I play Brainstorm into 2 Overwhelming Advantages and meet all the requirements, can I do 15 damage to 2 different enemies? Or must they target the same character?
+        </question>
+      <answer>
+Each Overwhelming Advantage is separate, so they can do damage to different characters.
+      </answer>
+    </entry>
+    <entry id="9-22">
+      <question>
+If I have a Cassette in Bot Mode that is chosen as a defender but flip a Swerve does it fizzle the attack when the character flips to Cassette due to the Stealth on that side as long as another target is legal to attack? Or not, since it's already been chosen as the defender?
+        </question>
+      <answer>
+Once an attack is legally declared, the defender picking up Stealth won&#x2019;t matter.
+      </answer>
+    </entry>
+    <entry id="9-23">
+      <question>
+If I flip a character who lets me play a card for free such as Detritus - Arms Dealer who allows me to play a Black Pip card, can I play a Smoke Cloak this way to give Detritus Tough 1 for that battle, or does it apply after flips have ready happened?
+        </question>
+      <answer>
+Swerve happens before Battle Cards are flipped, so if you reveal Swerve to flip Detritus in this way and play Smoke Cloak, the Tough 1 would be in place before Battle Cards are flipped..
+      </answer>
+    </entry>
+    <entry id="9-24">
+      <question>
+I play Brainstorm, then Ancient Wisdom and System Reboot. My new hand is Multi-Mission Gear, Brainstorm, and 2 Unleashed Potential. Can I play Mutli-Mission Gear, then Brainstorm, and then both Unleashed Potentials?
+        </question>
+      <answer>
+Let&#x2019;s walk through this whole play. You play Brainstorm and your first action is Ancient Wisdom. Ancient Wisdom has you scrap the top two cards of your deck and put an Action and/or Upgrade from among the scrapped cards into your hand. At this point, you can play Unleash Potential, if it&#x2019;s in your hand.
+Let&#x2019;s say you do. You get a card with 1 star from outside the game and put it into your hand. This may not be a great idea, because you then play the second action from Brainstorm, which is System Reboot. You scrap your hand (including that fancy star card you just snagged) and draw 4 cards.
+But instead, let&#x2019;s say you don&#x2019;t play Unleash Potential. That brings you to the end of Ancient Wisdom and now you System Reboot just as above.
+In either case, your new hand is Multi-Mission Gear, Brainstorm, and 2 Unleash Potentials. You&#x2019;ve already played an Action this turn, so we&#x2019;re guessing you&#x2019;ll now play Multi-Mission Gear. This allows you to play an Action such as Brainstorm. Brainstorm will allow you to play 2 Unleash Potentials. You played Ancient Wisdom earlier in your turn, so you can get two 1-star cards from outside the game.
+</answer>
+    </entry>
+  </target>
+  <target name="Rules Roundup 2019-11-22" source_url="https://transformerstcg-support.wizards.com/hc/en-us/articles/360036215412-Rules-Roundup-11-22-19" published_date="2019-11-22" sourced_at="2020-03-04">
+    <entry id="10-1">
+      <question>
+My opponent just went and used &#x201C;Peace Through Tyranny&#x201D; and KO&#x2019;d his Lionizer...putting it on Spinister. Pteraxadon was already tapped. He then attacked with Spinister and KO&#x2019;d my Scamper. My Metroplex is still untapped. My opponent has another turn from the PTT. How does that work seeing he&#x2019;s all tapped out, but I still have a character that&#x2019;s untapped?
+        </question>
+      <answer>
+Your opponent still takes their extra turn, even if they won&#x2019;t be able to attack during that turn. They&#x2019;ll still draw a card and can play cards, etc.
+      </answer>
+    </entry>
+    <entry id="10-2">
+      <question>
+With Showing Off, would a Bot receive any and all "when you flip to" triggers during the process or does it only count the final mode it's flipped to? For example, if Grimlock - Dinobot Leader is in bot mode and plays Showing Off, could he end in Bot mode with the Bold 3 from his Alt mode?
+        </question>
+      <answer>
+Yes, you can first flip Grimlock to alt mode, causing the ability on that mode to trigger, and then flip back to bot mode.
+      </answer>
+    </entry>
+    <entry id="10-3">
+      <question>
+When a character is KO'd as part of resolving a card effect, like Peace Through Tyranny, is the character put into the KO area fully damaged, or only with the amount of damage it had when it was KO'd?
+        </question>
+      <answer>
+Characters in KO are always fully damaged.
+      </answer>
+    </entry>
+    <entry id="10-4">
+      <question>
+At the end of the turn, does a weapon equipped from the scrap pile that is in the &#x201C;extra&#x201D; weapon slot get scrapped or do you choose?
+        </question>
+      <answer>
+You choose.
+      </answer>
+    </entry>
+    <entry id="10-5">
+      <question>
+For Relentless Invasion, do you have to have all three minions KO&#x2019;d or can you revive one or two of them?
+        </question>
+      <answer>
+They don&#x2019;t all have to be in the KO area. Whichever ones are there can be put onto the battlefield. Only the characters deployed this way go back under Trypticon at the end of your turn.
+      </answer>
+    </entry>
+    <entry id="10-6">
+      <question>
+For Showing Off, can I flip Sergeant Springer to one alt mode and use its effect then flip to the other Alt mode and use its effect too? Or must I resolve Showing Off completely first?
+        </question>
+      <answer>
+Showing Off resolves completely before any abilities that triggered happen.
+      </answer>
+    </entry>
+    <entry id="10-7">
+      <question>
+What is the timing for Sabotaged Armaments versus weapons like Power Punch?
+        </question>
+      <answer>
+Sabotaged Armaments is revealed when one of your characters defends, before Battle Cards are flipped. Power Punch will be scrapped before it can affect that battle.
+      </answer>
+    </entry>
+    <entry id="10-8">
+      <question>
+What happens when I play Acute Reflexes on Specialist Flamewar (Bot Mode)?
+        </question>
+      <answer>
+If a character has two instances of Focus 1, they happen sequentially. If you leave the top card of your deck on top of your deck for the first instance of Focus, that will be the card you will get the second time you Focus.
+      </answer>
+    </entry>
+    <entry id="10-9">
+      <question>
+What happens when I play Medic's Protective Field on Private Smokescreen (Alt Mode)?
+        </question>
+      <answer>
+Because the Safeguard value is the same, having two instances of it has no additional effect. Smokescreen can&#x2019;t take more than 3 damage if undamaged. However, if a character has two instances of Safeguard with different values, the lowest value wins. For example, if a character has Safeguard 1 and Safeguard 3, that character can&#x2019;t take more than 1 damage if undamaged.
+      </answer>
+    </entry>
+    <entry id="10-10">
+      <question>
+How many cards do I flip if my opponent shuffles their deck while attacking Omega Supreme (Spaceship)&#x2013;triggering Combination&#x2013;and I have Evasive Maneuvers on Omega Supreme (Spaceship) and Urban Camo on Omega Supreme (Base)?
+        </question>
+      <answer>
+When you combine into Captain Omega Supreme, you get to keep 1 upgrade in each slot, so you can keep both Evasive Maneuvers and Urban Camo. You&#x2019;ll flip a total of 6 Battle Cards. After the battle, you&#x2019;ll scrap Evasive Maneuvers.
+      </answer>
+    </entry>
+    <entry id="10-11">
+      <question>
+If my opponent KO&#x2019;s Skytread (whichever), what happens to his Upgrades? Are they Scrapped? Are they eligible to be transferred to Raider Skytread? Can I choose to Scrap a Reactive Armor even if the other piece doesn't have an Armor?
+        </question>
+      <answer>
+If Skytread (whichever) has any upgrades prior to combining, those upgrades are scrapped. Raider Skytread can keep the upgrades from the Skytread (whichever) that was on the battlefield and not KO&#x2019;d.
+      </answer>
+    </entry>
+    <entry id="10-12">
+      <question>
+My opponent has Nightbird in Alt mode with 9 damage counters on her. If I play Plasma Burst to deal the remaining two damage to finish her off, will I still have to deal 1 damage to one of my characters?
+        </question>
+      <answer>
+Yes. Unless the game ends when Nightbird is KO&#x2019;d.
+      </answer>
+    </entry>
+    <entry id="10-13">
+      <question>
+Do Omega Supreme and Skytread&#x2019;s separate uncombined character cards count as separate characters for the purposes of "Choose one of your characters" cards?  Most notable example is if I play Two-Pronged Attack on "Skytread (Plane)", do I also get the tank trigger, or do I only get the Plane trigger?
+        </question>
+      <answer>
+While uncombined, each character is separate. If you play Two-Pronged Attack on Skytread (Plane), you&#x2019;ll only get the damage effect.
+      </answer>
+    </entry>
+    <entry id="10-14">
+      <question>
+Is Pierce damage still considered attack damage? For example, if someone is attacking me with Pierce 4 against a character like Insecticon Skrapnel whose text is &#x201C;can&#x2019;t take more than 3 damage during an attack&#x201D;, does that mean even though they have Pierce 4 after adding attack damage, would they only do 3, or would they do 4? 
+        </question>
+      <answer>
+Pierce is an ability that applies to attack damage. But, effects like Insecticon Skrapnel&#x2019;s or the Safeguard ability will still apply. In your example, Skrapnel would take only 3 damage.
+      </answer>
+    </entry>
+    <entry id="10-15">
+      <question>
+If you have Trypticon untapped initially, and your opponents&#x2019; characters are also all untapped, and I play Relentless Invasion to bring back Wipe Out, Full Tilt and Brunt, since the effect of Invasion allows you to attack with them all, can Trypticon attack as well?
+        </question>
+      <answer>
+Yes. The attack granted to his three minions is in addition to your normal attack that turn.
+      </answer>
+    </entry>
+    <entry id="10-16">
+      <question>
+If Nightbird attacks with a Contract Contingency and it triggers Nightbird&#x2019;s bounty, can I take another Contract Contingency from my opponent&#x2019;s scrap pile, play this, then trigger Nightbird&#x2019;s bounty again?
+Or can you only trigger Contract Contingency once because you are not getting 4 or more attack damage through after applying the plus 2 to the already finished attack?
+        </question>
+      <answer>
+The second Contract Contingency won&#x2019;t trigger because it will be played after the attack damage has been done.
+      </answer>
+    </entry>
+    <entry id="10-17">
+      <question>
+I have 4 cards in my hand and my opponent has Decepticon Shockwave in Bot mode. If they play Brainstorm &gt; System Reboot &gt; System Reboot, do I take 4 damage after each System Reboot or 8 damage after Brainstorm is resolved?
+        </question>
+      <answer>
+Shockwave&#x2019;s ability will trigger a total of 8 times. Each of those abilities resolves separately, so essentially you have 8 damage counters to spread around as you wish.
+      </answer>
+    </entry>
+    <entry id="10-18">
+      <question>
+Using the above scenario, my character is Nightbird in alt mode. What is the timing there? Does the Shockwave player take 1 damage each time an action hits the play area or after the Brainstorm resolves?
+I.E. My Nightbird is at full HP (11) and his Shockwave is at 3.  Who wins?
+        </question>
+      <answer>
+Here's what happens. Your opponent starts to play Brainstorm, this causes Nightbird&#x2019;s ability to trigger, but that effect doesn&#x2019;t resolve immediately. Continuing to resolve Brainstorm, your opponent then plays System Reboot. Another Nightbird trigger happens, which, again, doesn&#x2019;t resolve immediately. The System Reboot resolves, causing Shockwave to trigger four times. Continuing to resolve Brain Storm, your opponent then plays the second System Reboot. This causes another Nightbird trigger. The second System Reboot causes another four Shockwave triggers. Now that Brainstorm has resolved, we start resolving triggers, beginning with the ones that triggered most recently and working backwards. The four Shockwave triggers caused by the second System Reboot happen one at a time. Next, the Nightbird trigger caused by the second System Reboot happens. Next, the Shockwave triggers caused by the first System Reboot happens. Next, the Nightbird trigger caused by the first System Reboot happens. And finally, the Nightbird trigger caused by the Brain Storm happens. At any point, if resolving one of these triggers causes a player to KO their last character, that player loses the game. If Shockwave was at 3 and Nightbird was at 8 at the beginning of this sequence, Nightbird is going to lose.
+      </answer>
+    </entry>
+    <entry id="10-19">
+      <question>
+The answer from the last rules roundup states that the new combiners (Omega Supreme and Skytread) keep all upgrades and damage when they combine. Even with that explanation, rule enforcers where I play tell me that it doesn't apply to the KO'd Skytread's upgrades and that those upgrades are scrapped during the KO process before Revenge combining takes place and do not transfer to the combined Skytread. Can I please get a specific ruling on this?
+        </question>
+      <answer>
+Upgrades attached to the Skytread half that gets KO&#x2019;d are scrapped at the same time. Those upgrades can&#x2019;t be put on Raider Skytread.
+      </answer>
+    </entry>
+    <entry id="10-20">
+      <question>
+Let's say, in theory, Lockdown has a 4 cards in hand, along with a Weapon, Armor, Utility, and one card underneath him.  Lockdown flips to his alt mode, allowing him to draw 4 discard 4, but I reveal Hijack.  Would I get to draw 4 while Lockdown's player has to pay the discard part of the effect or since he drew 0 cards he discards 0 cards?
+        </question>
+      <answer>
+You draw the 4 cards. The Lockdown player would have to scrap 4 cards. That poor, sweet fool has been Hijacked.
+      </answer>
+    </entry>
+    <entry id="10-21">
+      <question>
+Does an Autobot Battlemaster in upgrade mode on a character still count as an Autobot on the battlefield when putting cards on your KO area for Daring Escape?
+        </question>
+      <answer>
+No. Daring Escape only counts Autobot characters.
+      </answer>
+    </entry>
+    <entry id="10-22">
+      <question>
+I have Trypticon and Full-Tilt on the battlefield untapped, with Wipeout and Brunt in the KO area.  I play Relentless Invasion, returning the two KOed bots to the battlefield and attack with them.  Am I then required to attack with Trypticon or Full-Tilt?
+        </question>
+      <answer>
+If your opponent is entirely tapped out, you must attack with both characters. If not, you can attack with one or the other (not both), but you don&#x2019;t have to.
+      </answer>
+    </entry>
+    <entry id="10-23">
+      <question>
+Relentless Invasion returns Wipeout to the battlefield, I flip him to Bot mode, and attack with him.  After he gets pulled back under Trypticon, I use Battlefield Incursion the next turn to replay him.  Does Wipeout enter the battlefield in Bot mode or Alt mode?
+        </question>
+      <answer>
+Alt mode.
+      </answer>
+    </entry>
+    <entry id="10-24">
+      <question>
+Let's say I've got an Armor on one of my characters as well as Defensive Configuration, giving me an extra empty Armor slot. I then play Hunker Down which checks to see if I have an Armor or not. Since Configuration will be giving me an empty Armor slot, would I be able to put an Armor on my character through Hunker, or will it not work since I do still have an Armor in the 1st Armor slot?
+        </question>
+      <answer>
+It will not work since your Tank already has an Armor attached.
+      </answer>
+    </entry>
+    <entry id="10-25">
+      <question>
+If I have a LV Gamma Disruptor Launcher on Shockwave and play a Dual Wield for my turn, giving Shockwave another Weapon slot, and I play another LV Gamma as my upgrade for the turn, then attack. Since 2 LV gammas are allowed in one weapon slot, I presume the one attached by Dual Wield will stay on as well?
+        </question>
+      <answer>
+Yes.
+      </answer>
+    </entry>
+    <entry id="10-26">
+      <question>
+Interesting Sergeant Six-Gun question. If I have both of his Upgrades on one character, and say an Armor in his Armor slot (so in this case Six-Gun&#x2019;s Upgrades are in Weapon and Utility, respectively), can I scrap said armor to put on a Utility? One of his guns says you can put in Armor or Utility slots but I'm not sure if you could scrap one to play the other.
+        </question>
+      <answer>
+No. You choose the slots when you attach the upgrades to the character.
+      </answer>
+    </entry>
+    <entry id="10-27">
+      <question>
+If you have Private Turbo Board defending against Optimus Prime &#x2013; Battlefield Legend, after his opponent already played an Upgrade and an Action for their turn, and Optimus flips an Action, may he use it?
+        </question>
+      <answer>
+No.
+      </answer>
+    </entry>
+    <entry id="10-28">
+      <question>
+Question regarding interaction between Backup Bag and weapons which can be scrapped during attack (e.g. Sturdy Javelin and Multi-Missile Pod). If I choose to scrap the weapon and it's saved by Backup Bag, can I choose to scrap it again during the same attack?
+        </question>
+      <answer>
+No. It scraps as a result of a triggered ability, which does not trigger again. You would have to somehow attack a second time.
+      </answer>
+    </entry>
+    <entry id="10-29">
+      <question>
+If I reveal Stable Cover while Jazz is defending in Alt mode, does this protect his ability from being shut down even if the attacker has Pierce?
+        </question>
+      <answer>
+No.
+      </answer>
+    </entry>
+    <entry id="10-30">
+      <question>
+Can a Weaponizer be used as your sideboard character?
+        </question>
+      <answer>
+Yes. Although it is two cards, it is one character.
+      </answer>
+    </entry>
+    <entry id="10-31">
+      <question>
+Involuntary Promotion: if I play it and chose a tapped character, does the revived character come back tapped or untapped?  
+        </question>
+      <answer>
+Untapped.
+      </answer>
+    </entry>
+    <entry id="10-32">
+      <question>
+If my Predaking attacks with 5 weapons and a Spare Parts, and my opponent reveals a Sabotage Armaments Secret Action, what happens? Does the Sabotage Armaments scrap Spare Parts only or does it scrap only 4 of the Weapons and Spare Parts?
+        </question>
+      <answer>
+In this scenario, you could use Spare Parts to save one Weapon of your choice.
+      </answer>
+    </entry>
+    <entry id="10-33">
+      <question>
+My question is about the interaction of Debilitating Crystal and the new Expanded Rules document. If my attacker has a Debilitating Crystal, and the Defender has a Gyro Blaster I wish to return, I believe the Gyro Blaster would still limit each character to 2 flips this battle. Is this correct? I know a previous Rules Roundup clarified that a Security Console would still Draw and Plan even if a Debilitating Crystal returned it. Is this also the case with a Sparring Gear I wish to return? Do they still have Tough 2 this battle?
+        </question>
+      <answer>
+Expanded Rules point 8.5 indicates the Gyro Blaster is returned before flips are determined, so it will not affect them. Likewise, Sparring Gear will no longer grant Tough 2 when flips are determined.
+      </answer>
+    </entry>
+    <entry id="10-34">
+      <question>
+If an opponent attacks me with a Sturdy Javelin on a ranged character and I reveal a Sabotaged Armaments I played last turn, how do the cards resolve? Does the Javelin scrap and deal two damage before the secret action takes effect or does the secret action scrap the Javelin before the two damage is dealt?
+        </question>
+      <answer>
+The attacking player will scrap the Javelin to do 2 Damage. Because attacker effects resolve before defender effects.
+      </answer>
+    </entry>
+    <entry id="10-35">
+      <question>
+Furthermore in the case of Firedrive&#x2019;s weapon mode, it says the upgraded character gets the attack bonus, so will the character keep the attack bonus, just not the +3 since the weapon will be scrapped? 
+        </question>
+      <answer>
+Yes. The character will keep the Attack bonus but not the +3.
+      </answer>
+    </entry>
+    <entry id="10-36">
+      <question>
+Autobot Cosmos is in Bot mode and attacks Lord Megatron in Bot mode. During Cosmos&#x2019; attack against Lord Megatron, I have to reshuffle. Does the reshuffle trigger both Cosmos and Lord Megatron's abilities at the same time? Or does Cosmos KO Lord Megatron first?
+        </question>
+      <answer>
+Cosmos would KO Lord Megatron first. Megatron&#x2019;s ability will still happen afterwards if the game has not ended.
+      </answer>
+    </entry>
+    <entry id="10-37">
+      <question>
+Let say I'm attacking with Mirage and flip 2 black pips and 3 white pips. As far as I know, my attack is 5 Pierce 2 and then his ability triggered and I untap. Then I attack again and this time I flip 1 white pip and 3 black pips. Is my attack 5 Pierce 3 or is it 5 Pierce 5?
+        </question>
+      <answer>
+5 Pierce 5.
+      </answer>
+    </entry>
+    <entry id="10-38">
+      <question>
+I have a character with a Reactive Armor. I play a Scrapper Gauntlets on that character. My opponent only has a single Armor in play.  What is the timing on the triggers here?  Are they considered simultaneous, or does one need to happen before the other?
+        </question>
+      <answer>
+They trigger simultaneously and you resolve them in an order of your choosing.
+      </answer>
+    </entry>
+    <entry id="10-39">
+      <question>
+Beginning player here, not sure where else to go for clarification in general. My buddy and I played a killer game with Insecticons (me) v Special Ops Specialists (buddy). All three of his characters had Safeguard. I swung into one of them (undamaged) with Raider Kickback (bot) and flipped one blue and several orange. My thinking was the one damage from Kickback's ability would eliminate the Safeguard, thus allowing all combat damage to be applied. Then came the confusion. I believe his thinking was that all the damage came at once, prevented to some degree by Safeguard. After scouring stupid Google for help to no avail, I decided to simply concede to his perspective and move the game along. He won, but it was close, and it would have been a drastically different story had all that combat damage been applied.
+Kickback&#x2019;s ability does 1 Damage before Attack damage is applied, thus disabling Safeguard. Congratulations on your crushing theoretical victory!
+Do you need to have the character in Bot mode showing the Bounty for this card to use the bounty. Or does the card activate the character&#x2019;s Bounty regardless of mode?
+        </question>
+      <answer>
+Abilities are only active if that side is face-up. I.E. you must be in Bot Mode to use a Bot Mode ability.
 </answer>
     </entry>
   </target>

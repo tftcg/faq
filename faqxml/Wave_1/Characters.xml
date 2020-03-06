@@ -401,6 +401,7 @@ from white battle icons.
     No. You&#x2019;ve already flipped cards for that attack.
 </answer>
     </entry>
+    <entry xref="Rules_Roundup#2-5" mode="bot"/>
   </target>
   <target name="Prowl, Military Strategist">
     <entry id="prowl-1" mode="alt">

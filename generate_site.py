@@ -193,7 +193,7 @@ def generate_html(infilename, tofilename):
     f.write(page)
     f.close()
 
-#generate_html('templates/index.jinja2', 'index.html')
 generate_html('templates/about.jinja2', 'about.html')
 generate_html('templates/contribute.jinja2', 'contribute.html')
+generate_html('templates/feedback.jinja2', 'feedback.html')
 generate_html('templates/sources.jinja2', 'sources.html')

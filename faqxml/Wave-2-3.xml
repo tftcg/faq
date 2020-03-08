@@ -1,0 +1,786 @@
+<?xml version="1.0"?>
+<faq name="Wave 2 and 3 FAQ" source_url="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
+  <target name="Air Raid - Fearless flyer">
+    <entry mode="bot">
+      <question>If Air Raid has an Upgrade that does damage to an enemy, will Air Raid&#x2019;s ability trigger and let me scrap an Upgrade from that enemy?</question>
+      <answer>No, unless the Upgrade specifically says that the upgraded character does the damage. Air Raid must do the damage for the ability to trigger.</answer>
+    </entry>
+  </target>
+  <target name="Alpha Bravo - Airborne Special Ops">
+    <entry mode="alt">
+      <question>What happens if the 1 damage is enough to KO the attacking Plane?</question>
+      <answer>Well, it doesn&#x2019;t sound like it was a great attack for your opponent. No battle cards will be flipped, and the attack will end.</answer>
+    </entry>
+  </target>
+  <target name="Blackwing - Aerial Attacker">
+    <entry id="blackwing-1" mode="bot">
+      <question>If both of these characters are in my KO area, will their abilities let me combine them into Dreadwing, Sky Destroyer?</question>
+      <answer>No. Even though each one has an ability that will find the other in the KO area, the abilities work only from the battlefield.</answer>
+    </entry>
+  </target>
+  <target name="Blitzwing - Relentless Foe">
+    <entry xref="Rules_Roundup-2019-07-12#1-26" mode="bot"/>
+  </target>
+  <target name="Bombshell - Decepticon Psy Ops">
+    <entry xref="Rules_Roundup-2019-07-12#1-3" mode="bot"/>
+  </target>
+  <target name="Dreadwind - Air Defense">
+      <entry xref="Wave_2/Characters#blackwing-1" mode="bot"/>
+  </target>
+  <target name="Blurr - Fastest Bot in the Galaxy">
+    <entry mode="bot">
+      <question>If my opponent has multiple untapped characters when I use Blurr&#x2019;s ability, which one does it attack?</question>
+      <answer>You choose, just as you would for any battle.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can I play any cards in before it attacks the untapped character?</question>
+      <answer>No. The second attack starts right after the first one finishes.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Do I have to attack a second time, or can I just leave Blurr untapped?</question>
+      <answer>You do. Note that if there isn&#x2019;t an untapped enemy, the ability doesn&#x2019;t trigger and Blurr won&#x2019;t untap.</answer>
+    </entry>
+  </target>
+  <target name="Decepticon Venin - Insecticon Tyrant">
+    <entry mode="alt">
+      <question>What happens if this is KO&#x2019;d and my opponent has fewer than 2 cards in hand?</question>
+      <answer>If they have 1 card in hand, that card is scrapped. If they have an empty hand, nothing happens.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>What happens if Venin and another of my Insecticons are KO&#x2019;d at the same time?</question>
+      <answer>In that case, Venin&#x2019;s ability will trigger twice. Your opponent will scrap 4 cards from their hand.</answer>
+    </entry>
+  </target>
+  <target name="Dinobot Slug - Battering Ram">
+    <entry mode="alt">
+      <question>If Slug attacks or defends more than once in a turn, will his ability work in each battle?</question>
+      <answer>Yes. The first white battle icon you flip for each battle will result in 3 extra cards rather than 2.</answer>
+    </entry>
+  </target>
+  <target name="Dinobot Swoop - Bombardier">
+    <entry mode="bot">
+      <question>If the card I return to my hand also has orange battle icons, will those count toward Swoop&#x2019;s attack?</question>
+      <answer>Yes. You don&#x2019;t use Swoop&#x2019;s ability until after the battle is finished.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If I flip more than one card with a green battle icon, can I return one to my hand using Swoop&#x2019;s ability and another using the normal rules for green battle icons?</question>
+      <answer>Yes. You&#x2019;ll need to swap a card from your hand for the other card, as normal.</answer>
+    </entry>
+  </target>
+  <target name="Dirge - Doombringer">
+    <entry mode="alt">
+      <question>After Dirge&#x2019;s ability resolves, does the bonus change if the number of characters in my opponent&#x2019;s KO area changes later in the turn?</question>
+      <answer>No. you count the number of characters in your opponent&#x2019;s KO area when the ability resolves. After that, even if you KO another character, the attack bonus won&#x2019;t change.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>What happens if I play Steamroll and choose Dirge?</question>
+      <answer>If you attack with Dirge and it does more than enough attack damage to KO the defender, Steamroll&#x2019;s ability will work, but Dirge&#x2019;s ability won&#x2019;t trigger. If Dirge does exactly enough damage to KO the defender, Steamroll won&#x2019;t do anything.</answer>
+    </entry>
+  </target>
+  <target name="Divebomb - Aerial Assault">
+    <entry mode="bot">
+      <question>If the card isn&#x2019;t an Action, does it stay revealed?</question>
+      <answer>No, although you are allowed to look at it and read it. Once you&#x2019;ve done so, the card goes back to your opponent&#x2019;s hand hidden.</answer>
+    </entry>
+  </target>
+  <target name="Grapple - Autobot Architect">
+    <entry mode="alt">
+      <question>Does it matter how many cards I discard this way?</question>
+      <answer>No. There just needs to be exactly four different colors among the battle icons on those cards.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-9" mode="bot"/>
+  </target>
+  <target name="Grimlock - Powerful Commander">
+    <entry mode="bot">
+      <question>Does this mean I get a card from my collection? Do I have to own the card?</question>
+      <answer>Yes, you get a character that&#x2019;s not in the current game and add it to your KO area.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can I choose a Dinobot that has the same name as one of my characters?</question>
+      <answer>Yes. Twinsies!</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Have y'all clarified as of yet if the new Grimlock can fetch the Wave 1 Dinobots?</question>
+      <answer>Yes. As written, Grimlock &#x2013; Powerful Commander can find Wave 1 Dinobots.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can Grimlock - Powerful Commander put another Grimlock - Powerful Commander into the KO area?</question>
+      <answer>Yes.</answer>
+    </entry>
+  </target>
+  <target name="Menasor - Menacing Colossus">
+    <entry mode="combiner">
+      <question>If I play an Action that lets me play another Action, such as Confidence, does that Action count as the extra one that Menasor lets me play?</question>
+      <answer>No. If another card lets you play an Action, that won&#x2019;t count for Menasor. You can play that Action and then another one for Menasor.</answer>
+    </entry>
+  </target>
+  <target name="Motormaster - Stunticon Leader">
+    <entry mode="alt">
+      <question>What happens if my opponent&#x2019;s card tries to move damage counters onto one of my other characters?</question>
+      <answer>Motormaster&#x2019;s ability won&#x2019;t affect any card that tries to move damage counters from one character to another. That doesn&#x2019;t count as dealing damage. (The damage was already dealt.  It&#x2019;s just moving.)</answer>
+    </entry>
+    <entry mode="alt">
+      <question>Does Motormaster&#x2019;s ability have any effect on my own cards?</question>
+      <answer>No. Your cards can still do damage to your other characters. (Although they hope you have a good reason for doing that.)</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can I choose an untapped Stunticon to defend, even if I have other tapped Stunticons?</question>
+      <answer>Yes. You can choose any Stunticon to defend, ignoring abilities like brave and stealth, and ignoring which characters are tapped and untapped.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Does Motormaster take the damage with his Alt Mode effect?</question>
+      <answer>Motormaster takes damage that would normally be dealt to him, but does not take damage meant for other characters.</answer>
+    </entry>
+  </target>
+  <target name="Offroad - All-Terrain Soldier">
+    <entry mode="alt">
+      <question>What happens if the 1 damage is enough to KO the attacking Car?</question>
+      <answer>Well, it doesn&#x2019;t sound like it was a great attack for your opponent. No battle cards will be flipped, and the attack will end.</answer>
+    </entry>
+  </target>
+  <target name="Optimus Maximus - Ultimate Defender">
+    <entry mode="combiner">
+      <question>Does the triggered ability happen before battle cards are flipped?</question>
+      <answer>Yes. You&#x2019;ll get to plan and set up your flip. The ability happens just after Optimus Maximus is chosen as the attacker or as the defender.</answer>
+    </entry>
+  </target>
+  <target name="Optimus Prime - Gleaming Commander">
+    <entry mode="alt">
+      <question>Does this mean I get characters from my collection? Do I have to own the card?</question>
+      <answer>Yes, you get up to 3 Sentinels that aren&#x2019;t in the current game and add them to your KO area.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>Can I choose Sentinels that have the same name as one of my characters?</question>
+      <answer>The 3 Sentinels you bring into the game must all be different, but they can be the same as characters that were on your starting team.</answer>
+    </entry>
+  </target>
+  <target name="Predacon Rampage - Savage Hunter">
+    <entry mode="bot">
+      <question>What happens if Rampage and an enemy are KO&#x2019;d at the same time?</question>
+      <answer>In that case, Rampage&#x2019;s ability will trigger and 1 damage will be repaired from each of your Predacons. Note that Rampage will be in the KO area at this time and won&#x2019;t have any damage repaired.</answer>
+    </entry>
+  </target>
+  <target name="Razorclaw - Predacon Leader">
+    <entry mode="bot">
+      <question>When I flip Razorclaw to bot mode, can he still attack tapped characters?</question>
+      <answer>Yes.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can Razorclaw attack an untapped character that has stealth if there are other characters he could attack?</question>
+      <answer>Yes. Abilities like stealth and brave still function. You just treat untapped characters as though they were tapped when determining what Razorclaw can attack.</answer>
+    </entry>
+  </target>
+  <target name="Silverbolt - Aerialbot Leader">
+    <entry mode="alt">
+      <question>If Silverbolt attacks while in alt mode, how is attack damage calculated?</question>
+      <answer>Silverbolt&#x2019;s ability will trigger after you&#x2019;ve flipped battle cards (assuming you flip the required battle icons). He&#x2019;ll be in bot mode when it&#x2019;s time to calculate attack damage, so you&#x2019;ll use his base 3 attack. Note that if he flips to bot mode, and his bot mode ability KO&#x2019;s the defender, Silverbolt won&#x2019;t do attack damage.</answer>
+    </entry>
+  </target>
+  <target name="Skywarp - Teleporting Seeker">
+    <entry mode="bot">
+      <question>If I play a battle card with no battle icons, and then later in the turn I flip a battle card that has no battle icons, will Skywarp&#x2019;s ability trigger again?</question>
+      <answer>No. The &#x201C;once per turn&#x201D; applies to playing and flipping, not each individually.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If I attack with another character and flip a battle card with no battle icons, will Skywarp&#x2019;s ability trigger?</question>
+      <answer>Yes. This could matter if Skywarp gets to attack later in the turn.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-4" mode="alt"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-21" mode="bot"/>
+  </target>
+  <target name="Starscream - Decepticon King">
+    <entry mode="bot">
+      <question>What happens if I flip more than one Decepticon Crown in the same battle?</question>
+      <answer>Starscream&#x2014;sorry&#x2014;King Starscream&#x2014;&#x2019;s ability will trigger once for each Decepticon Crown you flip. Hit 2 of them and get +6 to your attack and defense for the turn.</answer>
+    </entry>
+  </target>
+  <target name="Thrust - Supersonic Interceptor">
+    <entry mode="alt">
+      <question>Can I use Thrust&#x2019;s ability if he&#x2019;s tapped when I attack with one of my other characters?</question>
+      <answer>No. You can&#x2019;t tap Thrust if he&#x2019;s already tapped.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-2" mode="alt"/>
+  </target>
+  <target name="Torox - Fueler">
+    <entry mode="alt">
+      <question>Can damage counters still be moved from enemy characters?</question>
+      <answer>Yes. If an effect moves a damage counter without saying the damage is repaired, that effect will still work.</answer>
+    </entry>
+  </target>
+  <target name="Volcanicus - Fiery Champion">
+    <entry mode="combiner">
+      <question>What happens if the damage done by Volcanicus&#x2019;s ability KO&#x2019;s the defender?</question>
+      <answer>In that case, the attack ends, although any other abilities that trigger when Volcanicus attacks will happen. Volcanicus won&#x2019;t do attack damage and won&#x2019;t untap.</answer>
+    </entry>
+  </target>
+  <target name="Warpath - Confident Sharpshooter">
+    <entry mode="alt">
+      <question>If my opponent has more than 1 card in their scrap pile with two blue battle icons, can they choose to do 1 damage to each of two of their characters, or is all the damage done to the same character?</question>
+      <answer>They can choose individually for each card.</answer>
+    </entry>
+  </target>
+  <target name="Aerialbot Formation">
+    <entry>
+      <question>If the upgraded character is tapped, does it give itself a +1 attack bonus?</question>
+      <answer>No. The upgraded character doesn&#x2019;t count, only your other tapped Aerialbots.</answer>
+    </entry>
+  </target>
+  <target name="Ancient Wisdom">
+    <entry>
+      <question>What happens if I scrap two Actions or two Upgrades?</question>
+      <answer>In that case, you can return one card to your hand. The other card remains scrapped.</answer>
+    </entry>
+    <entry>
+      <question>What happens if I play this card with 2 cards left in my deck?</question>
+      <answer>Whenever a card tells you to scrap (or reveal) cards from the top of your deck and then do something else with those cards, those cards aren&#x2019;t included in the reshuffle. So you&#x2019;ll scrap the top two cards, shuffle all other cards in your scrap pile into your deck, then return one or both scrapped cards to your hand, depending on what they are.</answer>
+    </entry>
+    <entry>
+      <question>What happens if I play this card with 1 card left in my deck?</question>
+      <answer>In that case, you&#x2019;ll scrap the one card and shuffle all other cards in your scrap pile into your deck. Then scrap the new top card of your deck, meaning you&#x2019;ve scrapped a total of two cards.  Then return one or both scrapped cards to your hand, depending on what they are.</answer>
+    </entry>
+    <entry>
+      <question>What happens to a scrapped card that I don&#x2019;t return to my hand?</question>
+      <answer>It stays in the scrap pile.</answer>
+    </entry>
+    <entry>
+      <question>If I scrap Unleash Potential and return it to my hand, can I then play it?</question>
+      <answer>Yes. You follow the instructions of Ancient Wisdom in the order written.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-19"/>
+  </target>
+  <target name="Attack Drone">
+    <entry>
+      <question>If I have a character upgraded with more than one Attack Drone and I play another Weapon, what happens?</question>
+      <answer>All the Attack Drones in the character&#x2019;s weapon slot are scrapped.</answer>
+    </entry>
+  </target>
+  <target name="Bumpers">
+    <entry>
+      <question>What happens if a card tries to move damage counters to the upgraded character?</question>
+      <answer>That effect is ignored. The damage counters stay where they are. They aren&#x2019;t repaired. If the card trying to move the damage counters has other instructions, those are still followed if possible.</answer>
+    </entry>
+  </target>
+  <target name="Combat Commands">
+    <entry>
+      <question>If I have a Sentinel in my KO area that&#x2019;s in alt mode, can I flip it to bot mode?</question>
+      <answer>No. Combat Commands works only on Sentinels in your KO area in alt mode.</answer>
+    </entry>
+  </target>
+  <target name="Confidence">
+    <entry>
+      <question>Does the Action I play have to be one of the cards I drew?</question>
+      <answer>No. You can play any Action in your hand after you scrap 2 cards from it.</answer>
+    </entry>
+    <entry>
+      <question>What happens if I have no other cards in my hand when I play Confidence?</question>
+      <answer>You&#x2019;ll draw 2 cards and them immediately scrap them. You won&#x2019;t be able to play an Action because your hand will be empty.</answer>
+    </entry>
+  </target>
+  <target name="Cooling Vents">
+    <entry>
+      <question>Can I put this on an undamaged Ranged character or a character that isn&#x2019;t Ranged?</question>
+      <answer>Yes. You&#x2019;ll ignore the repair ability though.</answer>
+    </entry>
+  </target>
+  <target name="Cornered!">
+    <entry>
+      <question>When I play Cornered! and force my opponent to flip one of their character's do they get to use a "when you flip to this mode&#x201D; Ability on my turn?</question>
+      <answer>Yes. If you play Cornered! on an opponent&#x2019;s character, they get to use a flip ability on that turn.</answer>
+    </entry>
+  </target>
+  <target name="Defensive Driving">
+    <entry>
+      <question>What happens if two effects are trying to modify the damage a character takes?</question>
+      <answer>In cases like that, the player whose character it is can choose which effect to apply. Then see if the other effect(s) still apply. Keep applying these effects until none apply. Each effect can apply to the same damage only once.</answer>
+    </entry>
+  </target>
+  <target name="Electrified Spikes"><entry><question>If I flip four orange battle icons, does it deal 2 damage?</question><answer>No. The ability does a maximum of 1 damage, no matter how many orange battle icons you</answer></entry>
+flip.
+<entry><question>What happens if the 1 damage KO&#x2019;s the attacker?</question><answer>In that case, no damage is done to the defender.</answer></entry>
+</target>
+  <target name="Enemy Combat Analysis">
+    <entry>
+      <question>If a character is in a mode that has no stars printed on it, does it have 0 stars?</question>
+      <answer>No. A character has the same number of stars no matter what mode it&#x2019;s in.</answer>
+    </entry>
+  </target>
+  <target name="Energized Field">
+    <entry>
+      <question>If I flip two orange battle icons, does it deal 2 damage?</question>
+      <answer>No. The ability does a maximum of 1 damage, no matter how many orange battle icons you flip.</answer>
+    </entry>
+  </target>
+  <target name="Erratic Lightning">
+    <entry>
+      <question>Can I put this on an enemy character to lower its defense?</question>
+      <answer>No. You can put Upgrades on your characters only.</answer>
+    </entry>
+    <entry>
+      <question>If I play this on a character with 0 defense, and then later something gives it +1 defense, what will its total defense be?</question>
+      <answer>0. Erratic Lightning won&#x2019;t drop your character&#x2019;s defense below 0, but the -1 applies again once your character&#x2019;s defense is raised.</answer>
+    </entry>
+  </target>
+  <target name="Field Communicator">
+    <entry>
+      <question>What happens if I put this on a Specialist when there&#x2019;s only 1 card left in my deck?</question>
+      <answer>In that case, you&#x2019;ll scrap that card. Then you&#x2019;ll shuffle all the other cards in your scrap pile into your deck. Then you may play the card you scrapped. If you don&#x2019;t, it will stay in your scrap pile.</answer>
+    </entry>
+  </target>
+  <target name="Focus Fire">
+    <entry>
+      <question>Do I count the Focus Fire I&#x2019;m playing?</question>
+      <answer>Yes. The first one gives one of your characters bold 1.</answer>
+    </entry>
+    <entry>
+      <question>If I play a second Focus Fire, can I give the same character bold 1 twice?</question>
+      <answer>Yes. You can give one character bold 1 twice (which is just like giving it bold 2), or you can give two separate characters bold 1.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-13"/>
+  </target>
+  <target name="Fog of War">
+    <entry>
+      <question>Who scraps cards from their hand first?</question>
+      <answer>Actually, you each scrap cards at the same time. Each player should choose the cards they&#x2019;re going to scrap and set them aside without revealing them. Once both players are ready, they turn them face up and put them in their scrap pile.</answer>
+    </entry>
+  </target>
+  <target name="Inferno Breath">
+    <entry>
+      <question>Can I play this if I have no untapped characters with 5 stars or more?</question>
+      <answer>No. If you can&#x2019;t follow the instructions on the left side of the arrow on an Action, you can&#x2019;t play the Action.</answer>
+    </entry>
+  </target>
+  <target name="Intelligence Mission">
+    <entry>
+      <question>Can I play this if I have no untapped Specialists with 5 stars or more?</question>
+      <answer>No. If you can&#x2019;t follow the instructions on the left side of the arrow on an Action, you can&#x2019;t play the Action.</answer>
+    </entry>
+  </target>
+  <target name="Inverted!">
+      <entry xref="Rules_Roundup-2019-07-12#1-18"/>
+  </target>
+  <target name="Leap of Faith">
+    <entry>
+      <question>What happens if I play Leap of Faith with only 1 card left in my deck?</question>
+      <answer>First, you&#x2019;ll scrap that card. Then you&#x2019;ll shuffle all the other cards in your scrap pile into your deck. Then you may play the card you scrapped. If you don&#x2019;t, it will stay in your scrap pile. Then scrap the new top card of your deck and you may play it.</answer>
+    </entry>
+  </target>
+  <target name="Mounted Missiles">
+    <entry>
+      <question>Can I put Mounted Missiles into a Weapon slot?</question>
+      <answer>Yes. It can go into an Armor or Utility slot, but it doesn&#x2019;t have to.</answer>
+    </entry>
+    <entry>
+      <question>If I play Mounted Missiles on a character, do I have to choose which slot it&#x2019;s going in?</question>
+      <answer>Yes. If you want it in the Armor slot, put it to the right of the character, where an Armor would normally go. If you want it in the Utility slot, put it below the character, where a Utility would normally go. Once Mounted Missiles is in a slot, it can&#x2019;t move to another slot. This means that if you put it into a character&#x2019;s Armor slot, you&#x2019;d have to scrap Mounted Missiles if later you wanted to play an Armor on it.</answer>
+    </entry>
+  </target>
+  <target name="Press the Advantage">
+    <entry>
+      <question>Can I play this if I don&#x2019;t have any Autobots or my opponent doesn&#x2019;t have any Decepticons just to get one of the effects?</question>
+      <answer>Yes.</answer>
+    </entry>
+    <entry>
+      <question>Let&#x2019;s say I play this and choose my opponent&#x2019;s Decepticon with 1 defense. Later in the turn, it gets +2 defense. What will its total defense be?</question>
+      <answer>1. Press the Advantage won&#x2019;t drop the Decepticon&#x2019;s defense below 0, but the -2 applies again once the Decepticon&#x2019;s defense is raised.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-16"/>
+  </target>
+  <target name="Recon System">
+    <entry>
+      <question>Let&#x2019;s say I flip 3 battle cards (the normal 2 + 1 for Recon System) and there&#x2019;s a white battle icon there. Do I scrap one for Recon System&#x2019;s effect immediately or do I flip the 2 extra cards?</question>
+      <answer>Flip the extra cards first, then choose one of the cards you flipped and scrap it.</answer>
+    </entry>
+    <entry>
+      <question>If I put Recon System on Optimus Prime, Battlefield Legend (bot mode), can I scrap an Action that I flipped and then play it?</question>
+      <answer>No. By the time you use Prime&#x2019;s ability to play one of the Action cards, it will be in the scrap pile and not among the cards you flipped.</answer>
+    </entry>
+  </target>
+  <target name="Scrounge">
+    <entry>
+      <question>If I play Scrounge with only 1 card left in my deck and it&#x2019;s an Upgrade, can I play it?</question>
+      <answer>Yes. You&#x2019;ll shuffle all the other cards in your scrap pile and then you may play the Upgrade.</answer>
+    </entry>
+  </target>
+  <target name="Spare Parts">
+    <entry>
+      <question>What happens if an opponent&#x2019;s card tries to scrap a Weapon and an Armor from the upgraded character at the same time? Can Spare Parts save both of them?</question>
+      <answer>No, Spare Parts can save only one other Upgrade. You choose whether it saves the Weapon or the Armor. Spare Parts and the other Upgrade will be scrapped.</answer>
+    </entry>
+  </target>
+  <target name="Steamroll">
+    <entry>
+      <question>Can you give me an example of how this card works?</question>
+      <answer>Sure. Let&#x2019;s say your opponent has a character with 12 health and 9 damage counters on it.  You attack with the chosen character and would do 6 damage to it. That&#x2019;s 3 more than you need to KO the defender, so your opponent chooses one of their other characters and puts 3 damage counters on it.</answer>
+    </entry>
+    <entry>
+      <question>What if your opponent puts those 3 damage counters on a character with 10 health and 9 damage counters already on it? Do the extra damage counters on go to a third character?</question>
+      <answer>No. The &#x201C;Steamroll damage&#x201D; only carries over to one other character. That 10-health character would end up in the KO area with 10 damage counters on it. The extra 2 damage counters are lost.</answer>
+    </entry>
+    <entry>
+      <question>Does the damage counters my opponent puts on another character count as attack damage?</question>
+      <answer>Yes. The damage counters represent attack damage done by the chosen character.</answer>
+    </entry>
+  </target>
+  <target name="Swindled">
+    <entry>
+      <question>Does the Upgrade I play have to be one of the cards I drew?</question>
+      <answer>No. You can play any Upgrade in your hand after you scrap 2 cards from it.</answer>
+    </entry>
+    <entry>
+      <question>What happens if I have no other cards in my hand when I play Confidence?</question>
+      <answer>You&#x2019;ll draw 2 cards and them immediately scrap them. You won&#x2019;t be able to play an Upgrade because your hand will be empty.</answer>
+    </entry>
+  </target>
+  <target name="Tackle">
+    <entry>
+      <question>Can I play this if I have no untapped Melee characters?</question>
+      <answer>No. If you can&#x2019;t follow the instructions on the left side of the arrow on an Action, you can&#x2019;t play the Action.</answer>
+    </entry>
+  </target>
+  <target name="Tech Research">
+    <entry>
+      <question>Tech Research&#x2026; doesn&#x2019;t do anything?</question>
+      <answer>Not by itself, but you&#x2019;ll need to play it to play some Upgrades in the set.</answer>
+    </entry>
+  </target>
+  <target name="Tooth and Claw">
+    <entry>
+      <question>If I want to play a Weapon on the upgraded character, do I choose which slot it goes in?</question>
+      <answer>Yes. If you want the Weapon in its Armor slot, put it to the right of Megatron, where an Armor would normally go. Once the Weapon is in a slot, it can&#x2019;t move to another slot. This means that if you put a Weapon into its Armor slot, you&#x2019;d have to scrap that Weapon if later you wanted to play an Armor on it.</answer>
+    </entry>
+    <entry>
+      <question>If I have a Weapon in the upgraded character&#x2019;s Armor slot and Tooth and Claw is removed from the character, what happens to the Weapon?</question>
+      <answer>It stays where it is. Once an Upgrade is legally put into a slot, removing what made it legal to put it there doesn&#x2019;t matter.</answer>
+    </entry>
+  </target>
+  <target name="Unleash Potential">
+    <entry>
+      <question>Does this mean I get a card from my collection? Do I have to own the card?</question>
+      <answer>Yes, you get a card that&#x2019;s not in the current game and add it to your hand. For the rest of the game, you&#x2019;ll have one more battle card.</answer>
+    </entry>
+    <entry>
+      <question>Can I get a card if I&#x2019;m already playing with 3 of that card in my deck?</question>
+      <answer>Yes. The 3-card and 25-star limits apply only to your starting deck and team. You can bring in a fourth card, even if it would put you over the 25-star limit.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-19"/>
+  </target>
+  <target name="Vandalize">
+    <entry>
+      <question>If I choose Weapons and my opponent has characters with Weapons in either Utility or Armor slots, are those Weapons scrapped?</question>
+      <answer>Yes. It only matters what kind of Upgrade it is, not what slot it&#x2019;s in.</answer>
+    </entry>
+  </target>
+  <target name="Alpha Trion - Cybertronian Sage">
+    <entry mode="bot">
+      <question>If the card I play with a blue battle icon also has other battle icons, do those count in the battle?</question>
+      <answer>Yes. For example, if it has orange battle icons, those will add to the character&#x2019;s attack total. If it has a green battle icon, it can be swapped with a card in your hand after the battle.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-18" mode="bot"/>
+  </target>
+  <target name="Blaster - Communications">
+    <entry xref="Rules_Roundup-2019-07-12#1-29" mode="bot"/>
+  </target>
+  <target name="Captain Elita-1 - Special Ops - Ranger">
+    <entry mode="alt">
+      <question>Do damage counters already on Captain Elita-1 affect how many I can move onto her?</question>
+      <answer>Yes. For example, if Captain Elita-1 (with 17 health) already has 9 damage counters on her, you can&#x2019;t move more than 7 more damage counters onto her using her ability.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>Does moving damage counters from one character to another count as repairing the first character or doing damage to the second character?</question>
+      <answer>No. Any abilities that care about damage being done or repaired won&#x2019;t affect the move.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>What happens if I don&#x2019;t want to play a card I scrap?</question>
+      <answer>The card will stay in the scrap pile.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If Captain Elita-1 is my last character and is KO&#x2019;d, do I get to use her ability before I lose the game?</question>
+      <answer>No. You&#x2019;ll lose the game just after she is KO&#x2019;d, before you can use her ability.</answer>
+    </entry>
+  </target>
+  <target name="Captain Ironhide - Infantry - Bodyguard">
+    <entry mode="alt">
+      <question>Can Captain Ironhide take non-attack damage from my cards?</question>
+      <answer>Yes. For example, if you play Photon Bomb, your Captain Ironhide will be damaged.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>What counts as my opponent&#x2019;s cards?</question>
+      <answer>Any of your opponent&#x2019;s characters or battle cards (actions and upgrades) count. Basically, anything that you didn&#x2019;t bring to the game.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>If my opponent plays a card that moves damage counters onto Captain Ironhide from another character, will it work?</question>
+      <answer>Yes. Moving damage counters isn&#x2019;t the same as doing damage.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If the Weapon in my hand says &#x201C;Put on Melee characters only,&#x201D; can I swap it onto Captain Ironhide?</question>
+      <answer>No, because Captain Ironhide isn&#x2019;t a Melee character. Any &#x201C;Put on &#x2026; only&#x201D; restrictions will apply. However, because you&#x2019;re not playing the Weapon from your hand, any restrictions that apply to playing that card won&#x2019;t matter.</answer>
+    </entry>
+  </target>
+  <target name="Captain Wheeljack - Engineering - Scientist">
+    <entry mode="alt">
+      <question>When do I use this ability?</question>
+      <answer>You use it before the game begins. After you put the Brainstorm into your hand, you&#x2019;ll shuffle the rest of your deck. Then you&#x2019;ll draw the normal 3 cards at the start of the game. This means you&#x2019;ll start the game with 4 cards in hand (Brainstorm plus the 3 you draw). You&#x2019;ll still draw a card at the start of your first turn.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Can this ability trigger more than once in a the same turn?</question>
+      <answer>No. You play your third action in a turn only once.</answer>
+    </entry>
+  </target>
+  <target name="Major Shockwave - Applied Sciences - Scientist">
+    <entry mode="alt">
+      <question>Can I do anything else with the top card of my deck?</question>
+      <answer>Nope. You can just a glimpse at what&#x2019;s coming up. You can&#x2019;t move the card anywhere unless something else tells you to.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If I play a Decepticon card or a Secret Action from the top of my deck, does that count as my action for the turn (or my upgrade for a Decepticon upgrade)?</question>
+      <answer>Yes. Major Shockwave&#x2019;s ability doesn&#x2019;t give you an extra action or upgrade for the turn. It just lets you pretend the top card of your deck is in your hand when playing it.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If my opponent plays a card that tells me to scrap a card from my hand, can I scrap the top card of my deck instead?</question>
+      <answer>No. Major Shockwave&#x2019;s ability applies only when you&#x2019;re playing the card.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Say the top card of my deck is a Decepticon upgrade. After I play it, the new top card is a Secret Action. Can I play that card too?</question>
+      <answer>Yes. You can keep playing the top card of your deck as long as it meets Major Shockwave&#x2019;s conditions and you&#x2019;re allowed to play the card (keeping in mind the normal one action/upgrade per turn rule).</answer>
+    </entry>
+  </target>
+  <target name="Major Ultra Magnus - Infantry - City Commander">
+    <entry mode="alt">
+      <question>When do I use this ability?</question>
+      <answer>You use it before the game begins. You&#x2019;ll put Ultra Magnus Armor onto Major Ultra Magnus, then shuffle the rest of your deck and draw 3 cards for your opening hand.</answer>
+    </entry>
+  </target>
+  <target name="Private Pteraxadon - Air Command Artillery">
+    <entry xref="Rules_Roundup-2019-07-12#1-25" mode="upgrade"/>
+  </target>
+  <target name="Private Red Heat - Infantry - Emergency Response">
+    <entry mode="bot">
+      <question>What happens if one of the characters has an upgrade of a certain type, such as a Weapon, and the other character doesn&#x2019;t have an upgrade of that type?</question>
+      <answer>In that case, the upgrade will move to the other character. It doesn&#x2019;t have to be an &#x201C;even swap.&#x201D;</answer>
+    </entry>
+    <entry mode="bot">
+      <question>What happens if one of the upgrades on one of the two characters has a &#x201C;Put on &#x2026; only&#x201D; restriction that the other character doesn&#x2019;t meet?</question>
+      <answer>In that case, that upgrade stays where it is. If the other character has a upgrade of the same type, it also stays where it is. Other types of upgrades may still be swapped.</answer>
+    </entry>
+  </target>
+  <target name="Private Sideswipe - Infantry - Soldier">
+    <entry mode="alt">
+      <question>Do I count Battle Masters in my KO area?</question>
+      <answer>Battle Masters in your KO area will be in their upgrade mode, either because they were played and subsequently left the battlefield or because you didn&#x2019;t play the upgrade after the character was KO&#x2019;d. This means they won&#x2019;t be characters in the KO area and won&#x2019;t add to Private Sideswipe&#x2019;s bonus.</answer>
+    </entry>
+  </target>
+  <target name="Private Trailbreaker - Infantry - Fortification &amp; Defense">
+    <entry mode="alt">
+      <question>When do I use this ability?</question>
+      <answer>You use it before the game begins. You&#x2019;ll put Force Field onto Private Trailbreaker, then shuffle the rest of your deck and draw 3 cards for your opening hand.</answer>
+    </entry>
+  </target>
+  <target name="Raider Ion Storm - Infantry - Rainmaker">
+    <entry mode="bot">
+      <question>Is the upgrade returned before my opponent flips battle cards?</question>
+      <answer>Yes. Notably, if the upgrade gave your opponent&#x2019;s character tough, the character won&#x2019;t have tough when it&#x2019;s time to flip battle cards.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-22" mode="bot"/>
+  </target>
+  <target name="Raider Road Hugger - Infantry - Tactics">
+    <entry mode="bot">
+      <question>Can I use Raider Road Hugger&#x2019;s tap ability to give itself an attack bonus?</question>
+      <answer>You can, but remember that using a tap ability causes the character to become tapped. But we&#x2019;ll assume you have a plan.</answer>
+    </entry>
+  </target>
+  <target name="Raider Runabout - Infantry - Soldier">
+    <entry mode="alt">
+      <question>If I have Runamuck on the battlefield when I flip Raider Runabout to alt mode but he&#x2019;s not damaged, can I still flip him from bot mode to alt mode?</question>
+      <answer>Yes. The effects work separately.</answer>
+    </entry>
+    <entry mode="alt">
+      <question>So that means I can still repair a damage from Runamuck even if he&#x2019;s already in alt mode?</question>
+      <answer>Correct.</answer>
+    </entry>
+  </target>
+  <target name="Raider Storm Cloud - Infantry - Electronic Warfare">
+    <entry mode="bot">
+      <question>Can I use Raider Storm Cloud&#x2019;s ability to give itself bold 3 (or bold 6)?</question>
+      <answer>You can, but remember that using a tap ability causes the character to become tapped.  Hopefully it&#x2019;s a good plan.</answer>
+    </entry>
+  </target>
+  <target name="Sergeant Cog - Artillery - Mechanic">
+    <entry>
+      <question>Sergeant Cog is a Weaponizer. That sounds awesome! What&#x2019;s a Weaponizer?</question>
+      <answer>All the rules that apply to Battle Masters also apply to Weaponizers. Sergeant Cog represents more advanced weaponry. Sergeant Cog&#x2019;s card is the same size as most characters.</answer>
+    </entry>
+    <entry>
+      <question>Wait, so does that mean I get to play a large upgrade on one of my characters?</question>
+      <answer>Yes. Heavy Force Defensebreaker Cannon is large. It can be played onto any character, large or small.</answer>
+    </entry>
+  </target>
+  <target name="Sergeant Hound - Infantry - Recon">
+    <entry mode="bot">
+      <question>Say Sergeant Hound has an Armor, and I play another Armor to replace that one. Will his ability trigger?</question>
+      <answer>Yes. &#x201C;When you upgrade this&#x201D; means when any new upgrade is put onto Sergeant Hound.</answer>
+    </entry>
+  </target>
+  <target name="Sergeant Skrapnel - Infantry - Electronic Warfare">
+    <entry mode="bot">
+      <question>If one of my other characters has upgrades and is KO&#x2019;d, will Sergeant Skrapnel&#x2019;s ability trigger?</question>
+      <answer>Yes. Those upgrades were on a character and were then scrapped, so the ability will trigger.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>Say Sergeant Skrapnel has an upgrade and takes damage exactly equal to his health. Can I save Skrapnel using his ability?</question>
+      <answer>No. Sergeant Skrapnel is KO&#x2019;d at the same time his upgrades are scrapped. His ability won&#x2019;t trigger in time to save him.</answer>
+    </entry>
+  </target>
+  <target name="Sergeant Skywarp - Black Ops - Seeker">
+    <entry mode="alt">
+      <question>Can I return just one Secret Action from my scrap pile?</question>
+      <answer>Yes.</answer>
+    </entry>
+  </target>
+  <target name="Soundwave - Communications">
+    <entry xref="Rules_Roundup-2019-07-12#1-29" mode="bot"/>
+  </target>
+  <target name="Specialist Ratchet - Engineering - Rescue &amp; Repair">
+    <entry mode="alt">
+      <question>When do I use this ability?</question>
+      <answer>You use it before the game begins. After you put the Medic! into your hand, you&#x2019;ll shuffle the rest of your deck. Then you&#x2019;ll draw the normal 3 cards at the start of the game. This means you&#x2019;ll start the game with 4 cards in hand (Medic! plus the 3 you draw). You&#x2019;ll still draw a card at the start of your first turn.</answer>
+    </entry>
+    <entry mode="bot">
+      <question>If I move damage counters from one of my characters to another character, will Specialist Ratchet&#x2019;s ability trigger?</question>
+      <answer>No. Moving damage counters is different than repairing.</answer>
+    </entry>
+  </target>
+  <target name="Anticipation Engine">
+      <entry xref="Rules_Roundup-2019-07-12#1-5"/>
+  </target>
+  <target name="Backup Bag">
+    <entry>
+      <question>Can I use Backup Bag to save a Weapon or Armor that causes itself to be scrapped, such as Grenade Launcher?</question>
+      <answer>Yes.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-27"/>
+  </target>
+  <target name="Battering Ram">
+    <entry>
+      <question>If I play Battering Ram, and the defender has more than one other mode, who chooses which mode it flips to?</question>
+      <answer>Your opponent does.</answer>
+    </entry>
+      <entry xref="Rules_Roundup-2019-07-12#1-8"/>
+  </target>
+  <target name="Battlefield Scan">
+    <entry>
+      <question>What does it mean that a character can&#x2019;t use brave or stealth?</question>
+      <answer>Basically, just ignore that the character has that ability when determining which character you&#x2019;re attacking.</answer>
+    </entry>
+  </target>
+  <target name="Bolster">
+    <entry xref="Rules_Roundup-2019-07-12#1-23"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-30"/>
+  </target>
+  <target name="Dampening Field">
+    <entry>
+      <question>What happens if my opponent is supposed to flip more than 4 cards during the battle?</question>
+      <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-23"/>
+  </target>
+  <target name="Dismantling Claw">
+      <entry xref="Wave_3/Battle_Cards#reactive-1"/>
+      <entry xref="Wave_3/Battle_Cards#reactive-2"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-28"/>
+</target>
+  <target name="Personal Targeting Drone">
+      <entry xref="Wave_3/Battle_Cards#reactive-1"/>
+      <entry xref="Wave_3/Battle_Cards#reactive-2"/>
+</target>
+  <target name="Reactive Armor">
+    <entry id="reactive-1">
+      <question>If any of these upgrades are scrapped because the character who had it was KO&#x2019;d, does the ability trigger?</question>
+      <answer>Yes.</answer>
+    </entry>
+    <entry id="reactive-2">
+      <question>If one of these upgrades is on a character, and I play another upgrade of that type to replace it, does the ability trigger?</question>
+      <answer>Yes. Replacing an upgrade this way causes the old upgrade to be scrapped.</answer>
+    </entry>
+      <entry xref="Rules_Roundup-2019-07-12#1-28"/>
+  </target>
+  <target name="Emergency Defense Field">
+    <entry>
+      <question>Can using the first ability cause the second ability to trigger?</question>
+      <answer>Yes. If the upgraded character defends and would take an even amount of attack damage, instead it takes no attack damage. That causes the second ability to trigger. You usually get only one use out of the Emergency Defense Field.</answer>
+    </entry>
+  </target>
+  <target name="Energy Pack">
+    <entry>
+      <question>When determining if the character has 11 stars or more, does it matter which mode it&#x2019;s in?</question>
+      <answer>No. A character always has the number of stars printed on it, no matter which mode it&#x2019;s in.</answer>
+    </entry>
+  </target>
+  <target name="Fuel Cache">
+    <entry>
+      <question>If one of the cards has all three battle icons, do I still put the others into my hand?</question>
+      <answer>Yes. The cards will all be put into your hand if their combined battle icons include at least one white, one blue, and one orange.</answer>
+    </entry>
+    <entry>
+      <question>What happens if I play this with 1 or 2 cards left in my deck?</question>
+      <answer>You&#x2019;ll reveal the remaining cards of your deck, then reshuffle your scrap pile. Then reveal cards from the top of your deck until you&#x2019;ve revealed 3 total cards. Then put them into your hand or scrap pile, depending on their battle icons.</answer>
+    </entry>
+  </target>
+  <target name="Full Loadout">
+    <entry>
+      <question>Can I play the upgrades in any order?</question>
+      <answer>You can.</answer>
+    </entry>
+  </target>
+  <target name="Heroic Team-Up">
+    <entry>
+      <question>If the Autobot I tap has any upgrades that increase its attack, do those bonuses count?</question>
+      <answer>Yes. A character&#x2019;s attack total equals its printed attack value plus any bonuses it&#x2019;s getting from any other card.</answer>
+    </entry>
+  </target>
+  <target name="Hiding Spot">
+    <entry>
+      <question>After seeing which of my characters gets stealth, can my opponent change which of their characters is attacking?</question>
+      <answer>No. Hiding Spot isn&#x2019;t revealed until after your opponent locks in their choice for attacker.</answer>
+    </entry>
+  </target>
+  <target name="Infiltrate">
+    <entry>
+      <question>What happens if my opponent plays a Secret Action? I can&#x2019;t see its battle icons!</question>
+      <answer>Infiltrate won&#x2019;t be revealed because of a Secret Action, even if that Secret Action has orange battle icons. This is also true when the Secret Action is later revealed. It was already played face down, so Infiltrate won&#x2019;t notice it. Sneaky!</answer>
+    </entry>
+    <entry xref="Rules_Roundup-2019-07-12#1-31"/>
+  </target>
+  <target name="Laser Cutlass">
+    <entry>
+      <question>When determining if the character has 7 stars or fewer, does it matter which mode it&#x2019;s in?</question>
+      <answer>No. A character always has the number of stars printed on it, no matter which mode it&#x2019;s in.</answer>
+    </entry>
+  </target>
+  <target name="Point-Defense System">
+    <entry>
+      <question>If the upgraded character defends against an enemy that has pierce 1, what happens?</question>
+      <answer>If a character&#x2019;s pierce total is 0 or lower, treat that character as if it didn&#x2019;t have pierce when determining how much damage is done. Pierce -1 doesn&#x2019;t do anything weird.</answer>
+    </entry>
+  </target>
+  <target name="Pop a Wheelie">
+      <entry xref="Rules_Roundup-2019-07-12#1-7"/>
+  </target>
+  <target name="Repurpose">
+    <entry>
+      <question>If Repurpose is the last card in my hand when I play it, what happens?</question>
+      <answer>Well, you can&#x2019;t scrap a card from your hand if you don&#x2019;t have any, so you skip that part and just draw 2 cards.</answer>
+    </entry>
+  </target>
+  <target name="Unconventional Flying Object">
+    <entry>
+      <question>If the Spaceship is already in bot mode, what happens?</question>
+      <answer>You would flip it to alt mode, even though it&#x2019;s not flipping &#x201C;back.&#x201D;</answer>
+    </entry>
+  </target>
+  <target name="W-5 Gyro Blaster">
+    <entry>
+      <question>What happens if one of us is supposed to flip more than 2 cards during the battle?</question>
+      <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
+    </entry>
+  </target>
+</faq>

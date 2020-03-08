@@ -5,6 +5,7 @@
         </category>
     </category>
     <category name="Keywords">
+        <tag name="Play" markup_required="true"/>
         <tag name="Deck" markup_required="true"/>
         <tag name="Faction" markup_required="true"/>
         <tag name="Star" markup_required="true"/>
@@ -30,11 +31,14 @@
         <tag name="Revenge" markup_required="true"/>
         <tag name="Battle Master" markup_required="true"/>
         <tag name="Weaponizer" markup_required="true"/>
+        <tag name="Battle Icon" markup_required="true"/>
+        <!--
         <tag name="Black Battle Icon" markup_required="true"/>
         <tag name="Blue Battle Icon" markup_required="true"/>
         <tag name="White Battle Icon" markup_required="true"/>
         <tag name="Orange Battle Icon" markup_required="true"/>
         <tag name="Green Battle Icon" markup_required="true"/>
+        -->
     </category>
     <category name="Wave 1">
         <category name="Battle Cards">

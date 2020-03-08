@@ -51,8 +51,8 @@
     </entry>
 
 </target>
-    <target name="Bold &amp; Tough" tags="Bold,Tough">
-      <entry>
+    <target name="Bold &amp; Tough">
+      <entry tags="Bold,Tough">
         <question>
              What happens if a character has more than one instance of Bold or Tough?
         </question>

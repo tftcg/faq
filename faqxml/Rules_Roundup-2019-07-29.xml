@@ -3,7 +3,7 @@
   <target name="Placeholder">
     <entry id="2-1">
       <question>
-How does Predaking hold five weapons? Does he wad them up into a ball and throw them at his opponents? Besides, those are really big hands -- it's not like he'll be able to squeeze five triggers at once let alone one. How would one wield, like, three axes anyway? Or three Drill Arms? Oh god.
+How does Predaking hold five weapons? Does he wad them up into a ball and throw them at his opponents? Besides, those are really big hands -- it's not like he'll be able to squeeze five triggers at once let alone one. How would one wield, like, three axes anyway? Or three [[Drill Arms]]? Oh god.
 </question>
       <answer>
 One finger per trigger.
@@ -23,15 +23,15 @@ Concerning &#x201C;start of turn&#x201D; effects timing around the drawing 1 car
     </entry>
     <entry id="2-3">
       <question>
-If you have Energy Pack on an 11-star character who is nearly dead, then attach Erratic Energy Grenade, removing Energy Pack, which KO&#x2019;s your character automatically since their health bonus is no longer there, does Erratic Energy Grenade&#x2019;s second effect still activate?
+If you have [[Energy Pack]] on an 11-star character who is nearly dead, then attach [[Erratic Energy Grenade]], removing Energy Pack, which KO&#x2019;s your character automatically since their health bonus is no longer there, does Erratic Energy Grenade&#x2019;s second effect still activate?
 </question>
       <answer>
-Yes, Erratic Energy&#x2019;s Grenade&#x2019;s second effect would still activate in this scenario. Erratic Energy Grenade replaces Energy Pack without anything happening in between.
+Yes, Erratic Energy&#x2019;s Grenade&#x2019;s second effect would still activate in this scenario. [[Erratic Energy Grenade]] replaces [[Energy Pack]] without anything happening in between.
 </answer>
     </entry>
     <entry id="2-4">
       <question>
-If I use Recover Cassette to put a Mini-Cassette under Major Soundwave, what happens to the Mini-Cassette when Major Soundwave is KO&#x2019;d?
+If I use [[Recover Cassette]] to put a Mini-Cassette under Major Soundwave, what happens to the Mini-Cassette when Major Soundwave is KO&#x2019;d?
 </question>
       <answer>
 It stays under Major Soundwave.
@@ -39,7 +39,7 @@ It stays under Major Soundwave.
     </entry>
     <entry id="2-5">
       <question>
-Can you use Optimus Prime - Battlefield Legend to play a Secret Action?
+Can you use [[Optimus Prime - Battlefield Legend]] to play a Secret Action?
 </question>
       <answer>
 Yes. Secret Actions are actions.
@@ -47,7 +47,7 @@ Yes. Secret Actions are actions.
     </entry>
     <entry id="2-6">
       <question>
-If Optimus Prime - Battlefield Legend plays an orange battle icon card off his flips, and I reveal Infiltrate to scrap it, does the battle icon still count when calculating attack/defense and damage?
+If [[Optimus Prime - Battlefield Legend]] plays an orange battle icon card off his flips, and I reveal [[Infiltrate]] to scrap it, does the battle icon still count when calculating attack/defense and damage?
 </question>
       <answer>
 The orange battle icon card increases OPBL&#x2019;s attack after it is flipped. Removing the card from the played area after it&#x2019;s flipped doesn&#x2019;t change that.
@@ -63,7 +63,7 @@ Nope!
     </entry>
     <entry id="2-8">
       <question>
-If I use Swap Missions to untap a tapper character and then tap an untapped character, and that same untapped character has a tap ability &#x2013; does Swap Missions trigger that tapped ability?
+If I use [[Swap Missions]] to untap a tapper character and then tap an untapped character, and that same untapped character has a tap ability &#x2013; does Swap Missions trigger that tapped ability?
 </question>
       <answer>
 No, tap abilities (ones with the tap symbol) happen when the player activates them on their turn and don&#x2019;t happen if the character is tapped in any other way.
@@ -98,10 +98,10 @@ For example, if Soundwave was KO&#x2019;d with Buzzsaw still under him, you woul
     <entry id="2-12">
       <question>
 Do character abilities still trigger if the requirements are met through cards played but negated by the opponent or otherwise?
-For example, Wave 1 Thundercracker&#x2019;s bot mode ability --&gt; Player 1 uses Supercharge, but player 2 reveals Infiltrate and negates Supercharge. Does Thundercracker's ability still trigger because an action was played? Meaning he would indeed get +1?
+For example, Wave 1 Thundercracker&#x2019;s bot mode ability --&gt; Player 1 uses [[Supercharge]], but player 2 reveals [[Infiltrate]] and negates Supercharge. Does Thundercracker's ability still trigger because an action was played? Meaning he would indeed get +1?
 </question>
       <answer>
-The Infiltrate will scrap the action you played and negate its effect, but Thundercracker&#x2019;s ability still triggers because you played an action.
+The [[Infiltrate]] will scrap the action you played and negate its effect, but Thundercracker&#x2019;s ability still triggers because you played an action.
 </answer>
     </entry>
     <entry id="2-13">
@@ -114,23 +114,23 @@ Each mini-cassette you play with a deployer adds 1 star to your star limit above
     </entry>
     <entry id="2-14">
       <question>
-When I attack with Cosmos in bot mode and then Anticipation Engine activates and I flip Rapid Conversion and flip him to alt mode. Would his KO effect take place since he&#x2019;s no longer in bot mode? And I no longer have cards in my deck?
+When I attack with Cosmos in bot mode and then [[Anticipation Engine]] activates and I flip [[[[Rapid Conversion]]]] and flip him to alt mode. Would his KO effect take place since he&#x2019;s no longer in bot mode? And I no longer have cards in my deck?
 </question>
       <answer>
-If during Cosmos&#x2019; attack, Anticipation Engine reveals Rapid Conversion as the last card in your deck, and you play it, you will immediately shuffle your deck, triggering Cosmos&#x2019; ability, then flip Cosmos to Alt Mode.
+If during Cosmos&#x2019; attack, [[Anticipation Engine]] reveals [[[[Rapid Conversion]]]] as the last card in your deck, and you play it, you will immediately shuffle your deck, triggering Cosmos&#x2019; ability, then flip Cosmos to Alt Mode.
 </answer>
     </entry>
     <entry id="2-15">
       <question>
-Energy Pack reads "The upgraded character has +4 health." When I play this on a character does the character get an immediate 4 to its health? Or does it just increase the health total?
+[[Energy Pack]] reads "The upgraded character has +4 health." When I play this on a character does the character get an immediate 4 to its health? Or does it just increase the health total?
 </question>
       <answer>
-Gaining +4 health has no effect on the amount of damage counters a character has. For example, if you had a character with 10 health and 3 damage counters, upgrading it with Energy Pack results in it having 14 health and 3 damage counters.
+Gaining +4 health has no effect on the amount of damage counters a character has. For example, if you had a character with 10 health and 3 damage counters, upgrading it with [[Energy Pack]] results in it having 14 health and 3 damage counters.
 </answer>
     </entry>
     <entry id="2-16">
       <question>
-The cards Dismantling Claw, Reactive Armor and Personal Targeting Drone say "When this upgrade is scrapped from a character...". Do these effects trigger when the character is KO'd and the upgrade goes to the scrap pile? Do these effects trigger when you replace the upgrade and it goes to the scrap pile?
+The cards [[Dismantling Claw]], [[Reactive Armor]] and [[Personal Targeting Drone]] say "When this upgrade is scrapped from a character...". Do these effects trigger when the character is KO'd and the upgrade goes to the scrap pile? Do these effects trigger when you replace the upgrade and it goes to the scrap pile?
 </question>
       <answer>
 Yes and yes.
@@ -138,23 +138,23 @@ Yes and yes.
     </entry>
     <entry id="2-17">
       <question>
-Do Battle Masters in Upgrade mode count towards Stars in the KO area for Emergency Maintenance?
+Do Battle Masters in Upgrade mode count towards Stars in the KO area for [[Emergency Maintenance]]?
 </question>
       <answer>
-No. When in Upgrade mode, Battle Masters do not count as characters, so they would not be counted by Emergency Maintenance on the battlefield or in the KO area.
+No. When in Upgrade mode, Battle Masters do not count as characters, so they would not be counted by [[Emergency Maintenance]] on the battlefield or in the KO area.
 </answer>
     </entry>
     <entry id="2-18">
       <question>
-Say I have a weapon on a character and Backup Bag as well. For my turn I placed a different or same weapon on the same character. But because I already have a weapon taken up does the original weapon get scrapped or can I keep both weapons and scrap Backup Bag instead?
+Say I have a weapon on a character and [[Backup Bag]] as well. For my turn I placed a different or same weapon on the same character. But because I already have a weapon taken up does the original weapon get scrapped or can I keep both weapons and scrap Backup Bag instead?
 </question>
       <answer>
-Playing the new weapon causes the old weapon to be scrapped, but it&#x2019;s the rules of the game that are doing this, not an effect of the new weapon. Backup Bag affects only cards such as Salvage for Parts or Grenade Launcher.
+Playing the new weapon causes the old weapon to be scrapped, but it&#x2019;s the rules of the game that are doing this, not an effect of the new weapon. [[Backup Bag]] affects only cards such as [[Salvage for Parts]] or [[Grenade Launcher]].
 </answer>
     </entry>
     <entry id="2-19">
       <question>
-If I play a card that allows me to play an upgrade, can I play a Superior Plating/Jetpack/Cannon without needing to play Tech Research?
+If I play a card that allows me to play an upgrade, can I play a [[Superior Plating]]/Jetpack/Cannon without needing to play [[Tech Research]]?
 </question>
       <answer>
 No.
@@ -162,7 +162,7 @@ No.
     </entry>
     <entry id="2-20">
       <question>
-My opponent has attacked me, and I reveal the Secret Action Bolster. I use Bolster to attach a Multi-Mission Gear to a Specialist. I then use the Action granted by Multi-Mission Gear to play All-Out Attack. World implodes, right?
+My opponent has attacked me, and I reveal the Secret Action [[Bolster]]. I use Bolster to attach a [[Multi-Mission Gear]] to a Specialist. I then use the Action granted by Multi-Mission Gear to play [[All-Out Attack]]. World implodes, right?
 </question>
       <answer>
 Your characters can never attack on your opponent&#x2019;s turn, even if a card seems to say otherwise. Same rules apply even in the event of a galactic implosion and resulting gravitational chaos.
@@ -170,10 +170,10 @@ Your characters can never attack on your opponent&#x2019;s turn, even if a card 
     </entry>
     <entry id="2-21">
       <question>
-When I equip Erratic Energy Grenade, do I subtract one health right away? Is the beginning of my turn after everyone is tapped and I reset all the characters, and then that's when I subtract one health? Or is my turn right after my opponent finishes their attack?
+When I equip [[Erratic Energy Grenade]], do I subtract one health right away? Is the beginning of my turn after everyone is tapped and I reset all the characters, and then that's when I subtract one health? Or is my turn right after my opponent finishes their attack?
 </question>
       <answer>
-Erratic Energy Grenade does 1 damage at the beginning of your turn.
+[[Erratic Energy Grenade]] does 1 damage at the beginning of your turn.
 </answer>
     </entry>
     <entry id="2-22">
@@ -194,8 +194,8 @@ No, Metroplex does not flip battle cards in this scenario.
     </entry>
     <entry id="2-24">
       <question>
-The question I have today is in regard to attacking with Anticipation Engine. I am playing with a combiner team, and I have just converted my last character. I don't have the Enigma in my hand to play it, so I play a different action instead. I attack using a character with Anticipation Engine, and flip the Enigma. Am I able to play it, transform, and continue the attack with the Combiner, or does my attack get cancelled and it becomes my opponent's turn? (This is because the Enigma has the Combiner enter play untapped) Update to the question, as I see it was already answered in a previous Rules Round-up.
-Anticipation Engine + Enigma = Transformed and attacking, but untapped
+The question I have today is in regard to attacking with [[Anticipation Engine]]. I am playing with a combiner team, and I have just converted my last character. I don't have the Enigma in my hand to play it, so I play a different action instead. I attack using a character with Anticipation Engine, and flip the Enigma. Am I able to play it, transform, and continue the attack with the Combiner, or does my attack get cancelled and it becomes my opponent's turn? (This is because the Enigma has the Combiner enter play untapped) Update to the question, as I see it was already answered in a previous Rules Round-up.
+[[Anticipation Engine]] + Enigma = Transformed and attacking, but untapped
 You said the character was untapped, but still attacking. Does this mean that my opponent can only attack with one character if they have multiple available?
 </question>
       <answer>
@@ -204,7 +204,7 @@ Yes, your opponent can attack with only one character.
     </entry>
     <entry id="2-25">
       <question>
-Ransack - Insecticon Commando's alt mode flip ability says to move 2 damage counters from another character onto him. Does that include enemy characters? Assuming, of course, that I have a good reason to heal my opponent?
+[[Ransack - Insecticon Commando]]'s alt mode flip ability says to move 2 damage counters from another character onto him. Does that include enemy characters? Assuming, of course, that I have a good reason to heal my opponent?
 </question>
       <answer>
 Yes, you can move damage from an opponent&#x2019;s character onto Ransack, should you be so bold.
@@ -212,7 +212,7 @@ Yes, you can move damage from an opponent&#x2019;s character onto Ransack, shoul
     </entry>
     <entry id="2-26">
       <question>
-LV Gamma-Disruptor Launcher states that up to 2 of them can fit in one Weapon Slot. If I were to play a 3rd one, would it replace the 2 already in the Weapon Slot or would it only replace 1 of them?
+[[LV Gamma-Disruptor Launcher]] states that up to 2 of them can fit in one Weapon Slot. If I were to play a 3rd one, would it replace the 2 already in the Weapon Slot or would it only replace 1 of them?
 </question>
       <answer>
 It would only replace one of the previously equipped two.
@@ -220,7 +220,7 @@ It would only replace one of the previously equipped two.
     </entry>
     <entry id="2-27">
       <question>
-In the FAQ it says that Sergeant Cog, as a Weaponizer, interacts with cards in the same manner as a Battle Master. The battle card Quartermaster specifies recalling a KO'd Battle Master in weapon mode. Will this be able to target Heavy Force Defensebreaker Cannon in the KO pile the same way it would target a Battle Master?
+In the FAQ it says that Sergeant Cog, as a Weaponizer, interacts with cards in the same manner as a Battle Master. The battle card [[Quartermaster]] specifies recalling a KO'd Battle Master in weapon mode. Will this be able to target [[Heavy Force Defensebreaker Cannon]] in the KO pile the same way it would target a Battle Master?
 </question>
       <answer>
 No, it is a Weaponizer and not a Battle Master.
@@ -236,7 +236,7 @@ No, only cards with green battle icons that you flipped during that battle can b
     </entry>
     <entry id="2-29">
       <question>
-Blaster vs. Soundwave. Ravage is in the KO area. Step #1, I play brainstorm. Step #2, I play I Still Function, which brings him back with 1 health. Step #3, I play Recover Cassette, which puts him under Soundwave to heal 2 damage. Now for the question: does I Still Function resolve and Ravage goes back into the KO area? Or does Ravage bypass that effect, thus he is not KO&#x2019;d?
+Blaster vs. Soundwave. Ravage is in the KO area. Step #1, I play brainstorm. Step #2, I play I Still Function, which brings him back with 1 health. Step #3, I play [[Recover Cassette]], which puts him under Soundwave to heal 2 damage. Now for the question: does I Still Function resolve and Ravage goes back into the KO area? Or does Ravage bypass that effect, thus he is not KO&#x2019;d?
 </question>
       <answer>
 Ravage is not KO&#x2019;d. I Still Function does not find him on the battlefield.
@@ -260,26 +260,26 @@ Yes, you must play the top card of your deck if you are able.
     </entry>
     <entry id="2-32">
       <question>
-Does Battering Ram function like Cornered! when attacking, so that your opponent gets the ability of the mode flipped to? For example, General Optimus Prime has Battering Ram and hits my Nemesis, flipping him to alt mode. So now my opponent should assign 2 damage to a character of his choice, correct?
+Does [[Battering Ram]] function like [[Cornered!]] when attacking, so that your opponent gets the ability of the mode flipped to? For example, General Optimus Prime has Battering Ram and hits my Nemesis, flipping him to alt mode. So now my opponent should assign 2 damage to a character of his choice, correct?
 </question>
       <answer>
-Yes. Battering Ram causes your opponent to flip the character, so abilities like Nemesis&#x2019; will trigger.
+Yes. [[Battering Ram]] causes your opponent to flip the character, so abilities like Nemesis&#x2019; will trigger.
 </answer>
     </entry>
     <entry id="2-33">
       <question>
-If I have Autobot Hot Rod with the AirQuake Hammerclaw, Spare Parts, and Bashing Shield equipped (and no other equipment) and my opponent hits me with a Bashing Shield of their own, am I required to scrap the Spare Parts?
+If I have Autobot Hot Rod with the AirQuake Hammerclaw, [[Spare Parts]], and [[Bashing Shield]] equipped (and no other equipment) and my opponent hits me with a Bashing Shield of their own, am I required to scrap the Spare Parts?
 </question>
       <answer>
-Yes. Their Bashing Shield would try to scrap your Bashing Shield, and Spare Parts would heroically leap in the way. Using Spare Parts in this scenario is not optional. Thank you, Spare Parts.
+Yes. Their [[Bashing Shield]] would try to scrap your Bashing Shield, and [[Spare Parts]] would heroically leap in the way. Using Spare Parts in this scenario is not optional. Thank you, Spare Parts.
 </answer>
     </entry>
     <entry id="2-34">
       <question>
-If I play Multi-Mission Gear on Private Camshaft first thing on my first turn, then use that to play Treasure Hunt, would the weapons &amp; armor I draw be valid to put on my Omnibots in that "At the start of your first turn &gt; You may play a..." window?
+If I play [[Multi-Mission Gear]] on Private Camshaft first thing on my first turn, then use that to play [[Treasure Hunt]], would the weapons &amp; armor I draw be valid to put on my Omnibots in that "At the start of your first turn &gt; You may play a..." window?
 </question>
       <answer>
-Yes, after you&#x2019;re done with Private Camshaft&#x2019;s ability (including the Treasure Hunt it let you play) you would then handle other Omnibot abilities that trigger &#x201C;at the start of your first turn.&#x201D;
+Yes, after you&#x2019;re done with Private Camshaft&#x2019;s ability (including the [[Treasure Hunt]] it let you play) you would then handle other Omnibot abilities that trigger &#x201C;at the start of your first turn.&#x201D;
 </answer>
     </entry>
     <entry id="2-35">
@@ -292,7 +292,7 @@ No, no, not applicable, not applicable, not applicable.
     </entry>
     <entry id="2-36">
       <question>
-If I have Captain Starscream in bot mode, and I play Vandalize, and scrapping, say, two upgrades on Enemy 1 and one upgrade on Enemy 2, do I then do two damage to Enemy 1, and one damage to Enemy 2?
+If I have Captain Starscream in bot mode, and I play [[Vandalize]], and scrapping, say, two upgrades on Enemy 1 and one upgrade on Enemy 2, do I then do two damage to Enemy 1, and one damage to Enemy 2?
 </question>
       <answer>
 Correct.
@@ -356,10 +356,10 @@ When you have no deck left, you just don&#x2019;t flip any cards. Inverted&#x201
     </entry>
     <entry id="2-44">
       <question>
-Character X attacks with Anticipation Engine. They flip Supercharge. Is Bold 3 applied and will they flip 3 extra cards? Bold/Tough are locked in once the first battle flip begins?
+Character X attacks with [[Anticipation Engine]]. They flip [[Supercharge]]. Is Bold 3 applied and will they flip 3 extra cards? Bold/Tough are locked in once the first battle flip begins?
 </question>
       <answer>
-Anticipation Engine&#x2019;s ability triggers before you flip battle cards, therefore Supercharge will increase your bold.
+[[Anticipation Engine]]&#x2019;s ability triggers before you flip battle cards, therefore [[Supercharge]] will increase your bold.
 </answer>
     </entry>
     <entry id="2-45">
@@ -372,10 +372,10 @@ Bumblebee can now attack any character, tapped or untapped. So if there&#x2019;s
     </entry>
     <entry id="2-46">
       <question>
-I play Full Loadout on Wave 1 Wheeljack in Alt Mode. I play Multi-Tool, Multi-Mission Gear, and Field Communicator onto him. How are the triggers handled? Do I resolve each Upgrade and Wheeljack trigger mid-Loadout, or do I wait until I play all three upgrades then resolve the six triggers?
+I play [[Full Loadout]] on Wave 1 Wheeljack in Alt Mode. I play [[Multi-Tool]], [[Multi-Mission Gear]], and [[Field Communicator]] onto him. How are the triggers handled? Do I resolve each Upgrade and Wheeljack trigger mid-Loadout, or do I wait until I play all three upgrades then resolve the six triggers?
 </question>
       <answer>
-Full Loadout will put all three upgrades onto Wheeljack. You then handle all of the triggers in an order of your choosing.
+[[Full Loadout]] will put all three upgrades onto Wheeljack. You then handle all of the triggers in an order of your choosing.
 </answer>
     </entry>
     <entry id="2-47">
@@ -388,7 +388,7 @@ After.
     </entry>
     <entry id="2-48">
       <question>
-How does Brainstorm work, exactly? Do I play the two actions from my hand immediately, then resolve them, or do I resolve the first action before playing and resolving the second action? What if a character's trigger happens between actions, such as Wave 1 Thundercracker? Are triggers resolved before or after the action that triggers them?
+How does [[[[Brainstorm]]]] work, exactly? Do I play the two actions from my hand immediately, then resolve them, or do I resolve the first action before playing and resolving the second action? What if a character's trigger happens between actions, such as Wave 1 Thundercracker? Are triggers resolved before or after the action that triggers them?
 </question>
       <answer>
 You play one action from your hand, then you play the second, then resolve the triggers caused by those actions.
@@ -396,10 +396,10 @@ You play one action from your hand, then you play the second, then resolve the t
     </entry>
     <entry id="2-49">
       <question>
-I have a team of all Autobots, including Captain Wheeljack in bot mode. I play Brainstorm, and as the first action, play Confidence. Do I play my second action for Brainstorm now, or do I resolve Confidence first and play an action via Confidence? Either way, this will trigger Captain Wheeljack&#x2019;s "When you play your third action" ability. Do I draw the card for that immediately, or do I wait until all the actions played via Confidence and Brainstorm have resolved?
+I have a team of all Autobots, including Captain Wheeljack in bot mode. I play [[[[Brainstorm]]]], and as the first action, play [[Confidence]]. Do I play my second action for Brainstorm now, or do I resolve Confidence first and play an action via Confidence? Either way, this will trigger Captain Wheeljack&#x2019;s "When you play your third action" ability. Do I draw the card for that immediately, or do I wait until all the actions played via Confidence and Brainstorm have resolved?
 </question>
       <answer>
-Finish Confidence first (including possibly playing another action), then play your second action for Brainstorm. After that&#x2019;s done, all abilities that triggered while Brainstorm was resolving happen in an order of your choosing.
+Finish [[Confidence]] first (including possibly playing another action), then play your second action for [[[[Brainstorm]]]]. After that&#x2019;s done, all abilities that triggered while Brainstorm was resolving happen in an order of your choosing.
 </answer>
     </entry>
     <entry id="2-50">

@@ -29,20 +29,20 @@ Characters untap before the end of turn step, so you both players would untap al
     <entry id="8-4">
       <question>
 This was written in Rules Roundup 10/11/19:
-&#x201C;I play Brainstorm. Using my 2 actions, I play Ancient Wisdom first, then System Reboot. I draw Unleash Potential off of System Reboot, do I get to play it for free now?
-Both Brainstorm and Ancient Wisdom resolve &#x201C;top to bottom&#x201D;. When you play Brainstorm, then you play Ancient Wisdom, you must play Unleash Potential at that moment. In your case, you&#x2019;ve moved past Ancient Wisdom and are continuing with Brainstorm, playing System Reboot. It&#x2019;s now too late to play Unleash Potential with your previous Ancient Wisdom.&#x201D;
-Would this rule also apply to Tech Research? You must play a Superior upgrade after playing Tech Research or else that Tech Research is not forfeit. Example: I play Brainstorm first, then I play Tech Research, then I play Medic. Can I play Superior Jetpack?
+&#x201C;I play [[[[Brainstorm]]]]. Using my 2 actions, I play [[Ancient Wisdom]] first, then [[System Reboot]]. I draw [[Unleash Potential]] off of System Reboot, do I get to play it for free now?
+Both [[[[Brainstorm]]]] and [[Ancient Wisdom]] resolve &#x201C;top to bottom&#x201D;. When you play Brainstorm, then you play Ancient Wisdom, you must play [[Unleash Potential]] at that moment. In your case, you&#x2019;ve moved past Ancient Wisdom and are continuing with Brainstorm, playing [[System Reboot]]. It&#x2019;s now too late to play Unleash Potential with your previous Ancient Wisdom.&#x201D;
+Would this rule also apply to [[Tech Research]]? You must play a Superior upgrade after playing Tech Research or else that Tech Research is not forfeit. Example: I play [[[[Brainstorm]]]] first, then I play Tech Research, then I play Medic. Can I play [[Superior Jetpack]]?
         </question>
       <answer>
-Superior upgrades only check to see if you have played Tech Research at some point previously in your turn. Therefore, there is no issue with playing other cards between Tech Research and a Superior upgrade.
+Superior upgrades only check to see if you have played [[Tech Research]] at some point previously in your turn. Therefore, there is no issue with playing other cards between Tech Research and a Superior upgrade.
       </answer>
     </entry>
     <entry id="8-5">
       <question>
-Along those lines, am I limited to playing 1 Unleashed Potential per Ancient Wisdom? Am I limited to playing 1 Superior upgrade per Tech Research?
+Along those lines, am I limited to playing 1 Unleashed Potential per [[Ancient Wisdom]]? Am I limited to playing 1 Superior upgrade per [[Tech Research]]?
         </question>
       <answer>
-Your Ancient Wisdom allows you to play a single Unleash Potential. After you&#x2019;ve played Tech Research, the number of Superior upgrades you can play is only limited by the number of upgrades you can play.
+Your [[Ancient Wisdom]] allows you to play a single [[Unleash Potential]]. After you&#x2019;ve played [[Tech Research]], the number of Superior upgrades you can play is only limited by the number of upgrades you can play.
       </answer>
     </entry>
     <entry id="8-6">
@@ -58,26 +58,26 @@ Say I have Torox in alt mode and my opponent plays I Still Function. Since ISF r
     </entry>
     <entry id="8-7">
       <question>
-Can Escape Route be used on a triple changer in Alt 2 to flip into Alt 1 and vice-versa? Are triple changers affected by Roll-Out if they are not in bot mode?
+Can [[Escape Route]] be used on a triple changer in Alt 2 to flip into Alt 1 and vice-versa? Are triple changers affected by Roll-Out if they are not in bot mode?
         </question>
       <answer>
-Escape Route and Roll Out convert characters from Bot mode to Alt mode. They cannot convert Triple Changers from one Alt mode to another Alt mode.
+[[Escape Route]] and Roll Out convert characters from Bot mode to Alt mode. They cannot convert Triple Changers from one Alt mode to another Alt mode.
       </answer>
     </entry>
     <entry id="8-8">
       <question>
-I have a question concerning Heroism, the Wave 1 Utility. I have Heroism on a character and place the Take Cover! secret action during my turn. During my opponent's turn I reveal Take Cover!. When my opponent goes to attack and the attack damage is transferred to the character with Heroism what type of damage is this? Heroism is a tad vague on the damage that the character is taking. If its not attack damage I assume that Take Cover! could blank the attack effectively?
+I have a question concerning [[Heroism]], the Wave 1 Utility. I have Heroism on a character and place the [[Take Cover]]! secret action during my turn. During my opponent's turn I reveal Take Cover!. When my opponent goes to attack and the attack damage is transferred to the character with Heroism what type of damage is this? Heroism is a tad vague on the damage that the character is taking. If its not attack damage I assume that Take Cover! could blank the attack effectively?
         </question>
       <answer>
-Damage redirected by Heroism is still attack damage, so it is not affected by Take Cover.
+Damage redirected by [[Heroism]] is still attack damage, so it is not affected by [[Take Cover]].
       </answer>
     </entry>
     <entry id="8-9">
       <question>
-If I have Infiltrate face down on the table during my opponent's turn when they play a secret action, can I reveal Infiltrate on the off chance that my opponent's secret action has an orange icon?
+If I have [[Infiltrate]] face down on the table during my opponent's turn when they play a secret action, can I reveal Infiltrate on the off chance that my opponent's secret action has an orange icon?
         </question>
       <answer>
-No. Although the game knows that Secret Actions are Actions, it doesn&#x2019;t know specifically which one it is, so it doesn&#x2019;t know which Battle Icons it has, meaning Infiltrate will not work in this scenario.
+No. Although the game knows that Secret Actions are Actions, it doesn&#x2019;t know specifically which one it is, so it doesn&#x2019;t know which Battle Icons it has, meaning [[Infiltrate]] will not work in this scenario.
 </answer>
     </entry>
   </target>

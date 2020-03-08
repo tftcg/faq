@@ -5,6 +5,13 @@
             <tag name="Permitted and Banned Cards"/>
         </category>
     </category>
+    <category name="Keywords">
+        <tag name="Bold"/>
+        <tag name="Tough"/>
+        <tag name="Pierce"/>
+        <tag name="Brave"/>
+        <tag name="Stealth"/>
+    </category>
     <category name="Wave 1">
         <category name="Battle Cards">
             <tag name="Aerial Recon"/>

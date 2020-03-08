@@ -24,7 +24,6 @@
       <!-- {{ faq_node[2].attrib['id'] }} - {{ faq_node[2].attrib['mode'] }} -->
       <div class="question">
         {{ f_clean_markup(faq_node[2].find('question').text) }}
-        <!-- TODO: Implement colors -->
         <span><a href="{{ faq_node[1] }}"><img src="/images/source-{{ f_source_image_name(faq_node[0]) }}.svg" title="{{ faq_node[0] }}"/></a></span>
       </div>
       <div class="answer">

@@ -34,7 +34,7 @@ The XML format for the FAQ format is as follows:
      entry (id, mode, xref)
        question
        answer
-       tag?
+       tags?
 </pre>
 
 Targets can contain two types of entry, a canonical entry or a cross-referenced entry. Questions and Answers currently are purely text with no formatting markup supported.
@@ -47,7 +47,7 @@ Source formats are URLs.
 
 The site generation will automatically include any FAQ entry that references a tag's full name, unless markup_required is turned on for that tag. . 
 
-The 'tag' tags are optional and are for use when a FAQ entry does not reference a card, but it would be valuable for that card's page to include that FAQ entry. 
+The 'tags' tag is optional and is for use when a FAQ entry does not reference a card, but it would be valuable for that card's page to include that FAQ entry. 
 
 Questions and answers can contain a markup to indicate that a tag applies to that text. This markup is implemented via two square brackets on each side of the term. For example, [[Ion Blaster of Optimus Prime]]. 
 

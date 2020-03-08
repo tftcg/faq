@@ -1,5 +1,168 @@
 <?xml version="1.0"?>
 <faq name="Wave 2 and 3 FAQ" source_url="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
+  <target name="Combiners">
+    <entry>
+      <question>
+             What are Combiners? 
+        </question>
+      <answer>
+             It would be hard to have a set called Rise of the Combiners without&#x2026; the Combiners!
+Combiners are teams of characters that join in a third mode called Combiner mode. Most
+teams have a corresponding battle card called an Enigma that combines the team under the
+right circumstances. One Combiner in this set (Dreadwing - Sky Destroyer) has a different way
+of combining.
+When a character is combined, it starts untapped and it gets all the damage counters from the
+characters that formed it. It can keep upgrades from those characters based on its upgrade
+slots. Unless the Combiner says differently, it will have 1 Weapon slot, 1 Utility slot, and 1
+Armor slot like most characters. If there are too many Upgrades to fit into a slot, you can keep
+as many as you can fit, and the rest are scrapped.
+A character in Combiner mode is a single character, even though it&#x2019;s made up of multiple cards.
+When it attacks, the whole thing becomes tapped. If it&#x2019;s KO&#x2019;d (and somehow you haven&#x2019;t lost
+the game), it stays in Combiner mode in the KO area.
+A character in Combiner mode can&#x2019;t flip. Ignore any instruction to flip it. Also, a character in
+Combiner mode can&#x2019;t &#x201C;break apart&#x201D; into its individual cards.
+        </answer>
+    </entry>
+  </target>
+  <target name="Enigma">
+    <entry>
+      <question>
+             If I use an Enigma to combine my characters into the Combiner, can I then use the card&#x2019;s first
+ability to get its effect?
+        </question>
+      <answer>
+             No. You always follow the instructions on the card in order. If you don&#x2019;t already have the
+specified Combiner on the battlefield, the first ability won&#x2019;t do anything.
+        </answer>
+    </entry>
+  </target>
+  <target name="Triple Changers">
+    <entry>
+      <question>
+             What are Triple Changers?
+        </question>
+      <answer>
+             Triple Changers are characters with three modes: bot mode and two alt modes (labeled 1 and
+2). They start in alt mode 1. When a Triple Changer flips, it can flip to either of the two other
+modes.
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             If a card specifically says to flip a Triple Changer to alt mode, what happens?
+        </question>
+      <answer>
+             If it&#x2019;s in bot mode, you can flip it to alt mode 1 or alt mode 2. If it&#x2019;s in one of its alt modes,
+you can either not flip it or flip it to the other alt mode.
+        </answer>
+    </entry>
+  </target>
+  <target name="Green Battle Icon">
+    <entry>
+      <question>
+             What is a Green Battle Icon?
+        </question>
+      <answer>
+             This set introduces a new battle icon: green! Here&#x2019;s how it works. After a battle in which you
+flipped at least one card with a green battle icon, you may swap a card in your hand with one of
+the cards you flipped with a green battle icon. The card you swap from your hand will be
+scrapped at the end of the turn, along with all the other cards you played or flipped during the
+turn.
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             I flipped 2 cards with green battle icons. Can I return both of them to my hand by swapping
+two cards?
+        </question>
+      <answer>
+             No. Only one card with a green battle icon per battle.
+
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             If both players flip a card with a green battle icon, who decides first?
+        </question>
+      <answer>
+             The player whose turn it is goes first, then the other player.
+        </answer>
+    </entry>
+  </target>
+  <target name="Brave">
+    <entry>
+      <question>
+             What is Brave?
+        </question>
+      <answer>
+             Brave is a new keyword ability that helps some characters protect the rest of their team. When
+choosing which enemy to attack, you must choose one with brave if possible.
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             My opponent has two characters with brave that I could attack. What happens?
+        </question>
+      <answer>
+             You choose one of them to attack.
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             My opponent has one tapped character and one untapped character with brave. Do I have to
+attack the one with brave?
+        </question>
+      <answer>
+             No, and in fact you can&#x2019;t even if you want to. Brave doesn&#x2019;t override the rules for attacking
+tapped/untapped characters. If your opponent has any tapped characters you must attack one
+of them. If a tapped character had brave, you would have to attack that one if you could.
+        </answer>
+    </entry>
+  </target>
+  <target name="Stealth">
+    <entry>
+      <question>
+             What is Stealth?
+        </question>
+      <answer>
+             Stealth is a new keyword ability that lets some characters strike from the shadows without fear
+of reprisal. When choosing which enemy to attack, you must attack a character without stealth
+if able.
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             If my opponent has one tapped character with stealth, and the rest of their creatures are
+untapped, which character can I attack?
+        </question>
+      <answer>
+             Stealth doesn&#x2019;t override the rules for attacking tapped/untapped characters. Since the
+tapped character is the only one that can be attacked, that&#x2019;s where your attack is headed.
+        </answer>
+    </entry>
+    <entry>
+      <question>
+             What happens if a character has brave and stealth?
+        </question>
+      <answer>
+             Brave and stealth essentially cancel each other out. You must attack that character if able,
+and you must attack other characters if able. This basically means you must attack a character
+you can attack, the same as if those abilities weren&#x2019;t there.
+        </answer>
+    </entry>
+  </target>
+  <target name="Plan">
+    <entry>
+      <question>
+             What is Plan?
+        </question>
+      <answer>
+             Plan is a new keyword that helps set up devastating battles. When instructed to plan, you may
+put up to the specified number of cards from your hand back on top of your deck. If you put
+more than one card on top of your deck this way, you can put them there in any order.
+        </answer>
+    </entry>
+  </target>
   <target name="Air Raid - Fearless Flyer">
     <entry mode="bot">
       <question>If Air Raid has an Upgrade that does damage to an enemy, will Air Raid&#x2019;s ability trigger and let me scrap an Upgrade from that enemy?</question>
@@ -19,7 +182,7 @@
     </entry>
   </target>
   <target name="Dreadwind - Air Defense">
-      <entry xref="Wave-2-3#blackwing-1" mode="bot"/>
+    <entry xref="Wave-2-3#blackwing-1" mode="bot"/>
   </target>
   <target name="Blurr - Fastest Bot in the Galaxy">
     <entry mode="bot">
@@ -286,8 +449,7 @@
       <answer>In cases like that, the player whose character it is can choose which effect to apply. Then see if the other effect(s) still apply. Keep applying these effects until none apply. Each effect can apply to the same damage only once.</answer>
     </entry>
   </target>
-  <target name="Electrified Spikes">
-      <entry><question>If I flip four orange battle icons, does it deal 2 damage?</question><answer>No. The ability does a maximum of 1 damage, no matter how many orange battle icons you</answer></entry>
+  <target name="Electrified Spikes"><entry><question>If I flip four orange battle icons, does it deal 2 damage?</question><answer>No. The ability does a maximum of 1 damage, no matter how many orange battle icons you</answer></entry>
 flip.
 <entry><question>What happens if the 1 damage KO&#x2019;s the attacker?</question><answer>In that case, no damage is done to the defender.</answer></entry>
 </target>
@@ -348,7 +510,7 @@ flip.
     </entry>
   </target>
   <target name="Inverted!">
-      <entry xref="Rules_Roundup-2019-07-12#1-18"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-18"/>
   </target>
   <target name="Leap of Faith">
     <entry>
@@ -460,288 +622,282 @@ flip.
       <answer>Yes. It only matters what kind of Upgrade it is, not what slot it&#x2019;s in.</answer>
     </entry>
   </target>
-
   <target name="Battle Masters">
-      <entry>
+    <entry>
       <question>
           What are Battle Masters?
       </question>
       <answer>
 Battle Masters are characters that start in bot mode and can be played in their upgrade mode
-after they are KO’d. Battle Masters don’t have an alt mode and can’t flip while they are on the
+after they are KO&#x2019;d. Battle Masters don&#x2019;t have an alt mode and can&#x2019;t flip while they are on the
 battlefield. There are both Autobot and Decepticon Battle Masters.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Battle Masters are the same size as battle cards! What does that mean?
         </question>
-        <answer>
-             The size of the card doesn’t change how they play. While in bot mode, Battle Masters are
+      <answer>
+             The size of the card doesn&#x2019;t change how they play. While in bot mode, Battle Masters are
 just like other characters. They can attack and be attacked, they can be damaged, they can be
 upgraded, and so on.
       </answer>
-  </entry>
-      <entry>
-        <question>
-             If Battle Masters don’t have an alt mode, how do they start the game?
+    </entry>
+    <entry>
+      <question>
+             If Battle Masters don&#x2019;t have an alt mode, how do they start the game?
         </question>
-        <answer>
+      <answer>
              They start on the battlefield in bot mode.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              If a card tells me to flip a Battle Master, what happens?
         </question>
-        <answer>
-             It doesn’t flip. It just stays in bot mode. If the card has additional instructions, those are still
+      <answer>
+             It doesn&#x2019;t flip. It just stays in bot mode. If the card has additional instructions, those are still
 followed if possible.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              So how do I access the upgrade mode?
         </question>
-        <answer>
-             If a Battle Master in bot mode is KO’d, you can immediately flip the card and play its other
+      <answer>
+             If a Battle Master in bot mode is KO&#x2019;d, you can immediately flip the card and play its other
 mode.
       </answer>
-  </entry>
-      <entry>
-        <question>
-             Most of the time, characters are KO’d on their opponent’s turn. If that happens to my Battle
+    </entry>
+    <entry>
+      <question>
+             Most of the time, characters are KO&#x2019;d on their opponent&#x2019;s turn. If that happens to my Battle
 Master, can I still play the upgrade?
         </question>
-        <answer>
-             Yes. This may cause some abilities to trigger that normally don’t during your opponent’s turn.
+      <answer>
+             Yes. This may cause some abilities to trigger that normally don&#x2019;t during your opponent&#x2019;s turn.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              When I play the Battle Master in upgrade mode, does it count as my upgrade play for the
 turn?
         </question>
-        <answer>
+      <answer>
              No. If you played an upgrade earlier in the turn, you can still play the Battle Master in its
-upgrade mode after it’s KO’d in bot mode.
-In some unusual situations, your Battle Master in bot mode is KO’d during your turn before you
-attack. Playing the upgrade mode in those situations doesn’t stop you from then playing an
+upgrade mode after it&#x2019;s KO&#x2019;d in bot mode.
+In some unusual situations, your Battle Master in bot mode is KO&#x2019;d during your turn before you
+attack. Playing the upgrade mode in those situations doesn&#x2019;t stop you from then playing an
 upgrade from your hand before you attack.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              What happens if the Battle Master upgrade would leave the battlefield?
         </question>
-        <answer>
+      <answer>
              If that happens, the card is put into your KO area with its upgrade mode face up. This can
 happen if the upgrade would be returned to your hand, returned to your deck, directly
-scrapped, or if the character that had it is KO’d.
+scrapped, or if the character that had it is KO&#x2019;d.
       </answer>
-  </entry>
-                      </target>
-
-                      <target name="Micro Masters">
-      <entry>
+    </entry>
+  </target>
+  <target name="Micro Masters">
+    <entry>
       <question>
           What are Micro Masters?
       </question>
       <answer>
-Battle Masters aren’t the only small character cards in War for Cybertron: Siege I. Micro
+Battle Masters aren&#x2019;t the only small character cards in War for Cybertron: Siege I. Micro
 Masters are also small character cards, but unlike Battle Masters, they have an alt mode and a
 bot mode. This means they start the game in alt mode, like most other characters.
 Battle Masters and Micro Masters never go in your deck, hand, or scrap pile.
 
       </answer>
-  </entry>
-      <entry>
+    </entry>
+    <entry>
       <question>
           What are Tap Abilities?
       </question>
       <answer>
-Micro Masters tend to be small, and they’ll often be outmatched on the battlefield. But that
-doesn’t mean they can’t help your cause. They have tap abilities that give you an option other
+Micro Masters tend to be small, and they&#x2019;ll often be outmatched on the battlefield. But that
+doesn&#x2019;t mean they can&#x2019;t help your cause. They have tap abilities that give you an option other
 than attacking with them.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              How can I recognize a tap ability?
         </question>
-        <answer>
+      <answer>
              Tap abilities all have the tap symbol (marked as [t] in text documents like this one) to the left
 of the arrow.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              How do tap abilities work?
         </question>
-        <answer>
-             You can use one tap ability during your turn, before you attack. It’s one of your turn actions,
+      <answer>
+             You can use one tap ability during your turn, before you attack. It&#x2019;s one of your turn actions,
 just like playing an Action card, playing an Upgrade card, or flipping one of your characters to its
 other mode. To use the tap ability, the character that has the ability must be untapped. Using
 the ability causes the character to become tapped.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Does using a tap ability also mean the character attacks?
         </question>
-        <answer>
-             No. Using a tap ability isn’t the same as attacking.
+      <answer>
+             No. Using a tap ability isn&#x2019;t the same as attacking.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Do I have to use a tap ability during my turn?
         </question>
-        <answer>
-             No. It’s your choice. You don’t have to use a tap ability, even if you could.
+      <answer>
+             No. It&#x2019;s your choice. You don&#x2019;t have to use a tap ability, even if you could.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              If I have more than one untapped character with a tap ability, can I use all of them in the
 same turn?
         </question>
-        <answer>
+      <answer>
              No. You can use only one tap ability per turn.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Can I use a tap ability, then play an Action that untaps that character, then use that tap
 ability again?
         </question>
-        <answer>
+      <answer>
              Nope. One tap ability per turn.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Some tap abilities say I have to scrap cards from my hand or other additional costs. Can I use
-a tap ability if I can’t pay that cost.
+a tap ability if I can&#x2019;t pay that cost.
         </question>
-        <answer>
+      <answer>
              No. For example, if a tap ability says you have to scrap a card from your hand with an orange
-battle icon, and you don’t have one, you can’t use that tap ability.
+battle icon, and you don&#x2019;t have one, you can&#x2019;t use that tap ability.
       </answer>
-  </entry>
-                      </target>
-
-                      <target name="Secret Actions">
-      <entry>
+    </entry>
+  </target>
+  <target name="Secret Actions">
+    <entry>
       <question>
           What are Secret Actions?
       </question>
       <answer>
-Secret Actions are a new kind of Action card, keeping your opponent in the dark until it’s too
+Secret Actions are a new kind of Action card, keeping your opponent in the dark until it&#x2019;s too
 late for them to stop you. To play a Secret Action, put it into the played area (where actions and
-flipped battle cards normally go) face down. Secret Actions don’t have an immediate effect, but
-wait until later in the game to do their thing, often on your opponent’s turn!
+flipped battle cards normally go) face down. Secret Actions don&#x2019;t have an immediate effect, but
+wait until later in the game to do their thing, often on your opponent&#x2019;s turn!
 Each Secret Action has two parts. First, a Reveal condition. This tells you when to reveal the
 Secret Action by turning it face up. Most Reveal conditions are things your opponent does, like
 attack one of your characters or play certain kinds of cards.
-Second, a When Revealed effect. This tells you what the Secret Action does when it’s finally
+Second, a When Revealed effect. This tells you what the Secret Action does when it&#x2019;s finally
 revealed. After a Secret Action is revealed this way, it stays in the played area and will be
 scrapped at the end of the turn.
-One warning though: Secret Actions won’t wait around forever. If a Secret Action is played
-during your turn, it will wait until the end of your opponent’s next turn. If its Reveal condition
-isn’t met by then, it will be scrapped along with all the other played or flipped cards from that
-turn. It’s scrapped face up, and scrapping it this way won’t cause its When Revealed effect to
+One warning though: Secret Actions won&#x2019;t wait around forever. If a Secret Action is played
+during your turn, it will wait until the end of your opponent&#x2019;s next turn. If its Reveal condition
+isn&#x2019;t met by then, it will be scrapped along with all the other played or flipped cards from that
+turn. It&#x2019;s scrapped face up, and scrapping it this way won&#x2019;t cause its When Revealed effect to
 happen.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Does playing a Secret Action count as playing an Action?
         </question>
-        <answer>
+      <answer>
              Yes. For example, if a card says you can play an Action, it can be a Secret Action.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              Can I look at my Secret Action after I play it but before its Reveal condition is met?
         </question>
-        <answer>
-             Yes. Your opponent can’t look at your Secret Actions until you reveal them.
+      <answer>
+             Yes. Your opponent can&#x2019;t look at your Secret Actions until you reveal them.
       </answer>
-  </entry>
-      <entry>
-        <question>
-             Say I have Thundercracker, Mach Warrior, who has the ability “When you play an Action ->
+    </entry>
+    <entry>
+      <question>
+             Say I have Thundercracker, Mach Warrior, who has the ability &#x201C;When you play an Action -&gt;
 This gets +1 [A] until end of turn. If I play a Secret Action, does that ability trigger? Does it
 trigger when the Secret Action is revealed?
         </question>
-        <answer>
-             It will trigger when you first play the Secret Action. The ability won’t trigger again when the
+      <answer>
+             It will trigger when you first play the Secret Action. The ability won&#x2019;t trigger again when the
 Secret Action is revealed.
       </answer>
-  </entry>
-                      </target>
-
-                      <target name="Focus">
-      <entry>
+    </entry>
+  </target>
+  <target name="Focus">
+    <entry>
       <question>
           What is Focus?
       </question>
       <answer>
-Focus is a new keyword. Focus N (where N is a number) means “Before flipping battle cards for
-this character’s battle, look at the top N cards of your deck. You may scrap any of those cards
-and put the rest back in any order.”
-Most often, you’ll see focus 1, which means you’ll look at the top card of your deck and you
+Focus is a new keyword. Focus N (where N is a number) means &#x201C;Before flipping battle cards for
+this character&#x2019;s battle, look at the top N cards of your deck. You may scrap any of those cards
+and put the rest back in any order.&#x201D;
+Most often, you&#x2019;ll see focus 1, which means you&#x2019;ll look at the top card of your deck and you
 may scrap it.
       </answer>
-  </entry>
-      <entry>
-        <question>
+    </entry>
+    <entry>
+      <question>
              If I have a character with focus but another one of my characters is battling, does that focus
 ability work?
         </question>
-        <answer>
+      <answer>
              No. It has to be the character with focus that is battling.
       </answer>
-  </entry>
-      <entry>
-        <question>
-             If there’s one card left in my deck and a character with Focus 2 is battling, what happens?
+    </entry>
+    <entry>
+      <question>
+             If there&#x2019;s one card left in my deck and a character with Focus 2 is battling, what happens?
         </question>
-        <answer>
-             You’ll set aside at that one card, reshuffle your scrap pile, then set aside the new top card.
+      <answer>
+             You&#x2019;ll set aside at that one card, reshuffle your scrap pile, then set aside the new top card.
 Look at those two cards and decide whether to scrap them or put them back on top of your
 deck.
       </answer>
-  </entry>
-                      </target>
-
-                      <target name="Black Battle Icon">
-      <entry>
+    </entry>
+  </target>
+  <target name="Black Battle Icon">
+    <entry>
       <question>
           What is a Black Battle Icon?
       </question>
       <answer>
 
-There’s a new battle icon on some battle cards in War for Cybertron: Siege I. It’s black! What
-does it mean? If you’re on the attack, hopefully good things for you.
+There&#x2019;s a new battle icon on some battle cards in War for Cybertron: Siege I. It&#x2019;s black! What
+does it mean? If you&#x2019;re on the attack, hopefully good things for you.
 For each black battle icon you flip while attacking, your character gets pierce 1 until end of turn.
 Remember that pierce numbers add up, so flipping two black icons in an attack will give your
 attacker pierce 2, and so on.
       </answer>
-  </entry>
-      <entry>
-        <question>
-             Do black battle icons have any effect on a character that’s defending?
+    </entry>
+    <entry>
+      <question>
+             Do black battle icons have any effect on a character that&#x2019;s defending?
         </question>
-        <answer>
-             No. Black battle icons flipped on defense won’t give your character pierce. (And pierce
-doesn’t work on defense anyway.)
+      <answer>
+             No. Black battle icons flipped on defense won&#x2019;t give your character pierce. (And pierce
+doesn&#x2019;t work on defense anyway.)
       </answer>
-  </entry>
-                      </target>
-
+    </entry>
+  </target>
   <target name="Alpha Trion - Cybertronian Sage">
     <entry mode="bot">
       <question>If the card I play with a blue battle icon also has other battle icons, do those count in the battle?</question>
@@ -946,13 +1102,13 @@ doesn’t work on defense anyway.)
     </entry>
   </target>
   <target name="Dismantling Claw">
-      <entry xref="Wave-2-3#reactive-1"/>
-      <entry xref="Wave-2-3#reactive-2"/>
-</target>
+    <entry xref="Wave-2-3#reactive-1"/>
+    <entry xref="Wave-2-3#reactive-2"/>
+  </target>
   <target name="Personal Targeting Drone">
-      <entry xref="Wave-2-3#reactive-1"/>
-      <entry xref="Wave-2-3#reactive-2"/>
-</target>
+    <entry xref="Wave-2-3#reactive-1"/>
+    <entry xref="Wave-2-3#reactive-2"/>
+  </target>
   <target name="Reactive Armor">
     <entry id="reactive-1">
       <question>If any of these upgrades are scrapped because the character who had it was KO&#x2019;d, does the ability trigger?</question>

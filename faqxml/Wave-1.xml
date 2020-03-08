@@ -221,7 +221,6 @@ KO&#x2019;d character isn&#x2019;t a Car and won&#x2019;t add to Cliffjumper&#x2
   <target name="Decepticon Shockwave - Cybertron Commander">
       <entry xref="Rules_Roundup-2019-07-12#1-1" mode="bot"/>
       <entry xref="Rules_Roundup-2019-07-12#1-3" mode="bot"/>
-      <entry xref="Rules_Roundup-2019-07-12#1-24" mode="bot"/>
   </target>
   <target name="Demolisher - Devoted Decepticon">
     <entry id="demolisher-1" mode="bot">
@@ -401,7 +400,6 @@ from white battle icons.
     No. You&#x2019;ve already flipped cards for that attack.
 </answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-29#2-5" mode="bot"/>
   </target>
   <target name="Prowl - Military Strategist">
     <entry id="prowl-1" mode="alt">
@@ -566,7 +564,6 @@ wouldn&#x2019;t change the number of cards in your hand.
     First, choose your first Action. Carry out all its instructions and set it aside. Then choose your second Action and carry out its instructions. Note that you don&#x2019;t have to choose the Actions ahead of time. For example, if your first Action lets you draw a card, and that card is an Action, you could play that Action as your second one.
 </answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-15"/>
   </target>
   <target name="Bug Bomb">
     <entry>
@@ -738,9 +735,6 @@ wouldn&#x2019;t change the number of cards in your hand.
     </entry>
     <entry xref="Rules_Roundup-2019-07-12#1-17"/>
   </target>
-  <target name="Ion Blaster of Optimus Prime">
-      <entry xref="Rules_Roundup-2019-07-12#1-20"/>
-  </target>
   <target name="I Still Function!">
     <entry>
       <question>
@@ -782,7 +776,6 @@ wouldn&#x2019;t change the number of cards in your hand.
     In that case, the game is a draw. Time to start the next game!
 </answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-30"/>
   </target>
   <target name="Peace through Tyranny">
     <entry>

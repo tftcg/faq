@@ -1,9 +1,4 @@
 <tags name="FAQ">
-    <category name="Tournaments">
-        <category name="Constructed">
-            <tag name="Permitted and Banned Cards"/>
-        </category>
-    </category>
     <category name="Keywords">
         <tag name="Play" markup_required="true"/>
         <tag name="Deck" markup_required="true"/>
@@ -611,6 +606,11 @@
             <tag name="Nightbird - Enigmatic Agent"/>
             <tag name="Raider Skytread - Special Ops Soldier"/>
             <tag name="Captain Omega Supreme - Transport - City Defender"/>
+        </category>
+    </category>
+    <category name="Tournaments">
+        <category name="Constructed">
+            <tag name="Permitted and Banned Cards"/>
         </category>
     </category>
 </tags>

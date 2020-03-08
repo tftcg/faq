@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <faq name="Wave 3 Battle Cards" source="Wave 2 and 3 FAQ" source_url="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
   <target name="Anticipation Engine">
-      <entry xref="Rules_Roundup#1-5"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-5"/>
   </target>
   <target name="Backup Bag">
     <entry>
       <question>Can I use Backup Bag to save a Weapon or Armor that causes itself to be scrapped, such as Grenade Launcher?</question>
       <answer>Yes.</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-27"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-27"/>
   </target>
   <target name="Battering Ram">
     <entry>
       <question>If I play Battering Ram, and the defender has more than one other mode, who chooses which mode it flips to?</question>
       <answer>Your opponent does.</answer>
     </entry>
-      <entry xref="Rules_Roundup#1-8"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-8"/>
   </target>
   <target name="Battlefield Scan">
     <entry>
@@ -24,24 +24,24 @@
     </entry>
   </target>
   <target name="Bolster">
-    <entry xref="Rules_Roundup#1-23"/>
-    <entry xref="Rules_Roundup#1-30"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-23"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-30"/>
   </target>
   <target name="Dampening Field">
     <entry>
       <question>What happens if my opponent is supposed to flip more than 4 cards during the battle?</question>
       <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-23"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-23"/>
   </target>
   <target name="Dismantling Claw">
-      <entry xref="#reactive-1"/>
-      <entry xref="#reactive-2"/>
-      <entry xref="Rules_Roundup#1-28"/>
+      <entry xref="Wave_3/Battle_Cards#reactive-1"/>
+      <entry xref="Wave_3/Battle_Cards#reactive-2"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-28"/>
 </target>
   <target name="Personal Targeting Drone">
-      <entry xref="#reactive-1"/>
-      <entry xref="#reactive-2"/>
+      <entry xref="Wave_3/Battle_Cards#reactive-1"/>
+      <entry xref="Wave_3/Battle_Cards#reactive-2"/>
 </target>
   <target name="Reactive Armor">
     <entry id="reactive-1">
@@ -52,7 +52,7 @@
       <question>If one of these upgrades is on a character, and I play another upgrade of that type to replace it, does the ability trigger?</question>
       <answer>Yes. Replacing an upgrade this way causes the old upgrade to be scrapped.</answer>
     </entry>
-      <entry xref="Rules_Roundup#1-28"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-28"/>
   </target>
   <target name="Emergency Defense Field">
     <entry>
@@ -99,7 +99,7 @@
       <question>What happens if my opponent plays a Secret Action? I can&#x2019;t see its battle icons!</question>
       <answer>Infiltrate won&#x2019;t be revealed because of a Secret Action, even if that Secret Action has orange battle icons. This is also true when the Secret Action is later revealed. It was already played face down, so Infiltrate won&#x2019;t notice it. Sneaky!</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-31"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-31"/>
   </target>
   <target name="Laser Cutlass">
     <entry>
@@ -114,7 +114,7 @@
     </entry>
   </target>
   <target name="Pop a Wheelie">
-      <entry xref="Rules_Roundup#1-7"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-7"/>
   </target>
   <target name="Repurpose">
     <entry>

@@ -27,7 +27,7 @@
       <question>If I scrap Unleash Potential and return it to my hand, can I then play it?</question>
       <answer>Yes. You follow the instructions of Ancient Wisdom in the order written.</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-19"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-19"/>
   </target>
   <target name="Attack Drone">
     <entry>
@@ -116,7 +116,7 @@ flip.
       <question>If I play a second Focus Fire, can I give the same character bold 1 twice?</question>
       <answer>Yes. You can give one character bold 1 twice (which is just like giving it bold 2), or you can give two separate characters bold 1.</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-13"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-13"/>
   </target>
   <target name="Fog of War">
     <entry>
@@ -137,7 +137,7 @@ flip.
     </entry>
   </target>
   <target name="Inverted!">
-      <entry xref="Rules_Roundup#1-18"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-18"/>
   </target>
   <target name="Leap of Faith">
     <entry>
@@ -164,7 +164,7 @@ flip.
       <question>Let&#x2019;s say I play this and choose my opponent&#x2019;s Decepticon with 1 defense. Later in the turn, it gets +2 defense. What will its total defense be?</question>
       <answer>1. Press the Advantage won&#x2019;t drop the Decepticon&#x2019;s defense below 0, but the -2 applies again once the Decepticon&#x2019;s defense is raised.</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-16"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-16"/>
   </target>
   <target name="Recon System">
     <entry>
@@ -243,7 +243,7 @@ flip.
       <question>Can I get a card if I&#x2019;m already playing with 3 of that card in my deck?</question>
       <answer>Yes. The 3-card and 25-star limits apply only to your starting deck and team. You can bring in a fourth card, even if it would put you over the 25-star limit.</answer>
     </entry>
-    <entry xref="Rules_Roundup#1-19"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-19"/>
   </target>
   <target name="Vandalize">
     <entry>

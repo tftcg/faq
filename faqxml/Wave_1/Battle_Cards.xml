@@ -49,7 +49,7 @@
     First, choose your first Action. Carry out all its instructions and set it aside. Then choose your second Action and carry out its instructions. Note that you don&#x2019;t have to choose the Actions ahead of time. For example, if your first Action lets you draw a card, and that card is an Action, you could play that Action as your second one.
 </answer>
     </entry>
-    <entry xref="Rules_Roundup#1-15"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-15"/>
   </target>
   <target name="Bug Bomb">
     <entry>
@@ -200,7 +200,7 @@
     Yes. Any other card that cares about attack damage will still apply.
 </answer>
     </entry>
-    <entry xref="Rules_Roundup#1-15"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-15"/>
   </target>
   <target name="Hunker Down">
     <entry>
@@ -219,10 +219,10 @@
     You choose which Armor goes on which Tank. The same is true if you have more Tanks than you do scrapped Armors.
 </answer>
     </entry>
-    <entry xref="Rules_Roundup#1-17"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-17"/>
   </target>
   <target name="Ion Blaster of Optimus Prime">
-      <entry xref="Rules_Roundup#1-20"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-20"/>
   </target>
   <target name="I Still Function!">
     <entry>
@@ -241,10 +241,10 @@
     It stays in whatever mode it was KO&#x2019;d in. If you haven&#x2019;t already flipped one of your characters, you can flip the returned character to its other mode.
 </answer>
     </entry>
-      <entry xref="Rules_Roundup#1-21"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-21"/>
   </target>
   <target name="Multi-Mission Gear">
-      <entry xref="Rules_Roundup#1-23"/>
+      <entry xref="Rules_Roundup-2019-07-12#1-23"/>
   </target>
   <target name="Null-Ray of Starscream">
     <entry>
@@ -265,7 +265,7 @@
     In that case, the game is a draw. Time to start the next game!
 </answer>
     </entry>
-    <entry xref="Rules_Roundup#1-30"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-30"/>
   </target>
   <target name="Peace through Tyranny">
     <entry>
@@ -284,8 +284,8 @@
     In that case, you&#x2019;ll take two extra turns after the current turn.
 </answer>
     </entry>
-    <entry xref="Rules_Roundup#1-15"/>
-    <entry xref="Rules_Roundup#1-31"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-15"/>
+    <entry xref="Rules_Roundup-2019-07-12#1-31"/>
   </target>
   <target name="Photon Bomb">
     <entry>

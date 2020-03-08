@@ -66,7 +66,7 @@
       <answer>No. You can scrap a Weapon only if it has a + number in the orange stats box.</answer>
     </entry>
   </target>
-  <target name="MXT-S2A Guided Missile Launcher">
+  <target name="MTX-S2A Guided Missile Launcher">
     <entry mode="bot">
       <question>This Weapon can be in an Armor or Utility slot. When I play it, do I have to say which slot it&#x2019;s in?</question>
       <answer>Yes. Usually, players indicate which slot an Upgrade is in by placing it on a particular side of the character: Weapons on the left, Armors on the right, and Utilities below. Once the Upgrade is in a slot, it can&#x2019;t be moved to another slot to free up space.</answer>

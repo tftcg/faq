@@ -110,8 +110,8 @@
         </category>
         <category name="Characters">
             <tag name="Arcee - Skilled Fighter"/>
-            <tag name="Autobot Cosmos - Recon and Communication"/>
-            <tag name="Autobot Hound - Long Range Scout"/>
+            <tag name="Autobot Cosmos - Recon &amp; Communication"/>
+            <tag name="Autobot Hound - Long-Range Scout"/>
             <tag name="Autobot Jazz - Special Ops"/>
             <tag name="Autobot Mirage - Lone Wolf"/>
             <tag name="Barrage - Merciless Insecticon"/>
@@ -153,7 +153,7 @@
             <tag name="Ironhide - Veteran Autobot"/>
             <tag name="Optimus Prime - Autobot Leader"/>
             <tag name="Red Alert - Security Chief"/>
-            <tag name="CliffJumper - Renegade Warrior"/>
+            <tag name="Cliffjumper - Renegade Warrior"/>
             <tag name="Slipstream - Strategic Seeker"/>
             <tag name="Metroplex - Autobot City"/>
             <tag name="Scamper - City Patrol"/>
@@ -187,7 +187,7 @@
             <tag name="Energized Field"/>
             <tag name="Energon Slingshot"/>
             <tag name="Enforcement Batons"/>
-            <tag name="Erractic Lightning"/>
+            <tag name="Erratic Lightning"/>
             <tag name="Escape Route"/>
             <tag name="Espionage"/>
             <tag name="Evasive Maneuvers"/>
@@ -392,11 +392,11 @@
             <tag name="Recover Cassette"/>
         </category>
         <category name="Characters">
-            <tag name="Alpha Trion - Cybertronian - Sage"/>
+            <tag name="Alpha Trion - Cybertronian Sage"/>
             <tag name="Captain Elita-1 - Special Ops - Ranger"/>
             <tag name="Captain Ironhide - Infantry - Bodyguard"/>
             <tag name="Captain Starscream - Infantry - Air Commander"/>
-            <tag name="Captain Wheeljack - Engineer - Scientist"/>
+            <tag name="Captain Wheeljack - Engineering - Scientist"/>
             <tag name="General Megatron - Infantry - Leader"/>
             <tag name="General Optimus Prime - Infantry - Leader"/>
             <tag name="Major Prowl - Infantry - Strategist"/>
@@ -415,7 +415,7 @@
             <tag name="Private Stakeout - Infantry - Communications"/>
             <tag name="Private Top Shot - Artillery - Patrol Leader"/>
             <tag name="Private Tote - Special Ops - Infiltration"/>
-            <tag name="Private Trailbreaker - Infantry - Fortification and Defense"/>
+            <tag name="Private Trailbreaker - Infantry - Fortification &amp; Defense"/>
             <tag name="Manifold Ion Particle Blaster"/>
             <tag name="Dual-Impact Shatterblast Compression Cannon"/>
             <tag name="Raider Cindersaur - Black Ops - Demolitions"/>
@@ -439,7 +439,7 @@
             <tag name="Sergeant Skywarp - Black Ops - Seeker"/>
             <tag name="Sergeant Sparkstalker - Black Ops - Cryptology"/>
             <tag name="Specialist Flamewar - Special Ops - Hunter"/>
-            <tag name="Specialist Ratchet - Engineering - Rescue and Repair"/>
+            <tag name="Specialist Ratchet - Engineering - Rescue &amp; Repair"/>
             <tag name="Blaster - Communications"/>
             <tag name="Eject - Electronic Surveillance"/>
             <tag name="Ramhorn - Warrior"/>
@@ -578,7 +578,7 @@
             <tag name="Brunt - Artillery Drone"/>
             <tag name="Full-Tilt - Base Recon"/>
             <tag name="Wipe-Out - Devoted Minion"/>
-            <tag name="Sergeant Six-Gun"/>
+            <tag name="Sergeant Six-Gun - Artillery - Soldier"/>
             <tag name="Raider Brunt - Weapon - Soldier"/>
             <tag name="Nightbird - Enigmatic Agent"/>
             <tag name="Raider Skytread - Special Ops Soldier"/>

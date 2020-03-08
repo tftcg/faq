@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<faq name="Glossary" source="Community" source_url="https://github.com/tftcg/faq">
+<faq name="Additional Keywords" source="Community" source_url="https://github.com/tftcg/faq">
   <target name="Game Concepts">
     <entry id="what-is-battlefield" tags="Deck">
       <question>What is the 'Battlefield'?</question>
@@ -11,13 +11,6 @@
 Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
     </answer>
     </entry>
-    <!--
-    <entry id="what-is-a-faction">
-      <question>What is a 'Faction'?</question>
-      <answer>TODO
-    </answer>
-    </entry>
-    -->
     <entry id="what-is-flip-battle-card" tags="Play">
       <question>What does it mean to 'Flip (battle card)'?</question>
       <answer>
@@ -55,25 +48,8 @@ An oblong of colour in the right hand corner of a battle card.
 Used battle cards are placed face-up in the scrap pile. Either player may examine either scrap pile at any time. As soon as the deck runs out of cards, the scrap pile is shuffled to form the new deck. 
     </answer>
     </entry>
-    <!--
-    <entry id="what-is-a-trait">
-      <question>What is a 'Trait'?</question>
-      <answer>TODO
-    </answer>
-    </entry>
-    -->
   </target>
   <target name="Battle Icon">
-      <!--
-    <entry id="what-is-black-battle-icon">
-      <question>What is 'Black Pip'?</question>
-      <answer>
-A black oblong in the right hand corner of a battle card.
-When attacking, the number of black pips on the battle cards the attacker flips are added to the overall <a href="#pierce">Pierce</a> until the end of turn. 
-Note that adding this to the end of turn means it is still added should the character be able to attack again within the same turn. 
-    </answer>
-    </entry>
-      -->
     <entry id="what-is-blue-battle-icon">
       <question>What is a 'blue battle icon'?</question>
       <answer>
@@ -81,15 +57,6 @@ A blue oblong in the right hand corner of a battle card.
 "The defender gets +1 defense for each blue battle icon you flip when attacking."
     </answer>
     </entry>
-    <!--
-    <entry id="what-is-green-pip">
-      <question>What is 'Green Pip'?</question>
-      <answer>
-A green oblong in the right hand corner of a battle card.
-When battle cards are flipped in either defence or attack, one battle card with a green pip on it may be swapped with a battle card in the player's hand.
-    </answer>
-    </entry>
-    -->
     <entry id="what-is-orange-battle-icon">
       <question>What is an 'orange battle icon'?</question>
       <answer>
@@ -112,38 +79,6 @@ When attacking or defending, the first white battle icon flipped means the playe
 "Flip [x] more battle cards when attacking. "
     </answer>
     </entry>
-    <!--
-    <entry id="what-is-brave">
-      <question>What is 'Brave'?</question>
-      <answer>
-"Enemies attack this character if able. "
-    </answer>
-    </entry>
-    <entry id="what-is-focus-1">
-      <question>What is 'Focus 1'?</question>
-      <answer>
-"Before flipping battle cards when battling -&gt; Look at the top card of your deck. You may scrap it. "
-    </answer>
-    </entry>
-    <entry id="what-is-focus-x">
-      <question>What is 'Focus [x]'?</question>
-      <answer>
-"Before flipping battle cards when battling -&gt; Look at the top [x] cards of your deck. You may scrap any number of them. Put the rest back in any order. "
-    </answer>
-    </entry>
-    <entry id="what-is-pierce">
-      <question>What is 'Pierce'?</question>
-      <answer>
-TODO: This entry will need careful thought :)
-    </answer>
-    </entry>
-    <entry id="what-is-stealth">
-      <question>What is 'Stealth'?</question>
-      <answer>
-"Stealth (Enemies attack other characters if able.) "
-    </answer>
-    </entry>
-    -->
     <entry id="what-is-tough" tags="Tough">
       <question>What is 'Tough [x]'?</question>
       <answer>
@@ -152,14 +87,9 @@ Flip [x] more battle cards when defending.
     </entry>
   </target>
   <!--
-  <target name="Card Types">
+  <target name="Play">
     <entry id="what-is-a-battle-card">
       <question>What is a 'Battle Card'?</question>
-      <answer>TODO
-    </answer>
-    </entry>
-    <entry id="what-is-a-battlemaster">
-      <question>What is a 'Battlemaster'?</question>
       <answer>TODO
     </answer>
     </entry>
@@ -168,13 +98,13 @@ Flip [x] more battle cards when defending.
       <answer>TODO
     </answer>
     </entry>
-    <entry id="what-is-a-combiner">
-      <question>What is a 'Combiner'?</question>
+    <entry id="what-is-a-trait">
+      <question>What is a 'Trait'?</question>
       <answer>TODO
     </answer>
     </entry>
-    <entry id="what-is-a-weaponizer">
-      <question>What is a 'Weaponizer'?</question>
+    <entry id="what-is-a-faction">
+      <question>What is a 'Faction'?</question>
       <answer>TODO
     </answer>
     </entry>

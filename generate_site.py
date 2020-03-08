@@ -78,6 +78,10 @@ def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
     filename = os.path.join(output_dir, safe_name(node.attrib['name']) + ".html")
     leaf_name = node.attrib['name']
     markup = '[[' + leaf_name + ']]'
+    markup_required = False
+    if('markup_required' in node.attrib and node.attrib['markup_required'].lower() == 'true'):
+        markup_required = True
+
 
     found_entries = []    # contains array of name, source_url, node
 
@@ -96,6 +100,8 @@ def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
                 if target_node.attrib['name'] == leaf_name:
                     found_entries.append( [source_name, source_url, entry_node] )
                 # Look for "[[leaf_name]]" in each entry. If found, add that node.
+                elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
+                    found_entries.append( [source_name, source_url, entry_node] )
                 elif markup in ET.tostring(entry_node).decode():
                     found_entries.append( [source_name, source_url, entry_node] )
 

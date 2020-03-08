@@ -19,10 +19,10 @@ The XML format for the Taglist file is as follows:
  tags (name)
   category (name)
     ...  note that category can be nested infinitely ...
-      tag (name)
+      tag (name, markup_required?)
 </pre>
 
-Catagories lead to menu pages, while tags lead, if they have content in the faqxml, to faq pages. 
+Catagories lead to menu pages, while tags lead, if they have content in the faqxml, to faq pages. The markup_required attribute is optional and turns off the automatic inclusion of any question or answer including that tag's name. This is to stop more common words like "Brave" or "Bold" from including every entry that mentions the term.
 
 ## FAQ XML Format
 
@@ -34,6 +34,7 @@ The XML format for the FAQ format is as follows:
      entry (id, mode, xref)
        question
        answer
+       tag?
 </pre>
 
 Targets can contain two types of entry, a canonical entry or a cross-referenced entry. Questions and Answers currently are purely text with no formatting markup supported.
@@ -43,6 +44,12 @@ A canonical entry is one that contains the text for a question and an answer. A 
 Date formats are ISO-8601; ie: 2020-12-30.
 
 Source formats are URLs. 
+
+The site generation will automatically include any FAQ entry that references a tag's full name, unless markup_required is turned on for that tag. . 
+
+The 'tag' tags are optional and are for use when a FAQ entry does not reference a card, but it would be valuable for that card's page to include that FAQ entry. 
+
+Questions and answers can contain a markup to indicate that a tag applies to that text. This markup is implemented via two square brackets on each side of the term. For example, [[Ion Blaster of Optimus Prime]]. 
 
 ## Content source
 

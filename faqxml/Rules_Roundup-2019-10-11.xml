@@ -3,10 +3,10 @@
   <target name="Placeholder">
     <entry id="7-1">
       <question>
-I play [[[[Brainstorm]]]]. Using my 2 actions, I play [[Ancient Wisdom]] first, then [[System Reboot]]. I draw [[Unleash Potential]] off of System Reboot, do I get to play it for free now?
+I play Brainstorm. Using my 2 actions, I play Ancient Wisdom first, then System Reboot. I draw Unleash Potential off of System Reboot, do I get to play it for free now?
         </question>
       <answer>
-Both [[[[Brainstorm]]]] and [[Ancient Wisdom]] resolve &#x201C;top to bottom&#x201D;. When you play Brainstorm, then you play Ancient Wisdom, you must play [[Unleash Potential]] at that moment. In your case, you&#x2019;ve moved past Ancient Wisdom and are continuing with Brainstorm, playing [[System Reboot]]. It&#x2019;s now too late to play Unleash Potential with your previous Ancient Wisdom.
+Both Brainstorm and Ancient Wisdom resolve &#x201C;top to bottom&#x201D;. When you play Brainstorm, then you play Ancient Wisdom, you must play Unleash Potential at that moment. In your case, you&#x2019;ve moved past Ancient Wisdom and are continuing with Brainstorm, playing System Reboot. It&#x2019;s now too late to play Unleash Potential with your previous Ancient Wisdom.
       </answer>
     </entry>
     <entry id="7-2">
@@ -19,7 +19,7 @@ Yes. Bold, Tough, Pierce, and other key words with numerical values do stack.
     </entry>
     <entry id="7-3">
       <question>
-In a turn where I play [[[[Brainstorm]]]], allowing for 2 more actions. I play [[I Still Function!]], bringing Buzzsaw (Spy) from the KO Area, then I play [[Recover Cassette]], putting Buzzsaw underneath Soundwave. Will that cancel out I Still Function!?
+In a turn where I play Brainstorm, allowing for 2 more actions. I play I Still Function!, bringing Buzzsaw (Spy) from the KO Area, then I play Recover Cassette, putting Buzzsaw underneath Soundwave. Will that cancel out I Still Function!?
         </question>
       <answer>
 Yes, it will. Once Buzzsaw goes underneath Soundwave, all existing and/or pending game effects stop applying to him.
@@ -43,15 +43,15 @@ If two or more characters have Brave, the attacking player can choose between th
     </entry>
     <entry id="7-6">
       <question>
-I have a Torox with [[Tooth and Claw]] and [[Mining Pick]] in his Armor Slot, as well as Divebomb with a [[Field Communicator]]. If I combine them into Predaking via the [[Predacon Enigma]], am I required to keep Tooth and Claw in order to carry the Mining Pick to Predaking's armor slot, or can I bring the Field Communicator instead?
+I have a Torox with Tooth and Claw and Mining Pick in his Armor Slot, as well as Divebomb with a Field Communicator. If I combine them into Predaking via the Predacon Enigma, am I required to keep Tooth and Claw in order to carry the Mining Pick to Predaking's armor slot, or can I bring the Field Communicator instead?
         </question>
       <answer>
-Once an Upgrade is legally put into a slot, it stays there, even if the ability that allowed it to be upgraded in the first place no longer applies. In your example, you could keep [[Mining Pick]] in Predaking&#x2019;s Armor slot. Upgrades that are on characters that combine into Combiners are considered to stay in their slots, even though those slots now belong to the Combiner.
+Once an Upgrade is legally put into a slot, it stays there, even if the ability that allowed it to be upgraded in the first place no longer applies. In your example, you could keep Mining Pick in Predaking&#x2019;s Armor slot. Upgrades that are on characters that combine into Combiners are considered to stay in their slots, even though those slots now belong to the Combiner.
       </answer>
     </entry>
     <entry id="7-8">
       <question>
-Dreadwing is equipped with Forcefield, [[Emergency Defense Field]], and [[Backup Bag]] takes 5 or more attack damage, what happens? I think that the Forcefield would try to scrap first (reducing the damage to 4) and the Back-Up Bag would save it... then the Emergency Defense Field would make Dreadwing take no damage and scrap. Is that right?
+Dreadwing is equipped with Forcefield, Emergency Defense Field, and Backup Bag takes 5 or more attack damage, what happens? I think that the Forcefield would try to scrap first (reducing the damage to 4) and the Back-Up Bag would save it... then the Emergency Defense Field would make Dreadwing take no damage and scrap. Is that right?
         </question>
       <answer>
 That is correct!
@@ -67,26 +67,26 @@ Good question! For Character Cards, markings/signatures should not obscure criti
     </entry>
     <entry id="7-10">
       <question>
-I have a question regarding Sergeant Cog. When he dies, I place him on Private Red Heat, and Trigger his ability. Let&#x2019;s say I draw 2 cards. I can then upgrade each of my characters, and let&#x2019;s say I play [[Field Communicator]] on one of my specialists from the Cog trigger, do I resolve Field Communicator&#x2019;s trigger before finishing the last Cog upgrade trigger, or do I finish the Cog trigger, and then resolve the Field Communicator trigger?
+I have a question regarding Sergeant Cog. When he dies, I place him on Private Red Heat, and Trigger his ability. Let&#x2019;s say I draw 2 cards. I can then upgrade each of my characters, and let&#x2019;s say I play Field Communicator on one of my specialists from the Cog trigger, do I resolve Field Communicator&#x2019;s trigger before finishing the last Cog upgrade trigger, or do I finish the Cog trigger, and then resolve the Field Communicator trigger?
         </question>
       <answer>
-Finish the Cog trigger completely, then resolve any resulting triggers like [[Field Communicator]] in an order of your choosing.
+Finish the Cog trigger completely, then resolve any resulting triggers like Field Communicator in an order of your choosing.
       </answer>
     </entry>
     <entry id="7-11">
       <question>
-If I then swap all of those upgrades with Red Heat, I can then choose the order again. From this I play a [[Multi-Mission Gear]] and play a [[[[Brainstorm]]]], do I need to finish prior triggers before Brainstorm, or can I still choose the order?
+If I then swap all of those upgrades with Red Heat, I can then choose the order again. From this I play a Multi-Mission Gear and play a Brainstorm, do I need to finish prior triggers before Brainstorm, or can I still choose the order?
         </question>
       <answer>
-If you swap upgrades with Red Heat, you can have a lot of triggers, including another Cog trigger. You choose to resolve each of these triggers one at a time. If you choose [[Multi-Mission Gear]]&#x2019;s trigger to play [[[[Brainstorm]]]], you now must finish Brainstorm&#x2019;s effect before continuing with your remaining triggers caused by Red Heat&#x2019;s swap.
+If you swap upgrades with Red Heat, you can have a lot of triggers, including another Cog trigger. You choose to resolve each of these triggers one at a time. If you choose Multi-Mission Gear&#x2019;s trigger to play Brainstorm, you now must finish Brainstorm&#x2019;s effect before continuing with your remaining triggers caused by Red Heat&#x2019;s swap.
       </answer>
     </entry>
     <entry id="7-12">
       <question>
-I&#x2019;m playing with a plane card, for example Captain Starscream, and it has on it the utility card [[Energy Pack]]. The total damage he has on him at the time is 19 and then I play the utility card [[Crash Landing]] on him, scrapping the Energy Pack and instantly KO&#x2019;ing him, does the Crash Landing take effect or not?
+I&#x2019;m playing with a plane card, for example Captain Starscream, and it has on it the utility card Energy Pack. The total damage he has on him at the time is 19 and then I play the utility card Crash Landing on him, scrapping the Energy Pack and instantly KO&#x2019;ing him, does the Crash Landing take effect or not?
         </question>
       <answer>
-No, [[Crash Landing]] only triggers on your opponent's turn, so it would not trigger here.
+No, Crash Landing only triggers on your opponent's turn, so it would not trigger here.
 </answer>
     </entry>
   </target>

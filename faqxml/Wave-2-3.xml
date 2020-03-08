@@ -18,12 +18,6 @@
       <answer>No. Even though each one has an ability that will find the other in the KO area, the abilities work only from the battlefield.</answer>
     </entry>
   </target>
-  <target name="Blitzwing - Relentless Foe">
-    <entry xref="Rules_Roundup-2019-07-12#1-26" mode="bot"/>
-  </target>
-  <target name="Bombshell - Decepticon Psy Ops">
-    <entry xref="Rules_Roundup-2019-07-12#1-3" mode="bot"/>
-  </target>
   <target name="Dreadwind - Air Defense">
       <entry xref="Wave-2-3#blackwing-1" mode="bot"/>
   </target>
@@ -186,7 +180,6 @@
       <answer>Yes. This could matter if Skywarp gets to attack later in the turn.</answer>
     </entry>
     <entry xref="Rules_Roundup-2019-07-12#1-4" mode="alt"/>
-    <entry xref="Rules_Roundup-2019-07-12#1-21" mode="bot"/>
   </target>
   <target name="Starscream - Decepticon King">
     <entry mode="bot">
@@ -246,7 +239,6 @@
       <question>If I scrap Unleash Potential and return it to my hand, can I then play it?</question>
       <answer>Yes. You follow the instructions of Ancient Wisdom in the order written.</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-19"/>
   </target>
   <target name="Attack Drone">
     <entry>
@@ -336,7 +328,6 @@ flip.
       <question>If I play a second Focus Fire, can I give the same character bold 1 twice?</question>
       <answer>Yes. You can give one character bold 1 twice (which is just like giving it bold 2), or you can give two separate characters bold 1.</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-13"/>
   </target>
   <target name="Fog of War">
     <entry>
@@ -384,7 +375,6 @@ flip.
       <question>Let&#x2019;s say I play this and choose my opponent&#x2019;s Decepticon with 1 defense. Later in the turn, it gets +2 defense. What will its total defense be?</question>
       <answer>1. Press the Advantage won&#x2019;t drop the Decepticon&#x2019;s defense below 0, but the -2 applies again once the Decepticon&#x2019;s defense is raised.</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-16"/>
   </target>
   <target name="Recon System">
     <entry>
@@ -463,7 +453,6 @@ flip.
       <question>Can I get a card if I&#x2019;m already playing with 3 of that card in my deck?</question>
       <answer>Yes. The 3-card and 25-star limits apply only to your starting deck and team. You can bring in a fourth card, even if it would put you over the 25-star limit.</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-19"/>
   </target>
   <target name="Vandalize">
     <entry>
@@ -551,7 +540,7 @@ flip.
       <answer>You use it before the game begins. You&#x2019;ll put Ultra Magnus Armor onto Major Ultra Magnus, then shuffle the rest of your deck and draw 3 cards for your opening hand.</answer>
     </entry>
   </target>
-  <target name="Private Pteraxadon - Air Command Artillery">
+  <target name="Private Pteraxadon - Air Command - Artillery">
     <entry xref="Rules_Roundup-2019-07-12#1-25" mode="upgrade"/>
   </target>
   <target name="Private Red Heat - Infantry - Emergency Response">
@@ -650,22 +639,17 @@ flip.
       <answer>No. Moving damage counters is different than repairing.</answer>
     </entry>
   </target>
-  <target name="Anticipation Engine">
-      <entry xref="Rules_Roundup-2019-07-12#1-5"/>
-  </target>
   <target name="Backup Bag">
     <entry>
       <question>Can I use Backup Bag to save a Weapon or Armor that causes itself to be scrapped, such as Grenade Launcher?</question>
       <answer>Yes.</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-27"/>
   </target>
   <target name="Battering Ram">
     <entry>
       <question>If I play Battering Ram, and the defender has more than one other mode, who chooses which mode it flips to?</question>
       <answer>Your opponent does.</answer>
     </entry>
-      <entry xref="Rules_Roundup-2019-07-12#1-8"/>
   </target>
   <target name="Battlefield Scan">
     <entry>
@@ -673,21 +657,15 @@ flip.
       <answer>Basically, just ignore that the character has that ability when determining which character you&#x2019;re attacking.</answer>
     </entry>
   </target>
-  <target name="Bolster">
-    <entry xref="Rules_Roundup-2019-07-12#1-23"/>
-    <entry xref="Rules_Roundup-2019-07-12#1-30"/>
-  </target>
   <target name="Dampening Field">
     <entry>
       <question>What happens if my opponent is supposed to flip more than 4 cards during the battle?</question>
       <answer>The extra cards are simply not flipped. It doesn&#x2019;t matter whether those extra flips were because of abilities like bold, a white battle icon, or any other ability.</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-23"/>
   </target>
   <target name="Dismantling Claw">
       <entry xref="Wave-2-3#reactive-1"/>
       <entry xref="Wave-2-3#reactive-2"/>
-      <entry xref="Rules_Roundup-2019-07-12#1-28"/>
 </target>
   <target name="Personal Targeting Drone">
       <entry xref="Wave-2-3#reactive-1"/>
@@ -702,7 +680,6 @@ flip.
       <question>If one of these upgrades is on a character, and I play another upgrade of that type to replace it, does the ability trigger?</question>
       <answer>Yes. Replacing an upgrade this way causes the old upgrade to be scrapped.</answer>
     </entry>
-      <entry xref="Rules_Roundup-2019-07-12#1-28"/>
   </target>
   <target name="Emergency Defense Field">
     <entry>
@@ -749,7 +726,6 @@ flip.
       <question>What happens if my opponent plays a Secret Action? I can&#x2019;t see its battle icons!</question>
       <answer>Infiltrate won&#x2019;t be revealed because of a Secret Action, even if that Secret Action has orange battle icons. This is also true when the Secret Action is later revealed. It was already played face down, so Infiltrate won&#x2019;t notice it. Sneaky!</answer>
     </entry>
-    <entry xref="Rules_Roundup-2019-07-12#1-31"/>
   </target>
   <target name="Laser Cutlass">
     <entry>
@@ -762,9 +738,6 @@ flip.
       <question>If the upgraded character defends against an enemy that has pierce 1, what happens?</question>
       <answer>If a character&#x2019;s pierce total is 0 or lower, treat that character as if it didn&#x2019;t have pierce when determining how much damage is done. Pierce -1 doesn&#x2019;t do anything weird.</answer>
     </entry>
-  </target>
-  <target name="Pop a Wheelie">
-      <entry xref="Rules_Roundup-2019-07-12#1-7"/>
   </target>
   <target name="Repurpose">
     <entry>

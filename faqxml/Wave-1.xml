@@ -1,5 +1,174 @@
 <?xml version="1.0"?>
 <faq name="Wave 1 FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
+    <target name="Deck &amp; Team Construction">
+      <entry>
+        <question>
+             Can I have more than one of the same character on my team?
+        </question>
+        <answer>
+             You can&#x2019;t have more than one of the same character card on your team, but you can have more than one of the same character if they&#x2019;re on different cards. For example, your team can&#x2019;t have two copies Bumblebee, Brave Warrior, but it could have one Bumblebee, Brave Warrior and one Bumblebee, Courageous Scout.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             Can my team have both Autobots and Decepticons?
+        </question>
+        <answer>
+             Yes. All characters in the game can work together under your leadership.
+    </answer>
+    </entry>
+</target>
+        <target name="Autobots &amp; Decepticons">
+      <entry>
+        <question>
+             Some cards refer to Autobots or Decepticons. How do I know which characters are Autobots?
+        </question>
+        <answer>
+             Autobots have a red frame and the Autobot insignia in the lower right corner. Decepticons have a purple frame and the Decepticon insignia in the lower right corner. A few characters have &#x201C;Autobot&#x201D; or &#x201C;Decepticon&#x201D; in their names, although these aren&#x2019;t the only Autobots and Decepticons.
+    </answer>
+    </entry>
+
+</target>
+    <target name="Stars">
+      <entry>
+        <question>
+             Some cards refer to the number of stars a character has. Does a character in bot mode have any stars?
+        </question>
+        <answer>
+             Yes. Even though the stars are printed on the alt mode side of the card, the character has that number of stars no matter which mode it&#x2019;s in.
+    </answer>
+    </entry>
+
+</target>
+    <target name="Attacking">
+      <entry>
+        <question>
+             Can the same character attack 2 turns in a row?
+        </question>
+        <answer>
+             As long as that character is untapped, sure. (The basic rules used with the Autobot Starter Set say that a character can&#x2019;t attack twice in a row, but that rule isn&#x2019;t part of the Advanced Rules.)
+    </answer>
+    </entry>
+
+</target>
+    <target name="Bold &amp; Tough">
+      <entry>
+        <question>
+             What happens if a character has more than one instance of Bold or Tough?
+        </question>
+        <answer>
+             Each Bold or Tough ability works. For example, if a creature with Bold 1 got a Weapon that gave it Bold 2, it would flip 3 additional cards when attacking.
+    </answer>
+    </entry>
+
+</target>
+    <target name="Pierce">
+      <entry>
+        <question>
+             How does Pierce work?
+        </question>
+        <answer>
+             Pierce tells you the minimum amount of damage a character can do in an attack, although a character can never do more damage than its attack total. For example, say a character with Pierce 2 attacks.  After flipping battle cards, the attack total is 5 and the defense total is 4. Normally, the character with Pierce would do only 1 damage, but because of Pierce, it does 2 damage instead.  This also works if the attack total is equal to or less than the defense total. Say the attacker has an attack total of 5, but this time it runs into a massive defense total of 9. If that character had Pierce 2, it would still do 2 damage.  If the character with Pierce 2 had an attack total of only 1, it would do 1 damage against any defense total.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             Can other effects change the amount of damage done after Pierce is applied?
+        </question>
+        <answer>
+             Yes. For example, say a character with Pierce 4 attacks Insecticon Skrapnel in bot mode. (He has the ability &#x201C;This can't take more than 3 attack damage from a single attack.&#x201D;) After battle cards are flipped, the attacking character would do 2 damage, but Pierce raises that to 4. Insecticon Skrapnel&#x2019;s ability would then reduce the damage done to 3.
+    </answer>
+    </entry>
+
+</target>
+            <target name="Upgrades">
+      <entry>
+        <question>
+             Can I have more than one of the same Upgrade on the battlefield?
+        </question>
+        <answer>
+             Yes. Upgrades aren&#x2019;t unique. You could have two characters each with the same Weapon, for
+example.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             Some Upgrades say &#x201C;Put on [something] only.&#x201D; How does that work?
+        </question>
+        <answer>
+             These abilities describe what kind of character the Upgrade can be put on. This is usually a trait such
+as Melee, Plane, or Insecticon. An Upgrade can be put on a character only if that character matches the
+listed requirement.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             Let&#x2019;s say I have an Upgrade that says &#x201C;Put on Planes only&#x201D; and I put it on a Plane. But then next turn I
+flip the Plane to its other mode, and it&#x2019;s no longer a Plane. What happens?
+        </question>
+        <answer>
+             The Upgrade stays with the character it&#x2019;s on. That ability limits only what the Upgrade can initially be
+put on. Once that happens, the Upgrade doesn&#x2019;t check again.
+    </answer>
+    </entry>
+</target>
+
+    <target name="KO">
+      <entry>
+        <question>
+             If one of my characters is KO&#x2019;d, does it keep its damage counters?
+        </question>
+        <answer>
+             A KO&#x2019;d character has damage counters on it equal to its health. Note that this is true even if it took
+more damage while on the battlefield. For example, if a character with 7 health takes 10 damage, it ends
+up in the KO area with 7 damage counters.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             If one of my characters is KO&#x2019;d, what mode is it in?
+        </question>
+        <answer>
+             Characters don&#x2019;t change modes when are KO&#x2019;d. If a character was in bot mode when it was KO&#x2019;d, it
+will be put in the KO area in bot mode.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             If a card returns a KO&#x2019;d character to the battlefield, what mode is it in? Is it tapped or untapped?
+        </question>
+        <answer>
+             Unless the card that returns the character says otherwise, it will be untapped and in the same mode it
+was in the KO area.
+    </answer>
+    </entry>
+
+</target>
+        <target name="Triggered Abilities">
+      <entry>
+        <question>
+             What is a triggered ability?
+        </question>
+        <answer>
+             A triggered ability is an ability that&#x2019;s caused by a specified game action. They&#x2019;re usually written in the
+form &#x201C;When [something happens] -&gt; [effect].&#x201D; The effect happens just after the specified game action is
+taken. For example, many characters have triggered abilities that start with &#x201C;When you flip to this
+mode.&#x201D; The effects of these abilities happen immediately after you flip the character to the appropriate
+mode.
+    </answer>
+    </entry>
+      <entry>
+        <question>
+             What happens if more than one triggered ability triggers at the same time?
+        </question>
+        <answer>
+             Triggered abilities always happen one at a time. If all the triggered abilities belong to one player, that
+    </answer>
+    </entry>
+player chooses their order. If both players have triggered abilities that would happen at the same time,
+first the player whose turn it is handles all their triggered abilities in any order, then the other player
+does the same with their triggered abilities.
+</target>
   <target name="Arcee - Skilled Fighter">
     <entry id="arcee-1" mode="alt">
       <question>

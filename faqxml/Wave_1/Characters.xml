@@ -27,7 +27,7 @@
     </entry>
     <entry id="arcee-4" mode="bot">
       <question>
-        What happens if Arcee has a Piercing Blaster or another Upgrade that gives her more Pierce?
+        What happens if Arcee has a [[Piercing Blaster]] or another Upgrade that gives her more Pierce?
     </question>
       <answer>
         In that case, Arcee will have Pierce equal to her attack plus the Pierce from the Upgrade. In that example, Arcee&#x2019;s attack is 1, so she&#x2019;ll have Pierce 4. However, remember that characters with Pierce 

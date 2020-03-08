@@ -4,27 +4,22 @@
             <tag name="Permitted and Banned Cards"/>
         </category>
     </category>
-    <category name="Glossary">
-        <tag name="Game Concepts"/>
-        <tag name="Battle Icons / Pips"/>
-        <tag name="Keywords"/>
-        <tag name="Card Types"/>
-    </category>
     <category name="Keywords">
+        <tag name="Deck" markup_required="true"/>
+        <tag name="Faction" markup_required="true"/>
+        <tag name="Star" markup_required="true"/>
+        <tag name="Bold" markup_required="true"/>
+        <tag name="Attacking" markup_required="true"/>
+        <tag name="Tough" markup_required="true"/>
+        <tag name="Pierce" markup_required="true"/>
+        <tag name="Focus" markup_required="true"/>
+        <tag name="Action" markup_required="true"/>
         <tag name="Combiner" markup_required="true"/>
         <tag name="Enigma" markup_required="true"/>
         <tag name="Triple Changer" markup_required="true"/>
         <tag name="Brave" markup_required="true"/>
         <tag name="Stealth" markup_required="true"/>
         <tag name="Plan" markup_required="true"/>
-        <tag name="Deck" markup_required="true"/>
-        <tag name="Faction" markup_required="true"/>
-        <tag name="Star" markup_required="true"/>
-        <tag name="Bold" markup_required="true"/>
-        <tag name="Tough" markup_required="true"/>
-        <tag name="Pierce" markup_required="true"/>
-        <tag name="Focus" markup_required="true"/>
-        <tag name="Action" markup_required="true"/>
         <tag name="Secret Action" markup_required="true"/>
         <tag name="Tap Ability" markup_required="true"/>
         <tag name="Upgrade" markup_required="true"/>

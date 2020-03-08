@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <faq name="Wave 1 FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
     <target name="Deck &amp; Team Construction">
-      <entry>
-        <tags>Deck</tags>
+      <entry tags="Deck">
         <question>
              Can I have more than one of the same character on my team?
         </question>
@@ -10,8 +9,7 @@
              You can&#x2019;t have more than one of the same character card on your team, but you can have more than one of the same character if they&#x2019;re on different cards. For example, your team can&#x2019;t have two copies Bumblebee, Brave Warrior, but it could have one Bumblebee, Brave Warrior and one Bumblebee, Courageous Scout.
     </answer>
     </entry>
-      <entry>
-        <tags>Deck</tags>
+      <entry tags="Deck">
         <question>
              Can my team have both Autobots and Decepticons?
         </question>
@@ -21,8 +19,7 @@
     </entry>
 </target>
         <target name="Autobots &amp; Decepticons">
-      <entry>
-        <tags>Faction</tags>
+      <entry tags="Faction">
         <question>
              Some cards refer to Autobots or Decepticons. How do I know which characters are Autobots?
         </question>
@@ -54,9 +51,8 @@
     </entry>
 
 </target>
-    <target name="Bold &amp; Tough">
+    <target name="Bold &amp; Tough" tags="Bold,Tough">
       <entry>
-        <tags>Bold,Tough</tags>
         <question>
              What happens if a character has more than one instance of Bold or Tough?
         </question>
@@ -149,8 +145,7 @@ was in the KO area.
 
 </target>
         <target name="Triggered Abilities">
-      <entry>
-          <tags>Trigger</tags>
+      <entry tags="Trigger">
         <question>
              What is a triggered ability?
         </question>
@@ -162,8 +157,7 @@ mode." The effects of these abilities happen immediately after you flip the char
 mode.
     </answer>
     </entry>
-      <entry>
-          <tags>Trigger</tags>
+      <entry tags="Trigger">
         <question>
              What happens if more than one triggered ability triggers at the same time?
         </question>

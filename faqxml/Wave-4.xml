@@ -63,8 +63,7 @@
         </entry>
     </target>
             <target name="Battle Masters &amp; Weaponizers">
-                <entry>
-                    <tags>Battle Master,Weaponizer</tags>
+                <entry tags="Battle Master,Weaponizer">
         <question>
              What are Battle Masters &amp; Weaponizers?
         </question>
@@ -76,8 +75,7 @@ After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x20
     </entry>
     </target>
                 <target name="Battle Cards in the KO Area">
-      <entry>
-          <tags>KO</tags>
+      <entry tags="KO">
         <question>
              Several cards in this set cause battle cards to be put into the KO area. What does that mean?
         </question>

@@ -99,10 +99,12 @@ def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
                 # Look for any <target> with a name that matches the leaf_name
                 if target_node.attrib['name'] == leaf_name:
                     found_entries.append( [source_name, source_url, entry_node] )
-                # Look for "[[leaf_name]]" in each entry. If found, add that node.
+                elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags']:
+                    found_entries.append( [source_name, source_url, entry_node] )
                 elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
                     found_entries.append( [source_name, source_url, entry_node] )
                 elif markup in ET.tostring(entry_node).decode():
+                    # Look for "[[leaf_name]]" in each entry. If found, add that node.
                     found_entries.append( [source_name, source_url, entry_node] )
 
     if(len(found_entries) != 0):

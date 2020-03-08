@@ -4,55 +4,57 @@ from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 import json
 
-def convert_name(name):
+def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
 def clean_markup(text):
     return text.replace('[[', '').replace(']]', '')
 
+def mkdirp(directory):
+    # TODO: if os.path.isfile(directory)
+    if( not os.path.isdir(directory) ):
+        os.makedirs(directory)
+
 # Heavyweight way to get the data for a xref tag
-# TODO: Consider caching each file as it loads. Especially for the current file. 
-def get_xref(xref, parent_path):
+# TODO: USE THE faq_db CACHE!!!
+def get_xref(xref):
     # split on #
     xref_data = xref.split('#')
-    if(xref.startswith('#')):
-        file = parent_path + ".xml"
-        id = xref_data[1]
-    else:
-        file = xref_data[0] + ".xml"
-        id = xref_data[1]
+    file = xref_data[0] + ".xml"
+    id = xref_data[1]
     # Open file xml file
     tree = ET.parse(os.path.join('faqxml', file))
-    root = tree.getroot()
+    faq_node = tree.getroot()
     # Search for <entry id="<id>">
     xpath = "[@id='" + id + "']"
-    node = root.find(".//entry[@id='" + id + "']")
-    target_node = root.find(".//entry[@id='" + id + "']...")
+    node = faq_node.find(".//entry[@id='" + id + "']")
+    target_node = faq_node.find(".//entry[@id='" + id + "']...")
     # Return node to that entry along with the source data
-    source_info = get_source_info(root, target_node)
-    return [node, source_info]
 
-def get_source_info(faq_node, target_node):
-    link = faq_node.attrib['source_url']
+    source_url = faq_node.attrib['source_url']
     if('source' in faq_node.attrib):
-        name = faq_node.attrib['source']
+        source_name = faq_node.attrib['source']
     else:
-        name = faq_node.attrib['name']
+        source_name = faq_node.attrib['name']
+
+    # Override with target's source # TODO: Move away from this
     if('source_url' in target_node.attrib):
-        link = target_node.attrib['source_url']
+        source_url = target_node.attrib['source_url']
         if('source' in target_node.attrib):
-            name = target_node.attrib['source']
+            source_name = target_node.attrib['source']
         else:
-            name = target_node.attrib['name']
+            source_name = target_node.attrib['name']
 
-    if("FAQ" in name):
-        color = 'gold'
-    elif("Roundup" in name):
-        color = 'red'
+    return [source_name, source_url, node]
+
+
+def source_image_name(source_name):
+    if("FAQ" in source_name):
+        return 'gold'
+    elif("Roundup" in source_name):
+        return 'red'
     else:
-        color = 'blue'
-
-    return { 'color' : color, 'link' : link, 'name' : name }
+        return 'blue'
 
 # TODO: Support cross referencing somehow. 
 # xreffing is done via an entry with xref="". This points to another entry with an id.
@@ -65,66 +67,111 @@ def get_source_info(faq_node, target_node):
 #   In the latter case, another file will need to be loaded for a quick scan for the content. 
 #   Format is:   xref="#foo"  (same file)   and xref="dir/file#foo"   foo in the dir/file file
 
-output_dir='docs'
 
-target_index = {}
 
-# Find each xml file in faqxml
-for file in glob.glob('faqxml/**/*.xml', recursive=True):
-    print("Parsing " + file)
-    tree = ET.parse(file)
-    faq_node=tree.getroot()
-    faq_name=faq_node.attrib['name']
+# Global
+TOP_OUTPUT_DIR ='docs'   # TODO: Move this back to docs
 
-    # Load Leaf Template
-    template_file = open('templates/leaf.jinja2','r')
-    template_text = template_file.read()
-    template = Environment(loader=FileSystemLoader("templates/")).from_string(template_text)
 
-    #for target_node in faq_node.findall('./target'):
-        # if an xref entry
-        # load that content from elsewhere
-    #    print(template.render(target=target_node))
+def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
+    # TODO: Do I want to put all the leaves at a top level /tags/*.html level?
+    filename = os.path.join(output_dir, safe_name(node.attrib['name']) + ".html")
+    leaf_name = node.attrib['name']
+    markup = '[[' + leaf_name + ']]'
 
-    parent_path = file.replace('faqxml/', '').replace('.xml', '')
-    target_dir = os.path.join(output_dir, parent_path)
-    # TODO: if os.path.isfile(target_dir)
-    if( not os.path.isdir(target_dir) ):
-        os.makedirs(target_dir)
+    found_entries = []    # contains array of name, source_url, node
 
-    targets=[]
+    # Find FAQ entries for this leaf_name
+    # Loop over every key, value in the faq_db
+    for name, node in faq_db.items():
+        source_url = node.attrib['source_url']
+        if('source' in node.attrib):
+            source_name = node.attrib['source']
+        else:
+            source_name = name
+        for target_node in node.findall('./target'):
+            # TODO: Override source_url/name if the target has one?; though generally moving away from that style
+            for entry_node in target_node.findall('./entry'):
+                # Look for any <target> with a name that matches the leaf_name
+                if target_node.attrib['name'] == leaf_name:
+                    found_entries.append( [source_name, source_url, entry_node] )
+                # Look for "[[leaf_name]]" in each entry. If found, add that node.
+                elif markup in ET.tostring(entry_node).decode():
+                    found_entries.append( [source_name, source_url, entry_node] )
 
-    for target_node in faq_node.findall('./target'):
-        name = target_node.attrib['name']
-        # Add the target details to generate an index page
-        targets.append(name)
+    if(len(found_entries) != 0):
+        page = leaf_template.render(f_safe_name=safe_name, f_clean_markup=clean_markup, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, f_get_xref=get_xref)
 
-        # Generating page for the target
-        safe_name = convert_name(name)
-        default_source_info = get_source_info(faq_node, target_node)
-        page = template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path, default_source_info=default_source_info, clean_markup=clean_markup)
-
-        f = open(os.path.join(target_dir, safe_name + ".html"), "w")
+        f = open(filename, "w")
         f.write(page)
         f.close()
 
-        # This is a URL snippet, so hardcode the /
-        target_index[name] = parent_path + "/" + safe_name + ".html"
+    return len(found_entries)
 
-    # Load Branch Template
-    branch_template_file = open('templates/branch.jinja2','r')
-    branch_template_text = branch_template_file.read()
-    branch_template = Environment(loader=FileSystemLoader("templates/")).from_string(branch_template_text)
+def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_node):
+    filename = os.path.join(output_dir, 'index.html')
 
-    page=branch_template.render(faq_name=faq_name, convert_name=convert_name, targets=targets)
+    page=branch_template.render(f_safe_name=safe_name, tag_blocks=tag_blocks, category_blocks=category_blocks, parent_node=parent_node, this_node=node)
 
-    f = open(os.path.join(output_dir, parent_path, "index.html"), "w")
+    f = open(filename, "w")
     f.write(page)
     f.close()
 
+def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent_node=None):
+
+    tag_blocks = []
+    category_blocks = []
+    total_found = 0
+    found_tags = {}   # Used to build the json_index
+
+    mkdirp(output_dir)
+
+    for tag_node in node.findall('./tag'):
+        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, node)
+        if(found > 0):
+            tag_blocks.append([tag_node, found])
+            total_found += found
+            found_tags[tag_node.attrib['name']] = (output_dir + "/" + safe_name(tag_node.attrib['name']) + ".html").replace(TOP_OUTPUT_DIR, '')
+
+    for category_node in node.findall('./category'):
+        subdir = os.path.join(output_dir, safe_name(category_node.attrib['name']))
+        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, node)
+        if(found_data[0] > 0):
+            category_blocks.append([category_node, found_data[0]])
+            total_found += found_data[0]
+            found_tags.update(found_data[1])
+
+    generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_node)
+
+    return [total_found, found_tags]
+
+# Load Leaf Template
+leaf_template_file = open('templates/leaf.jinja2','r')
+leaf_template_text = leaf_template_file.read()
+leaf_template = Environment(loader=FileSystemLoader("templates/")).from_string(leaf_template_text)
+
+# Load Branch Template
+branch_template_file = open('templates/branch.jinja2','r')
+branch_template_text = branch_template_file.read()
+branch_template = Environment(loader=FileSystemLoader("templates/")).from_string(branch_template_text)
+
+# Load the taglist.xml file
+tree = ET.parse('taglist.xml')
+taglist_node=tree.getroot()
+
+faq_db = {}
+# Load all the FAQ XML files
+for file in glob.glob('faqxml/**/*.xml', recursive=True):
+    tree = ET.parse(file)
+    faq_node=tree.getroot()
+    faq_name=faq_node.attrib['name']
+    faq_db[faq_name] = faq_node
+
+found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template)
+
 # Generate json index
-f = open(os.path.join(output_dir, "faqindex.json"), "w")
-f.write(json.dumps(target_index))
+f = open(os.path.join(TOP_OUTPUT_DIR, "faqindex.json"), "w")
+f.write(json.dumps(found_data[1]))
 f.close()
 
 def generate_html(infilename, tofilename):
@@ -134,12 +181,11 @@ def generate_html(infilename, tofilename):
 
     page=template.render()
 
-    f = open(os.path.join(output_dir, tofilename), "w")
+    f = open(os.path.join(TOP_OUTPUT_DIR, tofilename), "w")
     f.write(page)
     f.close()
 
-
-generate_html('templates/index.jinja2', 'index.html')
+#generate_html('templates/index.jinja2', 'index.html')
 generate_html('templates/about.jinja2', 'about.html')
 generate_html('templates/contribute.jinja2', 'contribute.html')
 generate_html('templates/sources.jinja2', 'sources.html')

@@ -1,12 +1,17 @@
 {% extends "base.jinja2" %}
 
-{% block title %}{{ faq_name }}{% endblock %}
+{% block title %}{{ this_node.attrib['name'] }}{% endblock %}
 
 {% block content %}
-        <div><a href="/index.html">FAQ</a></div>
+        {% if parent_node %}
+        <div><a href="../index.html">{{ parent_node.attrib['name'] }}</a></div>
+        {% endif %}
         <ul>
-            {% for target in targets %}
-            <li><a href="{{ convert_name(target) }}.html">{{ target }}</a></li>
+            {% for category_block in category_blocks %}
+            <li><a href="{{ f_safe_name(category_block[0].attrib['name']) }}/index.html">{{ category_block[0].attrib['name'] }}</a> ({{ category_block[1] }})</li>
+            {% endfor %}
+            {% for tag_block in tag_blocks %}
+            <li><a href="{{ f_safe_name(tag_block[0].attrib['name']) }}.html">{{ tag_block[0].attrib['name'] }}</a> ({{tag_block[1] }})</li>
             {% endfor %}
         </ul>
 {% endblock %}

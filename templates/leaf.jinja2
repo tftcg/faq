@@ -1,32 +1,34 @@
 {% extends "base.jinja2" %}
 
-{% block title %}{{ target.attrib['name'] }}{% endblock %}
+{% block title %}{{ faq_name }}{% endblock %}
+
+    page = leaf_template.render(f_safe_name=safe_name, f_clean_markup=clean_markup, entries=found_entries, faq_name=leaf_name)
 
 {% block content %}
         <!--
         <img class="thumb" src="/card_images/{{ safe_name }}.jpg" width="20%" style="float: right"/>
         -->
-        <div><a href="index.html">{{ faq_name }}</a></div>
-        <h3 class="card_title">{{ target.attrib['name'] }}</h3>
+        <div><a href="index.html">{{ parent_node.attrib['name'] }}</a></div>
+        <h3 class="card_title">{{ faq_name }}</h3>
         <ol class="card_faq">
 
-{% for entry in target.findall('entry') %}
-    {% if entry.attrib['xref'] %}
-      {% set xref_block = get_xref(entry.attrib['xref'], parent_path) %}
-      {% set faq_node = xref_block[0] %}
-      {% set source_info = xref_block[1] %}
+{% for entry in entries %}
+
+    {% if 'xref' in entry[2].attrib %}
+      {% set faq_node = f_get_xref(entry[2].attrib['xref']) %}
     {% else %}
       {% set faq_node = entry %}
-      {% set source_info = default_source_info %}
     {% endif %}
+
     <li class="faq_entry">
-      <!-- {{ faq_node.attrib['id'] }} - {{ faq_node.attrib['mode'] }} -->
+      <!-- {{ faq_node[2].attrib['id'] }} - {{ faq_node[2].attrib['mode'] }} -->
       <div class="question">
-        {{ clean_markup(faq_node.find('question').text) }}
-        <span><a href="{{ source_info['link'] }}"><img src="/images/source-{{ source_info['color'] }}.svg" title="{{ source_info['name'] }}"/></a></span>
+        {{ f_clean_markup(faq_node[2].find('question').text) }}
+        <!-- TODO: Implement colors -->
+        <span><a href="{{ faq_node[1] }}"><img src="/images/source-{{ f_source_image_name(faq_node[0]) }}.svg" title="{{ faq_node[0] }}"/></a></span>
       </div>
       <div class="answer">
-        {{ clean_markup(faq_node.find('answer').text) }}
+        {{ f_clean_markup(faq_node[2].find('answer').text) }}
       </div>
     </li>
 {% endfor %}

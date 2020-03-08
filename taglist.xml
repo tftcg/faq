@@ -405,10 +405,13 @@
             <tag name="Major Ultra Magnus - Infantry - City Commander"/>
             <tag name="Private Arcee - Special Ops - Warrior"/>
             <tag name="Duo-Charge Electrostatic Photon Cannon"/>
+            <tag name="Private Firedrive - Ground Command - Artillery"/>
             <tag name="Private Flak - Artillery - Tactics"/>
             <tag name="RS Firesteel Saber"/>
+            <tag name="Private Lionizer - Ground Command - Artillery"/>
             <tag name="Private Mudslinger - Special Ops - Infiltration"/>
             <tag name="Binary Edgewing Scythe"/>
+            <tag name="Private Pteraxadon - Air Command - Artillery"/>
             <tag name="Private Red Alert - Medical - Medic"/>
             <tag name="Private Red Heat - Infantry - Emergency Response"/>
             <tag name="Private Sideswipe - Infantry - Soldier"/>
@@ -417,7 +420,9 @@
             <tag name="Private Tote - Special Ops - Infiltration"/>
             <tag name="Private Trailbreaker - Infantry - Fortification &amp; Defense"/>
             <tag name="Manifold Ion Particle Blaster"/>
+            <tag name="Raider Aimless - Air Force - Weapons"/>
             <tag name="Dual-Impact Shatterblast Compression Cannon"/>
+            <tag name="Raider Blowpipe - Air Force - Weapons"/>
             <tag name="Raider Cindersaur - Black Ops - Demolitions"/>
             <tag name="Raider Detour - Infantry - Demolitions"/>
             <tag name="Raider Flamefeather - Black Ops - Soldier"/>
@@ -425,6 +430,7 @@
             <tag name="Raider Laserbeak - Espionage - Interrogation"/>
             <tag name="Raider Needlenose - Air Force - Soldier"/>
             <tag name="Black Beam Blaster"/>
+            <tag name="Raider Nightstick - Ground Force - Weapons"/>
             <tag name="Raider Ravage - Espionage - Saboteur"/>
             <tag name="Raider Road Hugger - Infantry - Tactics"/>
             <tag name="Raider Runabout - Infantry - Soldier"/>
@@ -434,6 +440,7 @@
             <tag name="Raider Visper - Infantry - Patrol Leader"/>
             <tag name="Sergeant Chromia - Special Ops - Counterintelligence"/>
             <tag name="Heavy Force Defensebreaker Cannon"/>
+            <tag name="Sergeant Cog - Artillery - Mechanic"/>
             <tag name="Sergeant Hound - Infantry - Recon"/>
             <tag name="Sergeant Skrapnel - Infantry - Electronic Warfare"/>
             <tag name="Sergeant Skywarp - Black Ops - Seeker"/>
@@ -452,6 +459,7 @@
             <tag name="Private Downshift - Special Ops - Security Agent"/>
             <tag name="Sergeant Overdrive - Special Ops - Strategist"/>
             <tag name="Airquake Hammerclaw"/>
+            <tag name="Private Smashdown - Ground Command - Artillery"/>
         </category>
     </category>
     <category name="Wave 4">
@@ -538,6 +546,7 @@
             <tag name="Omega Supreme (Spaceship) - Transport - City Defender"/>
             <tag name="Omega Supreme (Tank) - Transport - City Defender"/>
             <tag name="Shadowsteel Iceblade"/>
+            <tag name="Private Dazzlestrike - Ground Command - Artillery"/>
             <tag name="Private Fixit - Rescue Patrol - Medic"/>
             <tag name="Private Greenlight - Special Ops - Recon"/>
             <tag name="Private Highjump - Off-Road Patrol - Infiltration"/>
@@ -548,19 +557,24 @@
             <tag name="Private Smokescreen - Special Ops - Soldier"/>
             <tag name="Private Sunrunner - Battle Patrol - Air Defense"/>
             <tag name="Anti-Gravity Turbo Pack"/>
+            <tag name="Private Turbo Board - Air Command - Evac"/>
             <tag name="Anti-Ballistic Turret Helmet"/>
+            <tag name="Private Vanguard - Ground Command - Advance Guard"/>
             <tag name="Raider Apeface - Espionage Commando"/>
             <tag name="Raider Blackjack - Sports Car Patrol - Patrol Leader"/>
             <tag name="Oxidation Cannon"/>
+            <tag name="Raider Calibust - Air Force - Weapons"/>
             <tag name="Raider Chop Shop - Infantry Soldier"/>
             <tag name="Raider Hyperdrive - Sports Car Patrol - Demolitions"/>
             <tag name="Raider Kickback - Infantry Soldier"/>
             <tag name="Steelbite Incisor Mask"/>
+            <tag name="Raider Needler - Ground Force - Demolitions"/>
             <tag name="Raider Nightflight - Air Strike Patrol Spy"/>
             <tag name="Raider Nova Storm - Infantry - Combustion Specialist"/>
             <tag name="Raider Ratbat - Spy Patrol - Fuel Scout"/>
             <tag name="Raider Rumble - Spy Patrol - Demolitions"/>
             <tag name="Multi-Maneuver Glider Wings"/>
+            <tag name="Raider Sights - Air Force - Artillery"/>
             <tag name="Raider Spinister - Infantry - Aerial Assault"/>
             <tag name="Raider Tailwind - Air Strike Patrol - Strategist"/>
             <tag name="Sergeant Barricade - Infantry - Enforcer"/>

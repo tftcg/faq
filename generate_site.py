@@ -7,6 +7,9 @@ import json
 def convert_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
+def clean_markup(text):
+    return text.replace('[[', '').replace(']]', '')
+
 # Heavyweight way to get the data for a xref tag
 # TODO: Consider caching each file as it loads. Especially for the current file. 
 def get_xref(xref, parent_path):
@@ -99,7 +102,7 @@ for file in glob.glob('faqxml/**/*.xml', recursive=True):
         # Generating page for the target
         safe_name = convert_name(name)
         default_source_info = get_source_info(faq_node, target_node)
-        page = template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path, default_source_info=default_source_info)
+        page = template.render(faq_name=faq_name, get_xref=get_xref, safe_name=safe_name, target=target_node, parent_path=parent_path, default_source_info=default_source_info, clean_markup=clean_markup)
 
         f = open(os.path.join(target_dir, safe_name + ".html"), "w")
         f.write(page)

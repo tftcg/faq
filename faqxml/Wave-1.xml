@@ -24,7 +24,7 @@
              Some cards refer to Autobots or Decepticons. How do I know which characters are Autobots?
         </question>
         <answer>
-             Autobots have a red frame and the Autobot insignia in the lower right corner. Decepticons have a purple frame and the Decepticon insignia in the lower right corner. A few characters have &#x201C;Autobot&#x201D; or &#x201C;Decepticon&#x201D; in their names, although these aren&#x2019;t the only Autobots and Decepticons.
+             Autobots have a red frame and the Autobot insignia in the lower right corner. Decepticons have a purple frame and the Decepticon insignia in the lower right corner. A few characters have "Autobot" or "Decepticon" in their names, although these aren&#x2019;t the only Autobots and Decepticons.
     </answer>
     </entry>
 
@@ -76,7 +76,7 @@
              Can other effects change the amount of damage done after Pierce is applied?
         </question>
         <answer>
-             Yes. For example, say a character with Pierce 4 attacks Insecticon Skrapnel in bot mode. (He has the ability &#x201C;This can't take more than 3 attack damage from a single attack.&#x201D;) After battle cards are flipped, the attacking character would do 2 damage, but Pierce raises that to 4. Insecticon Skrapnel&#x2019;s ability would then reduce the damage done to 3.
+             Yes. For example, say a character with Pierce 4 attacks Insecticon Skrapnel in bot mode. (He has the ability "This can't take more than 3 attack damage from a single attack.") After battle cards are flipped, the attacking character would do 2 damage, but Pierce raises that to 4. Insecticon Skrapnel&#x2019;s ability would then reduce the damage done to 3.
     </answer>
     </entry>
 
@@ -93,7 +93,7 @@ example.
     </entry>
       <entry>
         <question>
-             Some Upgrades say &#x201C;Put on [something] only.&#x201D; How does that work?
+             Some Upgrades say "Put on [something] only." How does that work?
         </question>
         <answer>
              These abilities describe what kind of character the Upgrade can be put on. This is usually a trait such
@@ -103,7 +103,7 @@ listed requirement.
     </entry>
       <entry>
         <question>
-             Let&#x2019;s say I have an Upgrade that says &#x201C;Put on Planes only&#x201D; and I put it on a Plane. But then next turn I
+             Let&#x2019;s say I have an Upgrade that says "Put on Planes only" and I put it on a Plane. But then next turn I
 flip the Plane to its other mode, and it&#x2019;s no longer a Plane. What happens?
         </question>
         <answer>
@@ -151,9 +151,9 @@ was in the KO area.
         </question>
         <answer>
              A triggered ability is an ability that&#x2019;s caused by a specified game action. They&#x2019;re usually written in the
-form &#x201C;When [something happens] -&gt; [effect].&#x201D; The effect happens just after the specified game action is
-taken. For example, many characters have triggered abilities that start with &#x201C;When you flip to this
-mode.&#x201D; The effects of these abilities happen immediately after you flip the character to the appropriate
+form "When [something happens] -&gt; [effect]." The effect happens just after the specified game action is
+taken. For example, many characters have triggered abilities that start with "When you flip to this
+mode." The effects of these abilities happen immediately after you flip the character to the appropriate
 mode.
     </answer>
     </entry>
@@ -333,8 +333,8 @@ Insecticons, or do I have to repair 3 damage from one Insecticon?
     </entry>
     <entry id="chopshop-3" mode="bot">
       <question>
-    If the Upgrade I move onto Chop Shop has an ability that triggers &#x201C;when the Upgraded character
-attacks,&#x201D; does that ability trigger?
+    If the Upgrade I move onto Chop Shop has an ability that triggers "when the Upgraded character
+attacks," does that ability trigger?
 </question>
       <answer>
     No. That Upgrade wasn&#x2019;t on Chop Shop when he attacked, so that ability won&#x2019;t trigger.
@@ -352,7 +352,7 @@ will work.
     </entry>
     <entry id="chopshop-5" mode="bot">
       <question>
-    Can Chop Shop&#x2019;s ability be used to move an Upgrade that says &#x201C;Put only on Planes&#x201D; onto him?
+    Can Chop Shop&#x2019;s ability be used to move an Upgrade that says "Put only on Planes" onto him?
 </question>
       <answer>
     No. Any ability that says what an Upgrade can be put on still apply, so you can&#x2019;t sneak Upgrades onto
@@ -582,8 +582,8 @@ longer a Car, does it keep Bold 2 until end of turn?
     </entry>
     <entry id="prowl-2" mode="bot">
       <question>
-    Prowl&#x2019;s ability says &#x201C;When one of your Cars is KO&#x2019;d -&gt; Repair 3 damage from one of your other
-characters.&#x201D; Does &#x201C;one of your other characters&#x201D; mean other than Prowl or other than the Car that was
+    Prowl&#x2019;s ability says "When one of your Cars is KO&#x2019;d -&gt; Repair 3 damage from one of your other
+characters." Does "one of your other characters" mean other than Prowl or other than the Car that was
 KO&#x2019;d?
 </question>
       <answer>
@@ -634,7 +634,7 @@ won&#x2019;t flip battle cards (and neither will your opponent).
     </entry>
     <entry id="slipstream-2" mode="bot">
       <question>
-    What does &#x201C;3 different battle icons&#x201D; mean? If I flip two orange battle icons and one blue battle icon,
+    What does "3 different battle icons" mean? If I flip two orange battle icons and one blue battle icon,
 does that count?
 </question>
       <answer>
@@ -854,7 +854,7 @@ wouldn&#x2019;t change the number of cards in your hand.
     When does the ability check to see if Grenade Launcher should be scrapped?
 </question>
       <answer>
-    Any ability that starts with &#x201C;After the Upgraded character attacks&#x201D; happens after attack damage is done and the battle ends.
+    Any ability that starts with "After the Upgraded character attacks" happens after attack damage is done and the battle ends.
 </answer>
     </entry>
     <entry>
@@ -1073,7 +1073,7 @@ wouldn&#x2019;t change the number of cards in your hand.
     </entry>
     <entry>
       <question>
-    What happens if an Upgrade can&#x2019;t be put on the other character? For example, say I have an Upgrade that says &#x201C;Put on Cars only&#x201D; and the other character isn&#x2019;t a Car?
+    What happens if an Upgrade can&#x2019;t be put on the other character? For example, say I have an Upgrade that says "Put on Cars only" and the other character isn&#x2019;t a Car?
 </question>
       <answer>
     If an Upgrade can&#x2019;t be put on the other character, it stays where it is. If the other character has an Upgrade of the same type, that Upgrade also stays where it is.
@@ -1081,7 +1081,7 @@ wouldn&#x2019;t change the number of cards in your hand.
     </entry>
     <entry>
       <question>
-    If an Upgrade has an ability that says &#x201C;When you put this on a character&#x201D; or similar, will that ability trigger if I put it on a new character with Swap Parts?
+    If an Upgrade has an ability that says "When you put this on a character" or similar, will that ability trigger if I put it on a new character with Swap Parts?
 </question>
       <answer>
     Yes.

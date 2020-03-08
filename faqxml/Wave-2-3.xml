@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <faq name="Wave 2 and 3 FAQ" source_url="https://transformerstcg.hasbro.com/en-us/howtoplay" sourced_at="2020-03-03">
-  <target name="Combiners">
+  <target name="Combiner">
     <entry>
       <question>
              What are Combiners? 
@@ -36,7 +36,7 @@ specified Combiner on the battlefield, the first ability won&#x2019;t do anythin
         </answer>
     </entry>
   </target>
-  <target name="Triple Changers">
+  <target name="Triple Changer">
     <entry>
       <question>
              What are Triple Changers?

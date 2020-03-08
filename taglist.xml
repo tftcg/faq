@@ -1,7 +1,6 @@
-<tags>
-    <!-- TODO: Add keywords -->
+<tags name="FAQ">
     <category name="Tournaments">
-        <category name="Tournaments">
+        <category name="Constructed">
             <tag name="Permitted and Banned Cards"/>
         </category>
     </category>

@@ -622,7 +622,7 @@ flip.
       <answer>Yes. It only matters what kind of Upgrade it is, not what slot it&#x2019;s in.</answer>
     </entry>
   </target>
-  <target name="Battle Masters">
+  <target name="Battle Master">
     <entry>
       <question>
           What are Battle Masters?
@@ -702,19 +702,7 @@ scrapped, or if the character that had it is KO&#x2019;d.
       </answer>
     </entry>
   </target>
-  <target name="Micro Masters">
-    <entry>
-      <question>
-          What are Micro Masters?
-      </question>
-      <answer>
-Battle Masters aren&#x2019;t the only small character cards in War for Cybertron: Siege I. Micro
-Masters are also small character cards, but unlike Battle Masters, they have an alt mode and a
-bot mode. This means they start the game in alt mode, like most other characters.
-Battle Masters and Micro Masters never go in your deck, hand, or scrap pile.
-
-      </answer>
-    </entry>
+  <target name="Tap Ability">
     <entry>
       <question>
           What are Tap Abilities?
@@ -790,7 +778,7 @@ battle icon, and you don&#x2019;t have one, you can&#x2019;t use that tap abilit
       </answer>
     </entry>
   </target>
-  <target name="Secret Actions">
+  <target name="Secret Action">
     <entry>
       <question>
           What are Secret Actions?

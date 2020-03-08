@@ -63,6 +63,8 @@
         </entry>
     </target>
             <target name="Battle Masters &amp; Weaponizers">
+                <entry>
+                    <tags>Battle Master,Weaponizer</tags>
         <question>
              What are Battle Masters &amp; Weaponizers?
         </question>
@@ -71,9 +73,11 @@ Battle Masters and Weaponizers are characters that start in bot mode and can be 
 In Siege 2 (Wave 4), there are two Weaponizers, each made up of two cards. They start assembled together in bot mode. When one of these Weaponizers is KO&#x2019;d, it splits into two different Upgrades that you can then play. These Upgrades can be played on separate characters or onto the same character.
 After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x2019;s put into your KO area instead.
         </answer>
+    </entry>
     </target>
                 <target name="Battle Cards in the KO Area">
       <entry>
+          <tags>KO</tags>
         <question>
              Several cards in this set cause battle cards to be put into the KO area. What does that mean?
         </question>

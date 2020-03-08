@@ -2,6 +2,7 @@
 <faq name="Wave 1 FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
     <target name="Deck &amp; Team Construction">
       <entry>
+        <tags>Deck</tags>
         <question>
              Can I have more than one of the same character on my team?
         </question>
@@ -10,6 +11,7 @@
     </answer>
     </entry>
       <entry>
+        <tags>Deck</tags>
         <question>
              Can my team have both Autobots and Decepticons?
         </question>
@@ -20,6 +22,7 @@
 </target>
         <target name="Autobots &amp; Decepticons">
       <entry>
+        <tags>Faction</tags>
         <question>
              Some cards refer to Autobots or Decepticons. How do I know which characters are Autobots?
         </question>
@@ -29,7 +32,7 @@
     </entry>
 
 </target>
-    <target name="Stars">
+    <target name="Star">
       <entry>
         <question>
              Some cards refer to the number of stars a character has. Does a character in bot mode have any stars?
@@ -53,6 +56,7 @@
 </target>
     <target name="Bold &amp; Tough">
       <entry>
+        <tags>Bold,Tough</tags>
         <question>
              What happens if a character has more than one instance of Bold or Tough?
         </question>
@@ -81,7 +85,7 @@
     </entry>
 
 </target>
-            <target name="Upgrades">
+            <target name="Upgrade">
       <entry>
         <question>
              Can I have more than one of the same Upgrade on the battlefield?
@@ -146,6 +150,7 @@ was in the KO area.
 </target>
         <target name="Triggered Abilities">
       <entry>
+          <tags>Trigger</tags>
         <question>
              What is a triggered ability?
         </question>
@@ -158,6 +163,7 @@ mode.
     </answer>
     </entry>
       <entry>
+          <tags>Trigger</tags>
         <question>
              What happens if more than one triggered ability triggers at the same time?
         </question>

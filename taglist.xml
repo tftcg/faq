@@ -4,6 +4,13 @@
             <tag name="Permitted and Banned Cards"/>
         </category>
     </category>
+    <category name="Glossary">
+        <tag name="Game Concepts"/>
+        <tag name="Battle Icons / Pips"/>
+        <tag name="Keywords"/>
+        <tag name="Card Types"/>
+    </category>
+    <!--
     <category name="Keywords">
         <tag name="Bold"/>
         <tag name="Tough"/>
@@ -11,6 +18,7 @@
         <tag name="Brave"/>
         <tag name="Stealth"/>
     </category>
+    -->
     <category name="Wave 1">
         <category name="Battle Cards">
             <tag name="Aerial Recon"/>
@@ -526,9 +534,9 @@
             <tag name="MTX-S2A Guided Missile Launcher"/>
             <tag name="Mudflap - Hired Muscle"/>
             <tag name="Octone - Capricious Agitator"/>
-            <tag name="Omega Supreme (Base) - Transport City Defender"/>
-            <tag name="Omega Supreme (Spaceship) - Transport City Defender"/>
-            <tag name="Omega Supreme (Tank) - Transport City Defender"/>
+            <tag name="Omega Supreme (Base) - Transport City - Defender"/>
+            <tag name="Omega Supreme (Spaceship) - Transport - City Defender"/>
+            <tag name="Omega Supreme (Tank) - Transport - City Defender"/>
             <tag name="Shadowsteel Iceblade"/>
             <tag name="Private Fixit - Rescue Patrol - Medic"/>
             <tag name="Private Greenlight - Special Ops - Recon"/>
@@ -574,13 +582,7 @@
             <tag name="Raider Brunt - Weapon - Soldier"/>
             <tag name="Nightbird - Enigmatic Agent"/>
             <tag name="Raider Skytread - Special Ops Soldier"/>
-            <tag name="Captain Omega Supreme - Transport City Defender"/>
+            <tag name="Captain Omega Supreme - Transport - City Defender"/>
         </category>
-    </category>
-    <category name="Glossary">
-        <tag name="Game Concepts"/>
-        <tag name="Battle Icons / Pips"/>
-        <tag name="Keywords"/>
-        <tag name="Card Types"/>
     </category>
 </tags>

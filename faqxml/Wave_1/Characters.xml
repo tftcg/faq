@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <faq name="Wave 1 Characters" source="Wave 1 FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-faq" published_date="2018-10-11" sourced_at="2020-03-04">
-  <target name="Arcee, Skilled Fighter">
+  <target name="Arcee - Skilled Fighter">
     <entry id="arcee-1" mode="alt">
       <question>
                 What happens if some of my characters are undamaged when I flip Arcee to alt mode?
@@ -35,7 +35,7 @@ can&#x2019;t deal more damage than their attack total, so she&#x2019;ll do only 
     </answer>
     </entry>
   </target>
-  <target name="Autobot Cosmos, Recon &amp; Communication">
+  <target name="Autobot Cosmos - Recon &amp; Communication">
     <entry id="autobot-cosmos-1" mode="bot">
       <question>
         If there are two cards left in my deck, and I attack with Autobot Cosmos, will his ability trigger?
@@ -53,7 +53,7 @@ can&#x2019;t deal more damage than their attack total, so she&#x2019;ll do only 
     </answer>
     </entry>
   </target>
-  <target name="Autobot Hound, Long-Range Scout">
+  <target name="Autobot Hound - Long-Range Scout">
     <entry id="autobot-hound-1" mode="bot">
       <question>
     Let&#x2019;s say you attack with another character and flip a white battle icon. Then, because your
@@ -66,7 +66,7 @@ battle icon that turn, so he won&#x2019;t get the bonus.
 </answer>
     </entry>
   </target>
-  <target name="Autobot Jazz, Special Ops">
+  <target name="Autobot Jazz - Special Ops">
     <entry id="autobot-jazz-1" mode="alt">
       <question>
     If the attacking character would deal more than 2 damage, what happens to the extra damage?
@@ -87,7 +87,7 @@ damage from the attack.
 </answer>
     </entry>
   </target>
-  <target name="Autobot Mirage, Lone Wolf">
+  <target name="Autobot Mirage - Lone Wolf">
     <entry id="autobot-mirage-1" mode="alt">
       <question>
     If I played an action because of his ability, can I play another action that turn?
@@ -97,7 +97,7 @@ damage from the attack.
 </answer>
     </entry>
   </target>
-  <target name="Bumblebee, Courageous Scout">
+  <target name="Bumblebee - Courageous Scout">
     <entry id="bumblebee-cs-1" mode="alt">
       <question>
     What happens if I have no cards in my hand when I use this ability?
@@ -118,7 +118,7 @@ checking if that ability triggers or not.
 </answer>
     </entry>
   </target>
-  <target name="Bumblebee, Legendary Warrior">
+  <target name="Bumblebee - Legendary Warrior">
     <entry id="bumblebee-lw-1" mode="alt">
       <question>
     Does flipping Bumblebee to alt mode mean I have to attack with him that turn?
@@ -145,7 +145,7 @@ enemy he attacks.
 </answer>
     </entry>
   </target>
-  <target name="Chop Shop, Sneaky Insecticon">
+  <target name="Chop Shop - Sneaky Insecticon">
     <entry id="chop-shop-1" mode="alt"><question>
     If I scrap three Upgrades from Chop Shop, can I repair 1 damage from each of three of my
 </question>
@@ -191,7 +191,7 @@ Chop Shop that he can&#x2019;t have.
 </answer>
     </entry>
   </target>
-  <target name="Chromia, Special Ops">
+  <target name="Chromia - Special Ops">
     <entry id="chromia-1" mode="bot">
       <question>
     Let&#x2019;s say I reveal one white battle icon during Chromia&#x2019;s attack. Then I flip another white battle icon
@@ -203,7 +203,7 @@ checking if that ability triggers or not.
 </answer>
     </entry>
   </target>
-  <target name="Cliffjumper, Renegade Warrior">
+  <target name="Cliffjumper - Renegade Warrior">
     <entry id="cliffjumper-1" mode="bot">
       <question>
     What happens if one of my characters that&#x2019;s a Car while in alt mode but not in bot mode is KO&#x2019;d
@@ -223,7 +223,7 @@ KO&#x2019;d character isn&#x2019;t a Car and won&#x2019;t add to Cliffjumper&#x2
       <entry xref="Rules_Roundup#1-3" mode="bot"/>
       <entry xref="Rules_Roundup#1-24" mode="bot"/>
   </target>
-  <target name="Demolisher, Devoted Decepticon">
+  <target name="Demolisher - Devoted Decepticon">
     <entry id="demolisher-1" mode="bot">
       <question>
     If I play an Action or Upgrade to increase Demolisher&#x2019;s defense, do I flip that many more battle cards?
@@ -234,7 +234,7 @@ determining how many more battle cards you flip.
 </answer>
     </entry>
   </target>
-  <target name="Dinobot Sludge, Mighty Stomper">
+  <target name="Dinobot Sludge - Mighty Stomper">
     <entry id="dinobot-sludge-1" mode="alt">
       <question>
     Dinobot Sludge&#x2019;s health is 12. Let&#x2019;s say there are 15 damage counters total on my other Dinobots.
@@ -245,7 +245,7 @@ When I flip Dinobot Sludge to alt mode, can I move all those damage counters ont
 </answer>
     </entry>
   </target>
-  <target name="Dinobot Snarl, Desert Warrior">
+  <target name="Dinobot Snarl - Desert Warrior">
     <entry id="dinobot-snarl-1" mode="bot">
       <question>
     Do I put the card on top of my deck before flipping battle cards?
@@ -255,7 +255,7 @@ When I flip Dinobot Sludge to alt mode, can I move all those damage counters ont
 </answer>
     </entry>
   </target>
-  <target name="Grimlock, Dinobot Leader">
+  <target name="Grimlock - Dinobot Leader">
     <entry id="grimlock-1" mode="alt">
       <question>
     Can Grimlock give himself Bold 3 with his ability.
@@ -286,7 +286,7 @@ would be KO&#x2019;d.
 </answer>
     </entry>
   </target>
-  <target name="Inferno, Fearless Firefighter">
+  <target name="Inferno - Fearless Firefighter">
     <entry id="inferno-1" mode="alt">
       <question>
     Can I choose one of my characters and return all its Upgrades to my hand?
@@ -297,7 +297,7 @@ no Upgrades if you didn&#x2019;t want to return any to their owner&#x2019;s hand
 </answer>
     </entry>
   </target>
-  <target name="Insecticon Skrapnel, Insecticon leader">
+  <target name="Insecticon Skrapnel - Insecticon leader">
     <entry id="insecticon-skrapnel-1" mode="bot">
       <question>
     If the attacking character would deal more than 3 damage, what happens to the extra damage?
@@ -319,7 +319,7 @@ the attack.
     </entry>
     <entry xref="Rules_Roundup#1-14" mode="bot"/>
   </target>
-  <target name="Jetfire, Air Guardian">
+  <target name="Jetfire - Air Guardian">
     <entry id="jetfire-1" mode="bot">
       <question>
     Can I use Jetfire&#x2019;s ability to put an Upgrade on him if he already has an Upgrade of that type?
@@ -329,7 +329,7 @@ the attack.
 </answer>
     </entry>
   </target>
-  <target name="Megatron, Living Weapon">
+  <target name="Megatron - Living Weapon">
     <entry id="megatron-lw-1" mode="bot">
       <question>
     Does Megatron&#x2019;s ability mean he can hold three Weapons?
@@ -357,7 +357,7 @@ him, you can choose at that time which Weapon it will replace.
 </answer>
     </entry>
   </target>
-  <target name="Nemesis Prime, Dark Clone">
+  <target name="Nemesis Prime - Dark Clone">
     <entry id="nemesis-prime-1" mode="bot">
       <question>
     Can I look at the bottom card of my deck before putting it under Nemesis Prime?
@@ -375,7 +375,7 @@ him, you can choose at that time which Weapon it will replace.
 </answer>
     </entry>
   </target>
-  <target name="Optimus Prime, Battlefield Legend">
+  <target name="Optimus Prime - Battlefield Legend">
     <entry id="opbl-1" mode="bot">
       <question>
     If I flip a white battle icon, do I flip the extra cards before using Optimus Prime&#x2019;s ability?
@@ -403,7 +403,7 @@ from white battle icons.
     </entry>
     <entry xref="Rules_Roundup#2-5" mode="bot"/>
   </target>
-  <target name="Prowl, Military Strategist">
+  <target name="Prowl - Military Strategist">
     <entry id="prowl-1" mode="alt">
       <question>
     If I flip Prowl to alt mode and give my Cars Bold 2, but later in the turn I flip one of my Cars so it&#x2019;s no
@@ -424,7 +424,7 @@ KO&#x2019;d?
 </answer>
     </entry>
   </target>
-  <target name="Ransack, Insecticon Commando">
+  <target name="Ransack - Insecticon Commando">
     <entry id="ransack-1" mode="alt">
       <question>
     What happens if I flip Ransack to alt mode and there are no damaged characters?
@@ -455,7 +455,7 @@ wouldn&#x2019;t change the number of damage counters on him.
 </answer>
     </entry>
   </target>
-  <target name="Slipstream, Strategic Seeker">
+  <target name="Slipstream - Strategic Seeker">
     <entry id="slipstream-1" mode="alt">
       <question>
     What happens if the 1 damage counter I move onto the defender is enough to KO it?
@@ -476,7 +476,7 @@ blue, and one white battle icon.
 </answer>
     </entry>
   </target>
-  <target name="Sunstorm, Fusion Flyer">
+  <target name="Sunstorm - Fusion Flyer">
     <entry id="sunstorm-1" mode="alt">
       <question>
     What happens if I have 3 or more cards in my hand when I flip Sunstorm to alt mode?
@@ -497,7 +497,7 @@ wouldn&#x2019;t change the number of cards in your hand.
 </answer>
     </entry>
   </target>
-  <target name="Thundercracker, Mach Warrior">
+  <target name="Thundercracker - Mach Warrior">
     <entry id="thundercracker-1" mode="alt">
       <question>
     What happens if my opponent doesn&#x2019;t have any melee enemies?
@@ -507,7 +507,7 @@ wouldn&#x2019;t change the number of cards in your hand.
 </answer>
     </entry>
   </target>
-  <target name="Wheeljack, Weapons Inventor">
+  <target name="Wheeljack - Weapons Inventor">
     <entry id="wheeljack-1" mode="alt">
       <question>
     If I play an Action that puts an Upgrade on one of my Cars, does Wheeljack&#x2019;s ability trigger?

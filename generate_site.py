@@ -8,7 +8,7 @@ def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
 def clean_markup(text):
-    return text.replace('[[', '').replace(']]', '').replace('\n', '<br/>')
+    return text.replace('[[', '').replace(']]', '')    #.replace('\n', '<br/>')
 
 def mkdirp(directory):
     # TODO: if os.path.isfile(directory)

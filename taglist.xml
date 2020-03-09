@@ -611,6 +611,7 @@
     <category name="Tournaments">
         <category name="Constructed">
             <tag name="Permitted and Banned Cards"/>
+            <tag name="Sideboarding"/>
         </category>
     </category>
 </tags>

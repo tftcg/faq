@@ -47,4 +47,30 @@
           </answer>
       </entry>
   </target>
+  <target name="Sideboarding">
+      <entry>
+          <question>
+              What can be in your sideboard?
+          </question>
+          <answer>
+Sideboards can contain 1 character card of 20 stars or fewer and up to 10 battle cards.
+• No more than 3 copies of each Battle Card are allowed between a player's deck and sideboard.
+• Duplicate character cards are not allowed between players' decks and sideboards.
+• After sideboarding, decks must be legal.
+          </answer>
+      </entry>
+      <entry>
+          <question>
+              How do you sideboard?
+          </question>
+          <answer>
+      After each game in a match, the player who won that game chooses to sideboard a character
+first, and declares their team. Then, the player who lost the previous game does the same. Then
+both players swap battle cards between their main deck and sideboard simultaneously.
+Players are not required to reveal how many battle cards they have swapped from their main
+deck to their sideboard and do not have to swap one for one, but after sideboarding, their
+sideboard may not exceed the maximum sideboard size (10 battle cards).
+          </answer>
+      </entry>
+  </target>
 </faq>

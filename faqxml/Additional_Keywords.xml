@@ -91,6 +91,10 @@ Flip [x] more battle cards when defending.
             Yes, Focus stacks. Per the 2.0 Rules; Focus is a single action, so if a character has multiple instances of focus, add the numbers together to determine how many cards to look at. For example, if a character has Focus 1 and is upgraded with a utility that gives it another instance of Focus 1, look at the top two cards of your deck before flipping battle cards. You may scrap any number of them and put the rest back on top of your deck in any order.
         </answer>
     </entry>
+    <entry id="what-is-a-trait" tags="Trait">
+      <question>What is a 'Trait'?</question>
+      <answer>Traits appear with icons under character names. For example, Ranged, Car, and Titan Master. </answer>
+    </entry>
   </target>
   <!--
   <target name="Play">
@@ -104,10 +108,6 @@ Flip [x] more battle cards when defending.
       <answer>TODO
     </answer>
     </entry>
-    <entry id="what-is-a-trait">
-      <question>What is a 'Trait'?</question>
-      <answer>TODO
-    </answer>
     </entry>
     <entry id="what-is-a-faction">
       <question>What is a 'Faction'?</question>

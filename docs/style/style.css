@@ -1,6 +1,10 @@
 
-#sitetitle {
+body {
+  background-image: url(../images/Logo.png);
   background-color: black;
+}
+
+#sitetitle {
   color: #ffffff;
   font-size: 2em;
   text-align: center;

@@ -24,6 +24,10 @@ p, ul, ol {
   line-height: 1.58;
 }
 
+:target {
+    background-color: #ffa;
+}
+
 .faq_entry {
     list-style-type: lower-roman;
     padding-left: 1%;

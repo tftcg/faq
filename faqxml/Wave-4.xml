@@ -85,21 +85,21 @@ After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x20
     </entry>
 </target>
   <target name="Captain Omega Supreme - Transport - City Defender">
-    <entry id="10" id="omega-supreme-1" mode="alt">
+    <entry id="10" mode="alt">
       <question>I noticed that Omega Supreme (Base) doesn&#x2019;t have an ability to combine into Captain Omega Supreme. What happens if both the Spaceship and Tank are KO&#x2019;d before I get the chance to combine?</question>
       <answer>The combine abilities don&#x2019;t work from the KO area, so in that case your Base would be left standing alone. Unless you have a way to bring the Spaceship or the Tank back onto the battlefield, you won&#x2019;t be able to combine them into Captain Omega Supreme. Good luck!</answer>
     </entry>
-    <entry id="11" id="omega-supreme-2" mode="alt">
+    <entry id="11" mode="alt">
       <question>The Spaceship and the Tank have very similar abilities to combine into Captain Omega Supreme. What happens if my opponent reshuffles their deck and both abilities would apply?</question>
       <answer>Captain Omega Supreme can only be combined once. The redundant ability is ignored.</answer>
     </entry>
   </target>
   <target name="Skytread - Special Ops - Soldier">
-    <entry id="12" id="skytread-1" mode="alt">
+    <entry id="12" mode="alt">
       <question>What happens if my last two characters are those two and they&#x2019;re both KO&#x2019;d at the same time. Dpo their Revenge abilities work and keep me in the game?</question>
       <answer>Unfortunately, no. Once your last character is KO&#x2019;d, you lose the game. Fortunately, having them both KO&#x2019;d at the same time is pretty unusual.</answer>
     </entry>
-    <entry id="13" id="skytread-2" mode="alt">
+    <entry id="13" mode="alt">
       <question>Both Revenge abilities put cards from my hand under Raider Skytread. What does this mean?</question>
       <answer>The cards under Raider Skytread are basically out of play for a while. They&#x2019;re not considered on the battlefield, even if that&#x2019;s where they are physically, so none of their abilities apply. If one of those cards is an Upgrade, that Upgrade isn&#x2019;t on Raider Skytread, and so on. They&#x2019;re also not in your scrap pile, so they won&#x2019;t be shuffled into your deck when it&#x2019;s empty. They can return to your hand using Raider Skytread&#x2019;s last ability.</answer>
     </entry>

@@ -2,7 +2,7 @@
 <faq name="Constructed" source="Tournament FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-tournament-rules" published_date="2019-11-21" sourced_at="2020-03-04">
   <!-- NOTE: Adapted from original materials -->
   <target name="Permitted and Banned Cards">
-      <entry>
+      <entry id="1">
           <question>Which card sets are permitted in Constructed tournaments?</question>
           <answer>
               Wave 1: Transformers TCG Booster Packs
@@ -21,7 +21,7 @@
               Wave One Energon Edition (Character and Battle Cards)
           </answer>
       </entry>
-      <entry>
+      <entry id="2">
           <question>Which promo cards are permitted in Constructed tournaments?</question>
           <answer>
               P1: Bumblebee – Electrum Warrior
@@ -38,7 +38,7 @@
               P12: Tandem Targeting System (Energon Edition Foil Variant)
           </answer>
       </entry>
-      <entry>
+      <entry id="3">
           <question>What Cards are banned in Constructed Tournaments?</question>
           <answer>
               The Battle Cards Swap Parts and Press the Advantage are banned from use in Constructed play. 
@@ -48,7 +48,7 @@
       </entry>
   </target>
   <target name="Sideboarding">
-      <entry>
+      <entry id="4">
           <question>
               What can be in your sideboard?
           </question>
@@ -59,7 +59,7 @@ Sideboards can contain 1 character card of 20 stars or fewer and up to 10 battle
 • After sideboarding, decks must be legal.
           </answer>
       </entry>
-      <entry>
+      <entry id="5">
           <question>
               How do you sideboard?
           </question>

@@ -1,70 +1,89 @@
 <?xml version="1.0"?>
 <faq name="Additional Keywords" source="Community" source_url="https://github.com/tftcg/faq">
   <target name="Game Concepts">
-    <entry id="what-is-battlefield" tags="Deck">
+    <entry tags="Deck">
       <question>What is the 'Battlefield'?</question>
       <answer>The game area in which the characters in play are placed. </answer>
     </entry>
-    <entry id="what-is-deck" tags="Deck">
+    <entry tags="Deck">
       <question>What is the 'Deck'?</question>
       <answer>
 Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
     </answer>
     </entry>
-    <entry id="what-is-flip-battle-card" tags="Play">
+    <entry tags="Play">
       <question>What does it mean to 'Flip (battle card)'?</question>
       <answer>
 The act of taking a battle card from the deck and placing it face up onto the Battlefield. 
     </answer>
     </entry>
-    <entry id="what-is-flip-bot-card" tags="Play">
+    <entry tags="Play">
       <question>What is 'Flip (character card)'?</question>
       <answer>
         Changing a character (i.e. Transformer) card from one mode to another by switching its card to the other side. 
     </answer>
     </entry>
-    <entry id="what-is-ko-area" tags="KO">
+    <entry tags="KO">
       <question>What is 'KO Area'?</question>
       <answer>
 Most KO'd characters are moved to the KO area (see <a href="#battlemaster">Battlemaster</a> and <a href="#weaponizer">Weaponizer</a> for notable exceptons). 
 The KO area is usually off to the side of the main battlefield, out of the way of the play but still visible. Note that characters may still be flipped as a part of your flip action, however they cannot be flipped by battle cards unless a card specifically states it can. 
     </answer>
     </entry>
-    <entry id="what-is-ko" tags="KO">
+    <entry tags="KO">
       <question>What is 'KO (Knock Out)'?</question>
       <answer>
 When a character's damage equals or exceeds its health (including any additional health bonuses), the character is said to be KO'd.
     </answer>
     </entry>
-    <entry id="what-is-battle-icon" tags="Battle Icon">
+    <entry tags="Battle Icon">
       <question>What is a 'Battle Icon'?</question>
       <answer>
 An oblong of colour in the right hand corner of a battle card.
     </answer>
     </entry>
-    <entry id="what-is-scrap" tags="Play">
+    <entry tags="Play">
       <question>What is the 'Scrap'?</question>
       <answer>
 Used battle cards are placed face-up in the scrap pile. Either player may examine either scrap pile at any time. As soon as the deck runs out of cards, the scrap pile is shuffled to form the new deck. 
     </answer>
     </entry>
+  <!--
+    <entry>
+      <question>What is a 'Battle Card'?</question>
+      <answer>TODO
+    </answer>
+    </entry>
+    <entry>
+      <question>What is a 'Character Card'?</question>
+      <answer>TODO
+    </answer>
+    </entry>
+    </entry>
+    <entry>
+      <question>What is a 'Faction'?</question>
+      <answer>TODO
+    </answer>
+    </entry>
+  </target>
+  -->
   </target>
   <target name="Battle Icon">
-    <entry id="what-is-blue-battle-icon">
+    <entry>
       <question>What is a 'blue battle icon'?</question>
       <answer>
 A blue oblong in the right hand corner of a battle card.
 "The defender gets +1 defense for each blue battle icon you flip when attacking."
     </answer>
     </entry>
-    <entry id="what-is-orange-battle-icon">
+    <entry>
       <question>What is an 'orange battle icon'?</question>
       <answer>
 An orange oblong in the right hand corner of a battle card.
 "The attacker gets +1 attack for each orange battle icon you flip when attacking."
     </answer>
     </entry>
-    <entry id="what-is-white-battle-icon">
+    <entry>
       <question>What is a 'white battle icon'?</question>
       <answer>
 An white oblong in the right hand corner of a battle card.
@@ -73,13 +92,13 @@ When attacking or defending, the first white battle icon flipped means the playe
     </entry>
   </target>
   <target name="Keywords">
-    <entry id="what-is-bold" tags="Bold">
+    <entry tags="Bold">
       <question>What is 'Bold [x]'?</question>
       <answer>
 "Flip [x] more battle cards when attacking. "
     </answer>
     </entry>
-    <entry id="what-is-tough" tags="Tough">
+    <entry tags="Tough">
       <question>What is 'Tough [x]'?</question>
       <answer>
 Flip [x] more battle cards when defending. 
@@ -91,29 +110,9 @@ Flip [x] more battle cards when defending.
             Yes, Focus stacks. Per the 2.0 Rules; Focus is a single action, so if a character has multiple instances of focus, add the numbers together to determine how many cards to look at. For example, if a character has Focus 1 and is upgraded with a utility that gives it another instance of Focus 1, look at the top two cards of your deck before flipping battle cards. You may scrap any number of them and put the rest back on top of your deck in any order.
         </answer>
     </entry>
-    <entry id="what-is-a-trait" tags="Trait">
+    <entry tags="Trait">
       <question>What is a 'Trait'?</question>
       <answer>Traits appear with icons under character names. For example, Ranged, Car, and Titan Master. </answer>
     </entry>
   </target>
-  <!--
-  <target name="Play">
-    <entry id="what-is-a-battle-card">
-      <question>What is a 'Battle Card'?</question>
-      <answer>TODO
-    </answer>
-    </entry>
-    <entry id="what-is-a-character-card">
-      <question>What is a 'Character Card'?</question>
-      <answer>TODO
-    </answer>
-    </entry>
-    </entry>
-    <entry id="what-is-a-faction">
-      <question>What is a 'Faction'?</question>
-      <answer>TODO
-    </answer>
-    </entry>
-  </target>
-  -->
 </faq>

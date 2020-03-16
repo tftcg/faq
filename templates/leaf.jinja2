@@ -2,8 +2,6 @@
 
 {% block title %}{{ faq_name }}{% endblock %}
 
-    page = leaf_template.render(f_safe_name=safe_name, f_clean_markup=clean_markup, entries=found_entries, faq_name=leaf_name)
-
 {% block content %}
         <!--
         <img class="thumb" src="/card_images/{{ safe_name }}.jpg" width="20%" style="float: right"/>
@@ -21,7 +19,10 @@
     {% endif %}
 
     <li class="faq_entry">
-      <!-- {{ faq_node[2].attrib['id'] }} - {{ faq_node[2].attrib['mode'] }} -->
+      {% if faq_node[2].attrib['mode'] %}
+          <!-- mode = {{ faq_node[2].attrib['mode'] }} -->
+      {% endif %}
+      <a name="{{ faq_node[3] }}__{{ faq_node[2].attrib['id'] }}"/>
       <div class="question">
         {{ f_clean_markup(faq_node[2].find('question').text) }}
         <span><a href="{{ faq_node[1] }}"><img src="/images/source-{{ f_source_image_name(faq_node[0]) }}.svg" title="{{ faq_node[0] }}"/></a></span>

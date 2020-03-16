@@ -79,25 +79,24 @@ def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
 
     # Find FAQ entries for this leaf_name
     # Loop over every key, value in the faq_db
-    for name, node in faq_db.items():
+    for faqfile, node in faq_db.items():
         source_url = node.attrib['source_url']
         if('source' in node.attrib):
             source_name = node.attrib['source']
         else:
-            source_name = name
+            source_name = node.attrib['name']
         for target_node in node.findall('./target'):
-            # TODO: Override source_url/name if the target has one?; though generally moving away from that style
             for entry_node in target_node.findall('./entry'):
                 # Look for any <target> with a name that matches the leaf_name
                 if target_node.attrib['name'] == leaf_name:
-                    found_entries.append( [source_name, source_url, entry_node] )
+                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
                 elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags']:
-                    found_entries.append( [source_name, source_url, entry_node] )
+                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
                 elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
-                    found_entries.append( [source_name, source_url, entry_node] )
+                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
                 elif markup in ET.tostring(entry_node).decode():
                     # Look for "[[leaf_name]]" in each entry. If found, add that node.
-                    found_entries.append( [source_name, source_url, entry_node] )
+                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
 
     if(len(found_entries) != 0):
         page = leaf_template.render(f_safe_name=safe_name, f_clean_markup=clean_markup, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, f_get_xref=get_xref)
@@ -160,12 +159,14 @@ tree = ET.parse('taglist.xml')
 taglist_node=tree.getroot()
 
 faq_db = {}
+faq_dir = 'faqxml'
+faq_glob = os.path.join(faq_dir, '**', '*.xml')
 # Load all the FAQ XML files
-for file in glob.glob('faqxml/**/*.xml', recursive=True):
+for file in glob.glob(faq_glob, recursive=True):
+    filename = os.path.splitext(file)[0][len(faq_dir)+1:]
     tree = ET.parse(file)
     faq_node=tree.getroot()
-    faq_name=faq_node.attrib['name']
-    faq_db[faq_name] = faq_node
+    faq_db[filename] = faq_node
 
 found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template)
 

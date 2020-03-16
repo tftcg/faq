@@ -37,14 +37,6 @@ def get_xref(xref):
     else:
         source_name = faq_node.attrib['name']
 
-    # Override with target's source # TODO: Move away from this
-    if('source_url' in target_node.attrib):
-        source_url = target_node.attrib['source_url']
-        if('source' in target_node.attrib):
-            source_name = target_node.attrib['source']
-        else:
-            source_name = target_node.attrib['name']
-
     return [source_name, source_url, node]
 
 

@@ -934,7 +934,7 @@ doesn&#x2019;t work on defense anyway.)
   </target>
   <target name="Captain Wheeljack - Engineering - Scientist">
     <entry id="142" mode="alt">
-      <question>When do I use this ability?</question>
+      <question>When do I use this [Ed: Captain Wheeljack's] ability?</question>
       <answer>You use it before the game begins. After you put the Brainstorm into your hand, you&#x2019;ll shuffle the rest of your deck. Then you&#x2019;ll draw the normal 3 cards at the start of the game. This means you&#x2019;ll start the game with 4 cards in hand (Brainstorm plus the 3 you draw). You&#x2019;ll still draw a card at the start of your first turn.</answer>
     </entry>
     <entry id="143" mode="bot">

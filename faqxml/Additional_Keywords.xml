@@ -1,48 +1,48 @@
 <?xml version="1.0"?>
 <faq name="Additional Keywords" source="Community" source_url="https://github.com/tftcg/faq">
   <target name="Game Concepts">
-    <entry tags="Deck">
+    <entry id="1" tags="Deck">
       <question>What is the 'Battlefield'?</question>
       <answer>The game area in which the characters in play are placed. </answer>
     </entry>
-    <entry tags="Deck">
+    <entry id="2" tags="Deck">
       <question>What is the 'Deck'?</question>
       <answer>
 Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
     </answer>
     </entry>
-    <entry tags="Play">
+    <entry id="3" tags="Play">
       <question>What does it mean to 'Flip (battle card)'?</question>
       <answer>
 The act of taking a battle card from the deck and placing it face up onto the Battlefield. 
     </answer>
     </entry>
-    <entry tags="Play">
+    <entry id="4" tags="Play">
       <question>What is 'Flip (character card)'?</question>
       <answer>
         Changing a character (i.e. Transformer) card from one mode to another by switching its card to the other side. 
     </answer>
     </entry>
-    <entry tags="KO">
+    <entry id="5" tags="KO">
       <question>What is 'KO Area'?</question>
       <answer>
 Most KO'd characters are moved to the KO area (see <a href="#battlemaster">Battlemaster</a> and <a href="#weaponizer">Weaponizer</a> for notable exceptons). 
 The KO area is usually off to the side of the main battlefield, out of the way of the play but still visible. Note that characters may still be flipped as a part of your flip action, however they cannot be flipped by battle cards unless a card specifically states it can. 
     </answer>
     </entry>
-    <entry tags="KO">
+    <entry id="6" tags="KO">
       <question>What is 'KO (Knock Out)'?</question>
       <answer>
 When a character's damage equals or exceeds its health (including any additional health bonuses), the character is said to be KO'd.
     </answer>
     </entry>
-    <entry tags="Battle Icon">
+    <entry id="7" tags="Battle Icon">
       <question>What is a 'Battle Icon'?</question>
       <answer>
 An oblong of colour in the right hand corner of a battle card.
     </answer>
     </entry>
-    <entry tags="Play">
+    <entry id="8" tags="Play">
       <question>What is the 'Scrap'?</question>
       <answer>
 Used battle cards are placed face-up in the scrap pile. Either player may examine either scrap pile at any time. As soon as the deck runs out of cards, the scrap pile is shuffled to form the new deck. 
@@ -92,25 +92,25 @@ When attacking or defending, the first white battle icon flipped means the playe
     </entry>
   </target>
   <target name="Keywords">
-    <entry tags="Bold">
+    <entry id="9" tags="Bold">
       <question>What is 'Bold [x]'?</question>
       <answer>
 "Flip [x] more battle cards when attacking. "
     </answer>
     </entry>
-    <entry tags="Tough">
+    <entry id="10" tags="Tough">
       <question>What is 'Tough [x]'?</question>
       <answer>
 Flip [x] more battle cards when defending. 
     </answer>
     </entry>
-    <entry tags="Focus">
+    <entry id="11" tags="Focus">
         <question>Does Focus stack?</question>
         <answer>
             Yes, Focus stacks. Per the 2.0 Rules; Focus is a single action, so if a character has multiple instances of focus, add the numbers together to determine how many cards to look at. For example, if a character has Focus 1 and is upgraded with a utility that gives it another instance of Focus 1, look at the top two cards of your deck before flipping battle cards. You may scrap any number of them and put the rest back on top of your deck in any order.
         </answer>
     </entry>
-    <entry tags="Trait">
+    <entry id="12" tags="Trait">
       <question>What is a 'Trait'?</question>
       <answer>Traits appear with icons under character names. For example, Ranged, Car, and Titan Master. </answer>
     </entry>

@@ -26,6 +26,7 @@
       <div class="question">
         {{ f_clean_markup(faq_node[2].find('question').text) }}
         <span><a href="{{ faq_node[1] }}"><img src="/images/source-{{ f_source_image_name(faq_node[0]) }}.svg" title="{{ faq_node[0] }}"/></a></span>
+        <a href="#{{ faq_node[3] }}__{{ faq_node[2].attrib['id'] }}"><img src="/images/permalink.svg"/></a>
       </div>
       <div class="answer">
         {{ f_clean_markup(faq_node[2].find('answer').text) }}

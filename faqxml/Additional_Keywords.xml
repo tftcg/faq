@@ -60,13 +60,20 @@ Used battle cards are placed face-up in the scrap pile. Either player may examin
     </answer>
     </entry>
     </entry>
+  -->
     <entry id="11">
       <question>What is a 'Faction'?</question>
-      <answer>TODO
+      <answer>Characters belong to a Faction. Currently each Transformer can only belong to one Faction, though there are characters in the Transformer storylines who were double-agents and so that may change. There are currently (Wave 5) three factions in the game, Autobots, Decepticons and Mercenaries. 
     </answer>
     </entry>
-  </target>
-  -->
+      <entry id="20" tags="Faction">
+        <question>
+             Who are the Mercenaries?
+        </question>
+        <answer>
+            The Mercenary Faction is a new faction added to the Transformer storyline in 2019, across the comics, toys, cartoons, and the Trading Card Game, which was the first to announce the new faction. 
+    </answer>
+    </entry>
     <entry id="19" tags="Deck">
       <question>What is the 'Scrap'?</question>
       <answer>

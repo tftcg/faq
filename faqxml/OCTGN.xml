@@ -33,6 +33,15 @@
     </entry>
   </target>
   <target name="Playing OCTGN">
+    <entry id="12">
+        <question>How do I report a bug/ask a question about TFTCG with OCTGN?</question>
+        <answer>Any of the following are good places to report bugs or ask questions:
+            1. There is a <a href="https://www.facebook.com/groups/OCTGNprime/">Facebook OCTGN Group</a>.
+            2. There is a <a href="https://discord.gg/64HqhBG">dedicated Discord server</a> to interact with the TF/OCTGN developer(s).
+            3. Many other community Discord servers have OCTGN channels to connect with folk looking to play. 
+            4. You can report issues and ideas on <a href="https://github.com/zz1000zz/OCTGN_TF/issues">GitHub</a>.
+      </answer>
+    </entry>
     <entry id="11">
       <question>How do I play a secret action?</question>
       <answer>Hold down shift while you are dragging and dropping the card to the battlefield. This will play the card face-down. 

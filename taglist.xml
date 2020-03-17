@@ -614,4 +614,8 @@
             <tag name="Sideboarding"/>
         </category>
     </category>
+    <category name="OCTGN">
+        <tag name="Installing"/>
+        <tag name="Playing"/>
+    </category>
 </tags>

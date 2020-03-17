@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<faq name="OCTGN" source="Community" source_url="https://github.com/tftcg/faq">
+  <target name="Installing">
+    <entry id="1">
+      <question>How do I install OCTGN to play Transformers?</question>
+      <answer>
+1. Install the app and create your account: http://octgn.net/Home/GetOctgn
+2. Open OCTGN, and go to "Game Manager" to install "Transformers".
+3. Download the card images (.o8c files): http://www.hi-izuru.org/OCTGN/Games/Transformers/
+4. In "Games Manager", choose "Add Image Pack" to upload the .o8c files into your OCTGN.
+5. Open the "OCTGN Deck Builder" and build your deck. You can also download a deck directly from https://fortressmaximus.io using the "OCTGN Export" function.
+      </answer>
+    </entry>
+    <entry id="2">
+      <question>Why can't I see the card images?</question>
+      <answer>
+          You probably haven't installed the image pack. You should:
+
+1. Download the card images (.o8c files): http://www.hi-izuru.org/OCTGN/Games/Transformers/
+2. In OCTGN's "Games Manager", choose "Add Image Pack" to upload the .o8c files into your OCTGN.
+      </answer>
+    </entry>
+    <entry id="3">
+      <question>Can I play on Mac OS?</question>
+      <answer>
+           On Mac OS before 10.15 (Catalina) you should be able to use WINE to play on Mac OS. From 10.15 onwards WINE currently appears to have issues. You could also use a VM to install Windows on top of Mac OS. Note that both of these are non-simple for the average computer user, so don't feel bad if you decide not to try. 
+      </answer>
+    </entry>
+    <entry id="4">
+      <question>Can I play on Linux?</question>
+      <answer>
+           You should be able to use WINE to play on Linux, or you could install Windows onto Linux on a VM.
+      </answer>
+    </entry>
+  </target>
+  <target name="Playing">
+    <entry id="11">
+      <question>How do I play a secret action?</question>
+      <answer>Hold down shift while you are dragging and dropping the card to the battlefield. This will play the card face-down. 
+      </answer>
+    </entry>
+  </target>
+</faq>

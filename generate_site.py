@@ -10,7 +10,7 @@ def safe_name(name):
 
 def clean_markup(text):
     newtext = text.replace('[[', '').replace(']]', '').strip()
-    newtext = re.sub(r'(.)\n(.)', r'\1<br\/>\2', newtext)
+    newtext = re.sub(r'(.)\n(.)', r'\1<br/>\2', newtext)
     return newtext
 
 def mkdirp(directory):

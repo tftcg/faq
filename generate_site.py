@@ -8,7 +8,13 @@ import json
 def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
-def clean_markup(text):
+# Returns the inner xml of an Element; i.e. <a>Text <b>bob</b>. </a> would return 'Text <b>bob</b>. '
+# https://stackoverflow.com/questions/3443831/python-and-elementtree-return-inner-xml-excluding-parent-element
+def inner_xml(element):
+    return (element.text or '') + ''.join(ET.tostring(e, 'unicode') for e in element)
+
+def prepare_text(node):
+    text = inner_xml(node)
     newtext = text.replace('[[', '').replace(']]', '').strip()
     newtext = re.sub(r'(.)\n(.)', r'\1<br/>\2', newtext)
     return newtext
@@ -102,7 +108,7 @@ def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_clean_markup=clean_markup, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, f_get_xref=get_xref)
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, f_get_xref=get_xref)
 
         f = open(filename, "w")
         f.write(page)

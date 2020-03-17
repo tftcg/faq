@@ -8,7 +8,7 @@
     <entry id="2" tags="Deck">
       <question>What is the 'Deck'?</question>
       <answer>
-Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the <a href="#scrap">scrap</a> and that becomes your new deck. 
+Your battle cards are shuffled and placed face down. You draw cards from your deck. As soon as the deck runs out of cards you reshuffle the scrap and that becomes your new deck. 
     </answer>
     </entry>
     <entry id="3" tags="Play">
@@ -26,7 +26,7 @@ The act of taking a battle card from the deck and placing it face up onto the Ba
     <entry id="5" tags="KO">
       <question>What is 'KO Area'?</question>
       <answer>
-Most KO'd characters are moved to the KO area (see <a href="#battlemaster">Battlemaster</a> and <a href="#weaponizer">Weaponizer</a> for notable exceptons). 
+Most KO'd characters are moved to the KO area (see <a href="https://tftcg.info/keywords/battle-master.html">Battlemaster</a> and <a href="https://tftcg.info/keywords/weaponizer.html">Weaponizer</a> for notable exceptons). 
 The KO area is usually off to the side of the main battlefield, out of the way of the play but still visible. Note that characters may still be flipped as a part of your flip action, however they cannot be flipped by battle cards unless a card specifically states it can. 
     </answer>
     </entry>
@@ -67,6 +67,12 @@ Used battle cards are placed face-up in the scrap pile. Either player may examin
     </entry>
   </target>
   -->
+    <entry id="19" tags="Deck">
+      <question>What is the 'Scrap'?</question>
+      <answer>
+Battle cards you have used, either by playing or flipping, are discarded at the end of your turn. The discard pile is called the scrap. 
+    </answer>
+    </entry>
   </target>
   <target name="Battle Icon">
     <entry id="12">

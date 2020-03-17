@@ -1,5 +1,6 @@
 import os
 import glob
+import re
 from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 import json
@@ -8,7 +9,9 @@ def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
 def clean_markup(text):
-    return text.replace('[[', '').replace(']]', '')    #.replace('\n', '<br/>')
+    newtext = text.replace('[[', '').replace(']]', '').strip()
+    newtext = re.sub(r'(.)\n(.)', r'\1<br\/>\2', newtext)
+    return newtext
 
 def mkdirp(directory):
     # TODO: if os.path.isfile(directory)

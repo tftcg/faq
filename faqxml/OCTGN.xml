@@ -47,5 +47,10 @@
       <answer>Hold down shift while you are dragging and dropping the card to the battlefield. This will play the card face-down. 
       </answer>
     </entry>
+    <entry id="13">
+      <question>How do I draw an arrow between two cards?</question>
+      <answer>Hold down shift, click on the first card, then drag to the second card. This is commonly used to indicate that you are using the first card to attack the seconc card, or that the first card is adding an effect to the second card.
+      </answer>
+    </entry>
   </target>
 </faq>

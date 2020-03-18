@@ -31,6 +31,12 @@
            You should be able to use WINE to play on Linux, or you could install Windows onto Linux on a VM.
       </answer>
     </entry>
+    <entry id="5">
+      <question>Why do I get told that "The following image packs could not be installed"?</question>
+      <answer>
+           Double check that you have installed the Transformers game pack. OCTGN will report the image pack is invalid or broken when the game isn't installed. 
+      </answer>
+    </entry>
   </target>
   <target name="Playing OCTGN">
     <entry id="12">

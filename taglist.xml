@@ -608,6 +608,9 @@
             <tag name="Captain Omega Supreme - Transport - City Defender"/>
         </category>
     </category>
+    <category name="Starter Packs">
+        <tag name="Devestator Pack"/>
+    </category>
     <category name="Tournaments">
         <category name="Constructed">
             <tag name="Permitted and Banned Cards"/>

@@ -21,4 +21,80 @@
           </answer>
       </entry>
   </target>
+  <target name="Metroplex Pack">
+      <entry id="2">
+          <question>What battle cards are in the Metroplex Pack?</question>
+          <answer>
+                3 x Armored Plating
+                3 x Backup Plan
+                2 x Combat Training
+                2 x Data Pad
+                3 x Flamethrower
+                3 x Force Field
+                3 x Handheld Blaster
+                3 x Height Advantage
+                3 x Improvised Shield
+                3 x Inspiring Leadership
+                3 x Protected By Metroplex
+                3 x Rally the City
+                3 x Rapid Conversion
+                3 x Supercharge
+          </answer>
+      </entry>
+  </target>
+  <target name="Autobot Starter Set">
+      <entry id="3">
+          <question>What battle cards are in the Autotbot Starter Set?</question>
+          <answer>
+                2 x Armored Plating
+                2 x Data Pad
+                2 x Debilitating Crystal
+                2 x Flamethrower
+                2 x Grenade Launcher
+                2 x Handheld Blaster
+                2 x Improvised Shield
+                2 x Incoming Transmission
+                2 x Inspiring Leadership
+                2 x Leap into Battle
+                2 x New Designs
+                2 x Piercing Blaster
+                2 x Plasma Burst
+                2 x Primary Laser
+                2 x Ramming Speed
+                2 x Rapid Ascent
+                2 x Rapid Conversion
+                2 x Ready for Action
+                2 x Repair Bay
+                2 x Team-Up Tactics
+          </answer>
+      </entry>
+  </target>
+  <target name="Bumblebee vs Megatron Starter Set">
+      <entry id="4">
+          <question>What battle cards are in the Bumblebee vs Megatron Starter Set?</question>
+          <answer>
+                2 x Primary Laser
+                2 x Armored Plating
+                2 x Handheld Blaster
+                2 x Improvised Shield
+                2 x Enforcement Batons
+                2 x Security Console
+                2 x Backup Beam
+                2 x Grenade Launcher
+                2 x Sparring Gear
+                2 x Stealthiness
+                2 x Vaporize
+                2 x New Designs
+                2 x Surprise Attack
+                2 x Rest and Relaxation
+                2 x Supercharge
+                2 x Reckless Charge
+                2 x Pep Talk
+                2 x Equipment Enthusiast
+                2 x Inferno Breath
+                1 x Leap of Faith
+                1 x Strafing Run
+          </answer>
+      </entry>
+  </target>
 </faq>

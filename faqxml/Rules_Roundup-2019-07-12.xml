@@ -41,8 +41,7 @@ Focus says &#x201C;Before flipping battle cards when battling&gt;, and Anticipat
 Yes.
 </answer>
     </entry>
-    <entry id="1-6">
-      <!-- GENERAL -->
+    <entry id="1-6" tags="Play">
       <question>
 Can you scrap cards from your hand? This came up from playing a lot of the Turbo format with my kids. Inevitably someone had one or two cards that you couldn&#x2019;t play with the characters. If you&#x2019;re allowed to scrap them from your hand when drawn it would still allow those cards to be useful for the pips when battling.
 </question>
@@ -76,8 +75,7 @@ If a number of *colors* other than four colors is flipped, Grapple&#x2019;s bot 
 Editor&#x2019;s note: It&#x2019;s important when considering Grapple&#x2019;s abilities to make a distinction between the number of battle icon *colors* and the number of battle icons. So long as the number of battle icon colors is exactly 4, the number of cards they appear on do not matter. So, in the scenario described in this question, his ability would trigger as four colors appear, even though there are multiple instances of a green battle icon.
 </answer>
     </entry>
-    <entry id="1-10">
-      <!-- GENERAL -->
+    <entry id="1-10" tags="Battle Master">
       <question>
 Do you have to attach the Battle Master's Upgrade side? My Wife pulled 2 Lionizers in Turbo Sealed but pull no Orange. When I KO'd Lionizer, would she be forced to scrap EM24 IR Laser Launcher, or could she choose not to attach Lionizer?
 </question>
@@ -85,8 +83,7 @@ Do you have to attach the Battle Master's Upgrade side? My Wife pulled 2 Lionize
 Yes, you must attach the Battle Master&#x2019;s Upgrade side. When you attach the Battle Master, you must scrap the older upgrade; in this case, EM24 IR Laser Launcher.
 </answer>
     </entry>
-    <entry id="1-11">
-      <!-- GENERAL -->
+    <entry id="1-11" tags="Deck">
       <question>
 Are the current face-down side of a character card considered Hidden Information?
 </question>
@@ -94,8 +91,7 @@ Are the current face-down side of a character card considered Hidden Information
 No. You may see the face-down sides of your opponent&#x2019;s character cards at any time, but please ask respectfully.
 </answer>
     </entry>
-    <entry id="1-12">
-      <!-- GENERAL -->
+    <entry id="1-12" tags="Sideboarding">
       <question>
 If I open a card in a Limited Format that says "grab a card from outside the game" am I allowed to dip into my personal collection for this (assuming I brought it ahead of time) or just the sideboard of my Limited Pool? If I have a lesser collection (or am just lazy), am I allowed to use cards from my Sideboard for my Outside-of-the-Game-Board? Or is this a Head Judge for an event decision?
 </question>
@@ -103,6 +99,8 @@ If I open a card in a Limited Format that says "grab a card from outside the gam
 For casual play, you are allowed to use whatever parameters your play group has decided on. For competitive play, in Limited, you are only allowed to draw &#x201C;outside the game&#x201D; cards from your Limited pool.
 
 Editor&#x2019;s Note: In our initial ruling, we misstated our answer and accidentally ruled that &#x201C;outside the game&#x201D; cards must be limited to one&#x2019;s sideboard. This is incorrect.
+
+TFTCG.Info's Note: They later changed competitive rules to require battle cards to come from the sideboard. 
 </answer>
     </entry>
     <entry id="1-13">

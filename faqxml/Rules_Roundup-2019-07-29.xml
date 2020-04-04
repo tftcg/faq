@@ -9,8 +9,7 @@ How does Predaking hold five weapons? Does he wad them up into a ball and throw 
 One finger per trigger.
 </answer>
     </entry>
-    <entry id="2-2">
-      <!-- GENERAL -->
+    <entry id="2-2" tags="Play">
       <question>
 Concerning &#x201C;start of turn&#x201D; effects timing around the drawing 1 card from the general card rules: which of the following is true:
     You Draw 1 card from general game rules, then activate Start of Turn Effects (like Omnibots&#x2019; start of turn effects playing upgrades).
@@ -176,7 +175,7 @@ When I equip Erratic Energy Grenade, do I subtract one health right away? Is the
 Erratic Energy Grenade does 1 damage at the beginning of your turn.
 </answer>
     </entry>
-    <entry id="2-22">
+    <entry id="2-22" tags="Tap Ability">
       <question>
 How do I use a Micromaster&#x2019;s tap ability? Let's say Raider Detour. I tap Raider Detour, then scrap a card with a blue battle icon, and draw my 2 cards. Does that mean I have used Raider Detour and now I attack with one of my other characters?
 </question>
@@ -184,7 +183,7 @@ How do I use a Micromaster&#x2019;s tap ability? Let's say Raider Detour. I tap 
 You can still play an Action or Upgrade if you haven&#x2019;t and would like to, but then you can move on. Each turn, you can use one tap ability. Raider Detour will not be able to attack because he is tapped. However if he were untapped somehow, he would still be able to attack.
 </answer>
     </entry>
-    <entry id="2-23">
+    <entry id="2-23" tags="Metroplex - Autobot City,Six-Gun - Heavy Weapon Expert">
       <question>
 My friends and I played a game where Metroplex had Six-Gun deployed in alt mode. The defending player had a tapped character with 1 health left and an untapped, undamaged character. Metroplex converted into bot mode and attacked the character, and Six-Gun's ability KO&#x2019;d the defending character. Does Metroplex still flip battle cards to see if it can use the bot mode ability or does the death of the tapped character mean the attack stops?
 </question>
@@ -226,7 +225,7 @@ In the FAQ it says that Sergeant Cog, as a Weaponizer, interacts with cards in t
 No, it is a Weaponizer and not a Battle Master.
 </answer>
     </entry>
-    <entry id="2-28">
+    <entry id="2-28" tags="Battle Icon">
       <question>
 Question about green battle icons and how the work. The text on a card with a green icon says "After a battle, you swap a card from your hand with a green icon you flipped" does this mean since Swarm makes you flip the battle cards. Can you grab a green icon you flipped for Swarm after you battle?
 </question>
@@ -234,7 +233,7 @@ Question about green battle icons and how the work. The text on a card with a gr
 No, only cards with green battle icons that you flipped during that battle can be retrieved after the battle.
 </answer>
     </entry>
-    <entry id="2-29">
+    <entry id="2-29" tags="Blaster - Communications,Soundwave - Communications,I Still Function!">
       <question>
 Blaster vs. Soundwave. Ravage is in the KO area. Step #1, I play brainstorm. Step #2, I play I Still Function, which brings him back with 1 health. Step #3, I play Recover Cassette, which puts him under Soundwave to heal 2 damage. Now for the question: does I Still Function resolve and Ravage goes back into the KO area? Or does Ravage bypass that effect, thus he is not KO&#x2019;d?
 </question>
@@ -242,7 +241,7 @@ Blaster vs. Soundwave. Ravage is in the KO area. Step #1, I play brainstorm. Ste
 Ravage is not KO&#x2019;d. I Still Function does not find him on the battlefield.
 </answer>
     </entry>
-    <entry id="2-30">
+    <entry id="2-30" tags="Metroplex - Autobot City">
       <question>
 Can a 13-star character be put in the sideboard for a Metroplex deck and still fight with Metro's friends, swapping Metroplex out?
 </question>
@@ -250,7 +249,7 @@ Can a 13-star character be put in the sideboard for a Metroplex deck and still f
 You can have a 13-star character in your sideboard. However, Metroplex&#x2019;s 3 component bots enter the game only if Metroplex is your starting character. This means you could play the next game with only the 13-star character as your team, but this sounds unwise.
 </answer>
     </entry>
-    <entry id="2-31">
+    <entry id="2-31" tags="Blaster - Communications">
       <question>
 When I flip Blaster to his Bot Mode and Deploy a Mini-Cassette, am I required to play the top card of my deck? If not, can I look at it first?
 </question>
@@ -282,7 +281,7 @@ If I play Multi-Mission Gear on Private Camshaft first thing on my first turn, t
 Yes, after you&#x2019;re done with Private Camshaft&#x2019;s ability (including the Treasure Hunt it let you play) you would then handle other Omnibot abilities that trigger &#x201C;at the start of your first turn.&#x201D;
 </answer>
     </entry>
-    <entry id="2-35">
+    <entry id="2-35" tags="Battle Master,I Still Function!">
       <question>
 Once a Battle Master is in the KO pile does it still count as a character while in it's upgrade mode? Can I bring it back to the field with ISF? Is it forced back into bot mode to take the damage if it can? If not does it automatically equip? if it can equip, is it forced to ko pile at the end of the turn?
 </question>
@@ -290,7 +289,7 @@ Once a Battle Master is in the KO pile does it still count as a character while 
 No, no, not applicable, not applicable, not applicable.
 </answer>
     </entry>
-    <entry id="2-36">
+    <entry id="2-36" tags="Captain Starscream - Infantry - Air Commander">
       <question>
 If I have Captain Starscream in bot mode, and I play Vandalize, and scrapping, say, two upgrades on Enemy 1 and one upgrade on Enemy 2, do I then do two damage to Enemy 1, and one damage to Enemy 2?
 </question>
@@ -298,7 +297,7 @@ If I have Captain Starscream in bot mode, and I play Vandalize, and scrapping, s
 Correct.
 </answer>
     </entry>
-    <entry id="2-37">
+    <entry id="2-37" tags="Scrapper - Constructicon Foreman,Devastator - Towering Warrior">
       <question>
 Are there any requirements to have the Constructicon Tower in play? Is a single Constructicon sufficient?
 </question>
@@ -306,7 +305,7 @@ Are there any requirements to have the Constructicon Tower in play? Is a single 
 You must have Scrapper on your team to start the game with the Tower in your KO area.
 </answer>
     </entry>
-    <entry id="2-38">
+    <entry id="2-38" tags="Major Soundwave - Espionage - Spy">
       <question>
 I'm playing Major Soundwave with Raider Ravage and Raider Laserbeak. It's my turn and all of my characters are untapped and in Bot mode. All of my opponents characters are tapped. I attack, or use the tap ability, of both Ravage and Laserbeak, then attack last with Soundwave, triggering his "When this attacks -- Untap each of your Spy Patrols" ability, which untaps Ravage and Laserbeak. After Soundwave's attack, since they were untapped before my turn ended, can I attack/tap again with Ravage and Laserbeak?
 </question>
@@ -314,7 +313,7 @@ I'm playing Major Soundwave with Raider Ravage and Raider Laserbeak. It's my tur
 You can attack again, but you cannot use tap abilities once you&#x2019;ve started attacking.
 </answer>
     </entry>
-    <entry id="2-39">
+    <entry id="2-39" tags="Optimus Prime - Gleaming Commander">
       <question>
 In sanctioned play, if my main deck team consists of General Optimus (Wave 3), Sentinel Ironhide (Wave 2), and Sentinel Prowl (Wave 2), and I have Sentinel Optimus (Wave 2) in my sideboard, can I exchange Optimuses (Optimi?) between games and still get the remaining Sentinels in my KO Area for an Optimus Maximus plan game 2?
 </question>
@@ -322,7 +321,7 @@ In sanctioned play, if my main deck team consists of General Optimus (Wave 3), S
 Yes.
 </answer>
     </entry>
-    <entry id="2-40">
+    <entry id="2-40" tags="Autobot Jazz - Special Ops">
       <question>
 If I have Jazz equipped with Point Defense System while defending against an enemy with exactly 2 pierce after combat flips, will this enable Jazz's ability to trigger if I flipped 2 white icons?
 </question>
@@ -330,7 +329,7 @@ If I have Jazz equipped with Point Defense System while defending against an ene
 No. Point Defense System doesn&#x2019;t cause a character to gain or lose pierce. The attacking character with pierce 2 will have its pierce reduced to 0, but it still has pierce. RIP Jazz.
 </answer>
     </entry>
-    <entry id="2-41">
+    <entry id="2-41" tags="Major Shockwave - Applied Sciences - Scientist">
       <question>
 So Major Shockwave's ability where he can play Decepticon cards or secret actions on the top of the player's deck as though they were in the player's hand, does this mean at any time since his other ability allows the player to look at the top of their deck at any time? So during attacks or while defending, and during my opponents turn can I play these cards as long as they're on the top of my deck? Or do these actions and upgrades count as the action and upgrade for the turn? And finally, can it only be done once a turn, or any number of times if I have three or so of those cards in a row on top of my deck?
 </question>
@@ -338,7 +337,7 @@ So Major Shockwave's ability where he can play Decepticon cards or secret action
 Major Shockwave&#x2019;s ability doesn&#x2019;t change when you can play any card. If you play an action from the top of your deck this way, that is your one action for that turn. If another effect allows you to play additional actions, you can keep playing them from the top of your deck, if applicable.
 </answer>
     </entry>
-    <entry id="2-42">
+    <entry id="2-42" tags="Secret Action">
       <question>
 Can the Secret Action be activated on your turn with the requirement is fulfilled?
 </question>
@@ -346,7 +345,7 @@ Can the Secret Action be activated on your turn with the requirement is fulfille
 Yes.
 </answer>
     </entry>
-    <entry id="2-43">
+    <entry id="2-43" tags="Inverted!,Play">
       <question>
 I have run into a situation where my deck had no cards and no discard pile to shuffle in. We ruled it as when I attacked or defended, I had no cards to flip so I added 0 to my attack and defense. We were wondering if this would be a proper ruling. Second, for the card Inverted. It says that for each orange pip you flip becomes a blue pip and vice versa. For cards that rely on you flipping a certain color pip, do the pips flipped count as what they are or the inverted color?
 </question>
@@ -370,7 +369,7 @@ When Bumbleebee - Legendary Warrior flips to alt mode to trigger its effect, doe
 Bumblebee can now attack any character, tapped or untapped. So if there&#x2019;s a character with Brave, Bumblebee must attack it. If there are multiple characters with Brave, Bumblebee must attack one of them. Your choice.
 </answer>
     </entry>
-    <entry id="2-46">
+    <entry id="2-46" tags="Wheeljack - Weapons Inventor">
       <question>
 I play Full Loadout on Wave 1 Wheeljack in Alt Mode. I play Multi-Tool, Multi-Mission Gear, and Field Communicator onto him. How are the triggers handled? Do I resolve each Upgrade and Wheeljack trigger mid-Loadout, or do I wait until I play all three upgrades then resolve the six triggers?
 </question>
@@ -378,7 +377,7 @@ I play Full Loadout on Wave 1 Wheeljack in Alt Mode. I play Multi-Tool, Multi-Mi
 Full Loadout will put all three upgrades onto Wheeljack. You then handle all of the triggers in an order of your choosing.
 </answer>
     </entry>
-    <entry id="2-47">
+    <entry id="2-47" tags="Private Camshaft - Special Ops - Scout,Private Downshift - Special Ops - Security Agent,Sergeant Overdrive - Special Ops - Strategist">
       <question>
 With the Omnibots' "Start of Your First Turn" triggers, do I play the appropriate upgrades before or after I draw my card for the turn?
 </question>
@@ -386,7 +385,7 @@ With the Omnibots' "Start of Your First Turn" triggers, do I play the appropriat
 After.
 </answer>
     </entry>
-    <entry id="2-48">
+    <entry id="2-48" tags="Thundercracker - Mach Warrior">
       <question>
 How does Brainstorm work, exactly? Do I play the two actions from my hand immediately, then resolve them, or do I resolve the first action before playing and resolving the second action? What if a character's trigger happens between actions, such as Wave 1 Thundercracker? Are triggers resolved before or after the action that triggers them?
 </question>
@@ -394,7 +393,7 @@ How does Brainstorm work, exactly? Do I play the two actions from my hand immedi
 You play one action from your hand, then you play the second, then resolve the triggers caused by those actions.
 </answer>
     </entry>
-    <entry id="2-49">
+    <entry id="2-49" tags="Captain Wheeljack - Engineering - Scientist">
       <question>
 I have a team of all Autobots, including Captain Wheeljack in bot mode. I play Brainstorm, and as the first action, play Confidence. Do I play my second action for Brainstorm now, or do I resolve Confidence first and play an action via Confidence? Either way, this will trigger Captain Wheeljack&#x2019;s "When you play your third action" ability. Do I draw the card for that immediately, or do I wait until all the actions played via Confidence and Brainstorm have resolved?
 </question>
@@ -402,7 +401,7 @@ I have a team of all Autobots, including Captain Wheeljack in bot mode. I play B
 Finish Confidence first (including possibly playing another action), then play your second action for Brainstorm. After that&#x2019;s done, all abilities that triggered while Brainstorm was resolving happen in an order of your choosing.
 </answer>
     </entry>
-    <entry id="2-50">
+    <entry id="2-50" tags="Blurr - Fastest Bot in the Galaxy">
       <question>
 If Blurr attacks and deals damage thus triggering his effect, if the only untapped character(s) left have stealth, will Blurr not untap? Or will it still untap and just not attack again?
 </question>

@@ -263,9 +263,13 @@ After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x20
     </entry>
   </target>
   <target name="Blast Suit">
-      <entry id="43"><question>Let&#x2019;s say I have a character with 10 health, 8 damage counters, and a Blast Suit. I also have Heroic Resolve face down. My opponent attacks, and my character would take 3 attack damage. What happens?</question><answer>If there are multiple abilities trying to modify how much attack damage the upgraded character would take, the controller of that character decides what order to apply them in. In this example, you could choose either of the following:</answer></entry>
+      <entry id="43">
+          <question>Let&#x2019;s say I have a character with 10 health, 8 damage counters, and a Blast Suit. I also have Heroic Resolve face down. My opponent attacks, and my character would take 3 attack damage. What happens?</question>
+          <answer>If there are multiple abilities trying to modify how much attack damage the upgraded character would take, the controller of that character decides what order to apply them in. In this example, you could choose either of the following:
     Reveal Heroic Resolve first. Instead of taking 3 attack damage, your character is now taking 1 attack damage (enough to drop it to 1 health). Now Blast Suit applies, and the 1 attack damage becomes 0 attack damage, which is half of 1 rounded down. Your character ends up taking no attack damage and Blast Suit is scrapped.
     Apply Blast Suit first. Instead of taking 3 attack damage, your character now is taking 1 attack damage, which is half of 3 rounded down. This isn&#x2019;t enough attack damage to KO your character, so Heroic Resolve stays face down.
+          </answer>
+      </entry>
 </target>
   <target name="Composite Armor">
     <entry id="44">

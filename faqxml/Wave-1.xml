@@ -315,10 +315,11 @@ enemy he attacks.
     </entry>
   </target>
   <target name="Chop Shop - Sneaky Insecticon">
-    <entry id="32" mode="alt"><question>
+      <entry id="32" mode="alt">
+          <question>
     If I scrap three Upgrades from Chop Shop, can I repair 1 damage from each of three of my
-</question>
 Insecticons, or do I have to repair 3 damage from one Insecticon?
+</question>
 <answer>
     You can choose a different Insecticon for each repair.
 </answer>

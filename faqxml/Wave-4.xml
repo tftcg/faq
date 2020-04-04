@@ -94,7 +94,7 @@ After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x20
       <answer>Captain Omega Supreme can only be combined once. The redundant ability is ignored.</answer>
     </entry>
   </target>
-  <target name="Skytread - Special Ops - Soldier">
+  <target name="Raider Skytread - Special Ops - Soldier">
     <entry id="12" mode="alt">
       <question>What happens if my last two characters are those two and they&#x2019;re both KO&#x2019;d at the same time. Dpo their Revenge abilities work and keep me in the game?</question>
       <answer>Unfortunately, no. Once your last character is KO&#x2019;d, you lose the game. Fortunately, having them both KO&#x2019;d at the same time is pretty unusual.</answer>
@@ -110,7 +110,7 @@ After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x20
       <answer>Once the ability triggers, it doesn&#x2019;t matter how many Upgrades Captain Astrotrain has. He&#x2019;ll keep the specified bonus until end of turn.</answer>
     </entry>
   </target>
-  <target name="Captain Jetfire - Engineering - Air Guardian(alt mode)">
+  <target name="Captain Jetfire - Engineering - Air Guardian">
     <entry id="15" mode="alt">
       <question>What happens if I have fewer than 5 cards in my deck when I flip Captain Jetfire to alt mode?</question>
       <answer>In that case you&#x2019;ll reveal as many cards as you can from your deck, then&#x2014;leaving those cards aside&#x2014;shuffle your scrap pile to rebuild your deck. Then reveal more cards so a total of 5 are revealed. The revealed cards that aren&#x2019;t Upgrades will be only cards in your scrap pile when you&#x2019;re done.</answer>
@@ -355,7 +355,7 @@ After a Battle Master or Weaponizer Upgrade would leave the battlefield, it&#x20
       <answer>It will have 1 attack. Although a character&#x2019;s attack can&#x2019;t go below 0, the -1 applies again once your character&#x2019;s attack is raised.</answer>
     </entry>
   </target>
-  <target name="Head-On Collision">
+  <target name="Head-on Collision">
     <entry id="59">
       <question>If the chosen character attacks in alt mode but then somehow flips to a different mode in the middle of the attack, does it keep the +3 attack bonus?</question>
       <answer>No. The +3 attack bonus applies as long as the character is attacking and in alt mode. As soon as one of those isn&#x2019;t true, the bonus stops applying. However, if the character returns to alt mode while it&#x2019;s still attacking, the bonus would apply again.</answer>

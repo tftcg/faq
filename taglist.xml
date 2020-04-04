@@ -494,7 +494,7 @@
             <tag name="Dual Wield"/>
             <tag name="Energy Transfer"/>
             <tag name="Erratic Cannon"/>
-            <tag name="Even The Score"/>
+            <tag name="Even the Score"/>
             <tag name="Fight for Position"/>
             <tag name="Guarded Posture"/>
             <tag name="Hazardous Shield"/>
@@ -562,7 +562,7 @@
             <tag name="Private Highjump - Off-Road Patrol - Infiltration"/>
             <tag name="Private Hot Rod - Infantry - Soldier"/>
             <tag name="Private Powertrain - Off-Road Patrol - Patrol Leader"/>
-            <tag name="Private Seawatch - Rescue Patrol - Search and Rescue"/>
+            <tag name="Private Seawatch - Rescue Patrol - Search &amp; Rescue"/>
             <tag name="Private Sidetrack - Battle Patrol - Demolitions"/>
             <tag name="Private Smokescreen - Special Ops - Soldier"/>
             <tag name="Private Sunrunner - Battle Patrol - Air Defense"/>
@@ -591,7 +591,7 @@
             <tag name="Sergeant Crosshairs - Artillery - Weapons Supervisor"/>
             <tag name="Sergeant Mirage - Special Ops - Spy"/>
             <tag name="Sergeant Soundblaster - Weapons Arms Dealer"/>
-            <tag name="Sergeant Springer - Special Ops Defense"/>
+            <tag name="Sergeant Springer - Special Ops - Aerial Defense"/>
             <tag name="Sergeant Thundercracker - Infantry - Seeker"/>
             <tag name="Skytread (Plane) - Special Ops Soldier"/>
             <tag name="Skytread (Tank) - Special Ops Soldier"/>
@@ -605,7 +605,7 @@
             <tag name="Sergeant Six-Gun - Artillery - Soldier"/>
             <tag name="Raider Brunt - Weapon - Soldier"/>
             <tag name="Nightbird - Enigmatic Agent"/>
-            <tag name="Raider Skytread - Special Ops Soldier"/>
+            <tag name="Raider Skytread - Special Ops - Soldier"/>
             <tag name="Captain Omega Supreme - Transport - City Defender"/>
         </category>
     </category>

@@ -610,6 +610,9 @@
         </category>
     </category>
     <category name="Starter Packs">
+        <tag name="Autobot Starter Set"/>
+        <tag name="Metroplex Pack"/>
+        <tag name="Bumblebee vs Megatron Starter Set"/>
         <tag name="Devestator Pack"/>
     </category>
     <category name="Tournaments">

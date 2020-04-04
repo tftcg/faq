@@ -48,19 +48,24 @@ An oblong of colour in the right hand corner of a battle card.
 Used battle cards are placed face-up in the scrap pile. Either player may examine either scrap pile at any time. As soon as the deck runs out of cards, the scrap pile is shuffled to form the new deck. 
     </answer>
     </entry>
-  <!--
-    <entry id="9">
+    <entry id="9" tags="Deck">
       <question>What is a 'Battle Card'?</question>
-      <answer>TODO
+      <answer>
+          Your deck has two types of card in it, cards which are placed on the table at the start of the game and cards that are placed in a face-down stack. The Battle Cards are the cards that are placed in the face-down stack. To date they will say either Action or Upgrade on them on the middle left of the deck, and they are all the same size. They all have the same grey/white/red background image.
     </answer>
     </entry>
-    <entry id="10">
+    <entry id="10" tags="Deck">
       <question>What is a 'Character Card'?</question>
-      <answer>TODO
+      <answer>
+          Your deck has two types of card in it, cards which are placed on the table at the start of the game and cards that are placed in a face-down stack. The Character Cards represent particular Transformers and are placed on the table. They have a star cost (in the bottom left hand corner of one side of the card). In the middle of the card a 'mode' will be indicated. 
     </answer>
     </entry>
+    <entry id="21" tags="Deck">
+      <question>What is a 'Stratagem Card'?</question>
+      <answer>
+          Your deck has two types of card in it, cards which are placed on the table at the start of the game and cards that are placed in a face-down stack. The Stratagem Cards represent a background theme and are placed on the table. They have a star cost (in the bottom left hand corner of one side of the card). In the middle of the card they state that they are a 'STRATAGEM'. 
+    </answer>
     </entry>
-  -->
     <entry id="11" tags="Faction">
       <question>What is a 'Faction'?</question>
       <answer>Characters belong to a Faction. Currently each Transformer can only belong to one Faction, though there are characters in the Transformer storylines who were double-agents and so that may change. There are currently (Wave 5) three factions in the game, Autobots, Decepticons and Mercenaries. 
@@ -123,9 +128,9 @@ Flip [x] more battle cards when defending.
             Yes, Focus stacks. Per the 2.0 Rules; Focus is a single action, so if a character has multiple instances of focus, add the numbers together to determine how many cards to look at. For example, if a character has Focus 1 and is upgraded with a utility that gives it another instance of Focus 1, look at the top two cards of your deck before flipping battle cards. You may scrap any number of them and put the rest back on top of your deck in any order.
         </answer>
     </entry>
-    <entry id="18" tags="Trait">
+    <entry id="18" tags="Deck">
       <question>What is a 'Trait'?</question>
-      <answer>Traits appear with icons under character names. For example, Ranged, Car, and Titan Master. </answer>
+      <answer>Traits appear on Character Cards as icons under the character names. For example, Ranged, Car, and Titan Master. </answer>
     </entry>
   </target>
 </faq>

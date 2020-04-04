@@ -1,32 +1,33 @@
 <tags name="FAQ">
     <category name="Keywords">
-        <tag name="Play" markup_required="true"/>
-        <tag name="Deck" markup_required="true"/>
-        <tag name="Faction" markup_required="true"/>
-        <tag name="Star" markup_required="true"/>
-        <tag name="Bold" markup_required="true"/>
-        <tag name="Attacking" markup_required="true"/>
-        <tag name="Tough" markup_required="true"/>
-        <tag name="Pierce" markup_required="true"/>
-        <tag name="Focus" markup_required="true"/>
         <tag name="Action" markup_required="true"/>
-        <tag name="Combiner" markup_required="true"/>
-        <tag name="Enigma" markup_required="true"/>
-        <tag name="Triple Changer" markup_required="true"/>
-        <tag name="Brave" markup_required="true"/>
-        <tag name="Stealth" markup_required="true"/>
-        <tag name="Plan" markup_required="true"/>
-        <tag name="Secret Action" markup_required="true"/>
-        <tag name="Tap Ability" markup_required="true"/>
-        <tag name="Upgrade" markup_required="true"/>
-        <tag name="KO" markup_required="true"/>
-        <tag name="Trigger" markup_required="true"/>
-        <tag name="Bounty" markup_required="true"/>
-        <tag name="Safeguard" markup_required="true"/>
-        <tag name="Revenge" markup_required="true"/>
-        <tag name="Battle Master" markup_required="true"/>
-        <tag name="Weaponizer" markup_required="true"/>
+        <tag name="Attacking" markup_required="true"/>
         <tag name="Battle Icon" markup_required="true"/>
+        <tag name="Battle Master" markup_required="true"/>
+        <tag name="Bold" markup_required="true"/>
+        <tag name="Bounty" markup_required="true"/>
+        <tag name="Brave" markup_required="true"/>
+        <tag name="Combiner" markup_required="true"/>
+        <tag name="Deck" markup_required="true"/>
+        <tag name="Enigma" markup_required="true"/>
+        <tag name="Faction" markup_required="true"/>
+        <tag name="Focus" markup_required="true"/>
+        <tag name="KO" markup_required="true"/>
+        <tag name="Pierce" markup_required="true"/>
+        <tag name="Plan" markup_required="true"/>
+        <tag name="Play" markup_required="true"/>
+        <tag name="Revenge" markup_required="true"/>
+        <tag name="Safeguard" markup_required="true"/>
+        <tag name="Secret Action" markup_required="true"/>
+        <tag name="Star" markup_required="true"/>
+        <tag name="Stealth" markup_required="true"/>
+        <tag name="Tap Ability" markup_required="true"/>
+        <tag name="Tough" markup_required="true"/>
+        <tag name="Trait" markup_required="true"/>
+        <tag name="Trigger" markup_required="true"/>
+        <tag name="Triple Changer" markup_required="true"/>
+        <tag name="Upgrade" markup_required="true"/>
+        <tag name="Weaponizer" markup_required="true"/>
     </category>
     <category name="Wave 1">
         <category name="Battle Cards">

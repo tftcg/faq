@@ -61,7 +61,7 @@ Used battle cards are placed face-up in the scrap pile. Either player may examin
     </entry>
     </entry>
   -->
-    <entry id="11">
+    <entry id="11" tags="Faction">
       <question>What is a 'Faction'?</question>
       <answer>Characters belong to a Faction. Currently each Transformer can only belong to one Faction, though there are characters in the Transformer storylines who were double-agents and so that may change. There are currently (Wave 5) three factions in the game, Autobots, Decepticons and Mercenaries. 
     </answer>

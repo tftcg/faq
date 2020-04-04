@@ -46,7 +46,7 @@ def get_xref(xref):
     else:
         source_name = faq_node.attrib['name']
 
-    return [source_name, source_url, node]
+    return [source_name, source_url, node, xref_data[0]]
 
 
 def source_image_name(source_name):

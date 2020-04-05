@@ -75,7 +75,7 @@ If Reclaim is the last card in your deck and Major Shockwave is in Bot mode, whe
 Your deck will need to be shuffled immediately in this scenario. Reclaim will not be able to find an upgrade and will have no further effect. Major Shockwave will stand around looking confused.
 </answer>
     </entry>
-    <entry id="3-10">
+    <entry id="3-10" tags="Battle Master,Weaponizer,KO,Tie-Break">
       <question>
 If a Battle Master or Weaponizer is in the KO Pile, and the match runs to time and damage on all characters is assessed, should they count their damage for that total, or are they simply an upgrade with no damage on them?
 </question>
@@ -117,13 +117,13 @@ No. Full Loadout specifically says &#x201C;A weapon, an armor, and a utility&#x2
     </entry>
     <entry id="3-15">
       <question>
-Can "Interpret The Airwaves be placed in a deck without Blaster and be used (not played) only for the Pips?
+Can "Interpret the Airwaves be placed in a deck without Blaster and be used (not played) only for the Pips?
 </question>
       <answer>
 Yes, it can.
 </answer>
     </entry>
-    <entry id="3-16">
+    <entry id="3-16" tags="Private Sideswipe - Infantry - Soldier">
       <question>
 Private Sideswipe - Does his effect apply twice if you can somehow manage to get him to flip to car mode, back to bot mode to car mode again?
 </question>
@@ -131,7 +131,7 @@ Private Sideswipe - Does his effect apply twice if you can somehow manage to get
 Yes. If you can pull it off, that would work.
 </answer>
     </entry>
-    <entry id="3-17">
+    <entry id="3-17" tags="Battle Master,Cornered!">
       <question>
 Would Cornered work on a Battle Master causing it to flip to its upgrade side? If yes, what would happen to the upgrade?
 </question>
@@ -139,15 +139,19 @@ Would Cornered work on a Battle Master causing it to flip to its upgrade side? I
 No, you can&#x2019;t flip a Battle Master while it&#x2019;s on the battlefield.
 </answer>
     </entry>
-    <entry id="3-18">
+    <entry id="3-18" tags="Deck">
       <question>
 I have run into a situation where my deck had no cards and no discard pile to shuffle in. We ruled it as when I attacked or defended, I had no cards to flip so I added 0 to my attack and defense. We were wondering if this would be a proper ruling.
-
-Second, for the card Inverted. It says that each orange pip you flip becomes a blue pip and vice versa. For cards that rely on you flipping a certain color pip, do the pips flipped count as what they are, or the inverted color?
 </question>
       <answer>
 If your deck and scrap pile are empty, you don't flip any cards and the game proceeds.
-
+</answer>
+    </entry>
+    <entry id="3-19" tags="Inverted!">
+      <question>
+Second, for the card Inverted. It says that each orange pip you flip becomes a blue pip and vice versa. For cards that rely on you flipping a certain color pip, do the pips flipped count as what they are, or the inverted color?
+</question>
+      <answer>
 For Inverted, there's no sequence when the icon changes from one color to another. They are changed from the moment Inverted is played and stay so as long as Inverted is on the character.
 </answer>
     </entry>

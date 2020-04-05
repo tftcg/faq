@@ -19,7 +19,7 @@ If the opponent has no untapped characters, you will attack again with the last 
     </entry>
     <entry id="6-3">
       <question>
-I believe I know the answer to this one, but asking for clarity purposes - I attack with 5 ATK/Pierce 7 onto a character with Point Defense System. Does the final attack get reduced to ATK 5/Pierce 5 (which I believe is the correct answer) or ATK 5/Pierce 3?
+I believe I know the answer to this one, but asking for clarity purposes - I attack with 5 ATK/Pierce 7 onto a character with Point-Defense System. Does the final attack get reduced to ATK 5/Pierce 5 (which I believe is the correct answer) or ATK 5/Pierce 3?
         </question>
       <answer>
 It would be reduced to 5 Attack, Pierce 5.
@@ -49,7 +49,7 @@ Callous Leadership says "move up to 5 damage counters from..." and I was asked i
 Yes, you can move 5 damage to a character even if they have fewer than 5 health remaining.
       </answer>
     </entry>
-    <entry id="6-7">
+    <entry id="6-7" tags="Chop Shop - Sneaky Insecticon,Thrust - Supersonic Interceptor">
       <question>
 Please clarify the interaction between Thrust and Chop Shop under the following scenario:
     Chop Shop flips to bot-mode
@@ -66,7 +66,7 @@ Is this correct?
 You can choose to resolve Thrust and Chop Shop&#x2019;s abilities in this order. You could also choose to resolve them in the other order, but that would probably not turn out as well for you, so maybe don&#x2019;t.
       </answer>
     </entry>
-    <entry id="6-8">
+    <entry id="6-8" tags="Thrust - Supersonic Interceptor">
       <question>
 In a situation where someone is using Thrust and an Anticipation Engine attached to a different bot, could that person use Thrust's ability multiple times if they flip a Ready for Action using the Anticipation Engine?
         </question>
@@ -82,9 +82,9 @@ If Dreadwing - Sky Destroyer has 2 Spinner Rims attached and flips a white trigg
 Both copies of Spinner Rims will trigger and allow you to flip an extra Battle Card, for a total of two, in this scenario.
       </answer>
     </entry>
-    <entry id="6-10">
+    <entry id="6-10" tags="Omega Supreme - Autobot Defense Base">
       <question>
-So Ultra Magnus armor on Omega Supreme: does the armor reduce the damage that Omega takes from his soak 2 ability in bot mode?
+So Ultra Magnus Armor on Omega Supreme: does the armor reduce the damage that Omega takes from his soak 2 ability in bot mode?
         </question>
       <answer>
 Ultra Magnus Armor would not reduce the damage Omega Supreme would take because the damage is still Attack damage.

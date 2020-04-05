@@ -20,7 +20,7 @@ Is this intended?
 Changing the tapped/untapped status of a character does not affect whether it is attacking or not. At the end of that attack, if your opponent has any untapped characters, your turn ends. Otherwise, continue attacking with any of your untapped characters.
 </answer>
     </entry>
-    <entry id="5-3">
+    <entry id="5-3" tags="Kickback - Cunning Insecticon,Demolisher - Devoted Decepticon">
       <question>
 My question is in regard to Wave 1 Kickback and Demolisher. If the ability states to flip two extra battlecards for each other Insecticon you started the game with, or flip extra battle cards equal to your defense, and you don&#x2019;t flip a white on your initial two flips, does a white battle icon flipped during those extra flips cause you to flip two extra cards?
         </question>
@@ -30,16 +30,16 @@ It doesn&#x2019;t matter when the white icon is flipped. The first time it&#x201
     </entry>
     <entry id="5-4">
       <question>
-I have Cliffjumper in car mode with a metal detector.
+I have Cliffjumper in Car mode with a Metal Detector.
 Cliffjumper attacks and taps.
-Metal detector flips over Turbo Boosters.
+Metal Detector flips over Turbo Boosters.
 Does Cliffjumper attack untapped?
         </question>
       <answer>
 Yes, he does.
 </answer>
     </entry>
-    <entry id="5-5">
+    <entry id="5-5" tags="Specialist Flamewar - Special Ops - Hunter">
       <question>
 Since it sounds like (understandably) that a comprehensive rules document might take a while, perhaps you could answer a more specific timing question then.
 
@@ -68,7 +68,7 @@ If a character changes type - what happens to the upgrade?
 Traits, like Melee, are only requirements for upgrades to be attached to a character. Once attached, they stay on when a character flips between alt and bot modes.
 </answer>
     </entry>
-    <entry id="5-7">
+    <entry id="5-7" tags="Motormaster - Stunticon Leader">
       <question>
 Does Motormaster's ability prevent damage from character abilities? Such as Decepticon Shockwave's discard damage or Superion's first time combining ability if the opponent decided to target someone other than Motormaster?
         </question>
@@ -76,7 +76,7 @@ Does Motormaster's ability prevent damage from character abilities? Such as Dece
 Yes.
 </answer>
     </entry>
-    <entry id="5-8">
+    <entry id="5-8" tags="Blurr - Fastest Bot in the Galaxy">
       <question>
 If I have a Grenade Launcher on Blurr, and I attack a tapped character, which will occur first: the second attack on an untapped character, or scrapping the Grenade Launcher?
         </question>
@@ -84,7 +84,7 @@ If I have a Grenade Launcher on Blurr, and I attack a tapped character, which wi
 Grenade Launcher only lasts for one battle, so it would be scrapped before Blurr launches his second attack.
 </answer>
     </entry>
-    <entry id="5-9">
+    <entry id="5-9" tags="Optimus Maximus - Ultimate Defender,Optimus Prime - Gleaming Commander">
       <question>
 In a previous round up you mentioned that if Ion Blaster of Optimus Prime was played on Optimus, then he was combined into Optimus Maximus, the Combiner could keep that weapon, however not if he was already formed. I&#x2019;m assuming that also works with Laser Cutlass? Play onto an Aerialbot for example. Once combined, does it carry over?
         </question>

@@ -81,7 +81,7 @@
             <tag name="New Designs"/>
             <tag name="Null-Ray of Starscream"/>
             <tag name="One Shall Stand, One Shall Fall"/>
-            <tag name="Peace through Tyranny"/>
+            <tag name="Peace Through Tyranny"/>
             <tag name="Photon Bomb"/>
             <tag name="Piercing Blaster"/>
             <tag name="Plasma Burst"/>
@@ -620,6 +620,7 @@
             <tag name="Permitted and Banned Cards"/>
             <tag name="Sideboarding"/>
         </category>
+        <tag name="Tie-Break"/>
     </category>
     <category name="OCTGN">
         <tag name="Installing OCTGN"/>

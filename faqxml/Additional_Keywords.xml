@@ -36,6 +36,12 @@ The KO area is usually off to the side of the main battlefield, out of the way o
 When a character's damage equals or exceeds its health (including any additional health bonuses), the character is said to be KO'd.
     </answer>
     </entry>
+    <entry id="22" tags="KO">
+      <question>Do upgrades stay on KO'd characters?</question>
+      <answer>
+When a character is knocked out, their upgrades go to the scrap pile, unless a card ability says otherwise. 
+    </answer>
+    </entry>
     <entry id="7" tags="Battle Icon">
       <question>What is a 'Battle Icon'?</question>
       <answer>

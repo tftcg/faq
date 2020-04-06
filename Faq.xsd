@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="entry">
+    <xs:complexType>
+      <xs:sequence>
+          <!-- TODO: Make this into a choice between xrefs and q and a. Currently it allows q/a to be missed -->
+        <xs:element name="question" minOccurs="0" maxOccurs="1" type="xs:string"/> 
+        <xs:element name="answer" minOccurs="0" maxOccurs="1">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <!-- TODO: Is it id/tags OR id/xref? -->
+      <xs:attribute name="id" type="xs:string" use="required"/>
+      <xs:attribute name="xref" type="xs:string" use="optional"/>
+      <xs:attribute name="tags" type="xs:string" use="optional"/>
+      <xs:attribute name="mode" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="target">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="entry"/>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="faq">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="target"/>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="source" type="xs:string" use="optional"/>
+      <!-- TODO: is there a URL type? -->
+      <xs:attribute name="source_url" type="xs:string" use="required"/>
+      <xs:attribute name="sourced_at" type="xs:string" use="optional"/>
+      <xs:attribute name="published_date" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema> 

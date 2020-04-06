@@ -452,9 +452,8 @@ more than one card on top of your deck this way, you can put them there in any o
   <target name="Electrified Spikes">
       <entry id="72">
           <question>If I flip four orange battle icons, does it deal 2 damage?</question>
-          <answer>No. The ability does a maximum of 1 damage, no matter how many orange battle icons you</answer>
+          <answer>No. The ability does a maximum of 1 damage, no matter how many orange battle icons you flip. </answer>
       </entry>
-flip.
       <entry id="73">
           <question>What happens if the 1 damage KO&#x2019;s the attacker?</question>
           <answer>In that case, no damage is done to the defender.</answer>
@@ -871,7 +870,7 @@ deck.
       </answer>
     </entry>
   </target>
-  <target name="Black Battle Icon" tags="Battle Icon">
+  <target name="Black Battle Icon">
     <entry id="129" tags="Battle Icon">
       <question>
           What is a Black Battle Icon?

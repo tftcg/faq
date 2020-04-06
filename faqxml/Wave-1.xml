@@ -163,11 +163,11 @@ mode.
         </question>
         <answer>
              Triggered abilities always happen one at a time. If all the triggered abilities belong to one player, that
-    </answer>
-    </entry>
 player chooses their order. If both players have triggered abilities that would happen at the same time,
 first the player whose turn it is handles all their triggered abilities in any order, then the other player
 does the same with their triggered abilities.
+    </answer>
+    </entry>
 </target>
   <target name="Arcee - Skilled Fighter">
     <entry id="17" mode="alt">

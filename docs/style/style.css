@@ -56,7 +56,7 @@ p, ul, ol {
     display: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   #fort-max-link {
     background-color: #343a40;
   }

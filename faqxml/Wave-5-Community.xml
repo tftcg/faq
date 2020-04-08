@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<faq name="Wave 5 Communuty FAQ" source="Community" source_url="https://github.com/tftcg/faq">
+    <target name="Titan Master">
+      <entry id="1">
+        <question>
+             How many stars does a Titan Master (Head mode + Body mode) cost?
+        </question>
+        <answer>
+            For the purposes of building a deck, both the Head and the Body star costs are included in the 25-star limit unless otherwise stated.
+
+            For the purposes of the cost of the character, then both the Head and Body apply. For example, a 7-star Body with a 4-star Head is 11-stars and thus can use an Energy Pack. 
+        </answer>
+        </entry>
+        <entry id="2">
+            <question>
+                Can you I Still Function a character with a Body mode?
+            </question>
+            <answer>
+                <!-- Content in a WotC article I believe -->
+                You can't bring back a Body mode character from KO because it won't have a head. Effects like I Still Function! and Involuntary Promotion will not work at all to bring back a Body. You can, however, bring back a Head from KO because it will be in Bot mode (and only in Bot mode). 
+            </answer>
+        </entry>
+    </target>
+</faq>

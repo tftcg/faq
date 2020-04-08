@@ -22,6 +22,7 @@
         <tag name="Star" markup_required="true"/>
         <tag name="Stealth" markup_required="true"/>
         <tag name="Tap Ability" markup_required="true"/>
+        <tag name="Titan Master" markup_required="true"/>
         <tag name="Tough" markup_required="true"/>
         <tag name="Trait" markup_required="true"/>
         <tag name="Trigger" markup_required="true"/>
@@ -609,6 +610,165 @@
             <tag name="Captain Omega Supreme - Transport - City Defender"/>
         </category>
     </category>
+    <category name="Wave 5">
+        <category name="Battle Cards">
+            <tag name="Belligerence"/>
+            <tag name="Blade Flurry"/>
+            <tag name="Brass Knuckles"/>
+            <tag name="Camien Crash"/>
+            <tag name="Concealing Contrails"/>
+            <tag name="Conversion Expertise"/>
+            <tag name="Counterespionage"/>
+            <tag name="Crystal of Power"/>
+            <tag name="Decoy Flares"/>
+            <tag name="Disassemble"/>
+            <tag name="Electro-Optical Visor"/>
+            <tag name="Emergency Barricade"/>
+            <tag name="Emergency Repair Patch"/>
+            <tag name="End Hostilities"/>
+            <tag name="Energon Mace"/>
+            <tag name="Enhanced Power Cell"/>
+            <tag name="Escape Capsule"/>
+            <tag name="Fusion Borer"/>
+            <tag name="Ghost Shield"/>
+            <tag name="Grav-Inhibitor"/>
+            <tag name="Hand-To-Hand Combat"/>
+            <tag name="Handheld Blaster"/>
+            <tag name="Headbutt"/>
+            <tag name="High Five"/>
+            <tag name="Hit and Run"/>
+            <tag name="Hold The Line"/>
+            <tag name="Holomatter Projector"/>
+            <tag name="Hull Down"/>
+            <tag name="Improvised Shield"/>
+            <tag name="Industrial-Grade Phase Charge"/>
+            <tag name="Intrusion Countermeasures Software"/>
+            <tag name="Junk Cannon"/>
+            <tag name="Laser Scalpel"/>
+            <tag name="Last Stand"/>
+            <tag name="Lock On Target"/>
+            <tag name="Lose the Initiative"/>
+            <tag name="Lucky Dodge"/>
+            <tag name="Magnetic Dysfunction Ray"/>
+            <tag name="Master of Metallikato"/>
+            <tag name="Master Sword"/>
+            <tag name="Mission Briefing"/>
+            <tag name="Nitro Booster"/>
+            <tag name="Overrule"/>
+            <tag name="Paralyzo Box"/>
+            <tag name="Plasma Horns"/>
+            <tag name="Precision Fire"/>
+            <tag name="Reflect Damage"/>
+            <tag name="Regenerative Core"/>
+            <tag name="Scout Armor"/>
+            <tag name="Scouting Mission"/>
+            <tag name="Sharpened Talons"/>
+            <tag name="Sonic Stun-Gun"/>
+            <tag name="Speed Trap"/>
+            <tag name="Spiked Bracelet"/>
+            <tag name="Spy Satellite Uplink"/>
+            <tag name="Spymaster's Ruse"/>
+            <tag name="Staggering Might"/>
+            <tag name="Supporting Fire"/>
+            <tag name="Temporal Quagmire"/>
+            <tag name="Triangulator"/>
+            <tag name="Tripwire"/>
+            <tag name="Trithyllium Shield"/>
+            <tag name="Turn the Tide"/>
+            <tag name="Versatility"/>
+        </category>
+        <category name="Stratagems">
+            <tag name="Aerial Enhancements"/>
+            <tag name="All-Out"/>
+            <tag name="Better Things To Do Than Die"/>
+            <tag name="Bike Gang"/>
+            <tag name="Camien Toughness"/>
+            <tag name="Data Protection"/>
+            <tag name="Duty &amp; Honor"/>
+            <tag name="Heroic Spotlight"/>
+            <tag name="Infiltration"/>
+            <tag name="Jurassic Punch"/>
+            <tag name="Master Converter"/>
+            <tag name="Me Grimlock, You Grimlock!"/>
+            <tag name="Metallikato Stance"/>
+            <tag name="More Guns"/>
+            <tag name="Orbital Strike"/>
+            <tag name="Pop-Up Attack"/>
+            <tag name="Resilience"/>
+            <tag name="Revenge"/>
+            <tag name="Sabotage"/>
+            <tag name="Saturation Bombing"/>
+            <tag name="Science Officer"/>
+            <tag name="Sky Shadow Sync"/>
+            <tag name="Stealth Mission"/>
+            <tag name="Strategic Airlift"/>
+            <tag name="Swap Heads"/>
+            <tag name="Systems Enhancement"/>
+            <tag name="The Usurper"/>
+            <tag name="Villainous Spotlight"/>
+            <tag name="Weapons Cache"/>
+            <tag name="Who's Next?"/>
+        </category>
+        <category name="Characters">
+            <tag name="Apex"/>
+            <tag name="Autobot Gears - Transport &amp; Reconnaissance"/>
+            <tag name="Autobot Nautica - Camien Engineer"/>
+            <tag name="Autobot Outback - Gunner"/>
+            <tag name="Autobot Stylor"/>
+            <tag name="Autobot Teslor"/>
+            <tag name="Autobot Whirl - Aerial Assault"/>
+            <tag name="Beachcomber - Geologist"/>
+            <tag name="Bludgeon - Electric Warrior"/>
+            <tag name="Brainstorm - Biomechanical Engineer"/>
+            <tag name="Brawn - Demolitions"/>
+            <tag name="Brisko"/>
+            <tag name="Chasm"/>
+            <tag name="Chromedome - Computer Programmer"/>
+            <tag name="Clobber"/>
+            <tag name="Crankcase - Data Collector"/>
+            <tag name="Decepticon Pounce - Infiltrator"/>
+            <tag name="Decepticon Quake - Ground Assault"/>
+            <tag name="Doomshot"/>
+            <tag name="Fangry - Sky Tracker"/>
+            <tag name="Flameout"/>
+            <tag name="Flintlock"/>
+            <tag name="Freezeout"/>
+            <tag name="Grax"/>
+            <tag name="Horri-Bull - Ground Trooper"/>
+            <tag name="Kreb"/>
+            <tag name="Megatron - Fallen Hero"/>
+            <tag name="Mindwipe - Hypnotist"/>
+            <tag name="Monxo"/>
+            <tag name="Nightracer - Gunner"/>
+            <tag name="Ominus"/>
+            <tag name="Optimus Prime - Legendary Warrior"/>
+            <tag name="Parsec"/>
+            <tag name="Roadbuster - Ground Assault Commander"/>
+            <tag name="Sergeant Kup - Wrecker Leader"/>
+            <tag name="Skullsmasher - Swamp Warrior"/>
+            <tag name="Sky Shadow (Plane)"/>
+            <tag name="Sky Shadow (Tank)"/>
+            <tag name="Topspin - Air &amp; Space Assault"/>
+            <tag name="Tracks - Autobot Warrior"/>
+            <tag name="Twin Twist - Demolitions"/>
+            <tag name="Vorath"/>
+            <tag name="Windcharger - Autobot Warrior"/>
+            <tag name="Windsweeper - Air Defense"/>
+            <tag name="Wingspan - Data Processor"/>
+            <tag name="Wolfwire - Ground Tracker"/>
+            <tag name="Fortress Maximus - Great War Veteran"/>
+            <tag name="Cerebros - City Commander"/>
+            <tag name="Emissary"/>
+            <tag name="Arcana"/>
+            <tag name="Tidal Wave - Dark Fleet (Aircraft Carrier)"/>
+            <tag name="Tidal Wave - Dark Fleet (Transport)"/>
+            <tag name="Tidal Wave - Dark Fleet (Battleship)"/>
+            <tag name="Convex"/>
+            <tag name="Perceptor - Precise Sniper"/>
+            <tag name="Sky Shadow - Elite Warrior"/>
+            <tag name="Tidal Wave - Dark Fleet"/>
+        </category>
+    </category>
     <category name="Starter Packs">
         <tag name="Autobot Starter Set"/>
         <tag name="Metroplex Pack"/>
@@ -627,3 +787,4 @@
         <tag name="Playing OCTGN"/>
     </category>
 </tags>
+<cards>

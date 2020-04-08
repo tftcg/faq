@@ -32,742 +32,742 @@
     </category>
     <category name="Wave 1">
         <category name="Battle Cards">
-            <tag name="Aerial Recon"/>
-            <tag name="Agility of Bumblebee"/>
-            <tag name="Armed Hovercraft"/>
-            <tag name="Armored Plating"/>
-            <tag name="Backup Plan"/>
-            <tag name="Battle Ready"/>
-            <tag name="Blast Shield"/>
-            <tag name="Body Armor"/>
-            <tag name="Bombing Run"/>
-            <tag name="Brainstorm"/>
-            <tag name="Bug Bomb"/>
-            <tag name="Cargo Trailer"/>
-            <tag name="Collateral Damage"/>
-            <tag name="Combat Training"/>
-            <tag name="Computer Sabotage"/>
-            <tag name="Crushing Size"/>
-            <tag name="Crushing Treads"/>
-            <tag name="Cybertonium Bow"/>
-            <tag name="Data Bank"/>
-            <tag name="Data Pad"/>
-            <tag name="Debilitating Crystal"/>
-            <tag name="Dino-Chomp!"/>
-            <tag name="Disarm"/>
-            <tag name="Disruption"/>
-            <tag name="Disruptive Entrance"/>
-            <tag name="Drill Arms"/>
-            <tag name="Emergency Maintenance"/>
-            <tag name="Energon Axe"/>
-            <tag name="Equipment Enthusiast"/>
-            <tag name="Flamethrower"/>
-            <tag name="Force Field"/>
-            <tag name="Fusion Cannon of Megatron"/>
-            <tag name="Grenade Launcher"/>
-            <tag name="Handheld Blaster"/>
-            <tag name="Heroism"/>
-            <tag name="Hunker Down"/>
-            <tag name="I Still Function!"/>
-            <tag name="Improvised Shield"/>
-            <tag name="Incoming Transmission"/>
-            <tag name="Inspiring Leadership"/>
-            <tag name="Ion Blaster of Optimus Prime"/>
-            <tag name="Jaws of Steel"/>
-            <tag name="Leap Into Battle"/>
-            <tag name="Matrix of Leadership"/>
-            <tag name="Medic!"/>
-            <tag name="Multi-Mission Gear"/>
-            <tag name="Multi-Tool"/>
-            <tag name="New Designs"/>
-            <tag name="Null-Ray of Starscream"/>
-            <tag name="One Shall Stand, One Shall Fall"/>
-            <tag name="Peace Through Tyranny"/>
-            <tag name="Photon Bomb"/>
-            <tag name="Piercing Blaster"/>
-            <tag name="Plasma Burst"/>
-            <tag name="Power Sword"/>
-            <tag name="Primary Laser"/>
-            <tag name="Ramming Speed"/>
-            <tag name="Rapid Ascent"/>
-            <tag name="Rapid Conversion"/>
-            <tag name="Ready For Action"/>
-            <tag name="Reinforced Plating"/>
-            <tag name="Repair Bay"/>
-            <tag name="Roll Out!"/>
-            <tag name="Salvage for Parts"/>
-            <tag name="Scrapper Gauntlets"/>
-            <tag name="Security Checkpoint"/>
-            <tag name="Shock Absorbers"/>
-            <tag name="Start Your Engines"/>
-            <tag name="Static Laser of Ironhide"/>
-            <tag name="Strafing Run"/>
-            <tag name="Supercharge"/>
-            <tag name="Swap Missions"/>
-            <tag name="Swap Parts"/>
-            <tag name="Swarm!"/>
-            <tag name="System Reboot"/>
-            <tag name="Team-Up Tactics"/>
-            <tag name="The Bigger They Are"/>
-            <tag name="Thermal Weaponry"/>
-            <tag name="Treasure Hunt"/>
-            <tag name="Turbo Boosters"/>
-            <tag name="Zap"/>
-            <tag name="All-Out Attack"/>
-            <tag name="Tandem Targeting System"/>
-            <tag name="Height Advantage"/>
-            <tag name="Protected by Metroplex"/>
-            <tag name="Rally the City"/>
+            <tag name="Aerial Recon" wave_code="WV1"/>
+            <tag name="Agility of Bumblebee" wave_code="WV1"/>
+            <tag name="Armed Hovercraft" wave_code="WV1"/>
+            <tag name="Armored Plating" wave_code="WV1"/>
+            <tag name="Backup Plan" wave_code="WV1"/>
+            <tag name="Battle Ready" wave_code="WV1"/>
+            <tag name="Blast Shield" wave_code="WV1"/>
+            <tag name="Body Armor" wave_code="WV1"/>
+            <tag name="Bombing Run" wave_code="WV1"/>
+            <tag name="Brainstorm" wave_code="WV1"/>
+            <tag name="Bug Bomb" wave_code="WV1"/>
+            <tag name="Cargo Trailer" wave_code="WV1"/>
+            <tag name="Collateral Damage" wave_code="WV1"/>
+            <tag name="Combat Training" wave_code="WV1"/>
+            <tag name="Computer Sabotage" wave_code="WV1"/>
+            <tag name="Crushing Size" wave_code="WV1"/>
+            <tag name="Crushing Treads" wave_code="WV1"/>
+            <tag name="Cybertonium Bow" wave_code="WV1"/>
+            <tag name="Data Bank" wave_code="WV1"/>
+            <tag name="Data Pad" wave_code="WV1"/>
+            <tag name="Debilitating Crystal" wave_code="WV1"/>
+            <tag name="Dino-Chomp!" wave_code="WV1"/>
+            <tag name="Disarm" wave_code="WV1"/>
+            <tag name="Disruption" wave_code="WV1"/>
+            <tag name="Disruptive Entrance" wave_code="WV1"/>
+            <tag name="Drill Arms" wave_code="WV1"/>
+            <tag name="Emergency Maintenance" wave_code="WV1"/>
+            <tag name="Energon Axe" wave_code="WV1"/>
+            <tag name="Equipment Enthusiast" wave_code="WV1"/>
+            <tag name="Flamethrower" wave_code="WV1"/>
+            <tag name="Force Field" wave_code="WV1"/>
+            <tag name="Fusion Cannon of Megatron" wave_code="WV1"/>
+            <tag name="Grenade Launcher" wave_code="WV1"/>
+            <tag name="Handheld Blaster" wave_code="WV1"/>
+            <tag name="Heroism" wave_code="WV1"/>
+            <tag name="Hunker Down" wave_code="WV1"/>
+            <tag name="I Still Function!" wave_code="WV1"/>
+            <tag name="Improvised Shield" wave_code="WV1"/>
+            <tag name="Incoming Transmission" wave_code="WV1"/>
+            <tag name="Inspiring Leadership" wave_code="WV1"/>
+            <tag name="Ion Blaster of Optimus Prime" wave_code="WV1"/>
+            <tag name="Jaws of Steel" wave_code="WV1"/>
+            <tag name="Leap Into Battle" wave_code="WV1"/>
+            <tag name="Matrix of Leadership" wave_code="WV1"/>
+            <tag name="Medic!" wave_code="WV1"/>
+            <tag name="Multi-Mission Gear" wave_code="WV1"/>
+            <tag name="Multi-Tool" wave_code="WV1"/>
+            <tag name="New Designs" wave_code="WV1"/>
+            <tag name="Null-Ray of Starscream" wave_code="WV1"/>
+            <tag name="One Shall Stand, One Shall Fall" wave_code="WV1"/>
+            <tag name="Peace Through Tyranny" wave_code="WV1"/>
+            <tag name="Photon Bomb" wave_code="WV1"/>
+            <tag name="Piercing Blaster" wave_code="WV1"/>
+            <tag name="Plasma Burst" wave_code="WV1"/>
+            <tag name="Power Sword" wave_code="WV1"/>
+            <tag name="Primary Laser" wave_code="WV1"/>
+            <tag name="Ramming Speed" wave_code="WV1"/>
+            <tag name="Rapid Ascent" wave_code="WV1"/>
+            <tag name="Rapid Conversion" wave_code="WV1"/>
+            <tag name="Ready For Action" wave_code="WV1"/>
+            <tag name="Reinforced Plating" wave_code="WV1"/>
+            <tag name="Repair Bay" wave_code="WV1"/>
+            <tag name="Roll Out!" wave_code="WV1"/>
+            <tag name="Salvage for Parts" wave_code="WV1"/>
+            <tag name="Scrapper Gauntlets" wave_code="WV1"/>
+            <tag name="Security Checkpoint" wave_code="WV1"/>
+            <tag name="Shock Absorbers" wave_code="WV1"/>
+            <tag name="Start Your Engines" wave_code="WV1"/>
+            <tag name="Static Laser of Ironhide" wave_code="WV1"/>
+            <tag name="Strafing Run" wave_code="WV1"/>
+            <tag name="Supercharge" wave_code="WV1"/>
+            <tag name="Swap Missions" wave_code="WV1"/>
+            <tag name="Swap Parts" wave_code="WV1"/>
+            <tag name="Swarm!" wave_code="WV1"/>
+            <tag name="System Reboot" wave_code="WV1"/>
+            <tag name="Team-Up Tactics" wave_code="WV1"/>
+            <tag name="The Bigger They Are" wave_code="WV1"/>
+            <tag name="Thermal Weaponry" wave_code="WV1"/>
+            <tag name="Treasure Hunt" wave_code="WV1"/>
+            <tag name="Turbo Boosters" wave_code="WV1"/>
+            <tag name="Zap" wave_code="WV1"/>
+            <tag name="All-Out Attack" wave_code="PRO"/>
+            <tag name="Tandem Targeting System" wave_code="PRO"/>
+            <tag name="Height Advantage" wave_code="MPX"/>
+            <tag name="Protected by Metroplex" wave_code="MPX"/>
+            <tag name="Rally the City" wave_code="MPX"/>
         </category>
         <category name="Characters">
-            <tag name="Arcee - Skilled Fighter"/>
-            <tag name="Autobot Cosmos - Recon &amp; Communication"/>
-            <tag name="Autobot Hound - Long-Range Scout"/>
-            <tag name="Autobot Jazz - Special Ops"/>
-            <tag name="Autobot Mirage - Lone Wolf"/>
-            <tag name="Barrage - Merciless Insecticon"/>
-            <tag name="Bombshell - Insecticon Mind-Controller"/>
-            <tag name="Bumblebee - Courageous Scout"/>
-            <tag name="Bumblebee - Legendary Warrior"/>
-            <tag name="Chop Shop - Sneaky Insecticon"/>
-            <tag name="Chromia - Special Ops"/>
-            <tag name="Darkmount - Cruel Overlord"/>
-            <tag name="Deadlock - Bounty Hunter"/>
-            <tag name="Decepticon Shockwave - Cybertron Commander"/>
-            <tag name="Demolisher - Devoted Decepticon"/>
-            <tag name="Dinobot Sludge - Mighty Stomper"/>
-            <tag name="Dinobot Slug - Hot-Header Warrior"/>
-            <tag name="Dinobot Snarl - Desert Warrior"/>
-            <tag name="Dinobot Swoop - Fearsome Flyer"/>
-            <tag name="Flamewar - Veteran Decepticon"/>
-            <tag name="Grimlock - Dinobot Leader"/>
-            <tag name="Inferno - Fearless Firefighter"/>
-            <tag name="Insecticon Skrapnel - Insecticon Leader"/>
-            <tag name="Jetfire - Air Guardian"/>
-            <tag name="Kickback - Cunning Insecticon"/>
-            <tag name="Megatron - Decepticon Leader"/>
-            <tag name="Megatron - Living Weapon"/>
-            <tag name="Nemesis Prime - Dark Clone"/>
-            <tag name="Optimus Prime - Battlefield Legend"/>
-            <tag name="Optimus Prime - Freedom Fighter"/>
-            <tag name="Prowl - Military Strategist"/>
-            <tag name="Ramjet - Sky Smasher"/>
-            <tag name="Ransack - Insecticon Commando"/>
-            <tag name="Sergeant Kup - Veteran Sergeant"/>
-            <tag name="Skywarp - Sneaky Prankster"/>
-            <tag name="Starscream - Air Commander"/>
-            <tag name="Starscream - Scheming Second-In-Command"/>
-            <tag name="Sunstorm - Fusion Flyer"/>
-            <tag name="Thundercracker - Mach Warrior"/>
-            <tag name="Wheeljack - Weapons Inventor"/>
-            <tag name="Bumblebee - Brave Warrior"/>
-            <tag name="Ironhide - Veteran Autobot"/>
-            <tag name="Optimus Prime - Autobot Leader"/>
-            <tag name="Red Alert - Security Chief"/>
-            <tag name="Cliffjumper - Renegade Warrior"/>
-            <tag name="Slipstream - Strategic Seeker"/>
-            <tag name="Metroplex - Autobot City"/>
-            <tag name="Scamper - City Patrol"/>
-            <tag name="Six-Gun - Heavy Weapon Expert"/>
-            <tag name="Slammer - Combat Drone"/>
+            <tag name="Arcee - Skilled Fighter" wave_code="WV1"/>
+            <tag name="Autobot Cosmos - Recon &amp; Communication" wave_code="WV1"/>
+            <tag name="Autobot Hound - Long-Range Scout" wave_code="WV1"/>
+            <tag name="Autobot Jazz - Special Ops" wave_code="WV1"/>
+            <tag name="Autobot Mirage - Lone Wolf" wave_code="WV1"/>
+            <tag name="Barrage - Merciless Insecticon" wave_code="WV1"/>
+            <tag name="Bombshell - Insecticon Mind-Controller" wave_code="WV1"/>
+            <tag name="Bumblebee - Courageous Scout" wave_code="WV1"/>
+            <tag name="Bumblebee - Legendary Warrior" wave_code="WV1"/>
+            <tag name="Chop Shop - Sneaky Insecticon" wave_code="WV1"/>
+            <tag name="Chromia - Special Ops" wave_code="WV1"/>
+            <tag name="Darkmount - Cruel Overlord" wave_code="WV1"/>
+            <tag name="Deadlock - Bounty Hunter" wave_code="WV1"/>
+            <tag name="Decepticon Shockwave - Cybertron Commander" wave_code="WV1"/>
+            <tag name="Demolisher - Devoted Decepticon" wave_code="WV1"/>
+            <tag name="Dinobot Sludge - Mighty Stomper" wave_code="WV1"/>
+            <tag name="Dinobot Slug - Hot-Header Warrior" wave_code="WV1"/>
+            <tag name="Dinobot Snarl - Desert Warrior" wave_code="WV1"/>
+            <tag name="Dinobot Swoop - Fearsome Flyer" wave_code="WV1"/>
+            <tag name="Flamewar - Veteran Decepticon" wave_code="WV1"/>
+            <tag name="Grimlock - Dinobot Leader" wave_code="WV1"/>
+            <tag name="Inferno - Fearless Firefighter" wave_code="WV1"/>
+            <tag name="Insecticon Skrapnel - Insecticon Leader" wave_code="WV1"/>
+            <tag name="Jetfire - Air Guardian" wave_code="WV1"/>
+            <tag name="Kickback - Cunning Insecticon" wave_code="WV1"/>
+            <tag name="Megatron - Decepticon Leader" wave_code="WV1"/>
+            <tag name="Megatron - Living Weapon" wave_code="WV1"/>
+            <tag name="Nemesis Prime - Dark Clone" wave_code="WV1"/>
+            <tag name="Optimus Prime - Battlefield Legend" wave_code="WV1"/>
+            <tag name="Optimus Prime - Freedom Fighter" wave_code="WV1"/>
+            <tag name="Prowl - Military Strategist" wave_code="WV1"/>
+            <tag name="Ramjet - Sky Smasher" wave_code="WV1"/>
+            <tag name="Ransack - Insecticon Commando" wave_code="WV1"/>
+            <tag name="Sergeant Kup - Veteran Sergeant" wave_code="WV1"/>
+            <tag name="Skywarp - Sneaky Prankster" wave_code="WV1"/>
+            <tag name="Starscream - Air Commander" wave_code="WV1"/>
+            <tag name="Starscream - Scheming Second-In-Command" wave_code="WV1"/>
+            <tag name="Sunstorm - Fusion Flyer" wave_code="WV1"/>
+            <tag name="Thundercracker - Mach Warrior" wave_code="WV1"/>
+            <tag name="Wheeljack - Weapons Inventor" wave_code="WV1"/>
+            <tag name="Bumblebee - Brave Warrior" wave_code="ST1"/>
+            <tag name="Ironhide - Veteran Autobot" wave_code="ST1"/>
+            <tag name="Optimus Prime - Autobot Leader" wave_code="ST1"/>
+            <tag name="Red Alert - Security Chief" wave_code="ST1"/>
+            <tag name="Cliffjumper - Renegade Warrior" wave_code="PRO"/>
+            <tag name="Slipstream - Strategic Seeker" wave_code="PRO"/>
+            <tag name="Metroplex - Autobot City" wave_code="MPX"/>
+            <tag name="Scamper - City Patrol" wave_code="MPX"/>
+            <tag name="Six-Gun - Heavy Weapon Expert" wave_code="MPX"/>
+            <tag name="Slammer - Combat Drone" wave_code="MPX"/>
         </category>
     </category>
     <category name="Wave 2">
         <category name="Battle Cards">
-            <tag name="Aerialbot Enigma"/>
-            <tag name="Aerialbot Formation"/>
-            <tag name="Ancient Wisdom"/>
-            <tag name="Armored Plating"/>
-            <tag name="Attack Drone"/>
-            <tag name="Backup Beam"/>
-            <tag name="Bad Attitude"/>
-            <tag name="Bashing Shield"/>
-            <tag name="Bolt of Lightning"/>
-            <tag name="Bravery"/>
-            <tag name="Bumpers"/>
-            <tag name="Combat Commands"/>
-            <tag name="Confidence"/>
-            <tag name="Cooling Vents"/>
-            <tag name="Cornered!"/>
-            <tag name="Crash Landing"/>
-            <tag name="Decepticon Crown"/>
-            <tag name="Defensive Driving"/>
-            <tag name="Dinobot Enigma"/>
-            <tag name="Electrified Spikes"/>
-            <tag name="Enemy Combat Analysis"/>
-            <tag name="Energized Field"/>
-            <tag name="Energon Slingshot"/>
-            <tag name="Enforcement Batons"/>
-            <tag name="Erratic Lightning"/>
-            <tag name="Escape Route"/>
-            <tag name="Espionage"/>
-            <tag name="Evasive Maneuvers"/>
-            <tag name="Field Communicator"/>
-            <tag name="Field Repair"/>
-            <tag name="Fling"/>
-            <tag name="Focus Fire"/>
-            <tag name="Fog of War"/>
-            <tag name="Handheld Blaster"/>
-            <tag name="Heavy Handed"/>
-            <tag name="Improvised Shield"/>
-            <tag name="Inferno Breath"/>
-            <tag name="Intelligence Mission"/>
-            <tag name="Inverted!"/>
-            <tag name="Leap of Faith"/>
-            <tag name="Marksmanship"/>
-            <tag name="Master Plan"/>
-            <tag name="Mining Pick"/>
-            <tag name="Mounted Missiles"/>
-            <tag name="Noble's Blaster"/>
-            <tag name="Pep Talk"/>
-            <tag name="Power Punch"/>
-            <tag name="Predacon Enigma"/>
-            <tag name="Press the Advantage"/>
-            <tag name="Primary Laser"/>
-            <tag name="Rapid Conversion"/>
-            <tag name="Reckless Charge"/>
-            <tag name="Recon System"/>
-            <tag name="Rest and Relaxation"/>
-            <tag name="Scoundrel's Blaster"/>
-            <tag name="Scrounge"/>
-            <tag name="Secret Dealings"/>
-            <tag name="Security Console"/>
-            <tag name="Sentinel Enigma"/>
-            <tag name="Smelt"/>
-            <tag name="Sonic Scramble"/>
-            <tag name="Spare Parts"/>
-            <tag name="Sparring Gear"/>
-            <tag name="Stealthiness"/>
-            <tag name="Steamroll"/>
-            <tag name="Stunticon Enigma"/>
-            <tag name="Stunticon Swagger"/>
-            <tag name="Superior Cannon"/>
-            <tag name="Superior Jetpack"/>
-            <tag name="Superior Plating"/>
-            <tag name="Surprise Attack"/>
-            <tag name="Swindled"/>
-            <tag name="Tackle"/>
-            <tag name="Tech Research"/>
-            <tag name="Testify"/>
-            <tag name="Tooth and Claw"/>
-            <tag name="Underhanded Tactics"/>
-            <tag name="Universal Network Access"/>
-            <tag name="Unleash Potential"/>
-            <tag name="Vandalize"/>
-            <tag name="Vaporize"/>
-            <tag name="Builder's Tools"/>
-            <tag name="Constructicon Enigma"/>
-            <tag name="Heavy Landing"/>
-            <tag name="Reclaim"/>
-            <tag name="Work Overtime"/>
+            <tag name="Aerialbot Enigma" wave_code="ROC"/>
+            <tag name="Aerialbot Formation" wave_code="ROC"/>
+            <tag name="Ancient Wisdom" wave_code="ROC"/>
+            <tag name="Armored Plating" wave_code="ROC"/>
+            <tag name="Attack Drone" wave_code="ROC"/>
+            <tag name="Backup Beam" wave_code="ROC"/>
+            <tag name="Bad Attitude" wave_code="ROC"/>
+            <tag name="Bashing Shield" wave_code="ROC"/>
+            <tag name="Bolt of Lightning" wave_code="ROC"/>
+            <tag name="Bravery" wave_code="ROC"/>
+            <tag name="Bumpers" wave_code="ROC"/>
+            <tag name="Combat Commands" wave_code="ROC"/>
+            <tag name="Confidence" wave_code="ROC"/>
+            <tag name="Cooling Vents" wave_code="ROC"/>
+            <tag name="Cornered!" wave_code="ROC"/>
+            <tag name="Crash Landing" wave_code="ROC"/>
+            <tag name="Decepticon Crown" wave_code="ROC"/>
+            <tag name="Defensive Driving" wave_code="ROC"/>
+            <tag name="Dinobot Enigma" wave_code="ROC"/>
+            <tag name="Electrified Spikes" wave_code="ROC"/>
+            <tag name="Enemy Combat Analysis" wave_code="ROC"/>
+            <tag name="Energized Field" wave_code="ROC"/>
+            <tag name="Energon Slingshot" wave_code="ROC"/>
+            <tag name="Enforcement Batons" wave_code="ROC"/>
+            <tag name="Erratic Lightning" wave_code="ROC"/>
+            <tag name="Escape Route" wave_code="ROC"/>
+            <tag name="Espionage" wave_code="ROC"/>
+            <tag name="Evasive Maneuvers" wave_code="ROC"/>
+            <tag name="Field Communicator" wave_code="ROC"/>
+            <tag name="Field Repair" wave_code="ROC"/>
+            <tag name="Fling" wave_code="ROC"/>
+            <tag name="Focus Fire" wave_code="ROC"/>
+            <tag name="Fog of War" wave_code="ROC"/>
+            <tag name="Handheld Blaster" wave_code="ROC"/>
+            <tag name="Heavy Handed" wave_code="ROC"/>
+            <tag name="Improvised Shield" wave_code="ROC"/>
+            <tag name="Inferno Breath" wave_code="ROC"/>
+            <tag name="Intelligence Mission" wave_code="ROC"/>
+            <tag name="Inverted!" wave_code="ROC"/>
+            <tag name="Leap of Faith" wave_code="ROC"/>
+            <tag name="Marksmanship" wave_code="ROC"/>
+            <tag name="Master Plan" wave_code="ROC"/>
+            <tag name="Mining Pick" wave_code="ROC"/>
+            <tag name="Mounted Missiles" wave_code="ROC"/>
+            <tag name="Noble's Blaster" wave_code="ROC"/>
+            <tag name="Pep Talk" wave_code="ROC"/>
+            <tag name="Power Punch" wave_code="ROC"/>
+            <tag name="Predacon Enigma" wave_code="ROC"/>
+            <tag name="Press the Advantage" wave_code="ROC"/>
+            <tag name="Primary Laser" wave_code="ROC"/>
+            <tag name="Rapid Conversion" wave_code="ROC"/>
+            <tag name="Reckless Charge" wave_code="ROC"/>
+            <tag name="Recon System" wave_code="ROC"/>
+            <tag name="Rest and Relaxation" wave_code="ROC"/>
+            <tag name="Scoundrel's Blaster" wave_code="ROC"/>
+            <tag name="Scrounge" wave_code="ROC"/>
+            <tag name="Secret Dealings" wave_code="ROC"/>
+            <tag name="Security Console" wave_code="ROC"/>
+            <tag name="Sentinel Enigma" wave_code="ROC"/>
+            <tag name="Smelt" wave_code="ROC"/>
+            <tag name="Sonic Scramble" wave_code="ROC"/>
+            <tag name="Spare Parts" wave_code="ROC"/>
+            <tag name="Sparring Gear" wave_code="ROC"/>
+            <tag name="Stealthiness" wave_code="ROC"/>
+            <tag name="Steamroll" wave_code="ROC"/>
+            <tag name="Stunticon Enigma" wave_code="ROC"/>
+            <tag name="Stunticon Swagger" wave_code="ROC"/>
+            <tag name="Superior Cannon" wave_code="ROC"/>
+            <tag name="Superior Jetpack" wave_code="ROC"/>
+            <tag name="Superior Plating" wave_code="ROC"/>
+            <tag name="Surprise Attack" wave_code="ROC"/>
+            <tag name="Swindled" wave_code="ROC"/>
+            <tag name="Tackle" wave_code="ROC"/>
+            <tag name="Tech Research" wave_code="ROC"/>
+            <tag name="Testify" wave_code="ROC"/>
+            <tag name="Tooth and Claw" wave_code="ROC"/>
+            <tag name="Underhanded Tactics" wave_code="ROC"/>
+            <tag name="Universal Network Access" wave_code="ROC"/>
+            <tag name="Unleash Potential" wave_code="ROC"/>
+            <tag name="Vandalize" wave_code="ROC"/>
+            <tag name="Vaporize" wave_code="ROC"/>
+            <tag name="Builder's Tools" wave_code="DVR"/>
+            <tag name="Constructicon Enigma" wave_code="DVR"/>
+            <tag name="Heavy Landing" wave_code="DVR"/>
+            <tag name="Reclaim" wave_code="DVR"/>
+            <tag name="Work Overtime" wave_code="DVR"/>
         </category>
         <category name="Characters">
-            <tag name="Acid Storm - Toxic Terror"/>
-            <tag name="Air Raid - Fearless Flyer"/>
-            <tag name="Alpha Bravo - Airborne Special Ops"/>
-            <tag name="Autobot Hotrod - Impulsive Fighter"/>
-            <tag name="Autobot Mirage - Counterintelligence"/>
-            <tag name="Autobot Novastar - Search and Rescue"/>
-            <tag name="Autobot Springer - Aerial Defense"/>
-            <tag name="Blackwing Aerial Attacker"/>
-            <tag name="Blitzwing - Relentless Foe"/>
-            <tag name="Bluestreak - Reluctant Soldier"/>
-            <tag name="Blurr - Fastest Bot in the Galaxy"/>
-            <tag name="Bombshell - Decepticon Psy Ops"/>
-            <tag name="Breakdown - Paranoid Scout"/>
-            <tag name="Bumblebee - Trusted Lieutenant"/>
-            <tag name="Dead End - Doomed Loner"/>
-            <tag name="Decepticon Drag Strip - Cutthroat Warrior"/>
-            <tag name="Decepticon Venin - Insecticon Tyrant"/>
-            <tag name="Dinobot Sludge - Dino Demolitions"/>
-            <tag name="Dinobot Slug - Battering Ram"/>
-            <tag name="Dinobot Snarl - Spiked Battler"/>
-            <tag name="Dinobot Swoop - Bombardier"/>
-            <tag name="Dirge - Doombringer"/>
-            <tag name="Divebomb - Aerial Assault"/>
-            <tag name="Dreadwind - Air Defense"/>
-            <tag name="Fireflight - Sky High Recon"/>
-            <tag name="Grapple - Autobot Architect"/>
-            <tag name="Grimlock - Powerful Commander"/>
-            <tag name="Ironhide - Steadfast Brawler"/>
-            <tag name="Megatron - Arrogant Ruler"/>
-            <tag name="Motormaster - Stunticon Leader"/>
-            <tag name="Offroad - All-Terrain Soldier"/>
-            <tag name="Optimus Prime - Gleaming Commander"/>
-            <tag name="Predacon Headstrong - Ground Assault"/>
-            <tag name="Predacon Rampage - Savage Hunter"/>
-            <tag name="Prowl - Strategic Mastermind"/>
-            <tag name="Razorclaw - Predacon Leader"/>
-            <tag name="Ruckus - Combat Assault"/>
-            <tag name="Silverbolt - Aerialbot Leader"/>
-            <tag name="Skydive - Air Warfare Specialist"/>
-            <tag name="Skywarp - Teleporting Seeker"/>
-            <tag name="Starscream - Decepticon King"/>
-            <tag name="Sunstreaker - Bold Warrior"/>
-            <tag name="Thrust - Supersonic Interceptor"/>
-            <tag name="Torox - Fueler"/>
-            <tag name="Warpath - Confident Sharpshooter"/>
-            <tag name="Windblade - Combiner Hunter"/>
-            <tag name="Volcanicus - Fiery Champion"/>
-            <tag name="Predaking - Ferocious Hunter"/>
-            <tag name="Menasor - Menacing Colossus"/>
-            <tag name="Optimus Maximus - Ultimate Defender"/>
-            <tag name="Superion - Sky Protector"/>
-            <tag name="Dreadwing - Sky Destroyer"/>
-            <tag name="Omega Supreme - Autobot Defense Base"/>
-            <tag name="Bonecrusher - Demolitions"/>
-            <tag name="Hook - Surgical Engineer"/>
-            <tag name="Longhaul - Transport"/>
-            <tag name="Mixmaster - Materials Fabrication"/>
-            <tag name="Scavenger - Mining and Salvage"/>
-            <tag name="Scrapper - Constructicon Foreman"/>
-            <tag name="Devastator - Towering Warrior"/>
-            <tag name="Bumblebee - Least Likely, Most Dangerous"/>
-            <tag name="Megatron - Cybertronian Tyrant"/>
-            <tag name="Starscream - Decepticon Lieutenant"/>
-            <tag name="Windblade - Defender of Truth"/>
+            <tag name="Acid Storm - Toxic Terror" wave_code="ROC"/>
+            <tag name="Air Raid - Fearless Flyer" wave_code="ROC"/>
+            <tag name="Alpha Bravo - Airborne Special Ops" wave_code="ROC"/>
+            <tag name="Autobot Hotrod - Impulsive Fighter" wave_code="ROC"/>
+            <tag name="Autobot Mirage - Counterintelligence" wave_code="ROC"/>
+            <tag name="Autobot Novastar - Search and Rescue" wave_code="ROC"/>
+            <tag name="Autobot Springer - Aerial Defense" wave_code="ROC"/>
+            <tag name="Blackwing Aerial Attacker" wave_code="ROC"/>
+            <tag name="Blitzwing - Relentless Foe" wave_code="ROC"/>
+            <tag name="Bluestreak - Reluctant Soldier" wave_code="ROC"/>
+            <tag name="Blurr - Fastest Bot in the Galaxy" wave_code="ROC"/>
+            <tag name="Bombshell - Decepticon Psy Ops" wave_code="ROC"/>
+            <tag name="Breakdown - Paranoid Scout" wave_code="ROC"/>
+            <tag name="Bumblebee - Trusted Lieutenant" wave_code="ROC"/>
+            <tag name="Dead End - Doomed Loner" wave_code="ROC"/>
+            <tag name="Decepticon Drag Strip - Cutthroat Warrior" wave_code="ROC"/>
+            <tag name="Decepticon Venin - Insecticon Tyrant" wave_code="ROC"/>
+            <tag name="Dinobot Sludge - Dino Demolitions" wave_code="ROC"/>
+            <tag name="Dinobot Slug - Battering Ram" wave_code="ROC"/>
+            <tag name="Dinobot Snarl - Spiked Battler" wave_code="ROC"/>
+            <tag name="Dinobot Swoop - Bombardier" wave_code="ROC"/>
+            <tag name="Dirge - Doombringer" wave_code="ROC"/>
+            <tag name="Divebomb - Aerial Assault" wave_code="ROC"/>
+            <tag name="Dreadwind - Air Defense" wave_code="ROC"/>
+            <tag name="Fireflight - Sky High Recon" wave_code="ROC"/>
+            <tag name="Grapple - Autobot Architect" wave_code="ROC"/>
+            <tag name="Grimlock - Powerful Commander" wave_code="ROC"/>
+            <tag name="Ironhide - Steadfast Brawler" wave_code="ROC"/>
+            <tag name="Megatron - Arrogant Ruler" wave_code="ROC"/>
+            <tag name="Motormaster - Stunticon Leader" wave_code="ROC"/>
+            <tag name="Offroad - All-Terrain Soldier" wave_code="ROC"/>
+            <tag name="Optimus Prime - Gleaming Commander" wave_code="ROC"/>
+            <tag name="Predacon Headstrong - Ground Assault" wave_code="ROC"/>
+            <tag name="Predacon Rampage - Savage Hunter" wave_code="ROC"/>
+            <tag name="Prowl - Strategic Mastermind" wave_code="ROC"/>
+            <tag name="Razorclaw - Predacon Leader" wave_code="ROC"/>
+            <tag name="Ruckus - Combat Assault" wave_code="ROC"/>
+            <tag name="Silverbolt - Aerialbot Leader" wave_code="ROC"/>
+            <tag name="Skydive - Air Warfare Specialist" wave_code="ROC"/>
+            <tag name="Skywarp - Teleporting Seeker" wave_code="ROC"/>
+            <tag name="Starscream - Decepticon King" wave_code="ROC"/>
+            <tag name="Sunstreaker - Bold Warrior" wave_code="ROC"/>
+            <tag name="Thrust - Supersonic Interceptor" wave_code="ROC"/>
+            <tag name="Torox - Fueler" wave_code="ROC"/>
+            <tag name="Warpath - Confident Sharpshooter" wave_code="ROC"/>
+            <tag name="Windblade - Combiner Hunter" wave_code="ROC"/>
+            <tag name="Volcanicus - Fiery Champion" wave_code="ROC"/>
+            <tag name="Predaking - Ferocious Hunter" wave_code="ROC"/>
+            <tag name="Menasor - Menacing Colossus" wave_code="ROC"/>
+            <tag name="Optimus Maximus - Ultimate Defender" wave_code="ROC"/>
+            <tag name="Superion - Sky Protector" wave_code="ROC"/>
+            <tag name="Dreadwing - Sky Destroyer" wave_code="ROC"/>
+            <tag name="Omega Supreme - Autobot Defense Base" wave_code="PRO"/>
+            <tag name="Bonecrusher - Demolitions" wave_code="DVR"/>
+            <tag name="Hook - Surgical Engineer" wave_code="DVR"/>
+            <tag name="Longhaul - Transport" wave_code="DVR"/>
+            <tag name="Mixmaster - Materials Fabrication" wave_code="DVR"/>
+            <tag name="Scavenger - Mining and Salvage" wave_code="DVR"/>
+            <tag name="Scrapper - Constructicon Foreman" wave_code="DVR"/>
+            <tag name="Devastator - Towering Warrior" wave_code="DVR"/>
+            <tag name="Bumblebee - Least Likely, Most Dangerous" wave_code="ST2"/>
+            <tag name="Megatron - Cybertronian Tyrant" wave_code="ST2"/>
+            <tag name="Starscream - Decepticon Lieutenant" wave_code="ST2"/>
+            <tag name="Windblade - Defender of Truth" wave_code="ST2"/>
         </category>
     </category>
     <category name="Wave 3">
         <category name="Battle Cards">
-            <tag name="Anticipation Engine"/>
-            <tag name="Backup Bag"/>
-            <tag name="Basic Combat Protocol"/>
-            <tag name="Battering Ram"/>
-            <tag name="Battlefield Report"/>
-            <tag name="Battlefield Scan"/>
-            <tag name="Bolster"/>
-            <tag name="Brainstorm"/>
-            <tag name="Calculated Strike"/>
-            <tag name="Callous Leadership"/>
-            <tag name="Combat Dagger"/>
-            <tag name="Compact Shield"/>
-            <tag name="Covert Armor"/>
-            <tag name="Dampening Field"/>
-            <tag name="Defensive Formation"/>
-            <tag name="Device Virus"/>
-            <tag name="Dismantle"/>
-            <tag name="Dismantling Claw"/>
-            <tag name="EM24 IR Laser Launcher"/>
-            <tag name="Emergency Defense Field"/>
-            <tag name="EMP Wave"/>
-            <tag name="Energy Pack"/>
-            <tag name="Erratic Energy Grenade"/>
-            <tag name="Extra Padding"/>
-            <tag name="Firecon Flame"/>
-            <tag name="Force Field"/>
-            <tag name="Frag Toss"/>
-            <tag name="Fuel Cache"/>
-            <tag name="Full Loadout"/>
-            <tag name="Heat of Battle"/>
-            <tag name="Heroic Team-Up"/>
-            <tag name="Hiding Spot"/>
-            <tag name="HV Electron Breacher"/>
-            <tag name="Infiltrate"/>
-            <tag name="Laser Cutlass"/>
-            <tag name="LV Gamma-Disruptor Launcher"/>
-            <tag name="Ultra Magnus Armor"/>
-            <tag name="Medic!"/>
-            <tag name="Metal Detector"/>
-            <tag name="Micro Capacitor"/>
-            <tag name="Pep Talk"/>
-            <tag name="Personal Targeting Drone"/>
-            <tag name="Point-Defense System"/>
-            <tag name="Pop a Wheelie"/>
-            <tag name="Quartermaster"/>
-            <tag name="Reactive Armor"/>
-            <tag name="Reflex Circuits"/>
-            <tag name="Repurpose"/>
-            <tag name="Rock Toss"/>
-            <tag name="RR Disruption Blade"/>
-            <tag name="Scavenge the Battlefield"/>
-            <tag name="Smoke Cloak"/>
-            <tag name="Smokethrower"/>
-            <tag name="Diagnosis"/>
-            <tag name="Special Ops Mission"/>
-            <tag name="Spinner Rims"/>
-            <tag name="Squish Them Like Bugs"/>
-            <tag name="Steady Shot"/>
-            <tag name="Sturdy Armor"/>
-            <tag name="Take Cover"/>
-            <tag name="Two-Pronged Attack"/>
-            <tag name="Unconventional Flying Object"/>
-            <tag name="Urban Camo"/>
-            <tag name="W-5 Gyro Blaster"/>
-            <tag name="Buzzsaw, Ravage, Frenzy Attack!"/>
-            <tag name="Daring Counterattack"/>
-            <tag name="Inner Groove"/>
-            <tag name="Intercept Communications"/>
-            <tag name="Interpret the Airwaves"/>
-            <tag name="Obstructive Rhythm"/>
-            <tag name="Recover Cassette"/>
+            <tag name="Anticipation Engine" wave_code="WCS"/>
+            <tag name="Backup Bag" wave_code="WCS"/>
+            <tag name="Basic Combat Protocol" wave_code="WCS"/>
+            <tag name="Battering Ram" wave_code="WCS"/>
+            <tag name="Battlefield Report" wave_code="WCS"/>
+            <tag name="Battlefield Scan" wave_code="WCS"/>
+            <tag name="Bolster" wave_code="WCS"/>
+            <tag name="Brainstorm" wave_code="WCS"/>
+            <tag name="Calculated Strike" wave_code="WCS"/>
+            <tag name="Callous Leadership" wave_code="WCS"/>
+            <tag name="Combat Dagger" wave_code="WCS"/>
+            <tag name="Compact Shield" wave_code="WCS"/>
+            <tag name="Covert Armor" wave_code="WCS"/>
+            <tag name="Dampening Field" wave_code="WCS"/>
+            <tag name="Defensive Formation" wave_code="WCS"/>
+            <tag name="Device Virus" wave_code="WCS"/>
+            <tag name="Dismantle" wave_code="WCS"/>
+            <tag name="Dismantling Claw" wave_code="WCS"/>
+            <tag name="EM24 IR Laser Launcher" wave_code="WCS"/>
+            <tag name="Emergency Defense Field" wave_code="WCS"/>
+            <tag name="EMP Wave" wave_code="WCS"/>
+            <tag name="Energy Pack" wave_code="WCS"/>
+            <tag name="Erratic Energy Grenade" wave_code="WCS"/>
+            <tag name="Extra Padding" wave_code="WCS"/>
+            <tag name="Firecon Flame" wave_code="WCS"/>
+            <tag name="Force Field" wave_code="WCS"/>
+            <tag name="Frag Toss" wave_code="WCS"/>
+            <tag name="Fuel Cache" wave_code="WCS"/>
+            <tag name="Full Loadout" wave_code="WCS"/>
+            <tag name="Heat of Battle" wave_code="WCS"/>
+            <tag name="Heroic Team-Up" wave_code="WCS"/>
+            <tag name="Hiding Spot" wave_code="WCS"/>
+            <tag name="HV Electron Breacher" wave_code="WCS"/>
+            <tag name="Infiltrate" wave_code="WCS"/>
+            <tag name="Laser Cutlass" wave_code="WCS"/>
+            <tag name="LV Gamma-Disruptor Launcher" wave_code="WCS"/>
+            <tag name="Ultra Magnus Armor" wave_code="WCS"/>
+            <tag name="Medic!" wave_code="WCS"/>
+            <tag name="Metal Detector" wave_code="WCS"/>
+            <tag name="Micro Capacitor" wave_code="WCS"/>
+            <tag name="Pep Talk" wave_code="WCS"/>
+            <tag name="Personal Targeting Drone" wave_code="WCS"/>
+            <tag name="Point-Defense System" wave_code="WCS"/>
+            <tag name="Pop a Wheelie" wave_code="WCS"/>
+            <tag name="Quartermaster" wave_code="WCS"/>
+            <tag name="Reactive Armor" wave_code="WCS"/>
+            <tag name="Reflex Circuits" wave_code="WCS"/>
+            <tag name="Repurpose" wave_code="WCS"/>
+            <tag name="Rock Toss" wave_code="WCS"/>
+            <tag name="RR Disruption Blade" wave_code="WCS"/>
+            <tag name="Scavenge the Battlefield" wave_code="WCS"/>
+            <tag name="Smoke Cloak" wave_code="WCS"/>
+            <tag name="Smokethrower" wave_code="WCS"/>
+            <tag name="Diagnosis" wave_code="WCS"/>
+            <tag name="Special Ops Mission" wave_code="WCS"/>
+            <tag name="Spinner Rims" wave_code="WCS"/>
+            <tag name="Squish Them Like Bugs" wave_code="WCS"/>
+            <tag name="Steady Shot" wave_code="WCS"/>
+            <tag name="Sturdy Armor" wave_code="WCS"/>
+            <tag name="Take Cover" wave_code="WCS"/>
+            <tag name="Two-Pronged Attack" wave_code="WCS"/>
+            <tag name="Unconventional Flying Object" wave_code="WCS"/>
+            <tag name="Urban Camo" wave_code="WCS"/>
+            <tag name="W-5 Gyro Blaster" wave_code="WCS"/>
+            <tag name="Buzzsaw, Ravage, Frenzy Attack!" wave_code="BVS"/>
+            <tag name="Daring Counterattack" wave_code="BVS"/>
+            <tag name="Inner Groove" wave_code="BVS"/>
+            <tag name="Intercept Communications" wave_code="BVS"/>
+            <tag name="Interpret the Airwaves" wave_code="BVS"/>
+            <tag name="Obstructive Rhythm" wave_code="BVS"/>
+            <tag name="Recover Cassette" wave_code="BVS"/>
         </category>
         <category name="Characters">
-            <tag name="Alpha Trion - Cybertronian Sage"/>
-            <tag name="Captain Elita-1 - Special Ops - Ranger"/>
-            <tag name="Captain Ironhide - Infantry - Bodyguard"/>
-            <tag name="Captain Starscream - Infantry - Air Commander"/>
-            <tag name="Captain Wheeljack - Engineering - Scientist"/>
-            <tag name="General Megatron - Infantry - Leader"/>
-            <tag name="General Optimus Prime - Infantry - Leader"/>
-            <tag name="Major Prowl - Infantry - Strategist"/>
-            <tag name="Major Shockwave - Applied Sciences - Scientist"/>
-            <tag name="Major Soundwave - Espionage - Spy"/>
-            <tag name="Major Ultra Magnus - Infantry - City Commander"/>
-            <tag name="Private Arcee - Special Ops - Warrior"/>
-            <tag name="Duo-Charge Electrostatic Photon Cannon"/>
-            <tag name="Private Firedrive - Ground Command - Artillery"/>
-            <tag name="Private Flak - Artillery - Tactics"/>
-            <tag name="RS Firesteel Saber"/>
-            <tag name="Private Lionizer - Ground Command - Artillery"/>
-            <tag name="Private Mudslinger - Special Ops - Infiltration"/>
-            <tag name="Binary Edgewing Scythe"/>
-            <tag name="Private Pteraxadon - Air Command - Artillery"/>
-            <tag name="Private Red Alert - Medical - Medic"/>
-            <tag name="Private Red Heat - Infantry - Emergency Response"/>
-            <tag name="Private Sideswipe - Infantry - Soldier"/>
-            <tag name="Private Stakeout - Infantry - Communications"/>
-            <tag name="Private Top Shot - Artillery - Patrol Leader"/>
-            <tag name="Private Tote - Special Ops - Infiltration"/>
-            <tag name="Private Trailbreaker - Infantry - Fortification &amp; Defense"/>
-            <tag name="Manifold Ion Particle Blaster"/>
-            <tag name="Raider Aimless - Air Force - Weapons"/>
-            <tag name="Dual-Impact Shatterblast Compression Cannon"/>
-            <tag name="Raider Blowpipe - Air Force - Weapons"/>
-            <tag name="Raider Cindersaur - Black Ops - Demolitions"/>
-            <tag name="Raider Detour - Infantry - Demolitions"/>
-            <tag name="Raider Flamefeather - Black Ops - Soldier"/>
-            <tag name="Raider Ion Storm - Infantry - Rainmaker"/>
-            <tag name="Raider Laserbeak - Espionage - Interrogation"/>
-            <tag name="Raider Needlenose - Air Force - Soldier"/>
-            <tag name="Black Beam Blaster"/>
-            <tag name="Raider Nightstick - Ground Force - Weapons"/>
-            <tag name="Raider Ravage - Espionage - Saboteur"/>
-            <tag name="Raider Road Hugger - Infantry - Tactics"/>
-            <tag name="Raider Runabout - Infantry - Soldier"/>
-            <tag name="Raider Runamuck - Infantry - Soldier"/>
-            <tag name="Raider Storm Cloud - Infantry - Electronic Warfare"/>
-            <tag name="Raider Triggerhappy - Air Force - Gunner"/>
-            <tag name="Raider Visper - Infantry - Patrol Leader"/>
-            <tag name="Sergeant Chromia - Special Ops - Counterintelligence"/>
-            <tag name="Heavy Force Defensebreaker Cannon"/>
-            <tag name="Sergeant Cog - Artillery - Mechanic"/>
-            <tag name="Sergeant Hound - Infantry - Recon"/>
-            <tag name="Sergeant Skrapnel - Infantry - Electronic Warfare"/>
-            <tag name="Sergeant Skywarp - Black Ops - Seeker"/>
-            <tag name="Sergeant Sparkstalker - Black Ops - Cryptology"/>
-            <tag name="Specialist Flamewar - Special Ops - Hunter"/>
-            <tag name="Specialist Ratchet - Engineering - Rescue &amp; Repair"/>
-            <tag name="Blaster - Communications"/>
-            <tag name="Eject - Electronic Surveillance"/>
-            <tag name="Ramhorn - Warrior"/>
-            <tag name="Steeljaw - Tracker"/>
-            <tag name="Soundwave - Communications"/>
-            <tag name="Buzzsaw - Spy"/>
-            <tag name="Frenzy - Warrior"/>
-            <tag name="Ravage - Saboteur"/>
-            <tag name="Private Camshaft - Special Ops - Scout"/>
-            <tag name="Private Downshift - Special Ops - Security Agent"/>
-            <tag name="Sergeant Overdrive - Special Ops - Strategist"/>
-            <tag name="Airquake Hammerclaw"/>
-            <tag name="Private Smashdown - Ground Command - Artillery"/>
+            <tag name="Alpha Trion - Cybertronian Sage" wave_code="WCS"/>
+            <tag name="Captain Elita-1 - Special Ops - Ranger" wave_code="WCS"/>
+            <tag name="Captain Ironhide - Infantry - Bodyguard" wave_code="WCS"/>
+            <tag name="Captain Starscream - Infantry - Air Commander" wave_code="WCS"/>
+            <tag name="Captain Wheeljack - Engineering - Scientist" wave_code="WCS"/>
+            <tag name="General Megatron - Infantry - Leader" wave_code="WCS"/>
+            <tag name="General Optimus Prime - Infantry - Leader" wave_code="WCS"/>
+            <tag name="Major Prowl - Infantry - Strategist" wave_code="WCS"/>
+            <tag name="Major Shockwave - Applied Sciences - Scientist" wave_code="WCS"/>
+            <tag name="Major Soundwave - Espionage - Spy" wave_code="WCS"/>
+            <tag name="Major Ultra Magnus - Infantry - City Commander" wave_code="WCS"/>
+            <tag name="Private Arcee - Special Ops - Warrior" wave_code="WCS"/>
+            <tag name="Duo-Charge Electrostatic Photon Cannon" wave_code="WCS"/>
+            <tag name="Private Firedrive - Ground Command - Artillery" wave_code="WCS"/>
+            <tag name="Private Flak - Artillery - Tactics" wave_code="WCS"/>
+            <tag name="RS Firesteel Saber" wave_code="WCS"/>
+            <tag name="Private Lionizer - Ground Command - Artillery" wave_code="WCS"/>
+            <tag name="Private Mudslinger - Special Ops - Infiltration" wave_code="WCS"/>
+            <tag name="Binary Edgewing Scythe" wave_code="WCS"/>
+            <tag name="Private Pteraxadon - Air Command - Artillery" wave_code="WCS"/>
+            <tag name="Private Red Alert - Medical - Medic" wave_code="WCS"/>
+            <tag name="Private Red Heat - Infantry - Emergency Response" wave_code="WCS"/>
+            <tag name="Private Sideswipe - Infantry - Soldier" wave_code="WCS"/>
+            <tag name="Private Stakeout - Infantry - Communications" wave_code="WCS"/>
+            <tag name="Private Top Shot - Artillery - Patrol Leader" wave_code="WCS"/>
+            <tag name="Private Tote - Special Ops - Infiltration" wave_code="WCS"/>
+            <tag name="Private Trailbreaker - Infantry - Fortification &amp; Defense" wave_code="WCS"/>
+            <tag name="Manifold Ion Particle Blaster" wave_code="WCS"/>
+            <tag name="Raider Aimless - Air Force - Weapons" wave_code="WCS"/>
+            <tag name="Dual-Impact Shatterblast Compression Cannon" wave_code="WCS"/>
+            <tag name="Raider Blowpipe - Air Force - Weapons" wave_code="WCS"/>
+            <tag name="Raider Cindersaur - Black Ops - Demolitions" wave_code="WCS"/>
+            <tag name="Raider Detour - Infantry - Demolitions" wave_code="WCS"/>
+            <tag name="Raider Flamefeather - Black Ops - Soldier" wave_code="WCS"/>
+            <tag name="Raider Ion Storm - Infantry - Rainmaker" wave_code="WCS"/>
+            <tag name="Raider Laserbeak - Espionage - Interrogation" wave_code="WCS"/>
+            <tag name="Raider Needlenose - Air Force - Soldier" wave_code="WCS"/>
+            <tag name="Black Beam Blaster" wave_code="WCS"/>
+            <tag name="Raider Nightstick - Ground Force - Weapons" wave_code="WCS"/>
+            <tag name="Raider Ravage - Espionage - Saboteur" wave_code="WCS"/>
+            <tag name="Raider Road Hugger - Infantry - Tactics" wave_code="WCS"/>
+            <tag name="Raider Runabout - Infantry - Soldier" wave_code="WCS"/>
+            <tag name="Raider Runamuck - Infantry - Soldier" wave_code="WCS"/>
+            <tag name="Raider Storm Cloud - Infantry - Electronic Warfare" wave_code="WCS"/>
+            <tag name="Raider Triggerhappy - Air Force - Gunner" wave_code="WCS"/>
+            <tag name="Raider Visper - Infantry - Patrol Leader" wave_code="WCS"/>
+            <tag name="Sergeant Chromia - Special Ops - Counterintelligence" wave_code="WCS"/>
+            <tag name="Heavy Force Defensebreaker Cannon" wave_code="WCS"/>
+            <tag name="Sergeant Cog - Artillery - Mechanic" wave_code="WCS"/>
+            <tag name="Sergeant Hound - Infantry - Recon" wave_code="WCS"/>
+            <tag name="Sergeant Skrapnel - Infantry - Electronic Warfare" wave_code="WCS"/>
+            <tag name="Sergeant Skywarp - Black Ops - Seeker" wave_code="WCS"/>
+            <tag name="Sergeant Sparkstalker - Black Ops - Cryptology" wave_code="WCS"/>
+            <tag name="Specialist Flamewar - Special Ops - Hunter" wave_code="WCS"/>
+            <tag name="Specialist Ratchet - Engineering - Rescue &amp; Repair" wave_code="WCS"/>
+            <tag name="Blaster - Communications" wave_code="BVS"/>
+            <tag name="Eject - Electronic Surveillance" wave_code="BVS"/>
+            <tag name="Ramhorn - Warrior" wave_code="BVS"/>
+            <tag name="Steeljaw - Tracker" wave_code="BVS"/>
+            <tag name="Soundwave - Communications" wave_code="BVS"/>
+            <tag name="Buzzsaw - Spy" wave_code="BVS"/>
+            <tag name="Frenzy - Warrior" wave_code="BVS"/>
+            <tag name="Ravage - Saboteur" wave_code="BVS"/>
+            <tag name="Private Camshaft - Special Ops - Scout" wave_code="PRO"/>
+            <tag name="Private Downshift - Special Ops - Security Agent" wave_code="PRO"/>
+            <tag name="Sergeant Overdrive - Special Ops - Strategist" wave_code="PRO"/>
+            <tag name="Airquake Hammerclaw" wave_code="PRO"/>
+            <tag name="Private Smashdown - Ground Command - Artillery" wave_code="PRO"/>
         </category>
     </category>
     <category name="Wave 4">
         <category name="Battle Cards">
-            <tag name="4-Wheel Drive"/>
-            <tag name="Acute Reflexes"/>
-            <tag name="Adaptive Plating"/>
-            <tag name="Backfire"/>
-            <tag name="Multi-Missile Pod"/>
-            <tag name="Battlefield Incursion"/>
-            <tag name="Blast Suit"/>
-            <tag name="Composite Armor"/>
-            <tag name="Contract Contingency"/>
-            <tag name="Conversion Engine"/>
-            <tag name="Coup"/>
-            <tag name="Crowbar"/>
-            <tag name="Crude Club"/>
-            <tag name="Daring Escape"/>
-            <tag name="Decipher"/>
-            <tag name="Defensive Configuration"/>
-            <tag name="Designated Target"/>
-            <tag name="Dual Wield"/>
-            <tag name="Energy Transfer"/>
-            <tag name="Erratic Cannon"/>
-            <tag name="Even the Score"/>
-            <tag name="Fight for Position"/>
-            <tag name="Guarded Posture"/>
-            <tag name="Hazardous Shield"/>
-            <tag name="Head-on Collision"/>
-            <tag name="Heroic Resolve"/>
-            <tag name="Hidden Fortification"/>
-            <tag name="Hijack"/>
-            <tag name="Immersed In Shadow"/>
-            <tag name="Increased Durability"/>
-            <tag name="Indestructible Sword"/>
-            <tag name="Involuntary Promotion"/>
-            <tag name="Jam Signals"/>
-            <tag name="Kinetic Converter"/>
-            <tag name="Kinetic Intensifier Whip"/>
-            <tag name="Lucky Vest"/>
-            <tag name="Medic's Protective Field"/>
-            <tag name="Minor Medic Kit"/>
-            <tag name="New Orders"/>
-            <tag name="Opportune Offensive"/>
-            <tag name="Opportune Repairs"/>
-            <tag name="Overheat"/>
-            <tag name="Overwhelming Advantage"/>
-            <tag name="Pincer Movement"/>
-            <tag name="Plunder"/>
-            <tag name="Pocket Processor"/>
-            <tag name="Point Position"/>
-            <tag name="Relentless Invasion"/>
-            <tag name="Reprocess"/>
-            <tag name="Sabotaged Armaments"/>
-            <tag name="Shoulder Holster"/>
-            <tag name="Showing Off"/>
-            <tag name="Soldier's Blaster"/>
-            <tag name="Special Delivery"/>
-            <tag name="Stable Cover"/>
-            <tag name="Step Forward"/>
-            <tag name="Sturdy Javelin"/>
-            <tag name="Swerve"/>
-            <tag name="Terrifying Resilience"/>
-            <tag name="Toolbox"/>
-            <tag name="Unflinching Courage"/>
-            <tag name="Valuable Contract"/>
-            <tag name="War Of Attrition"/>
-            <tag name="Wedge Formation"/>
+            <tag name="4-Wheel Drive" wave_code="WS2"/>
+            <tag name="Acute Reflexes" wave_code="WS2"/>
+            <tag name="Adaptive Plating" wave_code="WS2"/>
+            <tag name="Backfire" wave_code="WS2"/>
+            <tag name="Multi-Missile Pod" wave_code="WS2"/>
+            <tag name="Battlefield Incursion" wave_code="WS2"/>
+            <tag name="Blast Suit" wave_code="WS2"/>
+            <tag name="Composite Armor" wave_code="WS2"/>
+            <tag name="Contract Contingency" wave_code="WS2"/>
+            <tag name="Conversion Engine" wave_code="WS2"/>
+            <tag name="Coup" wave_code="WS2"/>
+            <tag name="Crowbar" wave_code="WS2"/>
+            <tag name="Crude Club" wave_code="WS2"/>
+            <tag name="Daring Escape" wave_code="WS2"/>
+            <tag name="Decipher" wave_code="WS2"/>
+            <tag name="Defensive Configuration" wave_code="WS2"/>
+            <tag name="Designated Target" wave_code="WS2"/>
+            <tag name="Dual Wield" wave_code="WS2"/>
+            <tag name="Energy Transfer" wave_code="WS2"/>
+            <tag name="Erratic Cannon" wave_code="WS2"/>
+            <tag name="Even the Score" wave_code="WS2"/>
+            <tag name="Fight for Position" wave_code="WS2"/>
+            <tag name="Guarded Posture" wave_code="WS2"/>
+            <tag name="Hazardous Shield" wave_code="WS2"/>
+            <tag name="Head-on Collision" wave_code="WS2"/>
+            <tag name="Heroic Resolve" wave_code="WS2"/>
+            <tag name="Hidden Fortification" wave_code="WS2"/>
+            <tag name="Hijack" wave_code="WS2"/>
+            <tag name="Immersed In Shadow" wave_code="WS2"/>
+            <tag name="Increased Durability" wave_code="WS2"/>
+            <tag name="Indestructible Sword" wave_code="WS2"/>
+            <tag name="Involuntary Promotion" wave_code="WS2"/>
+            <tag name="Jam Signals" wave_code="WS2"/>
+            <tag name="Kinetic Converter" wave_code="WS2"/>
+            <tag name="Kinetic Intensifier Whip" wave_code="WS2"/>
+            <tag name="Lucky Vest" wave_code="WS2"/>
+            <tag name="Medic's Protective Field" wave_code="WS2"/>
+            <tag name="Minor Medic Kit" wave_code="WS2"/>
+            <tag name="New Orders" wave_code="WS2"/>
+            <tag name="Opportune Offensive" wave_code="WS2"/>
+            <tag name="Opportune Repairs" wave_code="WS2"/>
+            <tag name="Overheat" wave_code="WS2"/>
+            <tag name="Overwhelming Advantage" wave_code="WS2"/>
+            <tag name="Pincer Movement" wave_code="WS2"/>
+            <tag name="Plunder" wave_code="WS2"/>
+            <tag name="Pocket Processor" wave_code="WS2"/>
+            <tag name="Point Position" wave_code="WS2"/>
+            <tag name="Relentless Invasion" wave_code="WS2"/>
+            <tag name="Reprocess" wave_code="WS2"/>
+            <tag name="Sabotaged Armaments" wave_code="WS2"/>
+            <tag name="Shoulder Holster" wave_code="WS2"/>
+            <tag name="Showing Off" wave_code="WS2"/>
+            <tag name="Soldier's Blaster" wave_code="WS2"/>
+            <tag name="Special Delivery" wave_code="WS2"/>
+            <tag name="Stable Cover" wave_code="WS2"/>
+            <tag name="Step Forward" wave_code="WS2"/>
+            <tag name="Sturdy Javelin" wave_code="WS2"/>
+            <tag name="Swerve" wave_code="WS2"/>
+            <tag name="Terrifying Resilience" wave_code="WS2"/>
+            <tag name="Toolbox" wave_code="WS2"/>
+            <tag name="Unflinching Courage" wave_code="WS2"/>
+            <tag name="Valuable Contract" wave_code="WS2"/>
+            <tag name="War Of Attrition" wave_code="WS2"/>
+            <tag name="Wedge Formation" wave_code="WS2"/>
         </category>
         <category name="Characters">
-            <tag name="Captain Astrotrain - Space Force - Transport"/>
-            <tag name="Captain Impactor - Special Ops - Wrecker"/>
-            <tag name="Captain Jetfire - Engineering - Air Guardian"/>
-            <tag name="Deadlock - Soldier Of Fortune"/>
-            <tag name="Detritus - Arms Dealer"/>
-            <tag name="General Optimus Prime - Galactic Commander"/>
-            <tag name="Lockdown - Bounty Hunter"/>
-            <tag name="Lord Megatron - Conqueror of Cybertron"/>
-            <tag name="MTX-M2 Anit-Gravity Cannon"/>
-            <tag name="MTX-S2A Guided Missile Launcher"/>
-            <tag name="Mudflap - Hired Muscle"/>
-            <tag name="Octone - Capricious Agitator"/>
-            <tag name="Omega Supreme (Base) - Transport City - Defender"/>
-            <tag name="Omega Supreme (Spaceship) - Transport - City Defender"/>
-            <tag name="Omega Supreme (Tank) - Transport - City Defender"/>
-            <tag name="Shadowsteel Iceblade"/>
-            <tag name="Private Dazzlestrike - Ground Command - Artillery"/>
-            <tag name="Private Fixit - Rescue Patrol - Medic"/>
-            <tag name="Private Greenlight - Special Ops - Recon"/>
-            <tag name="Private Highjump - Off-Road Patrol - Infiltration"/>
-            <tag name="Private Hot Rod - Infantry - Soldier"/>
-            <tag name="Private Powertrain - Off-Road Patrol - Patrol Leader"/>
-            <tag name="Private Seawatch - Rescue Patrol - Search &amp; Rescue"/>
-            <tag name="Private Sidetrack - Battle Patrol - Demolitions"/>
-            <tag name="Private Smokescreen - Special Ops - Soldier"/>
-            <tag name="Private Sunrunner - Battle Patrol - Air Defense"/>
-            <tag name="Anti-Gravity Turbo Pack"/>
-            <tag name="Private Turbo Board - Air Command - Evac"/>
-            <tag name="Anti-Ballistic Turret Helmet"/>
-            <tag name="Private Vanguard - Ground Command - Advance Guard"/>
-            <tag name="Raider Apeface - Espionage Commando"/>
-            <tag name="Raider Blackjack - Sports Car Patrol - Patrol Leader"/>
-            <tag name="Oxidation Cannon"/>
-            <tag name="Raider Calibust - Air Force - Weapons"/>
-            <tag name="Raider Chop Shop - Infantry Soldier"/>
-            <tag name="Raider Hyperdrive - Sports Car Patrol - Demolitions"/>
-            <tag name="Raider Kickback - Infantry Soldier"/>
-            <tag name="Steelbite Incisor Mask"/>
-            <tag name="Raider Needler - Ground Force - Demolitions"/>
-            <tag name="Raider Nightflight - Air Strike Patrol Spy"/>
-            <tag name="Raider Nova Storm - Infantry - Combustion Specialist"/>
-            <tag name="Raider Ratbat - Spy Patrol - Fuel Scout"/>
-            <tag name="Raider Rumble - Spy Patrol - Demolitions"/>
-            <tag name="Multi-Maneuver Glider Wings"/>
-            <tag name="Raider Sights - Air Force - Artillery"/>
-            <tag name="Raider Spinister - Infantry - Aerial Assault"/>
-            <tag name="Raider Tailwind - Air Strike Patrol - Strategist"/>
-            <tag name="Sergeant Barricade - Infantry - Enforcer"/>
-            <tag name="Sergeant Crosshairs - Artillery - Weapons Supervisor"/>
-            <tag name="Sergeant Mirage - Special Ops - Spy"/>
-            <tag name="Sergeant Soundblaster - Weapons Arms Dealer"/>
-            <tag name="Sergeant Springer - Special Ops - Aerial Defense"/>
-            <tag name="Sergeant Thundercracker - Infantry - Seeker"/>
-            <tag name="Skytread (Plane) - Special Ops Soldier"/>
-            <tag name="Skytread (Tank) - Special Ops Soldier"/>
-            <tag name="Specialist Sandstorm - Special Ops - Advance Guard"/>
-            <tag name="TTC-HD Turret Armor"/>
-            <tag name="TTC-HP Oblivion Launcher"/>
-            <tag name="Trypticon - Assault Base"/>
-            <tag name="Brunt - Artillery Drone"/>
-            <tag name="Full-Tilt - Base Recon"/>
-            <tag name="Wipe-Out - Devoted Minion"/>
-            <tag name="Sergeant Six-Gun - Artillery - Soldier"/>
-            <tag name="Raider Brunt - Weapon - Soldier"/>
-            <tag name="Nightbird - Enigmatic Agent"/>
-            <tag name="Raider Skytread - Special Ops - Soldier"/>
-            <tag name="Captain Omega Supreme - Transport - City Defender"/>
+            <tag name="Captain Astrotrain - Space Force - Transport" wave_code="WS2"/>
+            <tag name="Captain Impactor - Special Ops - Wrecker" wave_code="WS2"/>
+            <tag name="Captain Jetfire - Engineering - Air Guardian" wave_code="WS2"/>
+            <tag name="Deadlock - Soldier Of Fortune" wave_code="WS2"/>
+            <tag name="Detritus - Arms Dealer" wave_code="WS2"/>
+            <tag name="General Optimus Prime - Galactic Commander" wave_code="WS2"/>
+            <tag name="Lockdown - Bounty Hunter" wave_code="WS2"/>
+            <tag name="Lord Megatron - Conqueror of Cybertron" wave_code="WS2"/>
+            <tag name="MTX-M2 Anit-Gravity Cannon" wave_code="WS2"/>
+            <tag name="MTX-S2A Guided Missile Launcher" wave_code="WS2"/>
+            <tag name="Mudflap - Hired Muscle" wave_code="WS2"/>
+            <tag name="Octone - Capricious Agitator" wave_code="WS2"/>
+            <tag name="Omega Supreme (Base) - Transport City - Defender" wave_code="WS2"/>
+            <tag name="Omega Supreme (Spaceship) - Transport - City Defender" wave_code="WS2"/>
+            <tag name="Omega Supreme (Tank) - Transport - City Defender" wave_code="WS2"/>
+            <tag name="Shadowsteel Iceblade" wave_code="WS2"/>
+            <tag name="Private Dazzlestrike - Ground Command - Artillery" wave_code="WS2"/>
+            <tag name="Private Fixit - Rescue Patrol - Medic" wave_code="WS2"/>
+            <tag name="Private Greenlight - Special Ops - Recon" wave_code="WS2"/>
+            <tag name="Private Highjump - Off-Road Patrol - Infiltration" wave_code="WS2"/>
+            <tag name="Private Hot Rod - Infantry - Soldier" wave_code="WS2"/>
+            <tag name="Private Powertrain - Off-Road Patrol - Patrol Leader" wave_code="WS2"/>
+            <tag name="Private Seawatch - Rescue Patrol - Search &amp; Rescue" wave_code="WS2"/>
+            <tag name="Private Sidetrack - Battle Patrol - Demolitions" wave_code="WS2"/>
+            <tag name="Private Smokescreen - Special Ops - Soldier" wave_code="WS2"/>
+            <tag name="Private Sunrunner - Battle Patrol - Air Defense" wave_code="WS2"/>
+            <tag name="Anti-Gravity Turbo Pack" wave_code="WS2"/>
+            <tag name="Private Turbo Board - Air Command - Evac" wave_code="WS2"/>
+            <tag name="Anti-Ballistic Turret Helmet" wave_code="WS2"/>
+            <tag name="Private Vanguard - Ground Command - Advance Guard" wave_code="WS2"/>
+            <tag name="Raider Apeface - Espionage Commando" wave_code="WS2"/>
+            <tag name="Raider Blackjack - Sports Car Patrol - Patrol Leader" wave_code="WS2"/>
+            <tag name="Oxidation Cannon" wave_code="WS2"/>
+            <tag name="Raider Calibust - Air Force - Weapons" wave_code="WS2"/>
+            <tag name="Raider Chop Shop - Infantry Soldier" wave_code="WS2"/>
+            <tag name="Raider Hyperdrive - Sports Car Patrol - Demolitions" wave_code="WS2"/>
+            <tag name="Raider Kickback - Infantry Soldier" wave_code="WS2"/>
+            <tag name="Steelbite Incisor Mask" wave_code="WS2"/>
+            <tag name="Raider Needler - Ground Force - Demolitions" wave_code="WS2"/>
+            <tag name="Raider Nightflight - Air Strike Patrol Spy" wave_code="WS2"/>
+            <tag name="Raider Nova Storm - Infantry - Combustion Specialist" wave_code="WS2"/>
+            <tag name="Raider Ratbat - Spy Patrol - Fuel Scout" wave_code="WS2"/>
+            <tag name="Raider Rumble - Spy Patrol - Demolitions" wave_code="WS2"/>
+            <tag name="Multi-Maneuver Glider Wings" wave_code="WS2"/>
+            <tag name="Raider Sights - Air Force - Artillery" wave_code="WS2"/>
+            <tag name="Raider Spinister - Infantry - Aerial Assault" wave_code="WS2"/>
+            <tag name="Raider Tailwind - Air Strike Patrol - Strategist" wave_code="WS2"/>
+            <tag name="Sergeant Barricade - Infantry - Enforcer" wave_code="WS2"/>
+            <tag name="Sergeant Crosshairs - Artillery - Weapons Supervisor" wave_code="WS2"/>
+            <tag name="Sergeant Mirage - Special Ops - Spy" wave_code="WS2"/>
+            <tag name="Sergeant Soundblaster - Weapons Arms Dealer" wave_code="WS2"/>
+            <tag name="Sergeant Springer - Special Ops - Aerial Defense" wave_code="WS2"/>
+            <tag name="Sergeant Thundercracker - Infantry - Seeker" wave_code="WS2"/>
+            <tag name="Skytread (Plane) - Special Ops Soldier" wave_code="WS2"/>
+            <tag name="Skytread (Tank) - Special Ops Soldier" wave_code="WS2"/>
+            <tag name="Specialist Sandstorm - Special Ops - Advance Guard" wave_code="WS2"/>
+            <tag name="TTC-HD Turret Armor" wave_code="WS2"/>
+            <tag name="TTC-HP Oblivion Launcher" wave_code="WS2"/>
+            <tag name="Trypticon - Assault Base" wave_code="TYP"/>
+            <tag name="Brunt - Artillery Drone" wave_code="TYP"/>
+            <tag name="Full-Tilt - Base Recon" wave_code="TYP"/>
+            <tag name="Wipe-Out - Devoted Minion" wave_code="TYP"/>
+            <tag name="Sergeant Six-Gun - Artillery - Soldier" wave_code="WS2"/>
+            <tag name="Raider Brunt - Weapon - Soldier" wave_code="WS2"/>
+            <tag name="Nightbird - Enigmatic Agent" wave_code="PRO"/>
+            <tag name="Raider Skytread - Special Ops - Soldier" wave_code="WS2"/>
+            <tag name="Captain Omega Supreme - Transport - City Defender" wave_code="WS2"/>
         </category>
     </category>
     <category name="Wave 5">
         <tag name="Titan Master" markup_required="true"/>
         <category name="Battle Cards">
-            <tag name="Belligerence"/>
-            <tag name="Blade Flurry"/>
-            <tag name="Brass Knuckles"/>
-            <tag name="Camien Crash"/>
-            <tag name="Concealing Contrails"/>
-            <tag name="Conversion Expertise"/>
-            <tag name="Counterespionage"/>
-            <tag name="Crystal of Power"/>
-            <tag name="Decoy Flares"/>
-            <tag name="Disassemble"/>
-            <tag name="Electro-Optical Visor"/>
-            <tag name="Emergency Barricade"/>
-            <tag name="Emergency Repair Patch"/>
-            <tag name="End Hostilities"/>
-            <tag name="Energon Mace"/>
-            <tag name="Enhanced Power Cell"/>
-            <tag name="Escape Capsule"/>
-            <tag name="Fusion Borer"/>
-            <tag name="Ghost Shield"/>
-            <tag name="Grav-Inhibitor"/>
-            <tag name="Hand-To-Hand Combat"/>
-            <tag name="Handheld Blaster"/>
-            <tag name="Headbutt"/>
-            <tag name="High Five"/>
-            <tag name="Hit and Run"/>
-            <tag name="Hold The Line"/>
-            <tag name="Holomatter Projector"/>
-            <tag name="Hull Down"/>
-            <tag name="Improvised Shield"/>
-            <tag name="Industrial-Grade Phase Charge"/>
-            <tag name="Intrusion Countermeasures Software"/>
-            <tag name="Junk Cannon"/>
-            <tag name="Laser Scalpel"/>
-            <tag name="Last Stand"/>
-            <tag name="Lock On Target"/>
-            <tag name="Lose the Initiative"/>
-            <tag name="Lucky Dodge"/>
-            <tag name="Magnetic Dysfunction Ray"/>
-            <tag name="Master of Metallikato"/>
-            <tag name="Master Sword"/>
-            <tag name="Mission Briefing"/>
-            <tag name="Nitro Booster"/>
-            <tag name="Overrule"/>
-            <tag name="Paralyzo Box"/>
-            <tag name="Plasma Horns"/>
-            <tag name="Precision Fire"/>
-            <tag name="Reflect Damage"/>
-            <tag name="Regenerative Core"/>
-            <tag name="Scout Armor"/>
-            <tag name="Scouting Mission"/>
-            <tag name="Sharpened Talons"/>
-            <tag name="Sonic Stun-Gun"/>
-            <tag name="Speed Trap"/>
-            <tag name="Spiked Bracelet"/>
-            <tag name="Spy Satellite Uplink"/>
-            <tag name="Spymaster's Ruse"/>
-            <tag name="Staggering Might"/>
-            <tag name="Supporting Fire"/>
-            <tag name="Temporal Quagmire"/>
-            <tag name="Triangulator"/>
-            <tag name="Tripwire"/>
-            <tag name="Trithyllium Shield"/>
-            <tag name="Turn the Tide"/>
-            <tag name="Versatility"/>
+            <tag name="Belligerence" wave_code="TMA"/>
+            <tag name="Blade Flurry" wave_code="TMA"/>
+            <tag name="Brass Knuckles" wave_code="TMA"/>
+            <tag name="Camien Crash" wave_code="TMA"/>
+            <tag name="Concealing Contrails" wave_code="TMA"/>
+            <tag name="Conversion Expertise" wave_code="TMA"/>
+            <tag name="Counterespionage" wave_code="TMA"/>
+            <tag name="Crystal of Power" wave_code="TMA"/>
+            <tag name="Decoy Flares" wave_code="TMA"/>
+            <tag name="Disassemble" wave_code="TMA"/>
+            <tag name="Electro-Optical Visor" wave_code="TMA"/>
+            <tag name="Emergency Barricade" wave_code="TMA"/>
+            <tag name="Emergency Repair Patch" wave_code="TMA"/>
+            <tag name="End Hostilities" wave_code="TMA"/>
+            <tag name="Energon Mace" wave_code="TMA"/>
+            <tag name="Enhanced Power Cell" wave_code="TMA"/>
+            <tag name="Escape Capsule" wave_code="TMA"/>
+            <tag name="Fusion Borer" wave_code="TMA"/>
+            <tag name="Ghost Shield" wave_code="TMA"/>
+            <tag name="Grav-Inhibitor" wave_code="TMA"/>
+            <tag name="Hand-To-Hand Combat" wave_code="TMA"/>
+            <tag name="Handheld Blaster" wave_code="TMA"/>
+            <tag name="Headbutt" wave_code="TMA"/>
+            <tag name="High Five" wave_code="TMA"/>
+            <tag name="Hit and Run" wave_code="TMA"/>
+            <tag name="Hold The Line" wave_code="TMA"/>
+            <tag name="Holomatter Projector" wave_code="TMA"/>
+            <tag name="Hull Down" wave_code="TMA"/>
+            <tag name="Improvised Shield" wave_code="TMA"/>
+            <tag name="Industrial-Grade Phase Charge" wave_code="TMA"/>
+            <tag name="Intrusion Countermeasures Software" wave_code="TMA"/>
+            <tag name="Junk Cannon" wave_code="TMA"/>
+            <tag name="Laser Scalpel" wave_code="TMA"/>
+            <tag name="Last Stand" wave_code="TMA"/>
+            <tag name="Lock On Target" wave_code="TMA"/>
+            <tag name="Lose the Initiative" wave_code="TMA"/>
+            <tag name="Lucky Dodge" wave_code="TMA"/>
+            <tag name="Magnetic Dysfunction Ray" wave_code="TMA"/>
+            <tag name="Master of Metallikato" wave_code="TMA"/>
+            <tag name="Master Sword" wave_code="TMA"/>
+            <tag name="Mission Briefing" wave_code="TMA"/>
+            <tag name="Nitro Booster" wave_code="TMA"/>
+            <tag name="Overrule" wave_code="TMA"/>
+            <tag name="Paralyzo Box" wave_code="TMA"/>
+            <tag name="Plasma Horns" wave_code="TMA"/>
+            <tag name="Precision Fire" wave_code="TMA"/>
+            <tag name="Reflect Damage" wave_code="TMA"/>
+            <tag name="Regenerative Core" wave_code="TMA"/>
+            <tag name="Scout Armor" wave_code="TMA"/>
+            <tag name="Scouting Mission" wave_code="TMA"/>
+            <tag name="Sharpened Talons" wave_code="TMA"/>
+            <tag name="Sonic Stun-Gun" wave_code="TMA"/>
+            <tag name="Speed Trap" wave_code="TMA"/>
+            <tag name="Spiked Bracelet" wave_code="TMA"/>
+            <tag name="Spy Satellite Uplink" wave_code="TMA"/>
+            <tag name="Spymaster's Ruse" wave_code="TMA"/>
+            <tag name="Staggering Might" wave_code="TMA"/>
+            <tag name="Supporting Fire" wave_code="TMA"/>
+            <tag name="Temporal Quagmire" wave_code="TMA"/>
+            <tag name="Triangulator" wave_code="TMA"/>
+            <tag name="Tripwire" wave_code="TMA"/>
+            <tag name="Trithyllium Shield" wave_code="TMA"/>
+            <tag name="Turn the Tide" wave_code="TMA"/>
+            <tag name="Versatility" wave_code="TMA"/>
         </category>
         <category name="Stratagems">
-            <tag name="Aerial Enhancements"/>
-            <tag name="All-Out" markup_required="true"/>
-            <tag name="Better Things To Do Than Die"/>
-            <tag name="Bike Gang"/>
-            <tag name="Camien Toughness"/>
-            <tag name="Data Protection"/>
-            <tag name="Duty &amp; Honor"/>
-            <tag name="Heroic Spotlight"/>
-            <tag name="Infiltration"/>
-            <tag name="Jurassic Punch"/>
-            <tag name="Master Converter"/>
-            <tag name="Me Grimlock, You Grimlock!"/>
-            <tag name="Metallikato Stance"/>
-            <tag name="More Guns"/>
-            <tag name="Orbital Strike"/>
-            <tag name="Pop-Up Attack"/>
-            <tag name="Resilience"/>
-            <tag name="Revenge (Stratagem)"/>
-            <tag name="Sabotage" markup_required="true"/>
-            <tag name="Saturation Bombing"/>
-            <tag name="Science Officer"/>
-            <tag name="Sky Shadow Sync"/>
-            <tag name="Stealth Mission"/>
-            <tag name="Strategic Airlift"/>
-            <tag name="Swap Heads"/>
-            <tag name="Systems Enhancement"/>
-            <tag name="The Usurper"/>
-            <tag name="Villainous Spotlight"/>
-            <tag name="Weapons Cache"/>
-            <tag name="Who's Next?"/>
+            <tag name="Aerial Enhancements" wave_code="TMA"/>
+            <tag name="All-Out" markup_required="true" wave_code="TMA"/>
+            <tag name="Better Things To Do Than Die" wave_code="TMA"/>
+            <tag name="Bike Gang" wave_code="TMA"/>
+            <tag name="Camien Toughness" wave_code="TMA"/>
+            <tag name="Data Protection" wave_code="TMA"/>
+            <tag name="Duty &amp; Honor" wave_code="TMA"/>
+            <tag name="Heroic Spotlight" wave_code="TMA"/>
+            <tag name="Infiltration" wave_code="TMA"/>
+            <tag name="Jurassic Punch" wave_code="TMA"/>
+            <tag name="Master Converter" wave_code="TMA"/>
+            <tag name="Me Grimlock, You Grimlock!" wave_code="TMA"/>
+            <tag name="Metallikato Stance" wave_code="TMA"/>
+            <tag name="More Guns" wave_code="TMA"/>
+            <tag name="Orbital Strike" wave_code="TMA"/>
+            <tag name="Pop-Up Attack" wave_code="TMA"/>
+            <tag name="Resilience" wave_code="TMA"/>
+            <tag name="Revenge (Stratagem)" wave_code="TMA"/>
+            <tag name="Sabotage" markup_required="true" wave_code="TMA"/>
+            <tag name="Saturation Bombing" wave_code="TMA"/>
+            <tag name="Science Officer" wave_code="TMA"/>
+            <tag name="Sky Shadow Sync" wave_code="TMA"/>
+            <tag name="Stealth Mission" wave_code="TMA"/>
+            <tag name="Strategic Airlift" wave_code="TMA"/>
+            <tag name="Swap Heads" wave_code="TMA"/>
+            <tag name="Systems Enhancement" wave_code="TMA"/>
+            <tag name="The Usurper" wave_code="TMA"/>
+            <tag name="Villainous Spotlight" wave_code="TMA"/>
+            <tag name="Weapons Cache" wave_code="TMA"/>
+            <tag name="Who's Next?" wave_code="TMA"/>
         </category>
         <category name="Characters">
-            <tag name="Apex"/>
-            <tag name="Autobot Gears - Transport &amp; Reconnaissance"/>
-            <tag name="Autobot Nautica - Camien Engineer"/>
-            <tag name="Autobot Outback - Gunner"/>
-            <tag name="Autobot Stylor"/>
-            <tag name="Autobot Teslor"/>
-            <tag name="Autobot Whirl - Aerial Assault"/>
-            <tag name="Beachcomber - Geologist"/>
-            <tag name="Bludgeon - Electric Warrior"/>
-            <tag name="Brainstorm - Biomechanical Engineer"/>
-            <tag name="Brawn - Demolitions"/>
-            <tag name="Brisko"/>
-            <tag name="Chasm"/>
-            <tag name="Chromedome - Computer Programmer"/>
-            <tag name="Clobber"/>
-            <tag name="Crankcase - Data Collector"/>
-            <tag name="Decepticon Pounce - Infiltrator"/>
-            <tag name="Decepticon Quake - Ground Assault"/>
-            <tag name="Doomshot"/>
-            <tag name="Fangry - Sky Tracker"/>
-            <tag name="Flameout"/>
-            <tag name="Flintlock"/>
-            <tag name="Freezeout"/>
-            <tag name="Grax"/>
-            <tag name="Horri-Bull - Ground Trooper"/>
-            <tag name="Kreb"/>
-            <tag name="Megatron - Fallen Hero"/>
-            <tag name="Mindwipe - Hypnotist"/>
-            <tag name="Monxo"/>
-            <tag name="Nightracer - Gunner"/>
-            <tag name="Ominus"/>
-            <tag name="Optimus Prime - Legendary Warrior"/>
-            <tag name="Parsec"/>
-            <tag name="Roadbuster - Ground Assault Commander"/>
-            <tag name="Sergeant Kup - Wrecker Leader"/>
-            <tag name="Skullsmasher - Swamp Warrior"/>
-            <tag name="Sky Shadow (Plane)"/>
-            <tag name="Sky Shadow (Tank)"/>
-            <tag name="Topspin - Air &amp; Space Assault"/>
-            <tag name="Tracks - Autobot Warrior"/>
-            <tag name="Twin Twist - Demolitions"/>
-            <tag name="Vorath"/>
-            <tag name="Windcharger - Autobot Warrior"/>
-            <tag name="Windsweeper - Air Defense"/>
-            <tag name="Wingspan - Data Processor"/>
-            <tag name="Wolfwire - Ground Tracker"/>
-            <tag name="Fortress Maximus - Great War Veteran"/>
-            <tag name="Cerebros - City Commander"/>
-            <tag name="Emissary"/>
-            <tag name="Arcana"/>
-            <tag name="Tidal Wave - Dark Fleet (Aircraft Carrier)"/>
-            <tag name="Tidal Wave - Dark Fleet (Transport)"/>
-            <tag name="Tidal Wave - Dark Fleet (Battleship)"/>
-            <tag name="Convex"/>
-            <tag name="Perceptor - Precise Sniper"/>
-            <tag name="Sky Shadow - Elite Warrior"/>
-            <tag name="Tidal Wave - Dark Fleet"/>
+            <tag name="Apex" wave_code="TMA"/>
+            <tag name="Autobot Gears - Transport &amp; Reconnaissance" wave_code="TMA"/>
+            <tag name="Autobot Nautica - Camien Engineer" wave_code="TMA"/>
+            <tag name="Autobot Outback - Gunner" wave_code="TMA"/>
+            <tag name="Autobot Stylor" wave_code="TMA"/>
+            <tag name="Autobot Teslor" wave_code="TMA"/>
+            <tag name="Autobot Whirl - Aerial Assault" wave_code="TMA"/>
+            <tag name="Beachcomber - Geologist" wave_code="TMA"/>
+            <tag name="Bludgeon - Electric Warrior" wave_code="TMA"/>
+            <tag name="Brainstorm - Biomechanical Engineer" wave_code="TMA"/>
+            <tag name="Brawn - Demolitions" wave_code="TMA"/>
+            <tag name="Brisko" wave_code="TMA"/>
+            <tag name="Chasm" wave_code="TMA"/>
+            <tag name="Chromedome - Computer Programmer" wave_code="TMA"/>
+            <tag name="Clobber" wave_code="TMA"/>
+            <tag name="Crankcase - Data Collector" wave_code="TMA"/>
+            <tag name="Decepticon Pounce - Infiltrator" wave_code="TMA"/>
+            <tag name="Decepticon Quake - Ground Assault" wave_code="TMA"/>
+            <tag name="Doomshot" wave_code="TMA"/>
+            <tag name="Fangry - Sky Tracker" wave_code="TMA"/>
+            <tag name="Flameout" wave_code="TMA"/>
+            <tag name="Flintlock" wave_code="TMA"/>
+            <tag name="Freezeout" wave_code="TMA"/>
+            <tag name="Grax" wave_code="TMA"/>
+            <tag name="Horri-Bull - Ground Trooper" wave_code="TMA"/>
+            <tag name="Kreb" wave_code="TMA"/>
+            <tag name="Megatron - Fallen Hero" wave_code="TMA"/>
+            <tag name="Mindwipe - Hypnotist" wave_code="TMA"/>
+            <tag name="Monxo" wave_code="TMA"/>
+            <tag name="Nightracer - Gunner" wave_code="TMA"/>
+            <tag name="Ominus" wave_code="TMA"/>
+            <tag name="Optimus Prime - Legendary Warrior" wave_code="TMA"/>
+            <tag name="Parsec" wave_code="TMA"/>
+            <tag name="Roadbuster - Ground Assault Commander" wave_code="TMA"/>
+            <tag name="Sergeant Kup - Wrecker Leader" wave_code="TMA"/>
+            <tag name="Skullsmasher - Swamp Warrior" wave_code="TMA"/>
+            <tag name="Sky Shadow (Plane)" wave_code="TMA"/>
+            <tag name="Sky Shadow (Tank)" wave_code="TMA"/>
+            <tag name="Topspin - Air &amp; Space Assault" wave_code="TMA"/>
+            <tag name="Tracks - Autobot Warrior" wave_code="TMA"/>
+            <tag name="Twin Twist - Demolitions" wave_code="TMA"/>
+            <tag name="Vorath" wave_code="TMA"/>
+            <tag name="Windcharger - Autobot Warrior" wave_code="TMA"/>
+            <tag name="Windsweeper - Air Defense" wave_code="TMA"/>
+            <tag name="Wingspan - Data Processor" wave_code="TMA"/>
+            <tag name="Wolfwire - Ground Tracker" wave_code="TMA"/>
+            <tag name="Fortress Maximus - Great War Veteran" wave_code="TMA"/>
+            <tag name="Cerebros - City Commander" wave_code="TMA"/>
+            <tag name="Emissary" wave_code="TMA"/>
+            <tag name="Arcana" wave_code="PRO"/>
+            <tag name="Tidal Wave - Dark Fleet (Aircraft Carrier)" wave_code="PRO"/>
+            <tag name="Tidal Wave - Dark Fleet (Transport)" wave_code="PRO"/>
+            <tag name="Tidal Wave - Dark Fleet (Battleship)" wave_code="PRO"/>
+            <tag name="Convex" wave_code="PRO"/>
+            <tag name="Perceptor - Precise Sniper" wave_code="PRO"/>
+            <tag name="Sky Shadow - Elite Warrior" wave_code="TMA"/>
+            <tag name="Tidal Wave - Dark Fleet" wave_code="PRO"/>
         </category>
     </category>
     <category name="Starter Packs">

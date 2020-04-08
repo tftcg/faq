@@ -3,11 +3,12 @@
 {% block title %}{{ faq_name }}{% endblock %}
 
 {% block content %}
-        <!--
-        <img class="thumb" src="/card_images/{{ safe_name }}.jpg" width="20%" style="float: right"/>
-        -->
         <div><a href="index.html">{{ parent_node.attrib['name'] }}</a></div>
+        {% if tag_node.attrib['wave_code'] %}
+          <a id="fort-max-link" href="https://fortressmaximus.io/card/{{ f_safe_name(tag_node.attrib['name']) }}-{{ tag_node.attrib['wave_code']}}"><img src="/images/FortMax-Goto.png"></a>
+        {% endif %}
         <h3 class="card_title">{{ faq_name }}</h3>
+
         <ol class="card_faq">
 
 {% for entry in entries %}

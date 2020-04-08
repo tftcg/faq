@@ -5,6 +5,7 @@ from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 import json
 
+# This also matches to FortMax urls
 def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
@@ -74,17 +75,17 @@ def source_image_name(source_name):
 TOP_OUTPUT_DIR ='docs'   # TODO: Move this back to docs
 
 
-def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
+def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
     # TODO: Do I want to put all the leaves at a top level /tags/*.html level?
-    filename = os.path.join(output_dir, safe_name(node.attrib['name']) + ".html")
-    leaf_name = node.attrib['name']
+    filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
+    leaf_name = tag_node.attrib['name']
     markup = '[[' + leaf_name + ']]'
     markup_required = False
-    if('markup_required' in node.attrib and node.attrib['markup_required'].lower() == 'true'):
+    if('markup_required' in tag_node.attrib and tag_node.attrib['markup_required'].lower() == 'true'):
         markup_required = True
 
 
-    found_entries = []    # contains array of name, source_url, node
+    found_entries = []    # contains array of name, source_url, faq node
 
     # Find FAQ entries for this leaf_name
     # Loop over every key, value in the faq_db
@@ -108,7 +109,7 @@ def generate_leaf(node, faq_db, output_dir, leaf_template, parent_node):
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, f_get_xref=get_xref)
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref)
 
         f = open(filename, "w")
         f.write(page)

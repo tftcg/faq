@@ -44,6 +44,14 @@ p, ul, ol {
     padding: 10px;
 }
 
+#fort-max-link {
+    float: right;
+}
+#fort-max-link img {
+    width: 201px;
+    height: 30px;
+}
+
 @media (min-width: 800px) {
   .content {
     width: 90%;

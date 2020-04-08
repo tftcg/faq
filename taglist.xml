@@ -679,7 +679,7 @@
         </category>
         <category name="Stratagems">
             <tag name="Aerial Enhancements"/>
-            <tag name="All-Out"/>
+            <tag name="All-Out" markup_required="true"/>
             <tag name="Better Things To Do Than Die"/>
             <tag name="Bike Gang"/>
             <tag name="Camien Toughness"/>
@@ -695,8 +695,8 @@
             <tag name="Orbital Strike"/>
             <tag name="Pop-Up Attack"/>
             <tag name="Resilience"/>
-            <tag name="Revenge"/>
-            <tag name="Sabotage"/>
+            <tag name="Revenge (Stratagem)"/>
+            <tag name="Sabotage" markup_required="true"/>
             <tag name="Saturation Bombing"/>
             <tag name="Science Officer"/>
             <tag name="Sky Shadow Sync"/>

@@ -5,7 +5,7 @@
 {% block content %}
         <div><a href="index.html">{{ parent_node.attrib['name'] }}</a></div>
         {% if tag_node.attrib['wave_code'] %}
-          <a id="fort-max-link" href="https://fortressmaximus.io/card/{{ f_safe_name(tag_node.attrib['name']) }}-{{ tag_node.attrib['wave_code']}}"><img src="/images/FortMax-Goto.png"></a>
+          <a id="fort-max-link" href="https://fortressmaximus.io/card/{{ f_safe_name(tag_node.attrib['name']) }}-{{ tag_node.attrib['wave_code']}}"><img src="../..//images/FortMax-Logo.png"><span class="fortmaxtext"> View On FortressMaximus.io</span></a></a>
         {% endif %}
         <h3 class="card_title">{{ faq_name }}</h3>
 

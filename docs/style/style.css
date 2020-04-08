@@ -46,10 +46,18 @@ p, ul, ol {
 
 #fort-max-link {
     float: right;
+    padding-right: 5px;
+    padding-top: 2px;
+    letter-spacing: -1px;
 }
 #fort-max-link img {
-    width: 134px;
-    height: 20px;
+    vertical-align: middle;
+    background-color: #343a40;
+    width: 27px;
+    height: 24.5px;
+}
+.fortmaxtext {
+    display: none;
 }
 
 @media (min-width: 800px) {
@@ -67,10 +75,29 @@ p, ul, ol {
   #title_widget {
     font-size: 1.5em;
   }
-  #fort-max-link img {
-    width: 201px;
-    height: 30px;
+  #fort-max-link {
+    background-color: #343a40;
   }
+  .fortmaxtext {
+    display: inline;
+  }
+  #fort-max-link:link {
+    color: white;
+    text-decoration: none;
+  }
+  #fort-max-link:visited {
+    color: white;
+    text-decoration: none;
+  }
+  #fort-max-link:hover {
+    color: white;
+    text-decoration: none;
+  }
+  #fort-max-link:active {
+    color: white;
+    text-decoration: none;
+  }
+
 }
 
 .ui-autocomplete {

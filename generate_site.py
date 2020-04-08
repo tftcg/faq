@@ -32,8 +32,8 @@ def get_xref(xref):
     file = xref_data[0] + ".xml"
     id = xref_data[1]
     # Open file xml file
-    tree = ET.parse(os.path.join('faqxml', file))
-    faq_node = tree.getroot()
+    faq_tree = ET.parse(os.path.join('faqxml', file))
+    faq_node = faq_tree.getroot()
     # Search for <entry id="<id>">
     xpath = "[@id='" + id + "']"
     node = faq_node.find(".//entry[@id='" + id + "']")
@@ -164,8 +164,8 @@ branch_template_text = branch_template_file.read()
 branch_template = Environment(loader=FileSystemLoader("templates/")).from_string(branch_template_text)
 
 # Load the taglist.xml file
-tree = ET.parse('taglist.xml')
-taglist_node=tree.getroot()
+taglist_tree = ET.parse('taglist.xml')
+taglist_node=taglist_tree.getroot()
 
 faq_db = {}
 faq_dir = 'faqxml'
@@ -173,8 +173,8 @@ faq_glob = os.path.join(faq_dir, '**', '*.xml')
 # Load all the FAQ XML files
 for file in glob.glob(faq_glob, recursive=True):
     filename = os.path.splitext(file)[0][len(faq_dir)+1:]
-    tree = ET.parse(file)
-    faq_node=tree.getroot()
+    faq_tree = ET.parse(file)
+    faq_node=faq_tree.getroot()
     faq_db[filename] = faq_node
 
 found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template)

@@ -48,7 +48,6 @@ p, ul, ol {
     float: right;
     padding-right: 5px;
     padding-top: 2px;
-    letter-spacing: -1px;
 }
 #fort-max-link img {
     vertical-align: middle;
@@ -58,6 +57,7 @@ p, ul, ol {
 }
 .fortmaxtext {
     display: none;
+    letter-spacing: -1px;
 }
 
 @media (min-width: 320px) {
@@ -66,6 +66,7 @@ p, ul, ol {
   }
   .fortmaxtext {
     display: inline;
+    font-size: 10px;
   }
   #fort-max-link img {
     width: 18px;
@@ -103,6 +104,9 @@ p, ul, ol {
   }
   #title_widget {
     font-size: 1.5em;
+  }
+  .fortmaxtext {
+    font-size: 15px;
   }
   #fort-max-link img {
     width: 27px;

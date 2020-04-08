@@ -48,8 +48,8 @@ p, ul, ol {
     float: right;
 }
 #fort-max-link img {
-    width: 201px;
-    height: 30px;
+    width: 67px;
+    height: 10px;
 }
 
 @media (min-width: 800px) {
@@ -66,6 +66,10 @@ p, ul, ol {
   }
   #title_widget {
     font-size: 1.5em;
+  }
+  #fort-max-link img {
+    width: 201px;
+    height: 30px;
   }
 }
 

@@ -48,17 +48,15 @@ p, ul, ol {
     float: right;
 }
 #fort-max-link img {
-    vertical-align: middle;
     background-color: #343a40;
     width: 27px;
     height: 24.5px;
 }
 .fortmaxtext {
     display: none;
-    letter-spacing: -1px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 400px) {
   #fort-max-link {
     background-color: #343a40;
   }
@@ -66,8 +64,10 @@ p, ul, ol {
     padding-right: 5px;
     display: inline;
     font-size: 12px;
+    letter-spacing: -1px;
   }
   #fort-max-link img {
+    vertical-align: middle;
     width: 18px;
     height: 16.3px;
   }

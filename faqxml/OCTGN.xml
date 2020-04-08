@@ -58,5 +58,17 @@
       <answer>Hold down shift, click on the first card, then drag to the second card. This is commonly used to indicate that you are using the first card to attack the seconc card, or that the first card is adding an effect to the second card.
       </answer>
     </entry>
+    <entry id="14">
+      <question>How do I fetch a different Character card?</question>
+      <answer>
+          Right click on the character card pile in the bottom right of the screen and select Grab Characters From Collection.
+      </answer>
+    </entry>
+    <entry id="15">
+      <question>How do I fetch a Battle Card from my collection?</question>
+      <answer>
+          Right click on the battlefield right of the screen and select Grab Battle Card From Collection.
+      </answer>
+    </entry>
   </target>
 </faq>

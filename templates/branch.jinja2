@@ -9,7 +9,7 @@
         <h3 class="card_title">{{ this_node.attrib['name'] }}</h3>
         <ul>
             {% for category_block in category_blocks %}
-            <li><a href="{{ f_safe_name(category_block[0].attrib['name']) }}/index.html">{{ category_block[0].attrib['name'] }}</a> ({{ category_block[1] }})</li>
+            <li><a href="{{ f_safe_name(category_block[0].attrib['name']) }}/index.html">{{ category_block[0].attrib['name'] }}/</a> ({{ category_block[1] }})</li>
             {% endfor %}
             {% for tag_block in tag_blocks %}
             <li><a href="{{ f_safe_name(tag_block[0].attrib['name']) }}.html">{{ tag_block[0].attrib['name'] }}</a> ({{tag_block[1] }})</li>

@@ -611,6 +611,7 @@
         </category>
     </category>
     <category name="Wave 5">
+        <tag name="Titan Master" markup_required="true"/>
         <category name="Battle Cards">
             <tag name="Belligerence"/>
             <tag name="Blade Flurry"/>

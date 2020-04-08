@@ -60,26 +60,16 @@ p, ul, ol {
     display: none;
 }
 
-@media (min-width: 800px) {
-  .content {
-    width: 90%;
-    margin: auto;
-  }
-  body { 
-    background-color: black;
-    margin: 1em;
-  }
-  p, ul, ol {
-    font-size: 21px;
-  }
-  #title_widget {
-    font-size: 1.5em;
-  }
+@media (min-width: 320px) {
   #fort-max-link {
     background-color: #343a40;
   }
   .fortmaxtext {
     display: inline;
+  }
+  #fort-max-link img {
+    width: 18px;
+    height: 16.3px;
   }
   #fort-max-link:link {
     color: white;
@@ -96,6 +86,27 @@ p, ul, ol {
   #fort-max-link:active {
     color: white;
     text-decoration: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .content {
+    width: 90%;
+    margin: auto;
+  }
+  body { 
+    background-color: black;
+    margin: 1em;
+  }
+  p, ul, ol {
+    font-size: 21px;
+  }
+  #title_widget {
+    font-size: 1.5em;
+  }
+  #fort-max-link img {
+    width: 27px;
+    height: 24.5px;
   }
 
 }

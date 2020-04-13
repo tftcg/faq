@@ -9,7 +9,7 @@ I play Brainstorm. Using my 2 actions, I play Ancient Wisdom first, then System 
 Both Brainstorm and Ancient Wisdom resolve &#x201C;top to bottom&#x201D;. When you play Brainstorm, then you play Ancient Wisdom, you must play Unleash Potential at that moment. In your case, you&#x2019;ve moved past Ancient Wisdom and are continuing with Brainstorm, playing System Reboot. It&#x2019;s now too late to play Unleash Potential with your previous Ancient Wisdom.
       </answer>
     </entry>
-    <entry id="7-2">
+    <entry id="7-2" tags="Bold,Tough,Pierce">
       <question>
 There's now an upgrade that says "Opponents cannot have more than Bold 2" or something to that effect. Mechanically, 3 instances of Bold 2 have worked the same as Bold 6. It hasn't been explicitly said that Bold and Tough stack just like Pierce, so does it?
         </question>
@@ -25,7 +25,7 @@ In a turn where I play Brainstorm, allowing for 2 more actions. I play I Still F
 Yes, it will. Once Buzzsaw goes underneath Soundwave, all existing and/or pending game effects stop applying to him.
       </answer>
     </entry>
-    <entry id="7-4">
+    <entry id="7-4" tags="Major Shockwave - Applied Sciences - Scientist">
       <question>
 How does Major Shockwave work with regard to the keyword Focus? Say for instance that Major Shockwave has Focus 1 and you look at the first card of your deck with Focus. Are you then allowed to look at the next card of your deck before deciding if you want to scrap or keep the Focused card?
         </question>
@@ -33,7 +33,7 @@ How does Major Shockwave work with regard to the keyword Focus? Say for instance
 The card you&#x2019;re looking at while Focusing is still the top card of your deck. You must decide to scrap it or not. Only after deciding to scrap it are you allowed to look at the new top card of your deck.
       </answer>
     </entry>
-    <entry id="7-5">
+    <entry id="7-5" tags="Brave">
       <question>
 What happens if two characters both have Brave? Do I get to pick out of the two, which receives the damage?
         </question>
@@ -57,7 +57,7 @@ Dreadwing is equipped with Forcefield, Emergency Defense Field, and Backup Bag t
 That is correct!
       </answer>
     </entry>
-    <entry id="7-9">
+    <entry id="7-9" tags="Permitted and Banned Cards">
       <question>
 Are Character cards with Voice Actor signatures on them (if you got your card signed, something I might want to do) legal for tournament play? If so, are there any specifics? (in another TCG, as long as the signature doesn't cover any of the text on the card; it's legal)
         </question>
@@ -65,7 +65,7 @@ Are Character cards with Voice Actor signatures on them (if you got your card si
 Good question! For Character Cards, markings/signatures should not obscure critical card information like rules text or character stats. Otherwise, that should be fine. Ultimately, however, legality of an individual card is up to the Head Judge of the event in question.
       </answer>
     </entry>
-    <entry id="7-10">
+    <entry id="7-10" tags="Sergeant Cog - Artillery - Mechanic,Private Red Heat - Infantry - Emergency Response">
       <question>
 I have a question regarding Sergeant Cog. When he dies, I place him on Private Red Heat, and Trigger his ability. Let&#x2019;s say I draw 2 cards. I can then upgrade each of my characters, and let&#x2019;s say I play Field Communicator on one of my specialists from the Cog trigger, do I resolve Field Communicator&#x2019;s trigger before finishing the last Cog upgrade trigger, or do I finish the Cog trigger, and then resolve the Field Communicator trigger?
         </question>

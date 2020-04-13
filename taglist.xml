@@ -780,6 +780,7 @@
         <category name="Constructed">
             <tag name="Permitted and Banned Cards"/>
             <tag name="Sideboarding"/>
+            <tag name="Infractions" markup_required="true"/>
         </category>
         <tag name="Tie-Break"/>
     </category>

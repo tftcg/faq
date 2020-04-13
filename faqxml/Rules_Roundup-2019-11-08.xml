@@ -25,7 +25,7 @@ If I have a character with Bumpers attached, and I play Involuntary Promotion on
 The damage and upgrades are moved at the same time. Bumpers&#x2019; effect won&#x2019;t stop the damage counters from being moved.
       </answer>
     </entry>
-    <entry id="9-4">
+    <entry id="9-4" tags="Pincer Movement,Razorclaw - Predacon Leader,BRave">
       <question>
 Regarding Pincer, will it allow the follow-up attack to bypass normal rule processes? For example, I attack with Razorclaw in Bot Mode against an untapped unit. Can my other Decepticon attack this untapped unit? What about bypassing Brave?
         </question>
@@ -33,7 +33,7 @@ Regarding Pincer, will it allow the follow-up attack to bypass normal rule proce
 If you can&#x2019;t legally choose another Decepticon as the attacker, and the same character as the defender, you don&#x2019;t get the extra attack. In other words, you can&#x2019;t just ignore Brave or other rules.
       </answer>
     </entry>
-    <entry id="9-5">
+    <entry id="9-5" tags="Battle Master">
       <question>
 Can I KO a Battle Master with Involuntary Promotion if I have no bots in my KO area?
         </question>
@@ -57,7 +57,7 @@ If I equip Crash Landing on an Air Strike Patrol bot that is buffed by Tailwind'
 Crash Landing will do damage based on whatever the plane&#x2019;s attack was when it was last on the battlefield. Bonuses like Tailwind&#x2019;s will still apply because the plane is KO&#x2019;d during the battle.
       </answer>
     </entry>
-    <entry id="9-8">
+    <entry id="9-8" tags="Nightbird - Enigmatic Agent">
       <question>
 Nightbird stealing cards from an opponent's scrap pile: Can I keep them after playing them?
         </question>
@@ -65,7 +65,7 @@ Nightbird stealing cards from an opponent's scrap pile: Can I keep them after pl
 No. Any action you play from your opponent&#x2019;s scrap pile goes into your played area, and eventually back to their scrap pile. (Cards always go to their owner&#x2019;s hand, deck, KO area, and scrap pile).
       </answer>
     </entry>
-    <entry id="9-9">
+    <entry id="9-9" tags="Revenge,Bounty,Raider Ratbat - Spy Patrol - Fuel Scout,Deadlock - Soldier Of Fortune">
       <question>
 Revenge on Ratbat and Bounty on Deadlock both trigger upon Ratbat's KO, but which triggers first?
         </question>
@@ -73,7 +73,7 @@ Revenge on Ratbat and Bounty on Deadlock both trigger upon Ratbat's KO, but whic
 Bounty abilities and Revenge abilities will usually trigger at the same time. Bounty abilities are usually handled first because they belong to the active player.
       </answer>
     </entry>
-    <entry id="9-10">
+    <entry id="9-10" tags="Captain Omega Supreme - Transport - City Defender">
       <question>
 Can Omega Supreme be used in a manner like the Sentinels where you can have a section of his base mode in your KO area at the start of the game?
         </question>
@@ -89,7 +89,7 @@ How does Pincer Movement work?  If I have three untapped Decepticons and play Pi
 Pincer Movement gives you only one additional attack. After you play it, the next time one of your Decepticons attacks an enemy this turn, you&#x2019;ll get the extra attack after the current attack.
       </answer>
     </entry>
-    <entry id="9-12">
+    <entry id="9-12" tags="Captain Omega Supreme - Transport - City Defender">
       <question>
 So, let's say we have Omega Supreme (Base), (Spaceship), and (Tank) verses Kickback, Shrapnel, Barrage and Ransack. No side has any KO bots.  All bots on Omega's team is tapped. Shrapnel and Barrage are tapped.  It's the Insecticons turn with Kickback and Ransack untapped and ready to attack. They have 4 battlecards in their deck. They send Kickback to attack Omega Supreme (Tank). Kickback needs to flip at least 8 Battlecards, so 4 Battlecards are first flipped, causing their deck to be reshuffled.  Captain Omega Supreme then formed. Kickback continues his same attack now onto Captain Omega Supreme, flipping at least 4 more battlecards. The player with Omega NOW gets to flip for defending. Since Captain Omega Supreme is now untapped, Ransack is no longer able to attack, thus ending the turn of the Insecticons.
 My question is, is the sequence of events that I have listed correct, or did I miss something?
@@ -99,7 +99,7 @@ Well don&#x2019;t just leave us hanging! What cards were flipped? Who won?
 (Yes, everything you listed is correct).
       </answer>
     </entry>
-    <entry id="9-13">
+    <entry id="9-13" tags="Raider Calibust - Air Force - Weapons">
       <question>
 A question on Calliburst? After the initial first draw, if my opponent draws three cards, do they take three damage all at once or do they take one, then one, then one again, for a total of three. 
         </question>
@@ -125,7 +125,7 @@ Does Involuntary Promotion count as "repairing" the resurrected character? In ot
 No. The character appears on the Battlefield fully repaired. It&#x2019;s not repaired while on the Battlefield.
       </answer>
     </entry>
-    <entry id="9-16">
+    <entry id="9-16" tags="Metroplex - Autobot City,Trypticon - Assault Base">
       <question>
 If I&#x2019;m playing Metroplex and I get KO&#x2019;d in round one, can I sideboard in Trypticon?
         </question>
@@ -133,7 +133,7 @@ If I&#x2019;m playing Metroplex and I get KO&#x2019;d in round one, can I sidebo
 Your character sideboard is allowed 1 character with 19 stars or fewer. Trypticon is too big for this and is wondering why you&#x2019;re not just running him on your team to begin with.
       </answer>
     </entry>
-    <entry id="9-17">
+    <entry id="9-17" tags="Focus">
       <question>
 What happens when I want to Focus 2 but I have last card in my deck?
         </question>
@@ -141,7 +141,7 @@ What happens when I want to Focus 2 but I have last card in my deck?
 Utter calamity! Look at the top card, set it aside, reshuffle your scrap pile into your deck, look at the new top card, then decide what to do with the two cards you&#x2019;ve looked at. Now, look at me. I am the captain now.
       </answer>
     </entry>
-    <entry id="9-18">
+    <entry id="9-18" tags="Captain Omega Supreme - Transport - City Defender">
       <question>
 For Omega Supreme, it says once your opponent shuffles their deck you combine. If I swing with one of Omega's pieces, but mid-attack my opponent shuffles their deck, do I combine and stop my attack because the character who triggered the attack isn't and my opponent has another character untapped? Along the same lines, when someone attacks into an Omega Supreme piece and they shuffle their deck. When you go to combine, does the attack still go through to the now combined Omega Supreme? Or does the attack get canceled as the original target isn't on the field anymore?
         </question>

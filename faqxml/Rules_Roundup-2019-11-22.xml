@@ -105,7 +105,7 @@ Do Omega Supreme and Skytread&#x2019;s separate uncombined character cards count
 While uncombined, each character is separate. If you play Two-Pronged Attack on Skytread (Plane), you&#x2019;ll only get the damage effect.
       </answer>
     </entry>
-    <entry id="10-14">
+    <entry id="10-14" tags="Pierce,Insecticon Skrapnel - Insecticon Leader,Safeguard">
       <question>
 Is Pierce damage still considered attack damage? For example, if someone is attacking me with Pierce 4 against a character like Insecticon Skrapnel whose text is &#x201C;can&#x2019;t take more than 3 damage during an attack&#x201D;, does that mean even though they have Pierce 4 after adding attack damage, would they only do 3, or would they do 4? 
         </question>
@@ -147,7 +147,7 @@ I.E. My Nightbird is at full HP (11) and his Shockwave is at 3.  Who wins?
 Here's what happens. Your opponent starts to play Brainstorm, this causes Nightbird&#x2019;s ability to trigger, but that effect doesn&#x2019;t resolve immediately. Continuing to resolve Brainstorm, your opponent then plays System Reboot. Another Nightbird trigger happens, which, again, doesn&#x2019;t resolve immediately. The System Reboot resolves, causing Shockwave to trigger four times. Continuing to resolve Brain Storm, your opponent then plays the second System Reboot. This causes another Nightbird trigger. The second System Reboot causes another four Shockwave triggers. Now that Brainstorm has resolved, we start resolving triggers, beginning with the ones that triggered most recently and working backwards. The four Shockwave triggers caused by the second System Reboot happen one at a time. Next, the Nightbird trigger caused by the second System Reboot happens. Next, the Shockwave triggers caused by the first System Reboot happens. Next, the Nightbird trigger caused by the first System Reboot happens. And finally, the Nightbird trigger caused by the Brain Storm happens. At any point, if resolving one of these triggers causes a player to KO their last character, that player loses the game. If Shockwave was at 3 and Nightbird was at 8 at the beginning of this sequence, Nightbird is going to lose.
       </answer>
     </entry>
-    <entry id="10-19">
+    <entry id="10-19" tags="Raider Skytread - Special Ops - Soldier">
       <question>
 The answer from the last rules roundup states that the new combiners (Omega Supreme and Skytread) keep all upgrades and damage when they combine. Even with that explanation, rule enforcers where I play tell me that it doesn't apply to the KO'd Skytread's upgrades and that those upgrades are scrapped during the KO process before Revenge combining takes place and do not transfer to the combined Skytread. Can I please get a specific ruling on this?
         </question>
@@ -203,7 +203,7 @@ If I have a LV Gamma Disruptor Launcher on Shockwave and play a Dual Wield for m
 Yes.
       </answer>
     </entry>
-    <entry id="10-26">
+    <entry id="10-26" tags="Sergeant Six-Gun - Artillery - Soldier">
       <question>
 Interesting Sergeant Six-Gun question. If I have both of his Upgrades on one character, and say an Armor in his Armor slot (so in this case Six-Gun&#x2019;s Upgrades are in Weapon and Utility, respectively), can I scrap said armor to put on a Utility? One of his guns says you can put in Armor or Utility slots but I'm not sure if you could scrap one to play the other.
         </question>
@@ -211,9 +211,9 @@ Interesting Sergeant Six-Gun question. If I have both of his Upgrades on one cha
 No. You choose the slots when you attach the upgrades to the character.
       </answer>
     </entry>
-    <entry id="10-27">
+    <entry id="10-27" tags="Private Turbo Board - Air Command - Evac">
       <question>
-If you have Private Turbo Board defending against Optimus Prime &#x2013; Battlefield Legend, after his opponent already played an Upgrade and an Action for their turn, and Optimus flips an Action, may he use it?
+If you have Private Turbo Board defending against Optimus Prime - Battlefield Legend, after his opponent already played an Upgrade and an Action for their turn, and Optimus flips an Action, may he use it?
         </question>
       <answer>
 No.
@@ -235,7 +235,7 @@ If I reveal Stable Cover while Jazz is defending in Alt mode, does this protect 
 No.
       </answer>
     </entry>
-    <entry id="10-30">
+    <entry id="10-30" tags="Weaponizer">
       <question>
 Can a Weaponizer be used as your sideboard character?
         </question>
@@ -275,7 +275,7 @@ If an opponent attacks me with a Sturdy Javelin on a ranged character and I reve
 The attacking player will scrap the Javelin to do 2 Damage. Because attacker effects resolve before defender effects.
       </answer>
     </entry>
-    <entry id="10-35">
+    <entry id="10-35" tags="Private Firedrive - Ground Command - Artillery">
       <question>
 Furthermore in the case of Firedrive&#x2019;s weapon mode, it says the upgraded character gets the attack bonus, so will the character keep the attack bonus, just not the +3 since the weapon will be scrapped? 
         </question>
@@ -283,7 +283,7 @@ Furthermore in the case of Firedrive&#x2019;s weapon mode, it says the upgraded 
 Yes. The character will keep the Attack bonus but not the +3.
       </answer>
     </entry>
-    <entry id="10-36">
+    <entry id="10-36" tags="Autobot Cosmos - Recon &amp; Communication,Lord Megatron - Conqueror of Cybertron">
       <question>
 Autobot Cosmos is in Bot mode and attacks Lord Megatron in Bot mode. During Cosmos&#x2019; attack against Lord Megatron, I have to reshuffle. Does the reshuffle trigger both Cosmos and Lord Megatron's abilities at the same time? Or does Cosmos KO Lord Megatron first?
         </question>
@@ -291,7 +291,7 @@ Autobot Cosmos is in Bot mode and attacks Lord Megatron in Bot mode. During Cosm
 Cosmos would KO Lord Megatron first. Megatron&#x2019;s ability will still happen afterwards if the game has not ended.
       </answer>
     </entry>
-    <entry id="10-37">
+    <entry id="10-37" tags="Autobot Mirage - Lone Wolf">
       <question>
 Let say I'm attacking with Mirage and flip 2 black pips and 3 white pips. As far as I know, my attack is 5 Pierce 2 and then his ability triggered and I untap. Then I attack again and this time I flip 1 white pip and 3 black pips. Is my attack 5 Pierce 3 or is it 5 Pierce 5?
         </question>
@@ -307,10 +307,16 @@ I have a character with a Reactive Armor. I play a Scrapper Gauntlets on that ch
 They trigger simultaneously and you resolve them in an order of your choosing.
       </answer>
     </entry>
-    <entry id="10-39">
+    <entry id="10-39" tags="Safeguard,Raider Kickback - Infantry Soldier">
       <question>
 Beginning player here, not sure where else to go for clarification in general. My buddy and I played a killer game with Insecticons (me) v Special Ops Specialists (buddy). All three of his characters had Safeguard. I swung into one of them (undamaged) with Raider Kickback (bot) and flipped one blue and several orange. My thinking was the one damage from Kickback's ability would eliminate the Safeguard, thus allowing all combat damage to be applied. Then came the confusion. I believe his thinking was that all the damage came at once, prevented to some degree by Safeguard. After scouring stupid Google for help to no avail, I decided to simply concede to his perspective and move the game along. He won, but it was close, and it would have been a drastically different story had all that combat damage been applied.
+        </question>
+      <answer>
 Kickback&#x2019;s ability does 1 Damage before Attack damage is applied, thus disabling Safeguard. Congratulations on your crushing theoretical victory!
+</answer>
+    </entry>
+    <entry id="10-40" tags="Bounty">
+      <question>
 Do you need to have the character in Bot mode showing the Bounty for this card to use the bounty. Or does the card activate the character&#x2019;s Bounty regardless of mode?
         </question>
       <answer>

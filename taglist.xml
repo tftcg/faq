@@ -415,13 +415,13 @@
             <tag name="Major Soundwave - Espionage - Spy" wave_code="WCS"/>
             <tag name="Major Ultra Magnus - Infantry - City Commander" wave_code="WCS"/>
             <tag name="Private Arcee - Special Ops - Warrior" wave_code="WCS"/>
-            <tag name="Duo-Charge Electrostatic Photon Cannon" wave_code="WCS"/>
+            <tag name="Duo-Charge Electrostatic Photon Cannon"/>
             <tag name="Private Firedrive - Ground Command - Artillery" wave_code="WCS"/>
             <tag name="Private Flak - Artillery - Tactics" wave_code="WCS"/>
-            <tag name="RS Firesteel Saber" wave_code="WCS"/>
+            <tag name="RS Firesteel Saber"/>
             <tag name="Private Lionizer - Ground Command - Artillery" wave_code="WCS"/>
             <tag name="Private Mudslinger - Special Ops - Infiltration" wave_code="WCS"/>
-            <tag name="Binary Edgewing Scythe" wave_code="WCS"/>
+            <tag name="Binary Edgewing Scythe"/>
             <tag name="Private Pteraxadon - Air Command - Artillery" wave_code="WCS"/>
             <tag name="Private Red Alert - Medical - Medic" wave_code="WCS"/>
             <tag name="Private Red Heat - Infantry - Emergency Response" wave_code="WCS"/>
@@ -430,9 +430,9 @@
             <tag name="Private Top Shot - Artillery - Patrol Leader" wave_code="WCS"/>
             <tag name="Private Tote - Special Ops - Infiltration" wave_code="WCS"/>
             <tag name="Private Trailbreaker - Infantry - Fortification &amp; Defense" wave_code="WCS"/>
-            <tag name="Manifold Ion Particle Blaster" wave_code="WCS"/>
+            <tag name="Manifold Ion Particle Blaster"/>
             <tag name="Raider Aimless - Air Force - Weapons" wave_code="WCS"/>
-            <tag name="Dual-Impact Shatterblast Compression Cannon" wave_code="WCS"/>
+            <tag name="Dual-Impact Shatterblast Compression Cannon"/>
             <tag name="Raider Blowpipe - Air Force - Weapons" wave_code="WCS"/>
             <tag name="Raider Cindersaur - Black Ops - Demolitions" wave_code="WCS"/>
             <tag name="Raider Detour - Infantry - Demolitions" wave_code="WCS"/>
@@ -440,7 +440,7 @@
             <tag name="Raider Ion Storm - Infantry - Rainmaker" wave_code="WCS"/>
             <tag name="Raider Laserbeak - Espionage - Interrogation" wave_code="WCS"/>
             <tag name="Raider Needlenose - Air Force - Soldier" wave_code="WCS"/>
-            <tag name="Black Beam Blaster" wave_code="WCS"/>
+            <tag name="Black Beam Blaster"/>
             <tag name="Raider Nightstick - Ground Force - Weapons" wave_code="WCS"/>
             <tag name="Raider Ravage - Espionage - Saboteur" wave_code="WCS"/>
             <tag name="Raider Road Hugger - Infantry - Tactics" wave_code="WCS"/>
@@ -450,7 +450,7 @@
             <tag name="Raider Triggerhappy - Air Force - Gunner" wave_code="WCS"/>
             <tag name="Raider Visper - Infantry - Patrol Leader" wave_code="WCS"/>
             <tag name="Sergeant Chromia - Special Ops - Counterintelligence" wave_code="WCS"/>
-            <tag name="Heavy Force Defensebreaker Cannon" wave_code="WCS"/>
+            <tag name="Heavy Force Defensebreaker Cannon"/>
             <tag name="Sergeant Cog - Artillery - Mechanic" wave_code="WCS"/>
             <tag name="Sergeant Hound - Infantry - Recon" wave_code="WCS"/>
             <tag name="Sergeant Skrapnel - Infantry - Electronic Warfare" wave_code="WCS"/>
@@ -469,7 +469,7 @@
             <tag name="Private Camshaft - Special Ops - Scout" wave_code="PRO"/>
             <tag name="Private Downshift - Special Ops - Security Agent" wave_code="PRO"/>
             <tag name="Sergeant Overdrive - Special Ops - Strategist" wave_code="PRO"/>
-            <tag name="Airquake Hammerclaw" wave_code="PRO"/>
+            <tag name="Airquake Hammerclaw"/>
             <tag name="Private Smashdown - Ground Command - Artillery" wave_code="PRO"/>
         </category>
     </category>
@@ -556,7 +556,7 @@
             <tag name="Omega Supreme (Base) - Transport City - Defender" wave_code="WS2"/>
             <tag name="Omega Supreme (Spaceship) - Transport - City Defender" wave_code="WS2"/>
             <tag name="Omega Supreme (Tank) - Transport - City Defender" wave_code="WS2"/>
-            <tag name="Shadowsteel Iceblade" wave_code="WS2"/>
+            <tag name="Shadowsteel Iceblade"/>
             <tag name="Private Dazzlestrike - Ground Command - Artillery" wave_code="WS2"/>
             <tag name="Private Fixit - Rescue Patrol - Medic" wave_code="WS2"/>
             <tag name="Private Greenlight - Special Ops - Recon" wave_code="WS2"/>
@@ -567,24 +567,24 @@
             <tag name="Private Sidetrack - Battle Patrol - Demolitions" wave_code="WS2"/>
             <tag name="Private Smokescreen - Special Ops - Soldier" wave_code="WS2"/>
             <tag name="Private Sunrunner - Battle Patrol - Air Defense" wave_code="WS2"/>
-            <tag name="Anti-Gravity Turbo Pack" wave_code="WS2"/>
+            <tag name="Anti-Gravity Turbo Pack"/>
             <tag name="Private Turbo Board - Air Command - Evac" wave_code="WS2"/>
-            <tag name="Anti-Ballistic Turret Helmet" wave_code="WS2"/>
+            <tag name="Anti-Ballistic Turret Helmet"/>
             <tag name="Private Vanguard - Ground Command - Advance Guard" wave_code="WS2"/>
             <tag name="Raider Apeface - Espionage Commando" wave_code="WS2"/>
             <tag name="Raider Blackjack - Sports Car Patrol - Patrol Leader" wave_code="WS2"/>
-            <tag name="Oxidation Cannon" wave_code="WS2"/>
+            <tag name="Oxidation Cannon"/>
             <tag name="Raider Calibust - Air Force - Weapons" wave_code="WS2"/>
             <tag name="Raider Chop Shop - Infantry Soldier" wave_code="WS2"/>
             <tag name="Raider Hyperdrive - Sports Car Patrol - Demolitions" wave_code="WS2"/>
             <tag name="Raider Kickback - Infantry Soldier" wave_code="WS2"/>
-            <tag name="Steelbite Incisor Mask" wave_code="WS2"/>
+            <tag name="Steelbite Incisor Mask"/>
             <tag name="Raider Needler - Ground Force - Demolitions" wave_code="WS2"/>
             <tag name="Raider Nightflight - Air Strike Patrol Spy" wave_code="WS2"/>
             <tag name="Raider Nova Storm - Infantry - Combustion Specialist" wave_code="WS2"/>
             <tag name="Raider Ratbat - Spy Patrol - Fuel Scout" wave_code="WS2"/>
             <tag name="Raider Rumble - Spy Patrol - Demolitions" wave_code="WS2"/>
-            <tag name="Multi-Maneuver Glider Wings" wave_code="WS2"/>
+            <tag name="Multi-Maneuver Glider Wings"/>
             <tag name="Raider Sights - Air Force - Artillery" wave_code="WS2"/>
             <tag name="Raider Spinister - Infantry - Aerial Assault" wave_code="WS2"/>
             <tag name="Raider Tailwind - Air Strike Patrol - Strategist" wave_code="WS2"/>

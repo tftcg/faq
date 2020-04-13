@@ -1,6 +1,6 @@
 <tags name="FAQ">
     <category name="Keywords">
-        <tag name="Action" markup_required="true"/>
+            <!-- <tag name="Action" markup_required="true"/> -->
         <tag name="Attacking" markup_required="true"/>
         <tag name="Battle Icon" markup_required="true"/>
         <tag name="Battle Master" markup_required="true"/>

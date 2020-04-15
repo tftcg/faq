@@ -25,7 +25,7 @@ What happens if I have Megatron - Living Weapon equipped with 2 weapons and an a
 In this scenario, if the other character you are choosing with Swap Parts does not have an ability or effect that allows them to hold multiple weapons, you will be able to bring the armor and a weapon of your choice to them. The remaining weapon will stay on Megatron.
       </answer>
     </entry>
-    <entry id="RR1-4">
+    <entry id="RR1-4" tags="Autobot Mirage - Lone Wolf">
       <question>
 If I am playing Autobot Mirage in his Bot Mode and I hit three white pips while attacking, he untaps. Does this mean I get an additional attack this turn or is he just untapped for next turn? The only reason I ask is because his effect states "during his first attack" so I felt it implied he could attack more than once that turn.
       </question>
@@ -33,7 +33,7 @@ If I am playing Autobot Mirage in his Bot Mode and I hit three white pips while 
 Ordinarily, he would only get one attack and then untap. However, if your opponent is completely tapped out, Mirage and any of your other untapped characters will get an additional attack.
       </answer>
     </entry>
-    <entry id="RR1-5">
+    <entry id="RR1-5" tags="Grimlock - Powerful Commander">
       <question>
 Have y'all clarified as of yet if the new Grimlock can fetch the Wave 1 Dinobots?
       </question>
@@ -41,7 +41,7 @@ Have y'all clarified as of yet if the new Grimlock can fetch the Wave 1 Dinobots
 Yes. As written, Grimlock – Powerful Commander can find Wave 1 Dinobots. 
       </answer>
     </entry>
-    <entry id="RR1-6">
+    <entry id="RR1-6" tags="Combiner">
       <question>
 Are Combiners able to flip to their separate alt modes once they are combined?
       </question>
@@ -49,7 +49,7 @@ Are Combiners able to flip to their separate alt modes once they are combined?
 Currently there is no way to flip a Combiner once it is combined.
       </answer>
     </entry>
-    <entry id="RR1-7">
+    <entry id="RR1-7" tags="Motormaster - Stunticon Leader">
       <question>
 Does Motormaster take the damage with his Alt Mode effect?
       </question>
@@ -65,7 +65,7 @@ Can a character in the KO area be flipped, when you choose a character to flip f
 You can flip for the turn, but no cards in the game can effect characters in the K.O. Area unless specifically stated.
       </answer>
     </entry>
-    <entry id="RR1-9">
+    <entry id="RR1-9" tags="KO">
       <question>
 If a character flips in the KO area, will you benefit from any "When this character flips to this mode -" abilities? Do flip abilities matter if they're on the field or in the KO area, as long as the action of flipping happens?
       </question>
@@ -73,7 +73,7 @@ If a character flips in the KO area, will you benefit from any "When this charac
 K.O.’d characters flip abilities do not trigger when flipped unless specifically stated.
       </answer>
     </entry>
-    <entry id="RR1-10">
+    <entry id="RR1-10" tags="Nemesis Prime - Dark Clone">
       <question>
 If I'm attacking with Nemesis Prime and in the course of my attack burn through my deck, his ability triggers and I shuffle. Once done shuffling, the bottom card goes under him. Does he instantly get the +3 attack, or does it get added to his next attack?
       </question>
@@ -89,7 +89,7 @@ Can Grimlock - Powerful Commander put another Grimlock - Powerful Commander into
 Yes.
       </answer>
     </entry>
-    <entry id="RR1-12">
+    <entry id="RR1-12" tags="Play">
       <question>
 Must I attack every turn?
       </question>
@@ -97,7 +97,7 @@ Must I attack every turn?
 You must attack if you are able.
       </answer>
     </entry>
-    <entry id="RR1-13">
+    <entry id="RR1-13" tags="Play">
       <question>
 Must I flip a character every turn?
       </question>
@@ -105,7 +105,7 @@ Must I flip a character every turn?
 No. It’s your choice whether or not to flip a character.
       </answer>
     </entry>
-    <entry id="RR1-14">
+    <entry id="RR1-14" tags="Nemesis Prime - Dark Clone">
       <question>
 Does Nemesis Prime keep his attack power from recycling scrap when he transforms to truck mode?
       </question>
@@ -113,7 +113,7 @@ Does Nemesis Prime keep his attack power from recycling scrap when he transforms
 The ability that grants the attack bonus is not on his truck mode, so it does not increase his attack, although the face-down cards remain under him.
       </answer>
     </entry>
-    <entry id="RR1-15">
+    <entry id="RR1-15" tags="Play">
       <question>
 The rulebook says "When your turn ends, put all battle cards you flipped for attacks during that turn into your scrap pile. Also put any Actions you played that turn into your scrap pile." When do you scrap the cards the defender flipped for attacks?
       </question>
@@ -121,7 +121,7 @@ The rulebook says "When your turn ends, put all battle cards you flipped for att
 At the same time.
       </answer>
     </entry>
-    <entry id="RR1-16">
+    <entry id="RR1-16" tags="KO,Cliffjumper - Renegade Warrior">
       <question>
 Does transforming a Car-mode character in the KO pile activate Cliffjumper's alternate mode ability?
       </question>
@@ -129,7 +129,7 @@ Does transforming a Car-mode character in the KO pile activate Cliffjumper's alt
 Not unless specifically stated. K.O.’d characters flipping wont trigger any abilities unless otherwise stated.
       </answer>
     </entry>
-    <entry id="RR1-17">
+    <entry id="RR1-17" tags="Play,Jetfire - Air Guardian,Wheeljack - Weapons Inventor">
       <question>
 Am I allowed to count the cards remaining in my deck (Obviously without looking at them face up)? Am I allowed to look through my scrap pile at any time, or only when prompted from a card? (e.g. Wheeljack or Jetfire)
       </question>
@@ -153,7 +153,7 @@ Can Rapid Conversion be used to flip a character in the KO area? We know now tha
 No, cards cannot effect cards in the K.O. Area unless specifically stated.
       </answer>
     </entry>
-    <entry id="RR1-20">
+    <entry id="RR1-20" tags="Thrust - Supersonic Interceptor">
       <question>
 Would Thrust grant +5 to Optimus Prime - Battlefield Legend if Rapid Conversion was played when using Prime’s bot mode ability.
       </question>
@@ -161,7 +161,7 @@ Would Thrust grant +5 to Optimus Prime - Battlefield Legend if Rapid Conversion 
 No. The amount of bonus granted by Thrust is granted at the time his ability is triggered and not modified afterwards.
       </answer>
     </entry>
-    <entry id="RR1-21">
+    <entry id="RR1-21" tags="Pierce,Megatron - Decepticon Leader">
       <question>
 Common Megatron is in Bot mode. He has Grenade Launcher equipped giving him +4 attack. He attacks Barrage in Bot mode. Megatron does not flip any orange icons and Barrage does not flip any blue icons. Megatron's attack is 8 w/Pierce 3 (due to his ability), while Barrage has 2 defense. Does he only deal 6 damage for the entire attack or 3 only due to his Pierce 3?
       </question>
@@ -169,7 +169,7 @@ Common Megatron is in Bot mode. He has Grenade Launcher equipped giving him +4 a
 6. Pierce is a minimum damage.
       </answer>
     </entry>
-    <entry id="RR1-22">
+    <entry id="RR1-22" tags="Pierce,Arcee - Skilled Fighter">
       <question>
 Arcee is in Bot mode. She attacks Barrage in Bot mode. Arcee flips 3 orange icons and Barrage flips 2 blue icons. Arcee's attack is 4 w/Pierce 4 (due to her ability), while Barrage has 4 defense. Does she only deal 0 damage for the entire attack or 4 only due to her Pierce 4?
       </question>
@@ -177,7 +177,7 @@ Arcee is in Bot mode. She attacks Barrage in Bot mode. Arcee flips 3 orange icon
 After flipping the three orange, she has Pierce 4, meaning she would do a minimum of 4 damage.
       </answer>
     </entry>
-    <entry id="RR1-23">
+    <entry id="RR1-23" tags="Pierce,Arcee - Skilled Fighter">
       <question>
 Arcee is in Bot mode. She attacks Barrage in Bot mode. Arcee does not flip any orange icons and Barrage flips 2 blue icons. Arcee's attack is 1 w/Pierce 1 (due to her ability), while Barrage has 4 defense. Does she only deal 0 damage for the entire attack or 1 only due to her Pierce 1? 
       </question>
@@ -185,7 +185,7 @@ Arcee is in Bot mode. She attacks Barrage in Bot mode. Arcee does not flip any o
 In this scenario, Arcee deals 1 damage.
       </answer>
     </entry>
-    <entry id="RR1-24">
+    <entry id="RR1-24" tags="Chromia - Special Ops">
       <question>
 While playing Chromia, you trigger her ability by flipping 2 white icons for your first 2 battle card flips, is that when your draw into hand happens? Or do you continue your battle flips then take your draw into hand?
       </question>
@@ -195,10 +195,10 @@ Resolve all of the flips and then draw into your hand.
     </entry>
     <entry id="RR1-25">
       <question>
-Optimus Prime - Battlefield Legend flips Supercharge, would this result in additional bold 3 if I played that from his ability?
+Optimus Prime - Battlefield Legend flips Supercharge, would this result in additional Bold 3 if I played that from his ability?
       </question>
       <answer>
-He would have bold 3, but would not be allowed to flip additional cards.
+He would have Bold 3, but would not be allowed to flip additional cards.
       </answer>
     </entry>
   </target>

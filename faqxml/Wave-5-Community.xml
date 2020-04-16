@@ -58,7 +58,7 @@
       </entry>
       <entry id="6" tags="Titan Master">
           <question>
-              For cards like Heavy Handed that count stars, do you add the head star cost to the body star cost for the total star cost?
+              For cards like Heavy Handed that count stars, do you use the sum of the head and body star costs for the card's effect?
           </question>
           <answer>
               Yes.

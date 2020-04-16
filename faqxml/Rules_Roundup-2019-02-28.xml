@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <faq name="Rules Roundup 2019-02-28" source_url="https://www.facebook.com/notes/transformers-trading-card-game/rules-roundup-early-edition-22819/2031231533665328/" published_date="2019-02-28" sourced_at="2020-04-15">
   <target name="Placeholder">
-    <entry id="228-1">
+    <entry id="228-1" tags="Omega Supreme - Autobot Defense Base">
       <question>
 On the topic of being able to choose the order of effects, how would/could Omega Supreme's bot mode ability work with another character having a Force Field?
       </question>
@@ -12,7 +12,7 @@ For example, if you have a character with a Force Field and Omega Supreme, and t
 2. Apply Omega Supreme’s ability first, changing the attack damage to 4 to the other character and 2 to Omega Supreme. Force Field no longer applies and will stay on the other character.
       </answer>
     </entry>
-    <entry id="228-2">
+    <entry id="228-2" tags="Dinobot Sludge - Dino Demolitions">
       <question>
 Wave 2's Dinobot Sludge has a Data Pad. I have 2 cards in hand and my opponent has 3. When do I check for each to activate? Would I be able to draw a card with Data Pad, choose to not put a card on top of my deck (bringing my hand size to 3, equaling my opponent), and still draw 2 from Sludge's ability because when he attacked I met the prerequisites of having fewer cards.
       </question>
@@ -20,7 +20,7 @@ Wave 2's Dinobot Sludge has a Data Pad. I have 2 cards in hand and my opponent h
 Dinobot Sludge’s ability checks at the moment he attacks. This means both abilities will trigger at the same time, and both will happen. You can choose which ability to use first. If you use Data Pad’s ability first, and keep the card, you’ll still draw two cards from Sludge’s ability.
       </answer>
     </entry>
-    <entry id="228-3">
+    <entry id="228-3" tags="Slipstream - Strategic Seeker">
       <question>
 Slipstream in alt mode attacks Alpha Bravo in alt mode. Both of their effects trigger. Would Slipstream's player choose the order because it is currently their turn?
       </question>
@@ -28,7 +28,7 @@ Slipstream in alt mode attacks Alpha Bravo in alt mode. Both of their effects tr
 No. Slipstream’s ability will happen first. If triggered abilities controlled by both players would happen at the same time, the abilities of the player whose turn it is go first.
       </answer>
     </entry>
-    <entry id="228-4">
+    <entry id="228-4" tags="Combiner,Volcanicus - Fiery Champion,KO,Dreadwing - Sky Destroyer">
       <question>
 Does the I Still Function! + Dreadwing rule apply generally to Combiners or is it specific to Dreadwing’s method of Combination? Suppose I control Dinobot Sludge - Mighty Stomper and have the five Dinobot components in my KO Area. Can I Brainstorm+ I Still Function! + Dinobot Enigma and expect to keep Volcanicus at the end of the turn?
       </question>
@@ -36,7 +36,7 @@ Does the I Still Function! + Dreadwing rule apply generally to Combiners or is i
 The same ruling applies. If you I Still Function! One of the Dinobots and then play Dinobot Enigma, at the end of your turn, Volcanicus will be KO’d.
       </answer>
     </entry>
-    <entry id="228-5">
+    <entry id="228-5" tags="Motormaster - Stunticon Leader">
       <question>
 If I have 3 characters and one of them is Motormaster in alt mode. My opponent plays a Steamroll and does more than enough damage to KO one of my other two characters. Do I have to put the extra damage on Motormaster or can I put it on my third character? If I put it on my third character does Motormaster's ability cause that damage to be lost or does the Steamroll effect supersede Motormaster's ability?
       </question>
@@ -104,13 +104,13 @@ In bot mode, yes.
     </entry>
     <entry id="228-13">
       <question>
-Since you have to discard your hand to activate Dino-Chomp, can you still play Dino-Chomp if it is the only card in your hand?
+Since you have to discard your hand to activate Dino-Chomp!, can you still play Dino-Chomp! if it is the only card in your hand?
       </question>
       <answer>
 Yes. Discarding your hand is not a cost, but an effect of the card. If your hand is empty, you’ll discard nothing.
       </answer>
     </entry>
-    <entry id="228-14">
+    <entry id="228-14" tags="Metroplex - Autobot City,Slammer - Combat Drone">
       <question>
 How does Protected by Metroplex function in situations where damage is being dealt to multiple bots simultaneously?  Let's say I have Metroplex and Slammer out, both are at 1 HP, and Slammer is equipped with Protected by Metroplex. It's the opponent’s turn and he plays Strafing Run as his action before combat, which deals 1 damage to both Metroplex and Slammer simultaneously. Is the 1 damage to Slammer moved over to Metroplex before he *dies* from the 1 damage he is already receiving?
       </question>
@@ -127,7 +127,7 @@ Vandalize scraps all your opponent’s weapons OR all their armors OR all their 
 However, if a card did try to scrap Spare Parts and Grenade Launcher at the same time, Spare Parts could save your Grenade Launcher.
       </answer>
     </entry>
-    <entry id="228-16">
+    <entry id="228-16" tags="Blitzwing - Relentless Foe">
       <question>
 For Blitzwing in bot mode, do you always flip to alt mode after battling, whether on attack or defense, or only after flipping an orange and blue during the attack phase?
       </question>

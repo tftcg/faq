@@ -21,7 +21,7 @@
         <tag name="Secret Action" markup_required="true"/>
         <tag name="Star" markup_required="true"/>
         <tag name="Stealth" markup_required="true"/>
-        <tag name="Tap Ability" markup_required="true"/>
+        <tag name="Tap Ability"/>
         <tag name="Titan Master"/>
         <tag name="Tough" markup_required="true"/>
         <tag name="Trait" markup_required="true"/>

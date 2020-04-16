@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <faq name="Rules Roundup 2019-03-22" source_url="https://www.facebook.com/notes/transformers-trading-card-game/rules-roundup-32219/2061330717322076/" published_date="2019-03-22" sourced_at="2020-04-15">
   <target name="Placeholder">
-    <entry id="322-1">
+    <entry id="322-1" tags="Blurr - Fastest Bot in the Galaxy">
       <question>
 Does Blurr’s ability combine with Mining Pick to allow you to plan 2 again on the attack of the untapped character to get +5?
       </question>
@@ -9,7 +9,7 @@ Does Blurr’s ability combine with Mining Pick to allow you to plan 2 again on 
 Yes.
       </answer>
     </entry>
-    <entry id="322-2">
+    <entry id="322-2" tags="Insecticon Skrapnel - Insecticon Leader">
       <question>
 In the FAQ for Skrapnel it states, "Any damage dealt to Insecticon Skrapnel while he's defending will count. If the attacker has an ability that deals 1 damage to Insecticon Skrapnel, then he can't take more than 2 more damage from the attack." However, in a Rules Roundup (2/18 for reference) it was said, "Attack Damage is damage dealt by the attacking character as a result of an attack. Any other damage, including damage dealt during an attack because of an ability is non-attack damage." Is Skrapnel's FAQ incorrect or am I missing something? 
       </question>
@@ -17,7 +17,7 @@ In the FAQ for Skrapnel it states, "Any damage dealt to Insecticon Skrapnel whil
 The first answer you referenced is from an outdated FAQ. Please disregard.
       </answer>
     </entry>
-    <entry id="322-3">
+    <entry id="322-3" tags="Play">
       <question>
 To scrap an upgrade from my own character, would I need a new upgrade in my hand, or can I just scrap it without a replacement upgrade?
       </question>
@@ -25,7 +25,7 @@ To scrap an upgrade from my own character, would I need a new upgrade in my hand
 You need a new upgrade to replace a scrapped upgrade. Your robots like their weapons and don’t cotton to giving them up willingly.
       </answer>
     </entry>
-    <entry id="322-4">
+    <entry id="322-4" tags="Demolisher - Devoted Decepticon,Megatron - Decepticon Leader">
       <question>
 Regarding character triggers, the following scenario is Demolisher/Darkmount/Common Megatron all in bot mode. I play Brainstorm > Hunker Down > Rapid Conversion. Hunker Down flips all 3 to alt mode, then I play armors from the scrap pile if able. Once Hunker Down is complete, I play Rapid Conversion targeting Megatron to flip him into bot mode. Brainstorm is now resolved. Moving on to character triggers, would Demolisher’s ability now draw 1 or 2 cards? Would I be allowed to use Megatron’s flip ability? 
       </question>
@@ -41,7 +41,7 @@ There’s all these status effect rulings like Razorclaw flipping to bot mode an
 On Static Laser of Ironhide, “NOT Ironhide” should also be taken as “NOT named Ironhide”.
       </answer>
     </entry>
-    <entry id="322-6">
+    <entry id="322-6" tags="Blurr - Fastest Bot in the Galaxy">
       <question>
 How does brave interact with Blurr? Let’s say an opponent taps their first character which has brave. I attack with Blurr and he lands attack damage on the tapped brave character. Is Blurr able to still attack an untapped opponent or does he have to/is he able to attack the brave opponent?
       </question>
@@ -49,7 +49,7 @@ How does brave interact with Blurr? Let’s say an opponent taps their first cha
 Blurr must attack an untapped character and thus is unable to attack a tapped character with brave. If your opponent also had an untapped character with brave, Blurr would have to attack that character.
       </answer>
     </entry>
-    <entry id="322-7">
+    <entry id="322-7" tags="Air Raid - Fearless Flyer">
       <question>
 Does Air Raid's bot mode ability trigger if you use Armed Hovercraft to do 1 damage to an enemy team?
       </question>
@@ -57,10 +57,10 @@ Does Air Raid's bot mode ability trigger if you use Armed Hovercraft to do 1 dam
 Armed Hovercraft does the damage, not the character that has it equipped.
       </answer>
     </entry>
-    <entry id="322-8">
+    <entry id="322-8" tags="Wheeljack - Weapons Inventor">
       <question>
 Wheeljack is in car mode is equipped with the following: 
-Multi-tool, Turbo Boosters, and Scrapper Gauntlets.
+Multi-Tool, Turbo Boosters, and Scrapper Gauntlets.
 Bumblebee - Courageous Scout is tapped, in car mode, and equipped with the following:
 Drill Arms, Crushing Size, and Multi Mission Gear.
 For my action, I play Swap Parts between Wheeljack and Bumblebee. There are a LOT of abilities that fire off here and I'm curious to know, what would be the appropriate order? Most importantly, when does Wheeljack's ability take priority?
@@ -77,7 +77,7 @@ If I attack with Optimus Prime - Battlefield Legend, equipped with Recon System,
 If you scrap an action, Optimus Prime won’t be able to find it, as it has left the played area.
       </answer>
     </entry>
-    <entry id="322-10">
+    <entry id="322-10" tags="Dreadwing - Sky Destroyer">
       <question>
 My question revolves around Dreadwing, and if there are 2 Security Consoles equipped in the 2 Utility Slots. Would you resolve each Security Console's effects one at a time? Or would you Draw 2 Cards and then Plan 2? (As each Security Console gives lets your Draw a card then Plan 1)
       </question>
@@ -85,7 +85,7 @@ My question revolves around Dreadwing, and if there are 2 Security Consoles equi
 Multiple Security Consoles should be resolved one at a time. Their effects do not combine. If you put a card on the top of your deck from the first one, be sure to act surprised when you draw it again.
       </answer>
     </entry>
-    <entry id="322-11">
+    <entry id="322-11" tags="Ironhide - Steadfast Brawler,Optimus Maximus - Ultimate Defender">
       <question>
 Since Ironhide and Optimus Prime are both components of Optimus Maximus in Wave 2, how do their unique weapons from Wave 1 interact with the Combiner? Will Optimus Maximus take damage from Static Laser of Ironhide? Can I play Ion Blaster of Optimus Prime on a combined Optimus Maximus?
       </question>

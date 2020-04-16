@@ -1,0 +1,19 @@
+{% extends "base.jinja2" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+        <div><a href="index.html">FAQ</a></div>
+        <h3 class="card_title">{{ title }}</h3>
+
+        <table>
+            <tr><th>Card</th><th>Count</th></tr>
+            {% for tag_block in counted_dictionary %}
+            <tr>
+              <td>
+              <td><a href="{{ url_dictionary[tag_block[0]] }}">{{ tag_block[0] }}</a></td>
+              <td>{{tag_block[1]}}</td>
+            {% endfor %}
+        </table>
+{% endblock %}

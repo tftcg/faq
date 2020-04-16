@@ -4,6 +4,7 @@ import re
 from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 import json
+from collections import Counter
 
 
 # Global
@@ -19,12 +20,14 @@ def safe_name(name):
 def inner_xml(element):
     return (element.text or '') + ''.join(ET.tostring(e, 'unicode') for e in element)
 
+# Returns the text to output
 def prepare_text(node):
     text = inner_xml(node)
     newtext = text.replace('[[', '').replace(']]', '').strip()
     newtext = re.sub(r'(.)\n(.)', r'\1<br/>\2', newtext)
     return newtext
 
+# Returns nothing
 def mkdirp(directory):
     # TODO: if os.path.isfile(directory)
     if( not os.path.isdir(directory) ):
@@ -32,6 +35,7 @@ def mkdirp(directory):
 
 # Heavyweight way to get the data for a xref tag
 # TODO: USE THE faq_db CACHE!!!
+# Returns cross-referenced node as an array of [source name, source url, node, xref'd filename]
 def get_xref(xref):
     # split on #
     xref_data = xref.split('#')
@@ -55,6 +59,7 @@ def get_xref(xref):
     return [source_name, source_url, node, xref_data[0]]
 
 
+# Returns gold|red|blue
 def source_image_name(source_name):
     if("FAQ" in source_name):
         return 'gold'
@@ -63,6 +68,7 @@ def source_image_name(source_name):
     else:
         return 'blue'
 
+# Returns number of entries found for the leaf page
 def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
     leaf_name = tag_node.attrib['name']
@@ -104,6 +110,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
 
     return len(found_entries)
 
+# Returns nothing
 def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_node):
     filename = os.path.join(output_dir, 'index.html')
 
@@ -113,12 +120,14 @@ def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branc
     f.write(page)
     f.close()
 
+# Returns: [Number items found, tag:file dictionary, tag:count dictionary]
 def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent_node=None):
 
     tag_blocks = []
     category_blocks = []
     total_found = 0
     found_tags = {}   # Used to build the json_index
+    found_count = {}  # Used to make top tens etc
 
     mkdirp(output_dir)
 
@@ -128,6 +137,7 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent
             tag_blocks.append([tag_node, found])
             total_found += found
             found_tags[tag_node.attrib['name']] = (output_dir + "/" + safe_name(tag_node.attrib['name']) + ".html").replace(TOP_OUTPUT_DIR, '')
+            found_count[tag_node.attrib['name']] = found
 
     for category_node in node.findall('./category'):
         subdir = os.path.join(output_dir, safe_name(category_node.attrib['name']))
@@ -136,10 +146,11 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent
             category_blocks.append([category_node, found_data[0]])
             total_found += found_data[0]
             found_tags.update(found_data[1])
+            found_count.update(found_data[2])
 
     generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_node)
 
-    return [total_found, found_tags]
+    return [total_found, found_tags, found_count]
 
 # Load Leaf Template
 leaf_template_file = open('templates/leaf.jinja2','r')
@@ -172,6 +183,20 @@ f = open(os.path.join(TOP_OUTPUT_DIR, "faqindex.json"), "w")
 f.write(json.dumps(found_data[1]))
 f.close()
 
+# Generate top N page
+# Load TopN Template
+topn_template_file = open('templates/topn.jinja2','r')
+topn_template_text = topn_template_file.read()
+topn_template = Environment(loader=FileSystemLoader("templates/")).from_string(topn_template_text)
+
+counted_tags=Counter(found_data[2])
+page = topn_template.render(title='Top Twenty', url_dictionary=found_data[1], counted_dictionary=counted_tags.most_common(20))
+
+f = open(os.path.join(TOP_OUTPUT_DIR, 'topn.html'), "w")
+f.write(page)
+f.close()
+
+# Generic function to apply a Jinja2 template
 def generate_html(infilename, tofilename):
     template_file = open(infilename,'r')
     template_text = template_file.read()

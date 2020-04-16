@@ -5,6 +5,11 @@ from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 import json
 
+
+# Global
+TOP_OUTPUT_DIR ='docs'
+
+
 # This also matches to FortMax urls
 def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
@@ -57,23 +62,6 @@ def source_image_name(source_name):
         return 'red'
     else:
         return 'blue'
-
-# TODO: Support cross referencing somehow. 
-# xreffing is done via an entry with xref="". This points to another entry with an id.
-# ids are optional, but must exist on a target. ids must also be unique. 
-# Generally ids are only expected to exist when an entry needs to be xrefable. 
-
-# Solution:
-#   xrefs should be hierarchical; i.e. they should indicate the file they are found in.
-#   thus if an xref is prefixed with a #, then it is in the same file. If it is an alphanum, then a diff file.
-#   In the latter case, another file will need to be loaded for a quick scan for the content. 
-#   Format is:   xref="#foo"  (same file)   and xref="dir/file#foo"   foo in the dir/file file
-
-
-
-# Global
-TOP_OUTPUT_DIR ='docs'   # TODO: Move this back to docs
-
 
 def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
     # TODO: Do I want to put all the leaves at a top level /tags/*.html level?

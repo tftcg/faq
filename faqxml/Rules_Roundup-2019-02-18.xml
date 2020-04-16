@@ -3,7 +3,7 @@
   <target name="Placeholder">
     <entry id="218-1">
       <question>
-When Optimus Prime, Battlefield Legend returns a card from your scrap pile to your hand, does your opponent get to look at the card being returned? 
+When Optimus Prime - Battlefield Legend returns a card from your scrap pile to your hand, does your opponent get to look at the card being returned? 
       </question>
       <answer>
 Yes.
@@ -17,7 +17,7 @@ If I play I Still Function! and bring a character back from the K.O Area and you
 If you’re attacking with multiple characters, you can attack in any order. I Still Function! doesn’t give you an extra attack by itself.
       </answer>
     </entry>
-    <entry id="218-3">
+    <entry id="218-3" tags="Play">
       <question>
 What counts as Attack Damage and what doesn't?
       </question>
@@ -25,7 +25,7 @@ What counts as Attack Damage and what doesn't?
 Attack Damage is damage dealt by the attacking character as a result of an attack. Any other damage, including damage dealt during an attack because of an ability, is non-attack damage.
       </answer>
     </entry>
-    <entry id="218-4">
+    <entry id="218-4" tags="Triple Changer">
       <question>
 Do Triple Changers start the game in a specific Alt Mode or do you get to choose which of the two you start in?
       </question>
@@ -57,7 +57,7 @@ If I play Cornered! on an opponent's Triple Changer, do they get to decide which
 Yes.
       </answer>
     </entry>
-    <entry id="218-8">
+    <entry id="218-8" tags="Volcanicus - Fiery Champion,Dirge - Doombringer">
       <question>
 If my opponent has a combined Volcanicus in their K.O. Area, and I flip Dirge to Alt Mode, does Dirge get +1 or +5 attack?
       </question>
@@ -81,7 +81,7 @@ Say for instance that you were playing a full team of Aerialbots, with four plan
 Moving damage counters does not count as repairing or taking damage. So Defensive Driving would not block damage in this scenario. Maybe take a look at Bumpers!
       </answer>
     </entry>
-    <entry id="218-12">
+    <entry id="218-12" tags="Motormaster - Stunticon Leader">
       <question>
 Related to that point, does Motormaster block Bombing Run? 
       </question>
@@ -89,7 +89,7 @@ Related to that point, does Motormaster block Bombing Run?
 No.
       </answer>
     </entry>
-    <entry id="218-13">
+    <entry id="218-13" tags="Play">
       <question>
 What happens if for any reason I`m unable to reshuffle my deck in the middle of an attack
       </question>
@@ -97,7 +97,7 @@ What happens if for any reason I`m unable to reshuffle my deck in the middle of 
 Do as much as you can. If you run out of cards in your deck and scrap pile during a battle, stop flipping and resolve that attack.
       </answer>
     </entry>
-    <entry id="218-14">
+    <entry id="218-14" tags="Chop Shop - Sneaky Insecticon">
       <question>
 Can Chop Shop (Bot Mode) take upgrades that normally couldn't be equipped to him?
       </question>
@@ -105,7 +105,7 @@ Can Chop Shop (Bot Mode) take upgrades that normally couldn't be equipped to him
 No. You must be able to put said upgrades on Chop Shop legally.
       </answer>
     </entry>
-    <entry id="218-15">
+    <entry id="218-15" tags="Chop Shop - Sneaky Insecticon">
       <question>
 Do effects on upgrades that trigger "when equipped" activate if Chop Shop (Bot Mode) takes them?
       </question>
@@ -113,7 +113,7 @@ Do effects on upgrades that trigger "when equipped" activate if Chop Shop (Bot M
 Yes.
       </answer>
     </entry>
-    <entry id="218-16">
+    <entry id="218-16" tags="Play">
       <question>
 If I manage to draw my entire deck into my hand, is my deck in constant reshuffle? 
       </question>
@@ -121,7 +121,7 @@ If I manage to draw my entire deck into my hand, is my deck in constant reshuffl
 No. You need to actually shuffle cards in to have a successful shuffle.
       </answer>
     </entry>
-    <entry id="218-17">
+    <entry id="218-17" tags="Autobot Cosmos - Recon &amp; Communication">
       <question>
 Say I have 21 cards in hand, I flip Autobot Cosmos and scrap my entire hand and then draw the same amount. If I only have 6 cards in my deck, do I draw the 6 cards, reshuffle because I had already scrapped my hand and then draw out 15 more?
       </question>
@@ -131,13 +131,13 @@ Yes.
     </entry>
     <entry id="218-18">
       <question>
-Say I attack with Optimus Prime - Battlefield Legend with a Rapid Conversion in my hand and flip a Brain Storm for the attack. If I play the Brain Storm and play the Rapid Conversion from hand to target Optimus, am I able to play the action that he retrieves from the graveyard as the second action for Brain Storm?
+Say I attack with Optimus Prime - Battlefield Legend with a Rapid Conversion in my hand and flip a Brainstorm for the attack. If I play the Brainstorm and play the Rapid Conversion from hand to target Optimus, am I able to play the action that he retrieves from the graveyard as the second action for Brainstorm?
       </question>
       <answer>
-No. You must fully resolve Brain Storm before the ability from his flip triggers.
+No. You must fully resolve Brainstorm before the ability from his flip triggers.
       </answer>
     </entry>
-    <entry id="218-19">
+    <entry id="218-19" tags="Dinobot Sludge - Mighty Stomper">
       <question>
 Does each damage counter moved by Dinobot Sludge's Alt Mode ability create a new instance of damage, or does the total amount you want to move count as one instance?
       </question>
@@ -145,7 +145,7 @@ Does each damage counter moved by Dinobot Sludge's Alt Mode ability create a new
 Neither. Moving damage counters does not count as repairing or taking damage.
       </answer>
     </entry>
-    <entry id="218-20">
+    <entry id="218-20" tags="Dreadwing - Sky Destroyer">
       <question>
 What happens if you have 2 Aerial Recons on Dreadwing? Do you scrap the top card or not?
       </question>
@@ -153,7 +153,7 @@ What happens if you have 2 Aerial Recons on Dreadwing? Do you scrap the top card
 Any time more than 1 triggered ability triggers from the same action, do them in any order. For the first Aerial Recon, if you leave the card on the top of your deck, it will still be there for the second Aerial Recon.
       </answer>
     </entry>
-    <entry id="218-21">
+    <entry id="218-21" tags="Dreadwind - Air Defense,Blackwing Aerial Attacker,Dreadwing - Sky Destroyer">
       <question>
 Dreadwind and Blackwing are both in the K.O. Area. If you combine them, Dreadwing would still be K.O.'d. What happens if you play I Still Function! on one of them, then combine them?
       </question>
@@ -161,7 +161,7 @@ Dreadwind and Blackwing are both in the K.O. Area. If you combine them, Dreadwin
 Dreadwind and Blackwing cannot be combined if they are both in the K.O. Area because their abilities won’t work. If you use I Still Function! to return one of them to the Battlefield, at end of turn, two abilities happen: I Still Function K.O.’s the character and the combining ability of whichever character you brought back happens. If you combine first, then I Still Function! still applies and will K.O. a combined Dreadwing. If I Still Function! K.O.’s the character you brought back first, the combining ability won’t do anything, and you’ll have Dreadwind and Blackwing in K.O. separately. Essentially, you can have Dreadwing in K.O. or Dreadwind and Blackwing in K.O.
       </answer>
     </entry>
-    <entry id="218-22">
+    <entry id="218-22" tags="Dreadwind - Air Defense,Blackwing Aerial Attacker,Dreadwing - Sky Destroyer">
       <question>
 So what happens when your opponent is tapped out and you attack with Blackwing/Dreadwind and combine at the end of your turn? Your attack step is over, right? Can you not attack with Dreadwing the turn he comes into play in that case? Does your opponent take a turn and not attack because their characters are all tapped, or do you have to attack with Dreadwing the turn he comes into play since your opponent is tapped out?
       </question>
@@ -169,7 +169,7 @@ So what happens when your opponent is tapped out and you attack with Blackwing/D
 Because your turn is over and you’re past the attack and untap steps, you cannot attack again.
       </answer>
     </entry>
-    <entry id="218-23">
+    <entry id="218-23" tags="Combiner">
       <question>
 Is keeping a weapon, armor, and utility a feature of combining or is it based on an action? 
       </question>
@@ -185,7 +185,7 @@ For Erratic Lightning, does the -1 defense apply to defense flips, or only to ba
 It’s the sum of the flips, so you do all of the math first. The character in this scenario would defend for 1.
       </answer>
     </entry>
-    <entry id="218-25">
+    <entry id="218-25" tags="Warpath - Confident Sharpshooter,Acid Storm - Toxic Terror">
       <question>
 Does Warpath/Acid Storm prevent the initial two battle flips for defense/attack respectively? In other words, are the initial two battle flips considered bold/tough?
       </question>
@@ -193,7 +193,7 @@ Does Warpath/Acid Storm prevent the initial two battle flips for defense/attack 
 No.
       </answer>
     </entry>
-    <entry id="218-26">
+    <entry id="218-26" tags="Dreadwing - Sky Destroyer,Predaking - Ferocious Hunter">
       <question>
 If Dreadwing is equipped with Combat Training and 2 weapons and/or armors, does Combat Training give Dreadwing bold/tough 2 since he has 2 weapons/armors? Same question can be asked for Predaking; Does he get Bold 5 if he has 5 weapons and combat training?
       </question>
@@ -201,7 +201,7 @@ If Dreadwing is equipped with Combat Training and 2 weapons and/or armors, does 
 No. A single Combat Training gives Bold/Tough 1 at most.
       </answer>
     </entry>
-    <entry id="218-27">
+    <entry id="218-27" tags="Autobot Mirage - Lone Wolf">
       <question>
 If Autobot Mirage attacks in bot mode and I draw 3 whites so he's untapped, does my turn end with the attack, or do I attack again as no one would be tapped? Also, if I must attack again can I use someone else to attack?
       </question>
@@ -209,7 +209,7 @@ If Autobot Mirage attacks in bot mode and I draw 3 whites so he's untapped, does
 Mirage does not give you an extra attack. If your opponent has no untapped characters, you would continue attacking with all of your untapped characters in any order, including Mirage.
       </answer>
     </entry>
-    <entry id="218-28">
+    <entry id="218-28" tags="Autobot Jazz - Special Ops">
       <question>
 Jazz in Alt Mode is defending against Megatron - Decepticon Leader in Bot Mode. They flip no extra oranges on attack, and I flip 4 white on defense. Does Jazz then take 3 (because of the Pierce 3 minimum) or 4 (because the Pierce completely nullifies the ability)?
       </question>
@@ -217,9 +217,9 @@ Jazz in Alt Mode is defending against Megatron - Decepticon Leader in Bot Mode. 
 4. Pierce completely nullifies Jazz’s ability.
       </answer>
     </entry>
-    <entry id="218-29">
+    <entry id="218-29" tags="Battle Icon">
       <question>
-Does Inverted supersede other effects that look at pips? Or can the order be chosen? For example, Inverted with Thermal Weaponry, could a blue pip add to pierce before changing into an orange pip?
+Does Inverted! supersede other effects that look at pips? Or can the order be chosen? For example, Inverted! with Thermal Weaponry, could a blue pip add to pierce before changing into an orange pip?
       </question>
       <answer>
 Battle icon colors do not exist simultaneously. When Battle Icons are made to change colors, it happens instantaneously.
@@ -233,7 +233,7 @@ The rules state that when you play an action, you set it off to the side. When O
 The Zap gets set aside, but the orange icon would still increase the attack.
       </answer>
     </entry>
-    <entry id="218-31">
+    <entry id="218-31" tags="Sunstorm - Fusion Flyer">
       <question>
 If there ever comes a time when I'm using Sunstorm and I manage to draw all cards and have no scrap pile, how will I do the battle flips?
       </question>
@@ -241,7 +241,7 @@ If there ever comes a time when I'm using Sunstorm and I manage to draw all card
 Do as much as you can. If you run out of cards in your deck and scrap pile during a battle, stop flipping and resolve that attack.
       </answer>
     </entry>
-    <entry id="218-32">
+    <entry id="218-32" tags="Autobot Jazz - Special Ops">
       <question>
 What checks first when you have a Force Field on Jazz in Alt Mode? Would Jazz's ability reduce his damage to 2, or would Force Field reduce to it 4 and then Jazz's ability would reduce to 2 if he flips white pips?
       </question>
@@ -257,7 +257,7 @@ Does Peace Through Tyranny do damage to a character when it is K.O.'d or does it
 It K.O.’s the character without damage, but characters in the K.O. Area are assumed to have their maximum damage.
       </answer>
     </entry>
-    <entry id="218-34">
+    <entry id="218-34" tags="Play">
       <question>
 If we play a game of sealed, that has a ton of bold shenanigans going on, and I flip my deck, shuffle up, scrap, and flip all of my new deck but am still owed more flips, am I just out of luck?
       </question>
@@ -265,7 +265,7 @@ If we play a game of sealed, that has a ton of bold shenanigans going on, and I 
 Yes.
       </answer>
     </entry>
-    <entry id="218-35">
+    <entry id="218-35" tags="KO">
       <question>
 Can you heal damage from Characters in your K.O. Area?
       </question>

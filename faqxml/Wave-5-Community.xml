@@ -56,5 +56,13 @@
                   - Spymaster's Ruse (Specialist)
           </answer>
       </entry>
+      <entry id="6" tags="Titan Master">
+          <question>
+              For cards like Heavy Handed that count stars, do you add the head star cost to the body star cost for the total star cost?
+          </question>
+          <answer>
+              Yes.
+          </answer>
+      </entry>
     </target>
 </faq>

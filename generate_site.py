@@ -189,12 +189,19 @@ topn_template_file = open('templates/topn.jinja2','r')
 topn_template_text = topn_template_file.read()
 topn_template = Environment(loader=FileSystemLoader("templates/")).from_string(topn_template_text)
 
-# HACK: Finding the tags that are cards. This is a cheap hack, it assumes that the Waves are only about cards
-found_card_data = {k:found_data[2][k] for k in found_data[2] if re.match('^/wave-', found_data[1][k])}
-counted_tags = Counter(found_card_data)
-page = topn_template.render(title='Top Twenty', url_dictionary=found_data[1], counted_dictionary=counted_tags.most_common(20))
+# HACK: Finding the tags that are cards. This is a bit of a cheap hack based on url habits.
+found_characters = {k:found_data[2][k] for k in found_data[2] if re.search('/characters/', found_data[1][k])}
+counted_characters = Counter(found_characters)
+page = topn_template.render(title='Top Twenty Character Cards', url_dictionary=found_data[1], counted_dictionary=counted_characters.most_common(20))
+f = open(os.path.join(TOP_OUTPUT_DIR, 'top-characters.html'), "w")
+f.write(page)
+f.close()
 
-f = open(os.path.join(TOP_OUTPUT_DIR, 'topn.html'), "w")
+found_battle_cards = {k:found_data[2][k] for k in found_data[2] if re.search('/battle-cards/', found_data[1][k])}
+counted_battle_cards = Counter(found_battle_cards)
+page = topn_template.render(title='Top Twenty Battle Cards', url_dictionary=found_data[1], counted_dictionary=counted_battle_cards.most_common(20))
+
+f = open(os.path.join(TOP_OUTPUT_DIR, 'top-battle-cards.html'), "w")
 f.write(page)
 f.close()
 

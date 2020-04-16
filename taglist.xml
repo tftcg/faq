@@ -3,7 +3,7 @@
             <!-- <tag name="Action" markup_required="true"/> -->
         <tag name="Attacking" markup_required="true"/>
         <tag name="Battle Icon" markup_required="true"/>
-        <tag name="Battle Master" markup_required="true"/>
+        <tag name="Battle Master"/>
         <tag name="Bold" markup_required="true"/>
         <tag name="Bounty" markup_required="true"/>
         <tag name="Brave" markup_required="true"/>
@@ -22,13 +22,13 @@
         <tag name="Star" markup_required="true"/>
         <tag name="Stealth" markup_required="true"/>
         <tag name="Tap Ability" markup_required="true"/>
-        <tag name="Titan Master" markup_required="true"/>
+        <tag name="Titan Master"/>
         <tag name="Tough" markup_required="true"/>
         <tag name="Trait" markup_required="true"/>
         <tag name="Trigger" markup_required="true"/>
-        <tag name="Triple Changer" markup_required="true"/>
+        <tag name="Triple Changer"/>
         <tag name="Upgrade" markup_required="true"/>
-        <tag name="Weaponizer" markup_required="true"/>
+        <tag name="Weaponizer"/>
     </category>
     <category name="Wave 1">
         <category name="Battle Cards">

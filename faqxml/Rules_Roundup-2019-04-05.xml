@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <faq name="Rules Roundup 2019-04-05" source_url="https://www.facebook.com/notes/transformers-trading-card-game/rules-roundup-4519/2082325761889238/" published_date="2019-04-05" sourced_at="2020-04-15">
   <target name="Placeholder">
-    <entry id="405-1">
+    <entry id="405-1" tags="Dreadwing - Sky Destroyer">
       <question>
 How do double Forcefields work on Dreadwing? Will both be scrapped in a single attack thus making 1 pointless? Or will 1 trigger and resolve then the 2nd is left on?
       </question>
@@ -9,7 +9,7 @@ How do double Forcefields work on Dreadwing? Will both be scrapped in a single a
 Both Forcefields will try to apply. You’ll need to choose one, which would reduce the damage, making the other Forcefield no longer apply to the scenario.
       </answer>
     </entry>
-    <entry id="405-2">
+    <entry id="405-2" tags="Play">
       <question>
 If you run out of cards in a deck, do you shuffle immediately or wait until you have to draw/flip? 
       </question>
@@ -17,7 +17,7 @@ If you run out of cards in a deck, do you shuffle immediately or wait until you 
 Reshuffle immediately.
       </answer>
     </entry>
-    <entry id="405-3">
+    <entry id="405-3" tags="Dreadwind - Air Defense,Dreadwing - Sky Destroyer,Blackwing Aerial Attacker">
       <question>
 Re: Rules Roundup: 2/18 - as related to Dreadwing and 'So what happens when your opponent is tapped out and you attack with Blackwing/Dreadwind and combine at the end of your turn?' The answer to this question is as I understood it, however, what is the sequence of play in this situation?
       </question>
@@ -25,7 +25,7 @@ Re: Rules Roundup: 2/18 - as related to Dreadwing and 'So what happens when your
 You would attack, check if all characters are tapped. If they are tapped, untap them, then end the turn. At that point, you may Combine. 
       </answer>
     </entry>
-    <entry id="405-4">
+    <entry id="405-4" tags="Deck">
       <question>
 I have a question about the game, and apologize if you answered it somewhere in the rules, but I could not find it. It is listed that a minimum of 40 battle cards be used. And one place mentions 40+ cards. But what is the maximum number of battle cards one can have in their deck?
       </question>
@@ -49,7 +49,7 @@ Playing Turbo. I have a Drill Arms in play. I draw the last card in my deck. I h
 In order to play the second Drill Arms, you first scrap the one that’s already in play. This immediately becomes the only card in your deck, so when you use the ability of the new Drill Arms, that’s the card you’ll draw.
       </answer>
     </entry>
-    <entry id="405-7">
+    <entry id="405-7" tags="Play">
       <question>
 Scenario: You've just reshuffled your scrap pile, you have a very large hand, and you go into battle with a lot of bold. You run out of cards in your deck to flip, and there are no cards in your scrap pile. What happens?
       </question>
@@ -57,7 +57,7 @@ Scenario: You've just reshuffled your scrap pile, you have a very large hand, an
 You stop flipping and immediately regret holding onto so many cards.
       </answer>
     </entry>
-    <entry id="405-8">
+    <entry id="405-8" tags="KO">
       <question>
     1. "When this is in your KO area and you flip to this mode => [do something]"
 This suggests to me that A) you can flip characters in the KO area, and B) character abilities are active while in the KO area. Is this correct?

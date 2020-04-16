@@ -64,7 +64,6 @@ def source_image_name(source_name):
         return 'blue'
 
 def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
-    # TODO: Do I want to put all the leaves at a top level /tags/*.html level?
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
     leaf_name = tag_node.attrib['name']
     markup = '[[' + leaf_name + ']]'

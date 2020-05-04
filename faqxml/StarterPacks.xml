@@ -97,4 +97,49 @@
           </answer>
       </entry>
   </target>
+
+
+
+
+  <target name="Blaster vs Soundwave Deck">
+      <entry id="5">
+          <question>What battle cards are in the Blaster Deck?</question>
+          <answer>
+                2 x Basic Combat Protocol
+                3 x Escape Route
+                2 x Flamethrower
+                3 x Force Field
+                3 x Handheld Blaster
+                3 x Vaporize
+                2 x Zap
+                3 x Daring Counterattack
+                3 x Interpert the Airwaves
+                3 x Obstructive Rhythm
+                3 x Recover Cassette
+                3 x Backup Beam
+                2 x Grenade Launcher
+                3 x Pep Talk
+                2 x Incoming Transmission
+          </answer>
+      </entry>
+      <entry id="6">
+          <question>What battle cards are in the Soundwave Deck?</question>
+          <answer>
+                3 x Calculated Strike
+                2 x Dismantle
+                3 x Escape Route
+                3 x Handheld Blaster
+                3 x Buzzsaw, Ravage, Frenzy Attack!
+                3 x Inner Grove
+                3 x Intercept Communications
+                3 x Recover Cassette
+                3 x Blast Shield
+                3 x Pep Talk
+                3 x Scoundrels Blaster
+                3 x Steady Shot
+                2 x Piercing Blaster
+                3 x Smoke Cloak
+          </answer>
+      </entry>
+  </target>
 </faq>

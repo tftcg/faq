@@ -70,5 +70,17 @@
           Right click on the battlefield right of the screen and select Grab Battle Card From Collection.
       </answer>
     </entry>
+    <entry id="16">
+        <question>Are there pre-existing decks I can play?</question>
+        <answer>
+            Yes. Many standard decks are available at <a href="https://tftcg.github.io/decks/">https://tftcg.github.io/decks/</a>, while there are lots of community decks available on <a href="https://fortressmaximus.io/">https://fortressmaximus.io</a>. 
+        </answer>
+    </entry>
+    <entry id="17">
+        <question>Is there any help on using the Deck Editor?</question>
+        <answer>
+            Using the Deck Editor is discussed in the article, <a href="https://www.freelancepeacekeeping.com/articles/grapple.html">Grappling the Challenge</a>. 
+        </answer>
+    </entry>
   </target>
 </faq>

@@ -4,8 +4,8 @@
 
 {% block social %}
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="TFTCG FAQ"/>
-  <meta property="og:description" content="{{pretty_path}} / {{ faq_name }} FAQ ({{ entries|length }})"/>
+  <meta property="og:title" content="{{pretty_path}} / {{ faq_name }} FAQ ({{ entries|length }})"/>
+  <meta property="og:description" content="TFTCG.info provides an easy way to access, and share, Transformers the Trading Card Game FAQs, Rules Roundups, and additional community FAQS. "/>
   <meta property="og:url" content="https://tftcg.info/{{ filename }}"/>
   {% if tag_node.attrib['wave_code'] %}
   <meta property="og:image" content="https://images.fortressmaximus.io/cards/{{ f_build_image_path(pretty_path, tag_node) }}.jpg"/>

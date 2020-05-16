@@ -8,7 +8,7 @@
   <meta property="og:description" content="{{pretty_path}} / {{ faq_name }} FAQ ({{ entries|length }})"/>
   <meta property="og:url" content="https://tftcg.info/{{ filename }}"/>
   {% if tag_node.attrib['wave_code'] %}
-  <meta property="og:image" content="https://images.fortressmaximus.io/cards/{{ f_safe_name(tag_node.attrib['name']) }}-{{ tag_node.attrib['wave_code']}}{% if 'Character' in pretty_path %}-alt{% endif %}.jpg"/>
+  <meta property="og:image" content="https://images.fortressmaximus.io/cards/{{ f_build_image_path(pretty_path, tag_node) }}.jpg"/>
   <meta property="og:image:alt" content="The {{ faq_name }} card">
   {% endif %}
 {% endblock %}

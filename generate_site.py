@@ -15,6 +15,26 @@ TOP_OUTPUT_DIR ='docs'
 def safe_name(name):
     return name.lower().replace(' ', '-').replace('---', '-').replace("'", '').replace('?', '').replace('(','').replace(')', '').replace('&-', '').replace(',', '').replace('/-', '')
 
+# {wave_code.lower}{type}/{name}-{wave_code}-{alt if character}
+def build_image_path(pretty_path, tag_node):
+    path=tag_node.attrib['wave_code'].lower() + '/'
+
+    if 'Character' in pretty_path:
+        path += 'character'
+    elif 'Stratagems' in pretty_path:
+        path += 'stratagem'
+    elif 'Battle' in pretty_path:
+        path += 'battle'
+    else:
+        print('Error: Unusual card found with wave code')
+
+    path += '/' + safe_name(tag_node.attrib['name']) + '-' + tag_node.attrib['wave_code']
+
+    if 'Character' in pretty_path:
+        path += '-alt'
+
+    return path
+
 # Returns the inner xml of an Element; i.e. <a>Text <b>bob</b>. </a> would return 'Text <b>bob</b>. '
 # https://stackoverflow.com/questions/3443831/python-and-elementtree-return-inner-xml-excluding-parent-element
 def inner_xml(element):
@@ -103,7 +123,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path )
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path )
 
         f = open(filename, "w")
         f.write(page)

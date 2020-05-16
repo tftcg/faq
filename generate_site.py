@@ -71,6 +71,7 @@ def source_image_name(source_name):
 # Returns number of entries found for the leaf page
 def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
+    pretty_path = re.sub('-', ' ', re.sub('/', ' / ', output_dir[len(TOP_OUTPUT_DIR)+1:]) ).title()
     leaf_name = tag_node.attrib['name']
     markup = '[[' + leaf_name + ']]'
     markup_required = False
@@ -102,7 +103,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref)
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path )
 
         f = open(filename, "w")
         f.write(page)

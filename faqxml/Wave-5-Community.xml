@@ -31,6 +31,27 @@
             Note that cards like Start Your Engines and Hunker Down do not flip the characters from Body mode to Alt mode, however if the characters have Car and Tank traits respectively, they still get the secondary effects of those cards. 
           </answer>
       </entry>
+      <entry id="8">
+          <question>
+              Which cards do not 'work' on a character in Body mode?
+          </question>
+          <answer>
+              The following cards apply to Bot mode and thus will not affect an enemy character in its Body mode:
+                - Cornered!
+                - Marksmanship
+              The following cards apply to Bot mode and thus will not affect one of your characters in its Body mode:
+                - Cliffjumper - Renegade Warrior's Alt mode ability
+                - Conversion Expertise (still provides Tough 1 in Alt mode)
+                - Escape Route
+                - Hit and Run
+                - Hunker Down (still upgrades with Armor if the character with Body mode is currently a Tank)
+                - Pop a Wheelie (if there was a Motorcycle with a Body mode, it would not flip)
+                - Roll Out!
+                - Start Your Engines (still untaps if the character with Body mode is currently a Car)
+                - Swerve
+                - Unconventional Flying Object
+          </answer>
+      </entry>
       <entry id="4" tags="Battle Icon,Trait">
           <question>
               Why are there tiny icons on the Battle Icons?

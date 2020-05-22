@@ -45,6 +45,7 @@ def prepare_text(node):
     text = inner_xml(node)
     newtext = text.replace('[[', '').replace(']]', '').strip()
     newtext = re.sub(r'(.)\n(.)', r'\1<br/>\2', newtext)
+    newtext = newtext.replace('<tftcg-note>', '<div class="tftcg-note">').replace('</tftcg-note>', '</div>')
     return newtext
 
 # Returns nothing

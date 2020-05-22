@@ -56,6 +56,21 @@ p, ul, ol {
     display: none;
 }
 
+.tftcg-note:before {
+    content: "TFTCG.info: ";
+}
+
+.tftcg-note {
+    background-color: red;
+    color: white;
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 1em;
+    font-size: smaller;
+}
+
+
+
 @media (min-width: 500px) {
   #fort-max-link {
     background-color: #343a40;

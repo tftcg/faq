@@ -783,6 +783,7 @@
             <tag name="Sideboarding"/>
             <tag name="Infractions" markup_required="true"/>
         </category>
+        <tag name="End of Match"/>
         <tag name="Tie-Break"/>
     </category>
     <category name="OCTGN">

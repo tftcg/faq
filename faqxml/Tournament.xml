@@ -73,4 +73,50 @@ sideboard may not exceed the maximum sideboard size (10 battle cards).
           </answer>
       </entry>
   </target>
+  <target name="End of Match">
+      <entry id="6">
+          <question>
+              What do you do if the time limit is up before a winner is determined?
+          </question>
+          <answer>
+              The player whose turn it is finishes their turn (including untapping all characters at the end
+              of the turn if all characters are tapped at this point). Play then continues as normal until a player 
+              wins the game or all characters are tapped at the end of a turn. If the game is incomplete at the end 
+              of the additional time, resolve Tiebreak procedures.
+          </answer>
+      </entry>
+      <entry id="7">
+          <question>
+              What if a judge had assigned a time extension?
+          </question>
+          <answer>
+              If a judge assigned a time extension (because of a long ruling, deck check, or other reason), the end-of-match procedure does not begin until the end of the time extension.
+          </answer>
+      </entry>
+  </target>
+  <target name="Tie-Break">
+      <entry id="8">
+          <question>
+              What if each player wins the same number of games?
+          </question>
+          <answer>
+              At the end of the additional time, if the players have won an equal number of games, each player counts the amount of health remaining on their characters on the battlefield. The player with the higher remaining health wins the match. 
+              
+              If the remaining health is tied, each player counts the total number of stars of their characters on the battlefield. The player with the higher total stars wins the match. 
+              
+              If the total stars are tied, each player flips the top two cards of their deck. The player who flips the most white battle icons wins. If still tied, players repeat flipping two cards from the top of their deck until the tie is broken. If a player’s deck needs to be shuffled, that player shuffles cards from their scrap pile and any cards flipped during the tiebreaker procedure. 
+              
+              If the tiebreaker procedure can’t break the tie (for example, if all cards in all decks have exactly one white battle icon), flip a coin to determine the winner.
+          </answer>
+      </entry>
+      <entry id="9">
+          <question>
+              What is the tie-breaker procedure if a player won in extra time?
+          </question>
+          <answer> 
+If a player wins a game in extra time, bringing the match score to a tie, players present their teams and their decks (without sideboarding) as though they were about to start another game, and then resolve the tiebreaker procedure.
+          </answer>
+      </entry>
+  </target>
+
 </faq>

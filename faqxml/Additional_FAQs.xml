@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<faq name="Additional Keywords" source="Community" source_url="https://github.com/tftcg/faq">
+  <target name="Dinobot Enigma">
+    <entry id="1" tags="Grimlock - Powerful Commander">
+      <question>Dinobot Enigma says "5 Dinobots in bot mode", can I use Wave 1 Dinobots to form Volcanicus?</question>
+      <answer>No. The Wave 2 Combiner Dinobots must be used. This was covered in a <a href="https://www.facebook.com/TransformersTCG/videos/volcanicus-and-not/473222143208266/">video</a>. </answer>
+    </entry>
+  </target>
+</faq>

@@ -112,15 +112,17 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
             source_name = node.attrib['name']
         for target_node in node.findall('./target'):
             for entry_node in target_node.findall('./entry'):
-                # Look for any <target> with a name that matches the leaf_name
+                # Look for any <target> with a name that matches this tag
                 if target_node.attrib['name'] == leaf_name:
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                # Look for any entry that contains this tag
                 elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags'].split(','):
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                # If it's allowed, search for the tag in the text
                 elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                # Search for [[tag]] in the text
                 elif markup in ET.tostring(entry_node).decode():
-                    # Look for "[[leaf_name]]" in each entry. If found, add that node.
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
 
     if(len(found_entries) != 0):
@@ -198,6 +200,7 @@ for file in glob.glob(faq_glob, recursive=True):
     faq_node=faq_tree.getroot()
     faq_db[filename] = faq_node
 
+# Walk the taglist and generate pages
 found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template)
 
 # Generate json index

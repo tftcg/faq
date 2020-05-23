@@ -115,7 +115,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
                 # Look for any <target> with a name that matches the leaf_name
                 if target_node.attrib['name'] == leaf_name:
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
-                elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags']:
+                elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags'].split(','):
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )
                 elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
                     found_entries.append( [source_name, source_url, entry_node, faqfile] )

@@ -105,7 +105,7 @@ def source_image_name(source_name):
         return 'blue'
 
 # Returns number of entries found for the leaf page
-def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, parent_node):
+def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, parent_stack):
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
     pretty_path = re.sub('-', ' ', re.sub('/', ' / ', output_dir[len(TOP_OUTPUT_DIR)+1:]) ).title()
     leaf_name = tag_node.attrib['name']
@@ -113,7 +113,6 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
     markup_required = False
     if('markup_required' in tag_node.attrib and tag_node.attrib['markup_required'].lower() == 'true'):
         markup_required = True
-
 
     found_entries = []    # contains array of name, source_url, faq node
 
@@ -164,7 +163,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
                     found_entries.append( [source_name, source_url, entry_node, faqfile, hyperlinks] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path )
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_stack=parent_stack, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path )
 
         f = open(filename, "w")
         f.write(page)
@@ -173,17 +172,17 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
     return len(found_entries)
 
 # Returns nothing
-def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_node):
+def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_stack):
     filename = os.path.join(output_dir, 'index.html')
 
-    page=branch_template.render(f_safe_name=safe_name, tag_blocks=tag_blocks, category_blocks=category_blocks, parent_node=parent_node, this_node=node)
+    page=branch_template.render(f_safe_name=safe_name, tag_blocks=tag_blocks, category_blocks=category_blocks, parent_stack=parent_stack, this_node=node)
 
     f = open(filename, "w")
     f.write(page)
     f.close()
 
 # Returns: [Number items found, tag:file dictionary, tag:count dictionary]
-def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, hyperlinker, parent_node=None):
+def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, hyperlinker, parent_stack=[]):
 
     tag_blocks = []
     category_blocks = []
@@ -194,7 +193,9 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, hyperl
     mkdirp(output_dir)
 
     for tag_node in node.findall('./tag'):
-        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, node)
+        parent_stack.append(node)
+        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, parent_stack)
+        parent_stack.pop()
         if(found > 0):
             tag_blocks.append([tag_node, found])
             total_found += found
@@ -203,14 +204,16 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, hyperl
 
     for category_node in node.findall('./category'):
         subdir = os.path.join(output_dir, safe_name(category_node.attrib['name']))
-        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, hyperlinker, node)
+        parent_stack.append(node)
+        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, hyperlinker, parent_stack)
+        parent_stack.pop()
         if(found_data[0] > 0):
             category_blocks.append([category_node, found_data[0]])
             total_found += found_data[0]
             found_tags.update(found_data[1])
             found_count.update(found_data[2])
 
-    generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_node)
+    generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_stack)
 
     return [total_found, found_tags, found_count]
 

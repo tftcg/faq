@@ -16,7 +16,18 @@
 {% endblock %}
 
 {% block content %}
-        <div><a href="index.html">{{ parent_node.attrib['name'] }}</a></div>
+        {% if parent_stack|length %}
+        <div>
+          {% set updir_array=parent_stack|length * ['../',] %}
+          {% set ignore = updir_array.pop() %}
+          {% for parent_node in parent_stack %}
+              <a href="{{ '/'.join(updir_array) }}index.html">{{ parent_node.attrib['name'] }}</a> /
+              {% if updir_array|length %}
+                  {% set ignore = updir_array.pop() %}
+              {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
         {% if tag_node.attrib['wave_code'] %}
           <a id="fort-max-link" href="https://fortressmaximus.io/card/{{ f_safe_name(tag_node.attrib['name']) }}-{{ tag_node.attrib['wave_code']}}"><img src="/images/FortMax-Logo.png"><span class="fortmaxtext"> View On FortressMaximus.io</span></a></a>
         {% endif %}

@@ -3,8 +3,14 @@
 {% block title %}{{ this_node.attrib['name'] }}{% endblock %}
 
 {% block content %}
-        {% if parent_node %}
-        <div><a href="../index.html">{{ parent_node.attrib['name'] }}</a></div>
+        {% if parent_stack|length %}
+        <div>
+          {% set updir_array=parent_stack|length * ['..',] %}
+          {% for parent_node in parent_stack %}
+              <a href="{{ '/'.join(updir_array) }}/index.html">{{ parent_node.attrib['name'] }}</a> /
+              {% set ignore = updir_array.pop() %}
+          {% endfor %}
+        </div>
         {% endif %}
         <h3 class="card_title">{{ this_node.attrib['name'] }}</h3>
         <ul>

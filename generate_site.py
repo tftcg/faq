@@ -50,7 +50,7 @@ def prepare_text(node, hyperlinks=None):
     if(hyperlinks):
         for tag in hyperlinks:
             if(tag in newtext):
-                newtext.replace(tag, '<a href="' + hyperlinks[tag] + '">' + tag + '</a>')
+                newtext = newtext.replace(tag, '<a href="' + hyperlinks[tag] + '">' + tag + '</a>')
             elif(' - ' in tag):
                 chopped_tag = tag.split(' - ')[0]
                 if(chopped_tag in newtext):

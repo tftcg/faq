@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<faq name="Constructed" source="Tournament FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-tournament-rules" published_date="2019-11-21" sourced_at="2020-03-04">
+<faq name="Tournament Rules" source="Tournament FAQ" source_url="https://wpn.wizards.com/en/document/transformers-tcg-tournament-rules" published_date="2019-11-21" sourced_at="2020-03-04">
   <!-- NOTE: Adapted from original materials -->
   <target name="Permitted and Banned Cards">
       <entry id="1">
@@ -73,7 +73,30 @@ sideboard may not exceed the maximum sideboard size (10 battle cards).
           </answer>
       </entry>
   </target>
+  <target name="Start of Match">
+      <entry id="12">
+          <question>
+              How do we decide who goes first?
+          </question>
+          <answer>
+For the first game of a match, the winner of a random method (such as a die roll or coin toss) chooses
+either to play first or to play second.
+After each game in a match, the loser of that game chooses to either play first or play second in the next
+game. If the previous game was a draw, the player who chose at the beginning of the drawn game
+chooses again.
+          </answer>
+      </entry>
+  </target>
+
   <target name="End of Match">
+      <entry id="10">
+          <question>
+              How is the winner of a match determined?
+          </question>
+          <answer>
+A Transformers TCG match consists of a series of games that are played until one player has won two games. Drawn games do not count toward this goal. If the round ends before a player has won two games, the winner of the match is the player who has won the most games at that point. If both players have equal game wins, the match is a draw.
+          </answer>
+      </entry>
       <entry id="6">
           <question>
               What do you do if the time limit is up before a winner is determined?
@@ -91,6 +114,16 @@ sideboard may not exceed the maximum sideboard size (10 battle cards).
           </question>
           <answer>
               If a judge assigned a time extension (because of a long ruling, deck check, or other reason), the end-of-match procedure does not begin until the end of the time extension.
+          </answer>
+      </entry>
+      <entry id="11">
+          <question>
+              Can I concede or intentionally draw a game or match?
+          </question>
+          <answer>
+              If a game or match is not completed, players may concede or mutually agree to a draw in that game or match. A match is considered complete once the result slip is filled out or, if match slips are not being used, a player leaves the table after game play is finished.
+              Players may not agree to a concession or draw in exchange for any reward or incentive. Doing so will be considered Bribery (see section 5.2).
+              If a player refuses to play, it is assumed that they have conceded the match.
           </answer>
       </entry>
   </target>
@@ -114,7 +147,144 @@ sideboard may not exceed the maximum sideboard size (10 battle cards).
               What is the tie-breaker procedure if a player won in extra time?
           </question>
           <answer> 
-If a player wins a game in extra time, bringing the match score to a tie, players present their teams and their decks (without sideboarding) as though they were about to start another game, and then resolve the tiebreaker procedure.
+              If a player wins a game in extra time, bringing the match score to a tie, players present their teams and their decks (without sideboarding) as though they were about to start another game, and then resolve the tiebreaker procedure.
+          </answer>
+      </entry>
+  </target>
+  <target name="Play">
+      <entry id="13" tags="Peace Through Tyranny">
+          <question>
+             What is the Extra Turn Rule?
+          </question>
+          <answer> 
+              Players can’t take more than two turns in a row under any circumstances. Any additional turns beyond two consecutive turns are skipped and not deferred or saved for the future.
+          </answer>
+      </entry>
+      <entry id="14">
+          <question>
+              How do you tap a card?
+          </question>
+          <answer> 
+              If a card is tapped, it must be clearly turned approximately 90 degrees.
+          </answer>
+      </entry>
+      <entry id="18">
+          <question>
+              What is Hidden Information?
+          </question>
+          <answer> 
+Hidden information refers to information a player isn’t allowed access to, such as the faces of cards in an opponent’s hand.
+Throughout the match and pregame procedures, players are responsible for keeping their cards above the level of the playing surface and for making reasonable efforts to prevent hidden information from being revealed.
+However, players may choose to reveal their hands or any other hidden information available only to them, unless specifically prohibited by the rules. Players must not actively attempt to gain information hidden from them.
+          </answer>
+      </entry>
+
+  </target>
+
+  <target name="Tournament Rules">
+
+      <entry id="15">
+          <question>
+              What is a Deck Check?
+          </question>
+          <answer> 
+Deck checks may be performed at any tournament at the option of the head judge. A deck check compares the deck registration list to the current contents of a player’s deck. If they do not match, appropriate penalties may be issued.
+          </answer>
+      </entry>
+
+      <entry id="16">
+          <question>
+May I take notes?
+          </question>
+          <answer> 
+Players are allowed to take written notes during a match and may refer to those notes while that match is in progress. At the beginning of a match, each player’s note sheet must be empty and must remain visible throughout the match. Players do not have to explain or reveal notes to other players. Judges may ask to see a player’s notes and/or request that the player explain their notes.
+Players may not refer to other notes, including notes from previous matches, during games.
+Between games, players may refer to a brief set of notes made before the match. They are not required to reveal these notes to their opponents. These notes must be removed from the play area before the beginning of the next game. Players taking excessive amounts of time reviewing notes may be subject to Slow Play penalties.
+          </answer>
+      </entry>
+
+      <entry id="17">
+          <question>
+              May I use an electronic device?
+          </question>
+          <answer> 
+              Players may use electronic devices to do the following:
+
+              <ul>
+                  <li>Take and review notes (as outlined in section 2.11).</li>
+                  <li>Briefly answer personal calls not related to the game.</li>
+                  <li>Players may not use electronic devices to access outside strategic sources (websites, forums, etc.) or communicate with others in order to receive outside assistance. Players taking excessive amounts of time using an electronic device may be subject to Slow Play penalties.</li>
+                  <li>Players wishing to view information privately on electronic devices during matches must request permission from a judge.</li>
+                  <li>The Head Judge of an event may further restrict or forbid the use of electronic devices during matches.</li>
+                  <li>Use of the Official Transformers TCG Companion App is permitted for damage/health tracking.</li>
+              </ul>
+          </answer>
+      </entry>
+
+      <entry id="24">
+          <question>
+How many players are required for a tournament to remain Officially Sanctioned?
+          </question>
+          <answer> 
+Sanctioned Transformers TCG tournaments require a minimum of four (4) players, and a minimum of two rounds must be played. 
+          </answer>
+      </entry>
+
+  </target>
+  <target name="Contructed Deck Construction">
+      <entry id="19">
+          <question>
+              What are the rules for Constructed deck construction?
+          </question>
+          <answer> 
+Constructed decks must contain a minimum of 40 cards. There is no maximum deck size. A deck may contain no more than 3 of any individual card based on its English name. A player may not use more than one character card bearing the same complete card name (character name plus subname). A player’s character cards and deck may have a total of no more than 25 Stars.
+A card may only be used in a particular format if the card is from a set that is legal in that format or has the same name as a card from a set that is legal in that format.
+Cards banned in a specific format may not be used in decks for that format.
+          </answer>
+      </entry>
+  </target>
+
+  <target name="Outside the Game">
+      <entry id="20">
+          <question>
+ What does a 'Character card from outside the game' mean?
+          </question>
+          <answer> 
+When a card refers to “a Character card from outside the game”, those cards from outside the game must be in the possession of the player at the beginning of the match.
+Character cards from outside of the game do not count as part of players’ teams, decks, and sideboards, but must be referenced by other cards that are part of a player’s team, deck, or sideboard
+At the end of each game, any Character cards from outside the game that were introduced during play must be removed from players’ teams, decks, and sideboards. 
+Character cards from outside the game must be legal within the event format.
+          </answer>
+      </entry>
+
+      <entry id="21">
+          <question>
+What does a 'Battle card from outside the game' mean?
+          </question>
+          <answer> 
+When a card refers to “a Battle card from outside the game”, those cards from outside the game must be in player’s sideboard at the time of using the effect.
+At the end of each game any Battle cards from outside the game that were introduced during play are returned to players’ sideboards.
+Battle cards from outside the game come from the sideboard and adhere to all sideboard rules.
+          </answer>
+      </entry>
+  </target>
+
+  <target name="Limited Deck Construction">
+      <entry id="22">
+          <question>
+What are the rules for Limited deck construction?
+          </question>
+          <answer> 
+Limited decks must contain a minimum of 25 battle cards. The maximum deck size is every card in the player’s card pool. Unlike Constructed decks, Limited decks may contain more than three of any battle card and more than one of any character card, as long as those cards are in the player’s card pool. A player’s character cards and deck may have a total of no more than 25 Stars.
+          </answer>
+      </entry>
+
+      <entry id="23">
+          <question>
+What is the Card Pool?
+          </question>
+          <answer> 
+The card pool consists of each character and battle card a player opens or drafts in a Limited tournament. Players participating in Limited tournaments may freely change the composition of their decks between matches (but not games) by exchanging cards from their deck for other cards in their card pool without being required to return their deck to its original composition before their next match. Players must ensure their deck has at least the minimum 25 battle cards after making any modifications.
           </answer>
       </entry>
   </target>

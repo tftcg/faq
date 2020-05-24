@@ -4,6 +4,15 @@ body {
   background-color: black;
 }
 
+#logo {
+  float: left;
+  width: 2em;
+  height: 2em;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
 #sitetitle {
   color: #ffffff;
   font-size: 2em;

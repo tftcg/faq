@@ -41,11 +41,26 @@ def inner_xml(element):
     return (element.text or '') + ''.join(ET.tostring(e, 'unicode') for e in element)
 
 # Returns the text to output
-def prepare_text(node):
+def prepare_text(node, hyperlinks=None):
     text = inner_xml(node)
     newtext = text.replace('[[', '').replace(']]', '').strip()
     newtext = re.sub(r'(.)\n(.)', r'\1<br/>\2', newtext)
     newtext = newtext.replace('<tftcg-note>', '<div class="tftcg-note">').replace('</tftcg-note>', '</div>')
+
+    if(hyperlinks):
+        for tag in hyperlinks:
+            if(tag in newtext):
+                newtext.replace(tag, '<a href="' + hyperlinks[tag] + '">' + tag + '</a>')
+            elif(' - ' in tag):
+                chopped_tag = tag.split(' - ')[0]
+                if(chopped_tag in newtext):
+                    newtext = newtext.replace(chopped_tag, '<a href="' + hyperlinks[tag] + '">' + chopped_tag + '</a>')
+                else:
+                    # Try removing common prefixes
+                    chopped_tag = chopped_tag.replace('Captain ', '').replace('General ', '').replace('Major ', '').replace('Private ', '').replace('Raider ', '').replace('Sergeant ', '').replace('Specialist ', '')
+                    if(chopped_tag in newtext):
+                        newtext = newtext.replace(chopped_tag, '<a href="' + hyperlinks[tag] + '">' + chopped_tag + '</a>')
+            
     return newtext
 
 # Returns nothing
@@ -90,7 +105,7 @@ def source_image_name(source_name):
         return 'blue'
 
 # Returns number of entries found for the leaf page
-def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
+def generate_leaf(tag_node, faq_db, output_dir, leaf_template, search_index, parent_node):
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
     pretty_path = re.sub('-', ' ', re.sub('/', ' / ', output_dir[len(TOP_OUTPUT_DIR)+1:]) ).title()
     leaf_name = tag_node.attrib['name']
@@ -112,18 +127,29 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, parent_node):
             source_name = node.attrib['name']
         for target_node in node.findall('./target'):
             for entry_node in target_node.findall('./entry'):
+                found = False
+                target_name = target_node.attrib['name']
                 # Look for any <target> with a name that matches this tag
-                if target_node.attrib['name'] == leaf_name:
-                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                if target_name == leaf_name:
+                    found = True
                 # Look for any entry that contains this tag
                 elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags'].split(','):
-                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                    found = True
                 # If it's allowed, search for the tag in the text
                 elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
-                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                    found = True
                 # Search for [[tag]] in the text
                 elif markup in ET.tostring(entry_node).decode():
-                    found_entries.append( [source_name, source_url, entry_node, faqfile] )
+                    found = True
+
+                if(found):
+                    # Identify hyperlinks
+                    hyperlinks = {}
+
+                    if(target_name != leaf_name and target_name in search_index):
+                        hyperlinks[target_name] = search_index[target_name]
+
+                    found_entries.append( [source_name, source_url, entry_node, faqfile, hyperlinks] )
 
     if(len(found_entries) != 0):
         page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_node=parent_node, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path )
@@ -145,7 +171,7 @@ def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branc
     f.close()
 
 # Returns: [Number items found, tag:file dictionary, tag:count dictionary]
-def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent_node=None):
+def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, search_index, parent_node=None):
 
     tag_blocks = []
     category_blocks = []
@@ -156,7 +182,7 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent
     mkdirp(output_dir)
 
     for tag_node in node.findall('./tag'):
-        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, node)
+        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, search_index, node)
         if(found > 0):
             tag_blocks.append([tag_node, found])
             total_found += found
@@ -165,7 +191,7 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, parent
 
     for category_node in node.findall('./category'):
         subdir = os.path.join(output_dir, safe_name(category_node.attrib['name']))
-        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, node)
+        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, search_index, node)
         if(found_data[0] > 0):
             category_blocks.append([category_node, found_data[0]])
             total_found += found_data[0]
@@ -200,11 +226,17 @@ for file in glob.glob(faq_glob, recursive=True):
     faq_node=faq_tree.getroot()
     faq_db[filename] = faq_node
 
+# Load the previous json index for use in hyperlinking
+faq_index_filename = os.path.join(TOP_OUTPUT_DIR, "faqindex.json")
+if(os.path.exists(faq_index_filename)):
+    with open(faq_index_filename) as json_file:
+        search_index = json.load(json_file)
+
 # Walk the taglist and generate pages
-found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template)
+found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template, search_index)
 
 # Generate json index
-f = open(os.path.join(TOP_OUTPUT_DIR, "faqindex.json"), "w")
+f = open(faq_index_filename, "w")
 f.write(json.dumps(found_data[1]))
 f.close()
 

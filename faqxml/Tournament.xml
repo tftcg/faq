@@ -183,6 +183,14 @@ However, players may choose to reveal their hands or any other hidden informatio
 
   <target name="Tournament Rules">
 
+      <entry id="25">
+          <question>
+              How do I get the official Tournament Rules?
+          </question>
+          <answer> 
+              The Tournaments Rules may be downloaded from the <a href="https://wpn.wizards.com/en/document/transformers-tcg-tournament-rules">WPN Transformers TCG Tournament Rules</a> page.
+          </answer>
+      </entry>
       <entry id="15">
           <question>
               What is a Deck Check?

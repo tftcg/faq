@@ -176,7 +176,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
 def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branch_template, parent_stack):
     filename = os.path.join(output_dir, 'index.html')
 
-    page=branch_template.render(f_safe_name=safe_name, tag_blocks=tag_blocks, category_blocks=category_blocks, parent_stack=parent_stack, this_node=node)
+    page=branch_template.render(f_safe_name=safe_name, tag_blocks=tag_blocks, category_blocks=category_blocks, parent_stack=parent_stack, this_node=node, filename=filename[len(TOP_OUTPUT_DIR)+1:])
 
     f = open(filename, "w")
     f.write(page)
@@ -273,14 +273,14 @@ topn_template = Environment(loader=FileSystemLoader("templates/")).from_string(t
 # HACK: Finding the tags that are cards. This is a bit of a cheap hack based on url habits.
 found_characters = {k:found_data[2][k] for k in found_data[2] if re.search('/characters/', found_data[1][k])}
 counted_characters = Counter(found_characters)
-page = topn_template.render(title="Top Twenty Most FAQ'd Character Cards", url_dictionary=found_data[1], counted_dictionary=counted_characters.most_common(20))
+page = topn_template.render(title="Top Twenty Most FAQ'd Character Cards", url_dictionary=found_data[1], counted_dictionary=counted_characters.most_common(20), filename='top-characters.html')
 f = open(os.path.join(TOP_OUTPUT_DIR, 'top-characters.html'), "w")
 f.write(page)
 f.close()
 
 found_battle_cards = {k:found_data[2][k] for k in found_data[2] if re.search('/battle-cards/', found_data[1][k])}
 counted_battle_cards = Counter(found_battle_cards)
-page = topn_template.render(title="Top Twenty Most FAQ'd Battle Cards", url_dictionary=found_data[1], counted_dictionary=counted_battle_cards.most_common(20))
+page = topn_template.render(title="Top Twenty Most FAQ'd Battle Cards", url_dictionary=found_data[1], counted_dictionary=counted_battle_cards.most_common(20), filename='top-battle-cards.html')
 
 f = open(os.path.join(TOP_OUTPUT_DIR, 'top-battle-cards.html'), "w")
 f.write(page)
@@ -292,7 +292,7 @@ def generate_html(infilename, tofilename):
     template_text = template_file.read()
     template = Environment(loader=FileSystemLoader("templates/")).from_string(template_text)
 
-    page=template.render()
+    page=template.render(filename=tofilename)
 
     f = open(os.path.join(TOP_OUTPUT_DIR, tofilename), "w")
     f.write(page)

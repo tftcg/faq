@@ -149,6 +149,11 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, search_index, par
                     if(target_name != leaf_name and target_name in search_index):
                         hyperlinks[target_name] = search_index[target_name]
 
+                    if 'tags' in entry_node.attrib:
+                        for tag in entry_node.attrib['tags'].split(','):
+                            if(tag != leaf_name and tag in search_index):
+                                hyperlinks[tag] = search_index[tag]
+
                     found_entries.append( [source_name, source_url, entry_node, faqfile, hyperlinks] )
 
     if(len(found_entries) != 0):

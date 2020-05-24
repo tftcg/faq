@@ -105,7 +105,7 @@ def source_image_name(source_name):
         return 'blue'
 
 # Returns number of entries found for the leaf page
-def generate_leaf(tag_node, faq_db, output_dir, leaf_template, search_index, parent_node):
+def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, parent_node):
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
     pretty_path = re.sub('-', ' ', re.sub('/', ' / ', output_dir[len(TOP_OUTPUT_DIR)+1:]) ).title()
     leaf_name = tag_node.attrib['name']
@@ -146,13 +146,20 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, search_index, par
                     # Identify hyperlinks
                     hyperlinks = {}
 
-                    if(target_name != leaf_name and target_name in search_index):
-                        hyperlinks[target_name] = search_index[target_name]
+                    if(target_name != leaf_name and target_name in hyperlinker[0]):
+                        hyperlinks[target_name] = hyperlinker[0][target_name]
 
                     if 'tags' in entry_node.attrib:
                         for tag in entry_node.attrib['tags'].split(','):
-                            if(tag != leaf_name and tag in search_index):
-                                hyperlinks[tag] = search_index[tag]
+                            if(tag != leaf_name and tag in hyperlinker[0]):
+                                hyperlinks[tag] = hyperlinker[0][tag]
+
+                    # Loop over every other tag that is not markup_required and see if it shows up in the text
+                    for tag in hyperlinker[1]:
+                        if(tag in ET.tostring(entry_node).decode()):
+                            hyperlinks[tag] = hyperlinker[0][tag]
+
+                    # TODO: Do [[]] tags; or just remove that feature
 
                     found_entries.append( [source_name, source_url, entry_node, faqfile, hyperlinks] )
 
@@ -176,7 +183,7 @@ def generate_branch(node, faq_db, output_dir, tag_blocks, category_blocks, branc
     f.close()
 
 # Returns: [Number items found, tag:file dictionary, tag:count dictionary]
-def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, search_index, parent_node=None):
+def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, hyperlinker, parent_node=None):
 
     tag_blocks = []
     category_blocks = []
@@ -187,7 +194,7 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, search
     mkdirp(output_dir)
 
     for tag_node in node.findall('./tag'):
-        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, search_index, node)
+        found = generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, node)
         if(found > 0):
             tag_blocks.append([tag_node, found])
             total_found += found
@@ -196,7 +203,7 @@ def walk_branch(node, faq_db, output_dir, leaf_template, branch_template, search
 
     for category_node in node.findall('./category'):
         subdir = os.path.join(output_dir, safe_name(category_node.attrib['name']))
-        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, search_index, node)
+        found_data = walk_branch(category_node, faq_db, subdir, leaf_template, branch_template, hyperlinker, node)
         if(found_data[0] > 0):
             category_blocks.append([category_node, found_data[0]])
             total_found += found_data[0]
@@ -237,8 +244,16 @@ if(os.path.exists(faq_index_filename)):
     with open(faq_index_filename) as json_file:
         search_index = json.load(json_file)
 
+# Walk the taglist and build the automarkup tags for use in hyperlinking
+automarkup_tags = []
+for tag in taglist_node.findall('.//tag'):
+    if('markup_required' not in tag.attrib):
+        automarkup_tags.append(tag.attrib['name'])
+
+hyperlinker = [search_index, automarkup_tags]
+
 # Walk the taglist and generate pages
-found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template, search_index)
+found_data = walk_branch(taglist_node, faq_db, TOP_OUTPUT_DIR, leaf_template, branch_template, hyperlinker)
 
 # Generate json index
 f = open(faq_index_filename, "w")

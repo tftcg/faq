@@ -50,16 +50,16 @@ def prepare_text(node, hyperlinks=None):
     if(hyperlinks):
         for tag in hyperlinks:
             if(tag in newtext):
-                newtext = newtext.replace(tag, '<a href="' + hyperlinks[tag] + '">' + tag + '</a>')
+                newtext = re.sub(tag, '<a href="' + hyperlinks[tag] + '">' + tag + '</a>', newtext, 1)
             elif(' - ' in tag):
                 chopped_tag = tag.split(' - ')[0]
                 if(chopped_tag in newtext):
-                    newtext = newtext.replace(chopped_tag, '<a href="' + hyperlinks[tag] + '">' + chopped_tag + '</a>')
+                    newtext = re.sub(chopped_tag, '<a href="' + hyperlinks[tag] + '">' + chopped_tag + '</a>', newtext, 1)
                 else:
                     # Try removing common prefixes
                     chopped_tag = chopped_tag.replace('Captain ', '').replace('General ', '').replace('Major ', '').replace('Private ', '').replace('Raider ', '').replace('Sergeant ', '').replace('Specialist ', '')
                     if(chopped_tag in newtext):
-                        newtext = newtext.replace(chopped_tag, '<a href="' + hyperlinks[tag] + '">' + chopped_tag + '</a>')
+                        newtext = re.sub(chopped_tag, '<a href="' + hyperlinks[tag] + '">' + chopped_tag + '</a>', newtext, 1)
             
     return newtext
 

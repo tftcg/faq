@@ -69,6 +69,12 @@ p, ul, ol {
     font-size: smaller;
 }
 
+a.external {
+    background: url(../images/external.png) center right no-repeat;
+    padding-right: 13px;
+}
+
+
 
 
 @media (min-width: 500px) {

@@ -46,6 +46,7 @@ def prepare_text(node, hyperlinks=None):
     newtext = text.replace('[[', '').replace(']]', '').strip()
     newtext = re.sub(r'(.)\n(.)', r'\1<br/>\2', newtext)
     newtext = newtext.replace('<tftcg-note>', '<div class="tftcg-note">').replace('</tftcg-note>', '</div>')
+    newtext = newtext.replace('<a href="http', '<a class="external" href="http')
 
     if(hyperlinks):
         for tag in hyperlinks:

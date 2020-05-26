@@ -94,4 +94,14 @@
           </answer>
       </entry>
     </target>
+    <target name="Topspin - Air &amp; Space Assault">
+        <entry id="8">
+          <question>
+              Topspin doesn't have any stars on his card, can I play him for free?
+          </question>
+          <answer>
+              No. That was a printing error. Topspin is a 9-star card. 
+          </answer>
+      </entry>
+    </target>
 </faq>

@@ -1,0 +1,22 @@
+{% extends "static-base.jinja2" %}
+
+{% block title %}Mobile App Bugs{% endblock %}
+
+{% block content %}
+
+        <div><a href="index.html">FAQ</a></div>
+        <h3 class="card_title">Known Bugs in the Mobile App</h3>
+
+<ol>
+<li>Wipe-Out has Jurassic Punch as the alt thumbnail image. </li>
+<li>Wipe-Out is 6 star cost instead of 4 star. </li>
+<li>The Beast trait is prefixed with a ' ' in the Character filter. </li>
+<li>Stratagems all appear to be configured as Common, breaking the Stratagem filter. </li>
+<li>Combiners have no ownership notion; listing your unowned cards always shows the combiners. </li>
+<li>Raider Skytread has no card. </li>
+<li>Images are sometimes replaced with white or black block images after looking at the card; repeatably with Fortress Maximus. </li>
+<li>Flintlock is 3 star cost instead of 4 star. </li>
+<li>Topspin's alt mode (thumb and full) lack his star cost. </li>
+</ol>
+
+{% endblock %}

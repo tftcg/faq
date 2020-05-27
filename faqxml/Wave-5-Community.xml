@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <faq name="Wave 5 Communuty FAQ" source="Community" source_url="https://github.com/tftcg/faq">
-    <target name="Titan Master">
+    <target name="PLACEHOLDER">
+        <!--
       <entry id="1">
         <question>
              How many stars does a Titan Master (Head mode + Body mode) cost?
@@ -11,7 +12,8 @@
             For the purposes of the cost of the character, then both the Head and Body apply. For example, a 7-star Body with a 4-star Head is 11-stars and thus can use an Energy Pack. 
         </answer>
         </entry>
-        <entry id="2">
+        -->
+        <entry id="2" tags="Head Mode &amp; Body Mode">
             <question>
                 Can you I Still Function a character with a Body mode?
             </question>
@@ -20,7 +22,7 @@
                 You can't bring back a Body mode character from KO because it won't have a head. Effects like I Still Function! and Involuntary Promotion will not work at all to bring back a Body. You can, however, bring back a Head from KO because it will be in Bot mode (and only in Bot mode). 
             </answer>
         </entry>
-        <entry id="3">
+        <entry id="3" tags="Head Mode &amp; Body Mode">
           <question>
             Does a card that refers to Bot Mode apply to a Titan Master (Head + Body mode)?
           </question>
@@ -31,7 +33,7 @@
             Note that cards like Start Your Engines and Hunker Down do not flip the characters from Body mode to Alt mode, however if the characters have Car and Tank traits respectively, they still get the secondary effects of those cards. 
           </answer>
       </entry>
-      <entry id="8">
+      <entry id="8" tags="Head Mode &amp; Body Mode">
           <question>
               Which cards do not 'work' on a character in Body mode?
           </question>
@@ -52,20 +54,20 @@
                 - Unconventional Flying Object
           </answer>
       </entry>
-      <entry id="4" tags="Battle Icon,Trait">
+      <entry id="4" tags="Hybrid Battle Icon">
           <question>
               Why are there tiny icons on the Battle Icons?
           </question>
           <answer>
-              Hybrid, or Trait, Battle Icons, introduced in <a href="https://transformerstcg-support.wizards.com/hc/en-us/articles/360039289832-Nagle-s-Notes-When-Icons-Combine">When Icons Combine</a> are new with Wave 5. They consist of a Trait icon on top of a Battle Icon, and only a character with that Trait receives the benefit of the icon colour when flipping in a battle. For example, a Ranged icon on top of a Green pip would allow only a character in Ranged form (i.e. showing a Ranged trait) to swap that card at the end of a battle. 
+              Hybrid Battle Icons, introduced in <a href="https://transformerstcg-support.wizards.com/hc/en-us/articles/360039289832-Nagle-s-Notes-When-Icons-Combine">When Icons Combine</a> are new with Wave 5. They consist of a Trait icon on top of a Battle Icon, and only a character with that Trait receives the benefit of the icon colour when flipping in a battle. For example, a Ranged icon on top of a Green pip would allow only a character in Ranged form (i.e. showing a Ranged trait) to swap that card at the end of a battle. 
           </answer>
       </entry>
-      <entry id="5" tags="Battle Icon,Trait">
+      <entry id="5" tags="Hybrid Battle Icon">
           <question>
-              Which cards have Trait Battle Icons?
+              Which cards have Hybrid Battle Icons?
           </question>
           <answer>
-              The following cards have Trait Battle Icons:
+              The following cards have Hybrid Battle Icons:
                   - Concealing Contrails (Plane)
                   - Hand-To-Hand Combat (Melee)
                   - Headbutt (Titan Master)
@@ -77,7 +79,7 @@
                   - Spymaster's Ruse (Specialist)
           </answer>
       </entry>
-      <entry id="6" tags="Titan Master">
+      <entry id="6" tags="Head Mode &amp; Body Mode">
           <question>
               For cards like Heavy Handed that count stars, do you use the sum of the head and body star costs for the card's effect?
           </question>

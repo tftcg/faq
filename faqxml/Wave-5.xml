@@ -373,7 +373,7 @@
             <target name="Enhanced Power Cell">
                 <entry id="35">
             <question>
-                Let's say the upgraded character normally has 10 health. It gets upgraded with Enhanced Power Cell, then gets 12 damage counters. If Increased Durability is scrapped, what happens?
+                Let's say the upgraded character normally has 10 health. It gets upgraded with Enhanced Power Cell, then gets 12 damage counters. If Enhanced Power Cell is scrapped, what happens?
             </question>
             <answer>
                 Any time the game notices a character with a number of damage counters equal to or greater than its current health, the character is KO'd. So your character is KO'd. Sorry.

@@ -13,11 +13,7 @@
               If a character has more than one Cargo Trailer, how much additional attack does it have?
           </question>
           <answer>
-              <ul>
-                  <li>One cargo trailer &#x2192; +1 attack</li>
-                  <li>Two cargo trailers &#x2192; +4 attack</li>
-                  <li>Three cargo trailers &#x2192; +9 attack</li>
-              </ul>
+              <ul><li>One cargo trailer &#x2192; +1 attack</li><li>Two cargo trailers &#x2192; +4 attack</li><li>Three cargo trailers &#x2192; +9 attack</li></ul>
               Each cargo trailer checks for how many cargo trailers are on the bot. So, with three cargo trailers equipped,
               the first one checks, sees that three cargo trailers are on the bot, and adds three attack. Then the second one 
               checks and adds an additional three attack and so on. 

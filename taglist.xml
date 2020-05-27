@@ -26,7 +26,7 @@
         <tag name="Stealth" markup_required="true"/>
         <tag name="Stratagem" markup_required="true"/>
         <tag name="Tap Ability"/>
-        <tag name="Titan Master"/>
+        <tag name="Titan Master" markup_required="true"/>
         <tag name="Tough" markup_required="true"/>
         <tag name="Trait" markup_required="true"/>
         <tag name="Trigger" markup_required="true"/>
@@ -615,10 +615,12 @@
         </category>
     </category>
     <category name="Wave 5">
-        <tag name="Head Mode &amp; Body Mode" markup_required="true"/>
-        <tag name="Hybrid Battle Icon" markup_required="true"/>
-        <tag name="Stratagem" markup_required="true"/>
-        <tag name="Titan Master" markup_required="true"/>
+        <category name="Keywords">
+            <tag name="Head Mode &amp; Body Mode" markup_required="true"/>
+            <tag name="Hybrid Battle Icon" markup_required="true"/>
+            <tag name="Stratagem" markup_required="true"/>
+            <tag name="Titan Master" markup_required="true"/>
+        </category>
         <category name="Battle Cards">
             <tag name="Belligerence" wave_code="TMA"/>
             <tag name="Blade Flurry" wave_code="TMA"/>

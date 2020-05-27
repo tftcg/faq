@@ -38,7 +38,7 @@ def build_image_path(pretty_path, tag_node):
 # Returns the inner xml of an Element; i.e. <a>Text <b>bob</b>. </a> would return 'Text <b>bob</b>. '
 # https://stackoverflow.com/questions/3443831/python-and-elementtree-return-inner-xml-excluding-parent-element
 def inner_xml(element):
-    return (element.text or '') + ''.join(ET.tostring(e, 'unicode') for e in element)
+    return (element.text or '') + ''.join(ET.tostring(e).decode() for e in element)
 
 # Returns the text to output
 def prepare_text(node, hyperlinks=None):

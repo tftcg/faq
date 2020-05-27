@@ -136,10 +136,10 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
                 elif 'tags' in entry_node.attrib and leaf_name in entry_node.attrib['tags'].split(','):
                     found = True
                 # If it's allowed, search for the tag in the text
-                elif not markup_required and leaf_name in ET.tostring(entry_node).decode():
+                elif not markup_required and leaf_name in ET.tostring(entry_node, method='text').decode():
                     found = True
                 # Search for [[tag]] in the text
-                elif markup in ET.tostring(entry_node).decode():
+                elif markup in ET.tostring(entry_node, method='text').decode():
                     found = True
 
                 if(found):
@@ -156,7 +156,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
 
                     # Loop over every other tag that is not markup_required and see if it shows up in the text
                     for tag in hyperlinker[1]:
-                        if(tag != leaf_name and tag in ET.tostring(entry_node).decode() and tag in hyperlinker[0]):
+                        if(tag != leaf_name and tag in ET.tostring(entry_node, method='text').decode() and tag in hyperlinker[0]):
                             hyperlinks[tag] = hyperlinker[0][tag]
 
                     # TODO: Do [[]] tags; or just remove that feature

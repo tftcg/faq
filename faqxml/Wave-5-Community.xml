@@ -116,4 +116,14 @@
             </answer>
         </entry>
     </target>
+    <target name="Sabotage">
+        <entry id="10" tags="Autobot Gears - Transport &amp; Reconnaissance">
+            <question>
+                Why is there a Decepticon symbol on Gear's stratagem?
+            </question>
+            <answer>
+                In the 1985 <a href="https://tfwiki.net/wiki/Changing_Gears">Changing Gears</a> episode of the G1 cartoon, Gears has a circuit removed and becomes a happy to please mechanoid who will help anyone, including the Decepticons. The symbol on the stratagem is believed to be a tongue in cheek reference to that episode. 
+            </answer>
+        </entry>
+    </target>
 </faq>

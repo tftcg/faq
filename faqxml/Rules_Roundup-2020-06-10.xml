@@ -13,7 +13,7 @@ An important rule to remember: card requirements are inclusive, not exclusive. F
             Different faction means "does not share a faction identity." For a character which is both an Autobot and a Decepticon, "not sharing a faction identity" means NOT Autobot and NOT Decepticon. Currently, this leaves Mercenary as the only different faction.
         </answer>
     </entry>
-    <entry id="610-2" tags="Scoundrel's Blaster">
+    <entry id="610-2" tags="Scoundrel's Blaster,Cerebros - City Commander">
         <question>
             If I slap a Decepticon Head on Cerebros can I play a Scoundrel's Blaster on Fortress Maximus? His tiny Head stars count toward the total but we were told he has no effect on Fort Max when he starts the game...would his faction affect him while his ability doesn't?
         </question>
@@ -84,7 +84,7 @@ An important rule to remember: The game checks for a player controlling zero cha
             Crystal of Power will stay on. The time when Crystal of Power checks for "When the upgraded character battles" was passed the moment Soundblaster tapped to attack. Crystal of Power will trigger the next time the character battles, either defending or attacking.
         </answer>
     </entry>
-    <entry id="610-2" tags="Lose the Initiative">
+    <entry id="610-2" tags="Lose the Initiative,Combiner">
         <question>
             If a combiner combined and untapped. Would lose the initiative cancel the untap combiner effect?
         </question>
@@ -110,14 +110,14 @@ An important rule to remember: The game checks for a player controlling zero cha
     </entry>
     <entry id="610-2" tags="Optimus Prime - Legendary Warrior">
         <question>
-            If Optimus, Legendary Warrior attacks in bot-mode with less characters than your opponent and you choose to repair a character upgraded with Toolbox, will you repair 4 because there are two times, or is it just 3 because it is one time repairing?
+            If Optimus - Legendary Warrior attacks in bot-mode with less characters than your opponent and you choose to repair a character upgraded with Toolbox, will you repair 4 because there are two times, or is it just 3 because it is one time repairing?
         </question>
         <answer>
             It's repair 1 "then" repair 1. So Toolbox will change it to repair 2, then repair 2, for a total of 4.
 Sky Shadow
         </answer>
     </entry>
-    <entry id="610-2" tags="Sky Shadow Sync,Sky Shadow - Elite Warrior">
+    <entry id="610-2" tags="KO,Sky Shadow Sync,Sky Shadow - Elite Warrior,Sky Shadow (Tank),Sky Shadow (Plane)">
         <question>
             In this scenario, the Stratagem Sky Shadow Sync is also in play. What exactly happens when you only have Sky Shadow (Tank) and Sky Shadow (Plane) as your last characters and both get KO'd at the same time?
         </question>

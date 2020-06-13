@@ -37,7 +37,7 @@
                 No. Stratagems are never put into your deck.
             </answer>
         </entry>
-        <entry id="5">
+        <entry id="5" tags="Sideboarding">
         
             <question>
                 Can I put stratagems in my sideboard?
@@ -106,7 +106,7 @@
                 No. In order to qualify as "only Autobots," your starting deck can't have any characters that are another faction (even if they're also Autobots).
             </answer>
         </entry>
-        <entry id="12">
+        <entry id="12" tags="Sideboarding">
         
             <question>
                 Can I put a card with head mode or body mode in my sideboard?

@@ -5,6 +5,7 @@ from jinja2 import Template, Environment, FileSystemLoader
 import xml.etree.ElementTree as ET 
 import json
 from collections import Counter
+from collections import OrderedDict
 
 
 # Global
@@ -232,15 +233,18 @@ branch_template = Environment(loader=FileSystemLoader("templates/")).from_string
 taglist_tree = ET.parse('taglist.xml')
 taglist_node=taglist_tree.getroot()
 
-faq_db = {}
-faq_dir = 'faqxml'
-faq_glob = os.path.join(faq_dir, '**', '*.xml')
-# Load all the FAQ XML files
-for file in glob.glob(faq_glob, recursive=True):
-    filename = os.path.splitext(file)[0][len(faq_dir)+1:]
-    faq_tree = ET.parse(file)
-    faq_node=faq_tree.getroot()
-    faq_db[filename] = faq_node
+def load_faqs_to_dict(faq_dir, faq_dict):
+    faq_glob = os.path.join(faq_dir, '**', '*.xml')
+    # Load all the FAQ XML files
+    for file in glob.glob(faq_glob, recursive=True):
+        filename = os.path.splitext(file)[0][len(faq_dir)+1:]
+        faq_tree = ET.parse(file)
+        faq_node=faq_tree.getroot()
+        faq_db[filename] = faq_node
+
+faq_db = OrderedDict()
+load_faqs_to_dict('faqxml-official', faq_db)
+load_faqs_to_dict('faqxml-unofficial', faq_db)
 
 # Load the previous json index for use in hyperlinking
 faq_index_filename = os.path.join(TOP_OUTPUT_DIR, "faqindex.json")

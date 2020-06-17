@@ -74,14 +74,17 @@ def mkdirp(directory):
 # Heavyweight way to get the data for a xref tag
 # TODO: USE THE faq_db CACHE!!!
 # Returns cross-referenced node as an array of [source name, source url, node, xref'd filename]
-def get_xref(xref):
+def get_xref(xref, faq_db):
     # split on #
     xref_data = xref.split('#')
-    file = xref_data[0] + ".xml"
+    file = xref_data[0]
     id = xref_data[1]
+
     # Open file xml file
-    faq_tree = ET.parse(os.path.join('faqxml', file))
-    faq_node = faq_tree.getroot()
+    #faq_tree = ET.parse(os.path.join('faqxml', file))
+    #faq_node = faq_tree.getroot()
+    faq_node = faq_db[file]
+
     # Search for <entry id="<id>">
     xpath = "[@id='" + id + "']"
     node = faq_node.find(".//entry[@id='" + id + "']")
@@ -165,7 +168,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
                     found_entries.append( [source_name, source_url, entry_node, faqfile, hyperlinks] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_stack=parent_stack, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path )
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_stack=parent_stack, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path, faq_db=faq_db )
 
         f = open(filename, "w")
         f.write(page)
@@ -244,6 +247,7 @@ def load_faqs_to_dict(faq_dir, faq_dict):
 
 faq_db = OrderedDict()
 load_faqs_to_dict('faqxml-official', faq_db)
+load_faqs_to_dict('faqxml-roundups', faq_db)
 load_faqs_to_dict('faqxml-unofficial', faq_db)
 
 # Load the previous json index for use in hyperlinking

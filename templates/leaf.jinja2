@@ -43,7 +43,7 @@
 {% for entry in entries %}
 
     {% if 'xref' in entry[2].attrib %}
-      {% set faq_node = f_get_xref(entry[2].attrib['xref']) %}
+      {% set faq_node = f_get_xref(entry[2].attrib['xref'], faq_db) %}
     {% else %}
       {% set faq_node = entry %}
     {% endif %}

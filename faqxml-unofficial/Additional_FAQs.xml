@@ -20,4 +20,17 @@
           </answer>
       </entry>
   </target>
+  <target name="Gold Bumblebee - Electrum Warrior">
+      <entry id="3">
+          <question>
+              What is the English translation of the Bumblebee Lunar New Year Promotion?
+          </question>
+          <answer>
+            Bumblebee - Electrum Warrior
+              Alt-mode: "When you flip to this mode -> This character has Bold 2 until end of turn. "
+              Bot-mode: "While this character has 5 or more damage counters -> It has Tough 2. "
+         </answer>
+
+      </entry>
+  </target>
 </faq>

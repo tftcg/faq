@@ -40,10 +40,11 @@ An important rule to remember:
         </question>
         <answer>
             Cards try to do as much as they can. You can play Unconventional Flying Object even if you don't have a Spaceship and it will only accomplish putting the Action into your scrap. There are a handful of Upgrades like Crushing Treads that are restricted to play on say "Put only on a Tank." – you can't play that card unless you have the specific kind of character to put it on. After you successfully put it on the right kind of character, the game won't check anymore if the upgrade is valid, so the character can flip to Bot mode, stop being a Tank, and the Upgrade will stay on.
-Timing Questions
-An important rule to remember: The game checks for a player controlling zero characters at all times. However, Head character's deploy ability includes the following: 'When that character is KO'ed, even if it was your last character, deploy this battlefield in bot mode.' This is why you don't lose if your last character, a Body with a head, gets KOed.
         </answer>
     </entry>
+    <!--
+An important rule to remember: The game checks for a player controlling zero characters at all times. However, Head character's deploy ability includes the following: 'When that character is KO'ed, even if it was your last character, deploy this battlefield in bot mode.' This is why you don't lose if your last character, a Body with a head, gets KOed.
+    -->
     <entry id="610-5" tags="KO,Head Mode &amp; Body Mode">
         <question>
             Can you clarify timing on when heads activate in regard to finishing a trigger that caused the Body to be KO'd? Examples: Does Quake damage his own Head when he dies? Octone killing a Body and then his bounty triggers does this kill the Head when it is played?
@@ -115,7 +116,6 @@ An important rule to remember: The game checks for a player controlling zero cha
         </question>
         <answer>
             It's repair 1 "then" repair 1. So Toolbox will change it to repair 2, then repair 2, for a total of 4.
-Sky Shadow
         </answer>
     </entry>
     <entry id="610-14" tags="KO,Sky Shadow Sync,Sky Shadow - Elite Warrior,Sky Shadow (Tank),Sky Shadow (Plane)">
@@ -132,7 +132,6 @@ Sky Shadow
         </question>
         <answer>
             The attack continues since "Combiner Mode" is mostly another mode like Alt or Bot mode. You just can't "flip" to combiner mode without another card telling you to. Going to combiner mode is a one-way operation. Note that Sky Shadow will be untapped because the process of combining creates an untapped character.
-Skytread
         </answer>
     </entry>
     <entry id="610-16" tags="Raider Skytread - Special Ops - Soldier">

@@ -88,7 +88,7 @@ An important rule to remember: The game checks for a player controlling zero cha
     </entry>
     <entry id="610-10" tags="Lose the Initiative,Combiner">
         <question>
-            If a combiner combined and untapped. Would lose the initiative cancel the untap combiner effect?
+            If a combiner combined and untapped. Would Lose the Initiative cancel the untap combiner effect?
         </question>
         <answer>
             A team of characters combining isn't actually untapping; the resulting Combiner character is entering the battlefield untapped (like all characters which enter the battlefield after the start of the game, unless another card or ability says otherwise).

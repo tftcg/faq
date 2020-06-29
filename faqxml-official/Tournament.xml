@@ -157,7 +157,6 @@ A Transformers TCG match consists of a series of games that are played until one
           </question>
           <answer> 
               Players can’t take more than two turns in a row under any circumstances. Any additional turns beyond two consecutive turns are skipped and not deferred or saved for the future. 
-              <tftcg-note>This was first described in this <a href="https://www.facebook.com/notes/transformers-trading-card-game/nagles-notes-once-more-with-feeling/2236280666493746/">article</a>. </tftcg-note>
           </answer>
       </entry>
       <entry id="14">

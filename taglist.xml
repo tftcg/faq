@@ -789,10 +789,11 @@
         <category name="Constructed">
             <tag name="Contructed Deck Construction"/>
             <tag name="Permitted and Banned Cards"/>
-            <tag name="Sideboarding"/>
+            <tag name="Sideboarding" markup_required="true"/>
         </category>
         <category name="Limited">
             <tag name="Limited Deck Construction"/>
+            <tag name="Limited Sideboarding"/>
             <tag name="Turbo Rules"/>
         </category>
         <tag name="Start of Match"/>

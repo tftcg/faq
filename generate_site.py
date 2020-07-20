@@ -109,6 +109,15 @@ def source_image_name(source_name):
     else:
         return 'blue'
 
+# Returns WotC|Community|VS Alpha Trion
+def source_label(source_name):
+    if("FAQ" in source_name or "Roundup" in source_name):
+        return 'WotC'
+    elif("VS Alpha Trion" in source_name):
+        return 'VS Alpha Trion'
+    else:
+        return 'Community'
+
 # Returns number of entries found for the leaf page
 def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, parent_stack):
     filename = os.path.join(output_dir, safe_name(tag_node.attrib['name']) + ".html")
@@ -168,7 +177,7 @@ def generate_leaf(tag_node, faq_db, output_dir, leaf_template, hyperlinker, pare
                     found_entries.append( [source_name, source_url, entry_node, faqfile, hyperlinks] )
 
     if(len(found_entries) != 0):
-        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_image_name=source_image_name, parent_stack=parent_stack, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path, faq_db=faq_db )
+        page = leaf_template.render(f_safe_name=safe_name, f_prepare_text=prepare_text, entries=found_entries, faq_name=leaf_name, f_source_label=source_label, parent_stack=parent_stack, tag_node=tag_node, f_get_xref=get_xref, filename=filename[len(TOP_OUTPUT_DIR)+1:], pretty_path=pretty_path, f_build_image_path=build_image_path, faq_db=faq_db )
 
         f = open(filename, "w")
         f.write(page)

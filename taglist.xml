@@ -802,6 +802,9 @@
         <tag name="Tie-Break"/>
         <tag name="Tournament Rules"/>
     </category>
+    <category name="Vector Sigma Alpha Trion Tournaments">
+        <tag name="Tournament Rulings"/>
+    </category>
     <category name="OCTGN">
         <tag name="Installing OCTGN"/>
         <tag name="Playing OCTGN"/>

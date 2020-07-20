@@ -55,7 +55,7 @@
       <div class="question">
         <a name="{{ faq_node[3] }}__{{ faq_node[2].attrib['id'] }}"/>
         {{ f_prepare_text(faq_node[2].find('question'), faq_node[4]) }}
-        <span><a href="{{ faq_node[1] }}" title="{{ faq_node[0] }}">(Source: {{ f_source_label(faq_node[0]) }})</a> <a href="#{{ faq_node[3] }}__{{ faq_node[2].attrib['id'] }}"><img src="/images/permalink.svg"/></a></span>
+        <span><a class="source_link" href="{{ faq_node[1] }}" title="{{ faq_node[0] }}">[Source: {{ f_source_label(faq_node[0]) }}]</a> <a href="#{{ faq_node[3] }}__{{ faq_node[2].attrib['id'] }}"><img src="/images/permalink.svg"/></a></span>
       </div>
       <div class="answer">
         {{ f_prepare_text(faq_node[2].find('answer'), faq_node[4]) }}

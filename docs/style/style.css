@@ -83,7 +83,9 @@ a.external {
     padding-right: 13px;
 }
 
-
+.source_link {
+    font-size: smaller;
+}
 
 
 @media (min-width: 500px) {

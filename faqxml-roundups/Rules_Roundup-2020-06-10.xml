@@ -45,9 +45,9 @@ An important rule to remember:
     <!--
 An important rule to remember: The game checks for a player controlling zero characters at all times. However, Head character's deploy ability includes the following: 'When that character is KO'ed, even if it was your last character, deploy this battlefield in bot mode.' This is why you don't lose if your last character, a Body with a head, gets KOed.
     -->
-    <entry id="610-5" tags="KO,Head Mode &amp; Body Mode">
+    <entry id="610-5" tags="KO,Head Mode &amp; Body Mode,Decepticon Quake - Ground Assault">
         <question>
-            Can you clarify timing on when heads activate in regard to finishing a trigger that caused the Body to be KO'd? Examples: Does Quake damage his own Head when he dies? Octone killing a Body and then his bounty triggers does this kill the Head when it is played?
+            Can you clarify timing on when heads activate in regard to finishing a trigger that caused the Body to be KO'd? Examples: Does Decepticon Quake damage his own Head when he dies? Octone killing a Body and then his bounty triggers does this kill the Head when it is played?
         </question>
         <answer>
             A head’s deploy ability is a triggered ability. When both players trigger an ability at the same time the active player’s abilities will complete before the defending player. A player may order their own simultaneous triggers how they wish. The player controlling Quake may order Quake’s damage trigger and Quake’s head’s deploy trigger such that Quake’s damage ability resolves first, and Quake’s head second. If Octone’s controller is the active player, they must use Octone’s bounty trigger before the defending player resolves their head’s deploy trigger.

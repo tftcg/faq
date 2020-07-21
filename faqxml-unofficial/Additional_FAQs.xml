@@ -65,4 +65,21 @@
           </answer>
       </entry>
   </target>
+  <target name="Peace Through Tyranny">
+      <entry id="6">
+          <question>
+              If I play Peace Through Tyranny and my opponent has a Secret Action out, does that Secret Action scrap at the end of my current turn or does it stay out through my second turn?
+          </question>
+          <answer>
+              It scraps at the end of your current turn and is not present for your second turn. 
+          </answer>
+      </entry>
+  </target>
+
 </faq>
+
+
+
+
+
+

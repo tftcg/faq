@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <faq name="Vector Sigma Alpha Trion Tournament Rules" source="VS Alpha Trion" source_url="https://tftcg.info/vector-sigma-alpha-trion-tournaments/index.html">
+
   <target name="VS Judge Rulings">
+    <entry id="9">
+      <question>
+          If I play Scouting Mission and my opponent reveals Reflect Damage, who draws the 2 cards?
+      </question>
+      <answer>
+          The person who receives the damage draws the cards. So in the case of Reflect Damage, it would be the player who the damage was reflected back onto.
+      </answer>
+    </entry>
     <entry id="10">
       <question>Can you reflect damage if you have a Holomatter Projector on your only Autobot?</question>
       <answer>
@@ -8,4 +17,5 @@
       </answer>
     </entry>
   </target>
+
 </faq>

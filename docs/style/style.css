@@ -78,6 +78,19 @@ p, ul, ol {
     font-size: smaller;
 }
 
+.tftcg-fan-content:before {
+    content: "Fan Content: ";
+}
+
+.tftcg-fan-content {
+    background-color: orange;
+    color: white;
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 1em;
+    font-size: smaller;
+}
+
 a.external {
     background: url(../images/external.png) center right no-repeat;
     padding-right: 13px;

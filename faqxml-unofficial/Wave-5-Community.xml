@@ -152,4 +152,14 @@
             </answer>
         </entry>
     </target>
+    <target name="Versatility">
+        <entry id="13" tags="Toolbox">
+            <question>
+                How does Vesatility interact with Toolbox? Would it effectively double the impact of Versatility, since each battle icon colour you flip is a separate instance, or does it just add 1 to the total being repaired?
+            </question>
+            <answer>
+                Toolbox only adds 1 to the total being repaired. The 'for each' in Versatility is looping to calculate the amount of repair that will be done, then the repair is applied as one event. 
+            </answer>
+        </entry>
+    </target>
 </faq>

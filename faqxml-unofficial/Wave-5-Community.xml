@@ -162,4 +162,14 @@
             </answer>
         </entry>
     </target>
+    <target name="Sonic-Stun Gun">
+        <entry id="14">
+            <question>
+                Does Sonic Stun Gun's effect count for itself?
+            </question>
+            <answer>
+                No, Sonic Stun-Gun doesn't see itself being played. 
+            </answer>
+        </entry>
+    </target>
 </faq>

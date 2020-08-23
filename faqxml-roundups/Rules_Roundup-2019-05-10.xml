@@ -67,7 +67,7 @@ Does Device Virus scrap an upgrade from your hand or one that's attached to one 
 You must scrap an upgrade attached to one of your characters.
       </answer>
     </entry>
-    <entry id="510-1">
+    <entry id="510-1" tags="Focus">
       <question>
 Theoretically speaking, say I have a character with Focus 6, but only 3 cards are left in my deck. What would happen after I pick up those 3 cards to look at? Would I set aside those 3, reshuffle my discard pile to become my deck, and then look at the top 3 of the new deck in addition to the 3 set aside, or would Focus 6 be reduced to Focus 3?
       </question>

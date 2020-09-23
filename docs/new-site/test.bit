@@ -1,3 +1,5 @@
+                <!-- Home has a message about the state of the game; along with a Recent News sidebar that can be clicked on.
+                     The message about state is basically the default news. -->
         <div id="content">
             <ul id="news-stories">
                 <li class="current-story" onClick="showNews(this, 'news-1')"><img src="images/bahweep.jpg"/></li>

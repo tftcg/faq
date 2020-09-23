@@ -1,100 +1,38 @@
 <html>
     <head>
-<style>
-  body {
-    margin: 0px;
-    padding: 0px;
-  }
-  #topbar {
-    padding-top: 3em;
-    background-color: white;
-    padding-bottom: 5em;
-  }
-  #logo {
-    width: 250px;
-    height: 63px;
-    float: left;
-    background-color: white;
-    padding-left: 1em;
-  }
-  #menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    float: right;
-  }
-  #menu li {
-    float: left;
-    font-size: 1.75em;
-    text-transform:uppercase;
-    padding-right: 0.25em;
-  }
-  #menu li a {
-    display: block;
-    color: #b525a5;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  #menu li a:hover {
-    color: white;
-    background-color: #b525a5;
-  }
-  #menu li a:link, #menu li a:visited {
-    color: #a515a5;
-    text-decoration: none;
-  }
-  #menu li a:active, #menu li a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  .selected a {
-    color: white !important;
-    background-color: #b525a5;
-    text-decoration: none;
-  }
-  .selected a:link, .selected a:visited {
-    color: white;
-    text-decoration: none;
-  }
-  .selected a:active, .selected a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  .standout a {
-    color: white !important;
-    background-color: black;
-    text-decoration: none;
-  }
-  .standout a:link, .standout a:visited {
-    color: white;
-    text-decoration: none;
-  }
-  .standoustandout a:active, .standout a:hover {
-    color: white;
-    background-color: black !important;
-    text-decoration: none;
-  }
-  #content {
-    background:url(images/tcg_home_bsa_bg.png);
-    background-size: cover;
-    border: 1px solid black;
-  }
-  .centered-text {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 50%;
-    padding-bottom: 5em;
-  }
-  #displaylogo {
-    width: 600px;
-    padding-top: 4em;
-    padding-bottom: 4em;
-  }
-</style>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <script>
+          // THIS IS ONLY USED ON NEWS
+          function hideAllNews() {
+              hideNews('news-1');
+              hideNews('news-2');
+              hideNews('news-3');
+              hideNews('news-4');
+              hideNews('news-5');
+          }
+          function removeCurrentStory() {
+              var x = document.getElementById("news-stories");
+              var li_elements = x.getElementsByTagName("li");
+              for (var i = 0; i < li_elements.length; i++ ) {
+                  li_elements[i].classList.remove('current-story');
+              }
+          }
+          function hideNews(id) {
+              var x = document.getElementById(id);
+              x.style.display = "none";
+          }
+          function showNews(source, id) {
+              hideAllNews();
+              var x = document.getElementById(id);
+              if (x.style.display === "none") {
+                  x.style.display = "block";
+              }
+              if(source) {
+                  removeCurrentStory();
+                  source.classList.add('current-story');
+              }
+          }
+      </script>
     </head>
     <body>
         <div id="topbar">

@@ -1,0 +1,116 @@
+<html>
+    <head>
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #topbar {
+    padding-top: 3em;
+    background-color: white;
+    padding-bottom: 5em;
+  }
+  #logo {
+    width: 250px;
+    height: 63px;
+    float: left;
+    background-color: white;
+    padding-left: 1em;
+  }
+  #menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+  }
+  #menu li {
+    float: left;
+    font-size: 1.75em;
+    text-transform:uppercase;
+    padding-right: 0.25em;
+  }
+  #menu li a {
+    display: block;
+    color: #b525a5;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  #menu li a:hover {
+    color: white;
+    background-color: #b525a5;
+  }
+  #menu li a:link, #menu li a:visited {
+    color: #a515a5;
+    text-decoration: none;
+  }
+  #menu li a:active, #menu li a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .selected a {
+    color: white !important;
+    background-color: #b525a5;
+    text-decoration: none;
+  }
+  .selected a:link, .selected a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .selected a:active, .selected a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .standout a {
+    color: white !important;
+    background-color: black;
+    text-decoration: none;
+  }
+  .standout a:link, .standout a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .standoustandout a:active, .standout a:hover {
+    color: white;
+    background-color: black !important;
+    text-decoration: none;
+  }
+  #content {
+    background:url(images/tcg_home_bsa_bg.png);
+    background-size: cover;
+    border: 1px solid black;
+  }
+  .centered-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 5em;
+  }
+  #displaylogo {
+    width: 600px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+</style>
+    </head>
+    <body>
+        <div id="topbar">
+            <img id="logo" src="images/tcg-logo-CON.png" alt="Transformers - Trading Card Game"/>
+            <ul id="menu">
+                <li class="selected"><a href="">Home</a></li>
+                <!-- Home has a message about the state of the game; along with a Recent News sidebar that can be clicked on.
+                     The message about state is basically the default news. -->
+                <li><a href="">Cards</a></li>
+                <!-- Cards has both links to FortMax/Teletraan, and it has links to any custom cards. It also has the history of the game. Perhaps it has resources for making custom cards? -->
+                <li><a href="">How &amp; Where to Play</a></li>
+                <!-- How to Play links to Videos, and has instructions on how to play -->
+                <!-- Also Talks about LGS and online play -->
+                <li><a href="">Rules</a></li>
+                <!-- Rules links to Aequitas, and to the Aequitas FAQ directly -->
+                <li class="standout"><a href="">Links</a></li>
+                <!-- Links has a lot of community links. -->
+            </ul>
+        </div>

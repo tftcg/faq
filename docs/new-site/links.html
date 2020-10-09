@@ -1,38 +1,7 @@
 <html>
     <head>
       <link rel="stylesheet" type="text/css" href="style.css"/>
-      <script>
-          // THIS IS ONLY USED ON NEWS
-          function hideAllNews() {
-              hideNews('news-1');
-              hideNews('news-2');
-              hideNews('news-3');
-              hideNews('news-4');
-              hideNews('news-5');
-          }
-          function removeCurrentStory() {
-              var x = document.getElementById("news-stories");
-              var li_elements = x.getElementsByTagName("li");
-              for (var i = 0; i < li_elements.length; i++ ) {
-                  li_elements[i].classList.remove('current-story');
-              }
-          }
-          function hideNews(id) {
-              var x = document.getElementById(id);
-              x.style.display = "none";
-          }
-          function showNews(source, id) {
-              hideAllNews();
-              var x = document.getElementById(id);
-              if (x.style.display === "none") {
-                  x.style.display = "block";
-              }
-              if(source) {
-                  removeCurrentStory();
-                  source.classList.add('current-story');
-              }
-          }
-      </script>
+      <script src="stories.js"></script>
     </head>
     <body>
         <div id="topbar">

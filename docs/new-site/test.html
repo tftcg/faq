@@ -1,38 +1,7 @@
 <html>
     <head>
       <link rel="stylesheet" type="text/css" href="style.css"/>
-      <script>
-          // THIS IS ONLY USED ON NEWS
-          function hideAllNews() {
-              hideNews('news-1');
-              hideNews('news-2');
-              hideNews('news-3');
-              hideNews('news-4');
-              hideNews('news-5');
-          }
-          function removeCurrentStory() {
-              var x = document.getElementById("news-stories");
-              var li_elements = x.getElementsByTagName("li");
-              for (var i = 0; i < li_elements.length; i++ ) {
-                  li_elements[i].classList.remove('current-story');
-              }
-          }
-          function hideNews(id) {
-              var x = document.getElementById(id);
-              x.style.display = "none";
-          }
-          function showNews(source, id) {
-              hideAllNews();
-              var x = document.getElementById(id);
-              if (x.style.display === "none") {
-                  x.style.display = "block";
-              }
-              if(source) {
-                  removeCurrentStory();
-                  source.classList.add('current-story');
-              }
-          }
-      </script>
+      <script src="stories.js"></script>
     </head>
     <body>
         <div id="topbar">
@@ -45,24 +14,24 @@
                 <li class="standout"><a href="links.html">Links</a></li>
             </ul>
         </div>
-                <!-- Home has a message about the state of the game; along with a Recent News sidebar that can be clicked on.
+                <!-- Home has a message about the state of the game; along with a Recent Story sidebar that can be clicked on.
                      The message about state is basically the default news. -->
         <div id="content">
-            <ul id="news-stories">
-                <li class="current-story" onClick="showNews(this, 'news-1')"><img src="images/bahweep.jpg"/></li>
-                <li onClick="showNews(this, 'news-2')"><img src="images/tma-news.png"/></li>
-                <li onClick="showNews(this, 'news-3')"><img src="images/w4-news.png"/></li>
-                <li onClick="showNews(this, 'news-4')"><img src="images/w3-news.png"/></li>
-                <li onClick="showNews(this, 'news-5')"><img src="images/w2-news.png"/></li>
+            <ul id="stories">
+                <li class="current-story story" onClick="showStory(this, 'story-1')">Game History</li>
+                <li class="story" onClick="showStory(this, 'story-2')">Something</li>
+                <li class="story" onClick="showStory(this, 'story-3')">Something</li>
+                <li class="story" onClick="showStory(this, 'story-4')">Something</li>
+                <li class="story" onClick="showStory(this, 'story-5')">Something</li>
             </ul>
-            <div id="news-1" class="centered-text">
+            <div id="story-1" class="centered-text">
                 <p><img id="displaylogo" src="images/tcg-logo-CON.png" alt="Transformers - Trading Card Game"/></p>
                 <h3>TRANSFORMERS TCG LIVES ON</h3>
                 <p>On the 20th of July 2020, Wizards of the Coast announced that they were no longer going to create any more releases, citing not enough growth into the broader Transformers fan base, along with COVID-19 difficulties. </p>
                 <p>That did not stop the growing community of players who called the game their own. They have continued to play the game, they have continued to host tournaments, they have continued to create content for each other, and they have started to determine their own rules and to create new community cards. </p>
                 <p><b>The game continues...</b></p>
             </div>
-            <div id="news-2" class="centered-text">
+            <div id="story-2" class="centered-text">
                 <p><img id="displaylogo" src="images/tcg-logo-CON.png" alt="Transformers - Trading Card Game"/></p>
                 <h3>TITAN MASTERS ATTACKS!</h3>
                 <p>Titan Masters Attack is released on SOMEDAY. </p>
@@ -70,7 +39,7 @@
 
                 <p>Each Titan Masters Attack Booster Pack contains either TWO foil Transformers Character Cards - 1 small head and 1 large body OR 1 large Character card and 1 Stratagem card.</p>
             </div>
-            <div id="news-3" class="centered-text">
+            <div id="story-3" class="centered-text">
                 <p><img id="displaylogo" src="images/tcg-logo-CON.png" alt="Transformers - Trading Card Game"/></p>
                 <h3>War for Cybertron Siege II</h3>
 
@@ -78,7 +47,7 @@
 
                 <p>Each War for Cybertron: Siege II TCG Booster Pack contains TWO foil Transformers Character Cards - 1 large and 1 small. Small Character Cards are the size of a battle card.</p>
             </div>
-            <div id="news-4" class="centered-text">
+            <div id="story-4" class="centered-text">
                 <p><img id="displaylogo" src="images/tcg-logo-CON.png" alt="Transformers - Trading Card Game"/></p>
                 <h3>War for Cybertron Siege I</h3>
 
@@ -86,7 +55,7 @@
 
                 <p>Each War for Cybertron: Siege TCG Booster Pack contains TWO foil Transformers Character Cards - 1 large and 1 small. Small Character Cards are the size of a battle card.</p>
             </div>
-            <div id="news-5" class="centered-text">
+            <div id="story-5" class="centered-text">
                 <p><img id="displaylogo" src="images/tcg-logo-CON.png" alt="Transformers - Trading Card Game"/></p>
                <h3>Rise of the Combiners</h3>
 
@@ -94,7 +63,7 @@
             </div>
         </div>
     <script>
-        showNews(null, 'news-1');
+        showStory(null, 'story-1');
     </script>
     </body>
 </html>

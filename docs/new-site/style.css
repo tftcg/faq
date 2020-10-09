@@ -107,6 +107,7 @@
       font-size: 120%;
       color: white;
       background-color: black;
+      cursor: pointer;
   }
   #stories .navtitle {
       width: 200px;

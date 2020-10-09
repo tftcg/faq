@@ -78,6 +78,7 @@
     background:url(images/tcg_home_bsa_bg.png);
     background-size: cover;
     border: 1px solid black;
+    min-height: 1000px;
   }
   .centered-text {
     margin-left: auto;
@@ -85,18 +86,19 @@
     text-align: center;
     width: 50%;
     padding-bottom: 5em;
+    font-size: 130%;
   }
   #displaylogo {
-    width: 600px;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    width: 500px;
+    padding-top: 1em;
+    padding-bottom: 2em;
   }
 
   #stories {
     list-style-type: none;
     float: left;
   }
-  #stories li {
+  #stories .story {
       width: 200px;
       height: 50px;
       line-height: 50px;
@@ -106,8 +108,18 @@
       color: white;
       background-color: black;
   }
+  #stories .navtitle {
+      width: 200px;
+      height: 20px;
+      line-height: 20px;
+      border: 3px solid black;
+      text-align: center;
+      font-size: 90%;
+      color: black;
+      background-color: white;
+  }
   .current-story {
-    border: 3px solid red !important;
+    border: 3px solid #b525a5 !important;
     color: black !important;
     background-color: white !important;
   }

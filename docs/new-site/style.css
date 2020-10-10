@@ -82,7 +82,7 @@
   }
   .core-text {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     text-align: center;
     width: 50%;
     font-size: 130%;
@@ -123,3 +123,8 @@
     color: black !important;
     background-color: white !important;
   }
+@media (min-width: 1000px) {
+  .core-text {
+    margin-right: auto;
+  }
+}
